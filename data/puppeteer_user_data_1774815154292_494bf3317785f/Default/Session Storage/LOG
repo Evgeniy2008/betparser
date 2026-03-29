@@ -1,0 +1,32 @@
+2026/03/29-23:12:34.670 c4e8 Creating DB D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774815154292_494bf3317785f\Default\Session Storage since it was missing.
+2026/03/29-23:12:34.688 c4e8 Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774815154292_494bf3317785f\Default\Session Storage/MANIFEST-000001
+2026/03/29-23:12:53.880 d2bc Level-0 table #5: started
+2026/03/29-23:12:53.885 d2bc Level-0 table #5: 38335 bytes OK
+2026/03/29-23:12:53.888 d2bc Delete type=0 #3
+2026/03/29-23:13:19.425 d2bc Level-0 table #7: started
+2026/03/29-23:13:19.430 d2bc Level-0 table #7: 38611 bytes OK
+2026/03/29-23:13:19.433 d2bc Delete type=0 #4
+2026/03/29-23:13:44.034 d2bc Level-0 table #9: started
+2026/03/29-23:13:44.039 d2bc Level-0 table #9: 38666 bytes OK
+2026/03/29-23:13:44.041 d2bc Delete type=0 #6
+2026/03/29-23:14:08.783 d2bc Level-0 table #11: started
+2026/03/29-23:14:08.788 d2bc Level-0 table #11: 38672 bytes OK
+2026/03/29-23:14:08.791 d2bc Delete type=0 #8
+2026/03/29-23:14:33.388 d2bc Level-0 table #13: started
+2026/03/29-23:14:33.393 d2bc Level-0 table #13: 38742 bytes OK
+2026/03/29-23:14:33.395 d2bc Delete type=0 #10
+2026/03/29-23:14:57.701 d2bc Level-0 table #15: started
+2026/03/29-23:14:57.706 d2bc Level-0 table #15: 38749 bytes OK
+2026/03/29-23:14:57.708 d2bc Delete type=0 #12
+2026/03/29-23:14:57.708 d2bc Compacting 4@0 + 1@1 files
+2026/03/29-23:14:57.718 d2bc Generated table #16@0: 111 keys, 192389 bytes
+2026/03/29-23:14:57.718 d2bc Compacted 4@0 + 1@1 files => 192389 bytes
+2026/03/29-23:14:57.719 d2bc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/29-23:14:57.721 d2bc Delete type=2 #7
+2026/03/29-23:14:57.721 d2bc Delete type=2 #9
+2026/03/29-23:14:57.721 d2bc Delete type=2 #11
+2026/03/29-23:14:57.721 d2bc Delete type=2 #13
+2026/03/29-23:14:57.721 d2bc Delete type=2 #15
+2026/03/29-23:15:21.833 d2bc Level-0 table #18: started
+2026/03/29-23:15:21.838 d2bc Level-0 table #18: 38752 bytes OK
+2026/03/29-23:15:21.840 d2bc Delete type=0 #14

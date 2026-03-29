@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T18:57:33.396Z",
+  "updated": "2026-03-29T20:15:39.084Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -40,9 +40,9 @@
     {
       "home": "Cremonese",
       "away": "Bologna",
-      "p1": "3.541",
-      "x": "3.41",
-      "p2": "2.092",
+      "p1": "3.461",
+      "x": "3.38",
+      "p2": "2.132",
       "link": "https://24-parik.club/en/events/cremonese-bologna-16071071",
       "league": "Italy. Serie A:"
     },
@@ -265,9 +265,9 @@
     {
       "home": "Eintracht Frankfurt",
       "away": "Koln",
-      "p1": "2.221",
+      "p1": "2.251",
       "x": "3.44",
-      "p2": "3.202",
+      "p2": "3.142",
       "link": "https://24-parik.club/en/events/eintracht-frankfurt-koln-16064751",
       "league": "Bundesliga:"
     },
@@ -391,9 +391,9 @@
     {
       "home": "Brest",
       "away": "Rennes",
-      "p1": "3.511",
-      "x": "3.57",
-      "p2": "2.052",
+      "p1": "3.461",
+      "x": "3.53",
+      "p2": "2.082",
       "link": "https://24-parik.club/en/events/brest-rennes-16065058",
       "league": "France Ligue 1:"
     },
@@ -409,18 +409,18 @@
     {
       "home": "Angers",
       "away": "Lyon",
-      "p1": "4.721",
-      "x": "3.47",
-      "p2": "1.812",
+      "p1": "4.741",
+      "x": "3.49",
+      "p2": "1.802",
       "link": "https://24-parik.club/en/events/angers-lyon-16065062",
       "league": "France Ligue 1:"
     },
     {
       "home": "Le Havre",
       "away": "Auxerre",
-      "p1": "2.361",
-      "x": "3.1",
-      "p2": "3.252",
+      "p1": "2.371",
+      "x": "3.11",
+      "p2": "3.222",
       "link": "https://24-parik.club/en/events/le-havre-auxerre-16065090",
       "league": "France Ligue 1:"
     },
@@ -436,9 +436,9 @@
     {
       "home": "Metz",
       "away": "Nantes",
-      "p1": "2.921",
+      "p1": "2.901",
       "x": "3.26",
-      "p2": "2.472",
+      "p2": "2.502",
       "link": "https://24-parik.club/en/events/metz-nantes-16065096",
       "league": "France Ligue 1:"
     },
@@ -585,186 +585,6 @@
       "p2": "2.832",
       "link": "https://24-parik.club/en/events/west-ham-leeds-16010306",
       "league": "England FA Cup:"
-    },
-    {
-      "home": "Rayo Vallecano",
-      "away": "Elche CF",
-      "p1": "1.741",
-      "x": "3.65",
-      "p2": "4.842",
-      "link": "https://24-parik.club/en/events/rayo-vallecano-elche-cf-16052761",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Real Sociedad",
-      "away": "Levante",
-      "p1": "1.651",
-      "x": "3.85",
-      "p2": "5.332",
-      "link": "https://24-parik.club/en/events/real-sociedad-levante-16052762",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Mallorca",
-      "away": "Real Madrid",
-      "p1": "5.021",
-      "x": "3.98",
-      "p2": "1.662",
-      "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Betis",
-      "away": "Espanyol",
-      "p1": "1.741",
-      "x": "3.94",
-      "p2": "4.412",
-      "link": "https://24-parik.club/en/events/betis-espanyol-16065280",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Atletico Madrid",
-      "away": "Barcelona",
-      "p1": "3.111",
-      "x": "3.64",
-      "p2": "2.192",
-      "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Getafe",
-      "away": "Athletic Bilbao",
-      "p1": "3.051",
-      "x": "2.75",
-      "p2": "2.772",
-      "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Valencia",
-      "away": "Celta",
-      "p1": "2.341",
-      "x": "3.28",
-      "p2": "3.112",
-      "link": "https://24-parik.club/en/events/valencia-celta-16064203",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Real Oviedo",
-      "away": "Sevilla",
-      "p1": "2.981",
-      "x": "2.85",
-      "p2": "2.732",
-      "link": "https://24-parik.club/en/events/real-oviedo-sevilla-16065117",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Alaves",
-      "away": "Osasuna",
-      "p1": "2.401",
-      "x": "3.2",
-      "p2": "3.102",
-      "link": "https://24-parik.club/en/events/alaves-osasuna-16054719",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Girona",
-      "away": "Villarreal",
-      "p1": "2.901",
-      "x": "3.63",
-      "p2": "2.302",
-      "link": "https://24-parik.club/en/events/girona-villarreal-16065510",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Real Madrid",
-      "away": "Girona",
-      "p1": "1.221",
-      "x": "7.03",
-      "p2": "11.002",
-      "link": "https://24-parik.club/en/events/real-madrid-girona-16116156",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Real Sociedad",
-      "away": "Alaves",
-      "p1": "1.791",
-      "x": "3.52",
-      "p2": "4.752",
-      "link": "https://24-parik.club/en/events/real-sociedad-alaves-16122347",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Elche CF",
-      "away": "Valencia",
-      "p1": "2.461",
-      "x": "3.25",
-      "p2": "2.952",
-      "link": "https://24-parik.club/en/events/elche-cf-valencia-16124047",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Barcelona",
-      "away": "Espanyol",
-      "p1": "1.201",
-      "x": "7.21",
-      "p2": "12.002",
-      "link": "https://24-parik.club/en/events/barcelona-espanyol-16124908",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Sevilla",
-      "away": "Atletico Madrid",
-      "p1": "3.551",
-      "x": "3.46",
-      "p2": "2.072",
-      "link": "https://24-parik.club/en/events/sevilla-atletico-madrid-16125977",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Osasuna",
-      "away": "Betis",
-      "p1": "2.381",
-      "x": "3.48",
-      "p2": "2.882",
-      "link": "https://24-parik.club/en/events/osasuna-betis-16132245",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Mallorca",
-      "away": "Rayo Vallecano",
-      "p1": "2.681",
-      "x": "3.2",
-      "p2": "2.722",
-      "link": "https://24-parik.club/en/events/mallorca-rayo-vallecano-16133732",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Celta",
-      "away": "Real Oviedo",
-      "p1": "1.701",
-      "x": "3.94",
-      "p2": "4.762",
-      "link": "https://24-parik.club/en/events/celta-real-oviedo-16134965",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Athletic Bilbao",
-      "away": "Villarreal",
-      "p1": "2.401",
-      "x": "3.57",
-      "p2": "2.802",
-      "link": "https://24-parik.club/en/events/athletic-bilbao-villarreal-16135516",
-      "league": "Spain LaLiga:"
-    },
-    {
-      "home": "Levante",
-      "away": "Getafe",
-      "p1": "2.721",
-      "x": "3.02",
-      "p2": "2.822",
-      "link": "https://24-parik.club/en/events/levante-getafe-16135521",
-      "league": "Spain LaLiga:"
     }
   ]
 }

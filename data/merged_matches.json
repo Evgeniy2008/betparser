@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T18:57:33.428Z",
+  "updated": "2026-03-29T20:15:39.120Z",
   "matches": [
     {
       "league": "Spain, Copa del Rey:",
@@ -78,15 +78,15 @@
       "home": "Cremonese",
       "away": "Bologna",
       "parik24": {
-        "p1": "3.541",
-        "x": "3.41",
-        "p2": "2.092",
+        "p1": "3.461",
+        "x": "3.38",
+        "p2": "2.132",
         "link": "https://24-parik.club/en/events/cremonese-bologna-16071071"
       },
       "pinnacle": {
-        "p1": "3.6",
-        "x": "3.46",
-        "p2": "2.11",
+        "p1": "3.59",
+        "x": "3.44",
+        "p2": "2.13",
         "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/cremonese-vs-bologna/1626177375/"
       },
       "matchScore": 1
@@ -102,9 +102,9 @@
         "link": "https://24-parik.club/en/events/pisa-torino-16071069"
       },
       "pinnacle": {
-        "p1": "3.09",
-        "x": "2.87",
-        "p2": "2.74",
+        "p1": "3.2",
+        "x": "2.89",
+        "p2": "2.64",
         "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/pisa-vs-torino/1626177376/"
       },
       "matchScore": 1
@@ -528,15 +528,15 @@
       "home": "Eintracht Frankfurt",
       "away": "Koln",
       "parik24": {
-        "p1": "2.221",
+        "p1": "2.251",
         "x": "3.44",
-        "p2": "3.202",
+        "p2": "3.142",
         "link": "https://24-parik.club/en/events/eintracht-frankfurt-koln-16064751"
       },
       "pinnacle": {
-        "p1": "2.22",
+        "p1": "2.24",
         "x": "3.5",
-        "p2": "3.3",
+        "p2": "3.26",
         "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/eintracht-frankfurt-vs-fc-koln/1626180290/"
       },
       "matchScore": 1
@@ -775,15 +775,15 @@
       "home": "Brest",
       "away": "Rennes",
       "parik24": {
-        "p1": "3.511",
-        "x": "3.57",
-        "p2": "2.052",
+        "p1": "3.461",
+        "x": "3.53",
+        "p2": "2.082",
         "link": "https://24-parik.club/en/events/brest-rennes-16065058"
       },
       "pinnacle": {
-        "p1": "3.6",
-        "x": "3.63",
-        "p2": "2.08",
+        "p1": "3.58",
+        "x": "3.62",
+        "p2": "2.09",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/brest-vs-rennes/1626186204/"
       },
       "matchScore": 1
@@ -799,9 +799,9 @@
         "link": "https://24-parik.club/en/events/lille-lens-16065059"
       },
       "pinnacle": {
-        "p1": "2.67",
-        "x": "3.37",
-        "p2": "2.72",
+        "p1": "2.68",
+        "x": "3.39",
+        "p2": "2.73",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lille-vs-lens/1626177378/"
       },
       "matchScore": 1
@@ -811,15 +811,15 @@
       "home": "Angers",
       "away": "Lyon",
       "parik24": {
-        "p1": "4.721",
-        "x": "3.47",
-        "p2": "1.812",
+        "p1": "4.741",
+        "x": "3.49",
+        "p2": "1.802",
         "link": "https://24-parik.club/en/events/angers-lyon-16065062"
       },
       "pinnacle": {
-        "p1": "4.81",
-        "x": "3.53",
-        "p2": "1.819",
+        "p1": "4.85",
+        "x": "3.54",
+        "p2": "1.806",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/angers-vs-lyon/1626180287/"
       },
       "matchScore": 1
@@ -829,15 +829,15 @@
       "home": "Le Havre",
       "away": "Auxerre",
       "parik24": {
-        "p1": "2.361",
-        "x": "3.1",
-        "p2": "3.252",
+        "p1": "2.371",
+        "x": "3.11",
+        "p2": "3.222",
         "link": "https://24-parik.club/en/events/le-havre-auxerre-16065090"
       },
       "pinnacle": {
-        "p1": "2.39",
+        "p1": "2.38",
         "x": "3.15",
-        "p2": "3.3",
+        "p2": "3.31",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/le-havre-vs-auxerre/1626180289/"
       },
       "matchScore": 1
@@ -865,15 +865,15 @@
       "home": "Metz",
       "away": "Nantes",
       "parik24": {
-        "p1": "2.921",
+        "p1": "2.901",
         "x": "3.26",
-        "p2": "2.472",
+        "p2": "2.502",
         "link": "https://24-parik.club/en/events/metz-nantes-16065096"
       },
       "pinnacle": {
-        "p1": "2.97",
+        "p1": "2.99",
         "x": "3.31",
-        "p2": "2.5",
+        "p2": "2.49",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/metz-vs-nantes/1626180288/"
       },
       "matchScore": 1
@@ -1032,8 +1032,13 @@
         "p2": "1.602",
         "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910"
       },
-      "pinnacle": null,
-      "matchScore": 0
+      "pinnacle": {
+        "p1": "6.73",
+        "x": "3.71",
+        "p2": "1.568",
+        "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/"
+      },
+      "matchScore": 1
     },
     {
       "league": "World Cup Qualifiers Europe:",
@@ -1155,366 +1160,6 @@
         "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/west-ham-united-vs-leeds-united/1625827228/"
       },
       "matchScore": 0.7222222222222221
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Rayo Vallecano",
-      "away": "Elche CF",
-      "parik24": {
-        "p1": "1.741",
-        "x": "3.65",
-        "p2": "4.842",
-        "link": "https://24-parik.club/en/events/rayo-vallecano-elche-cf-16052761"
-      },
-      "pinnacle": {
-        "p1": "1.763",
-        "x": "3.72",
-        "p2": "4.95",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/rayo-vallecano-vs-elche/1626186258/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Real Sociedad",
-      "away": "Levante",
-      "parik24": {
-        "p1": "1.651",
-        "x": "3.85",
-        "p2": "5.332",
-        "link": "https://24-parik.club/en/events/real-sociedad-levante-16052762"
-      },
-      "pinnacle": {
-        "p1": "1.649",
-        "x": "4.04",
-        "p2": "5.48",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-sociedad-vs-levante/1626180336/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Mallorca",
-      "away": "Real Madrid",
-      "parik24": {
-        "p1": "5.021",
-        "x": "3.98",
-        "p2": "1.662",
-        "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827"
-      },
-      "pinnacle": {
-        "p1": "5.14",
-        "x": "4.2",
-        "p2": "1.653",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/mallorca-vs-real-madrid/1626195023/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Betis",
-      "away": "Espanyol",
-      "parik24": {
-        "p1": "1.741",
-        "x": "3.94",
-        "p2": "4.412",
-        "link": "https://24-parik.club/en/events/betis-espanyol-16065280"
-      },
-      "pinnacle": {
-        "p1": "1.806",
-        "x": "4.15",
-        "p2": "4.14",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-betis-vs-espanyol/1626195024/"
-      },
-      "matchScore": 0.8333333333333333
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Atletico Madrid",
-      "away": "Barcelona",
-      "parik24": {
-        "p1": "3.111",
-        "x": "3.64",
-        "p2": "2.192",
-        "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794"
-      },
-      "pinnacle": {
-        "p1": "3.16",
-        "x": "3.7",
-        "p2": "2.21",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/atletico-madrid-vs-barcelona/1626195025/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Getafe",
-      "away": "Athletic Bilbao",
-      "parik24": {
-        "p1": "3.051",
-        "x": "2.75",
-        "p2": "2.772",
-        "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844"
-      },
-      "pinnacle": {
-        "p1": "3.11",
-        "x": "2.79",
-        "p2": "2.8",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/getafe-vs-athletic-bilbao/1626195026/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Valencia",
-      "away": "Celta",
-      "parik24": {
-        "p1": "2.341",
-        "x": "3.28",
-        "p2": "3.112",
-        "link": "https://24-parik.club/en/events/valencia-celta-16064203"
-      },
-      "pinnacle": {
-        "p1": "2.36",
-        "x": "3.33",
-        "p2": "3.17",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/valencia-vs-celta-vigo/1626186256/"
-      },
-      "matchScore": 0.8333333333333333
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Real Oviedo",
-      "away": "Sevilla",
-      "parik24": {
-        "p1": "2.981",
-        "x": "2.85",
-        "p2": "2.732",
-        "link": "https://24-parik.club/en/events/real-oviedo-sevilla-16065117"
-      },
-      "pinnacle": {
-        "p1": "3.04",
-        "x": "2.89",
-        "p2": "2.75",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-oviedo-vs-sevilla/1626186257/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Alaves",
-      "away": "Osasuna",
-      "parik24": {
-        "p1": "2.401",
-        "x": "3.2",
-        "p2": "3.102",
-        "link": "https://24-parik.club/en/events/alaves-osasuna-16054719"
-      },
-      "pinnacle": {
-        "p1": "2.44",
-        "x": "3.24",
-        "p2": "3.12",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/alaves-vs-osasuna/1626186255/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Girona",
-      "away": "Villarreal",
-      "parik24": {
-        "p1": "2.901",
-        "x": "3.63",
-        "p2": "2.302",
-        "link": "https://24-parik.club/en/events/girona-villarreal-16065510"
-      },
-      "pinnacle": {
-        "p1": "3.25",
-        "x": "3.31",
-        "p2": "2.33",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/girona-vs-villarreal/1626186254/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Real Madrid",
-      "away": "Girona",
-      "parik24": {
-        "p1": "1.221",
-        "x": "7.03",
-        "p2": "11.002",
-        "link": "https://24-parik.club/en/events/real-madrid-girona-16116156"
-      },
-      "pinnacle": {
-        "p1": "1.215",
-        "x": "7.23",
-        "p2": "9.88",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-madrid-vs-girona/1626759247/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Real Sociedad",
-      "away": "Alaves",
-      "parik24": {
-        "p1": "1.791",
-        "x": "3.52",
-        "p2": "4.752",
-        "link": "https://24-parik.club/en/events/real-sociedad-alaves-16122347"
-      },
-      "pinnacle": {
-        "p1": "1.787",
-        "x": "3.53",
-        "p2": "4.76",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-sociedad-vs-alaves/1626759249/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Elche CF",
-      "away": "Valencia",
-      "parik24": {
-        "p1": "2.461",
-        "x": "3.25",
-        "p2": "2.952",
-        "link": "https://24-parik.club/en/events/elche-cf-valencia-16124047"
-      },
-      "pinnacle": {
-        "p1": "2.41",
-        "x": "3.27",
-        "p2": "3.04",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/elche-vs-valencia/1626745166/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Barcelona",
-      "away": "Espanyol",
-      "parik24": {
-        "p1": "1.201",
-        "x": "7.21",
-        "p2": "12.002",
-        "link": "https://24-parik.club/en/events/barcelona-espanyol-16124908"
-      },
-      "pinnacle": {
-        "p1": "1.187",
-        "x": "7.69",
-        "p2": "11.27",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/barcelona-vs-espanyol/1626759246/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Sevilla",
-      "away": "Atletico Madrid",
-      "parik24": {
-        "p1": "3.551",
-        "x": "3.46",
-        "p2": "2.072",
-        "link": "https://24-parik.club/en/events/sevilla-atletico-madrid-16125977"
-      },
-      "pinnacle": {
-        "p1": "3.59",
-        "x": "3.47",
-        "p2": "2.07",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/sevilla-vs-atletico-madrid/1626745164/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Osasuna",
-      "away": "Betis",
-      "parik24": {
-        "p1": "2.381",
-        "x": "3.48",
-        "p2": "2.882",
-        "link": "https://24-parik.club/en/events/osasuna-betis-16132245"
-      },
-      "pinnacle": {
-        "p1": "2.36",
-        "x": "3.54",
-        "p2": "2.92",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/osasuna-vs-real-betis/1626759248/"
-      },
-      "matchScore": 0.8333333333333333
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Mallorca",
-      "away": "Rayo Vallecano",
-      "parik24": {
-        "p1": "2.681",
-        "x": "3.2",
-        "p2": "2.722",
-        "link": "https://24-parik.club/en/events/mallorca-rayo-vallecano-16133732"
-      },
-      "pinnacle": {
-        "p1": "2.58",
-        "x": "3.45",
-        "p2": "2.69",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/mallorca-vs-rayo-vallecano/1626759356/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Celta",
-      "away": "Real Oviedo",
-      "parik24": {
-        "p1": "1.701",
-        "x": "3.94",
-        "p2": "4.762",
-        "link": "https://24-parik.club/en/events/celta-real-oviedo-16134965"
-      },
-      "pinnacle": {
-        "p1": "1.694",
-        "x": "4.34",
-        "p2": "4.29",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/celta-vigo-vs-real-oviedo/1626759354/"
-      },
-      "matchScore": 0.8333333333333333
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Athletic Bilbao",
-      "away": "Villarreal",
-      "parik24": {
-        "p1": "2.401",
-        "x": "3.57",
-        "p2": "2.802",
-        "link": "https://24-parik.club/en/events/athletic-bilbao-villarreal-16135516"
-      },
-      "pinnacle": {
-        "p1": "2.39",
-        "x": "3.59",
-        "p2": "2.84",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/athletic-bilbao-vs-villarreal/1626745167/"
-      },
-      "matchScore": 1
-    },
-    {
-      "league": "Spain LaLiga:",
-      "home": "Levante",
-      "away": "Getafe",
-      "parik24": {
-        "p1": "2.721",
-        "x": "3.02",
-        "p2": "2.822",
-        "link": "https://24-parik.club/en/events/levante-getafe-16135521"
-      },
-      "pinnacle": {
-        "p1": "2.71",
-        "x": "3.04",
-        "p2": "2.85",
-        "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/levante-vs-getafe/1626745165/"
-      },
-      "matchScore": 1
     }
   ]
 }

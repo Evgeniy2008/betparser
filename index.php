@@ -780,7 +780,7 @@ function oddsValue($source, string $key): ?string {
 
       // Load totals (only overlapping lines across both sites)
       if (parikUrl && pinnUrl) {
-        fetch('https://argue-site-absorption-shade.trycloudflare.com/totals', {
+        fetch('https://chupserso.pagekite.me/totals', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ parikUrl, pinnUrl })
