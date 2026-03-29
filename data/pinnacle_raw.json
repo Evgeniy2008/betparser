@@ -1,0 +1,845 @@
+{
+  "updated": "2026-03-28T16:25:44.771Z",
+  "matches": [
+    {
+      "home": "Atletico Madrid",
+      "away": "Real Sociedad",
+      "p1": "1.806",
+      "x": "3.59",
+      "p2": "4.52",
+      "league": "Spain, Copa del Rey:"
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Cagliari",
+      "p1": "2.02",
+      "x": "3.04",
+      "p2": "4.6",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Hellas Verona",
+      "away": "Fiorentina",
+      "p1": "4.17",
+      "x": "3.49",
+      "p2": "1.943",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Lazio",
+      "away": "Parma",
+      "p1": "1.819",
+      "x": "3.43",
+      "p2": "4.98",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Cremonese",
+      "away": "Bologna",
+      "p1": "3.6",
+      "x": "3.46",
+      "p2": "2.11",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Pisa",
+      "away": "Torino",
+      "p1": "3.09",
+      "x": "2.87",
+      "p2": "2.74",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Internazionale",
+      "away": "Roma",
+      "p1": "1.645",
+      "x": "4.03",
+      "p2": "5.31",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Lecce",
+      "away": "Atalanta",
+      "p1": "4.73",
+      "x": "3.79",
+      "p2": "1.763",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Udinese",
+      "away": "Como",
+      "p1": "5.06",
+      "x": "3.92",
+      "p2": "1.694",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Juventus",
+      "away": "Genoa",
+      "p1": "1.4",
+      "x": "4.67",
+      "p2": "8.63",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Napoli",
+      "away": "AC Milan",
+      "p1": "2.72",
+      "x": "3",
+      "p2": "2.96",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Roma",
+      "away": "Pisa",
+      "p1": "1.344",
+      "x": "4.97",
+      "p2": "8.89",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Cagliari",
+      "away": "Cremonese",
+      "p1": "2.19",
+      "x": "3.16",
+      "p2": "3.61",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Torino",
+      "away": "Hellas Verona",
+      "p1": "1.877",
+      "x": "3.4",
+      "p2": "4.41",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "AC Milan",
+      "away": "Udinese",
+      "p1": "1.361",
+      "x": "5.05",
+      "p2": "8.02",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Atalanta",
+      "away": "Juventus",
+      "p1": "3.11",
+      "x": "3.55",
+      "p2": "2.24",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "p1": "2.14",
+      "x": "3.33",
+      "p2": "3.54",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Parma",
+      "away": "Napoli",
+      "p1": "5.42",
+      "x": "3.71",
+      "p2": "1.662",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Bologna",
+      "away": "Lecce",
+      "p1": "1.632",
+      "x": "3.72",
+      "p2": "5.71",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Como",
+      "away": "Internazionale",
+      "p1": "3.16",
+      "x": "3.42",
+      "p2": "2.26",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Lazio",
+      "p1": "2.23",
+      "x": "2.91",
+      "p2": "3.87",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Hamburger SV",
+      "away": "Augsburg",
+      "p1": "2.27",
+      "x": "3.46",
+      "p2": "3.22",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Freiburg",
+      "away": "Bayern Munich",
+      "p1": "6.62",
+      "x": "5.54",
+      "p2": "1.401",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Bayer Leverkusen",
+      "away": "Wolfsburg",
+      "p1": "1.421",
+      "x": "5.15",
+      "p2": "6.8",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Hoffenheim",
+      "away": "Mainz 05",
+      "p1": "1.729",
+      "x": "4.26",
+      "p2": "4.36",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Borussia Monchengladbach",
+      "away": "Heidenheim",
+      "p1": "1.568",
+      "x": "4.48",
+      "p2": "5.48",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "RB Leipzig",
+      "p1": "3.38",
+      "x": "3.92",
+      "p2": "2.05",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Borussia Dortmund",
+      "p1": "2.42",
+      "x": "4.07",
+      "p2": "2.63",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Union Berlin",
+      "away": "St. Pauli",
+      "p1": "2.17",
+      "x": "3.31",
+      "p2": "3.63",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Eintracht Frankfurt",
+      "away": "FC Koln",
+      "p1": "2.22",
+      "x": "3.5",
+      "p2": "3.3",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Augsburg",
+      "away": "Hoffenheim",
+      "p1": "3.35",
+      "x": "3.73",
+      "p2": "2.07",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Heidenheim",
+      "away": "Union Berlin",
+      "p1": "3.23",
+      "x": "3.63",
+      "p2": "2.15",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Wolfsburg",
+      "away": "Eintracht Frankfurt",
+      "p1": "2.45",
+      "x": "3.57",
+      "p2": "2.77",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "RB Leipzig",
+      "away": "Borussia Monchengladbach",
+      "p1": "1.531",
+      "x": "4.63",
+      "p2": "5.35",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Borussia Dortmund",
+      "away": "Bayer Leverkusen",
+      "p1": "1.892",
+      "x": "3.92",
+      "p2": "3.74",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "St. Pauli",
+      "away": "Bayern Munich",
+      "p1": "8.12",
+      "x": "5.64",
+      "p2": "1.321",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "FC Koln",
+      "away": "Werder Bremen",
+      "p1": "2.17",
+      "x": "3.57",
+      "p2": "3.22",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Hamburger SV",
+      "p1": "1.446",
+      "x": "4.73",
+      "p2": "6.48",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Mainz 05",
+      "away": "Freiburg",
+      "p1": "2.13",
+      "x": "2.97",
+      "p2": "4.08",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Bayer Leverkusen",
+      "away": "Bayern Munich",
+      "p1": "4.56",
+      "x": "4.37",
+      "p2": "1.645",
+      "league": "Germany Cup:"
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Freiburg",
+      "p1": "1.609",
+      "x": "4.15",
+      "p2": "5.19",
+      "league": "Germany Cup:"
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Toulouse",
+      "p1": "1.289",
+      "x": "5.83",
+      "p2": "10.29",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Strasbourg",
+      "away": "Nice",
+      "p1": "1.826",
+      "x": "3.7",
+      "p2": "4.48",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Brest",
+      "away": "Rennes",
+      "p1": "3.59",
+      "x": "3.63",
+      "p2": "2.06",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Lille",
+      "away": "Lens",
+      "p1": "2.67",
+      "x": "3.37",
+      "p2": "2.72",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Angers",
+      "away": "Lyon",
+      "p1": "4.8",
+      "x": "3.51",
+      "p2": "1.819",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Lorient",
+      "away": "Paris FC",
+      "p1": "2.31",
+      "x": "3.32",
+      "p2": "3.28",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Metz",
+      "away": "Nantes",
+      "p1": "2.97",
+      "x": "3.31",
+      "p2": "2.5",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Le Havre",
+      "away": "Auxerre",
+      "p1": "2.39",
+      "x": "3.15",
+      "p2": "3.3",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Monaco",
+      "away": "Marseille",
+      "p1": "2.28",
+      "x": "3.61",
+      "p2": "3.1",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Paris FC",
+      "away": "Monaco",
+      "p1": "3.29",
+      "x": "3.74",
+      "p2": "2.09",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Marseille",
+      "away": "Metz",
+      "p1": "1.259",
+      "x": "5.92",
+      "p2": "10.04",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Auxerre",
+      "away": "Nantes",
+      "p1": "2.11",
+      "x": "3.25",
+      "p2": "3.71",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Rennes",
+      "away": "Angers",
+      "p1": "1.383",
+      "x": "4.82",
+      "p2": "7.9",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Toulouse",
+      "away": "Lille",
+      "p1": "3.06",
+      "x": "3.28",
+      "p2": "2.39",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Nice",
+      "away": "Le Havre",
+      "p1": "1.97",
+      "x": "2.99",
+      "p2": "4.73",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Lyon",
+      "away": "Lorient",
+      "p1": "1.729",
+      "x": "3.8",
+      "p2": "4.71",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Sweden",
+      "away": "Poland",
+      "p1": "1.99",
+      "x": "3.43",
+      "p2": "3.89",
+      "league": "World Cup Qualifiers Europe:"
+    },
+    {
+      "home": "Kosovo",
+      "away": "Turkiye",
+      "p1": "4.05",
+      "x": "3.58",
+      "p2": "1.9",
+      "league": "World Cup Qualifiers Europe:"
+    },
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "p1": "6.62",
+      "x": "3.7",
+      "p2": "1.574",
+      "league": "World Cup Qualifiers Europe:"
+    },
+    {
+      "home": "Czechia",
+      "away": "Denmark",
+      "p1": "4.01",
+      "x": "3.16",
+      "p2": "2.06",
+      "league": "World Cup Qualifiers Europe:"
+    },
+    {
+      "home": "Manchester City",
+      "away": "Liverpool",
+      "p1": "1.775",
+      "x": "4.15",
+      "p2": "4.23",
+      "league": "England FA Cup:"
+    },
+    {
+      "home": "Chelsea",
+      "away": "Port Vale",
+      "p1": "1.052",
+      "x": "14.88",
+      "p2": "30.83",
+      "league": "England FA Cup:"
+    },
+    {
+      "home": "Southampton",
+      "away": "Arsenal",
+      "p1": "10.74",
+      "x": "6.11",
+      "p2": "1.24",
+      "league": "England FA Cup:"
+    },
+    {
+      "home": "West Ham United",
+      "away": "Leeds United",
+      "p1": "2.44",
+      "x": "3.55",
+      "p2": "2.88",
+      "league": "England FA Cup:"
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "p1": "1.757",
+      "x": "3.7",
+      "p2": "4.91",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Levante",
+      "p1": "1.641",
+      "x": "4.01",
+      "p2": "5.43",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "p1": "5.08",
+      "x": "4.16",
+      "p2": "1.649",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Real Betis",
+      "away": "Espanyol",
+      "p1": "1.8",
+      "x": "4.12",
+      "p2": "4.1",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Atletico Madrid",
+      "away": "Barcelona",
+      "p1": "3.18",
+      "x": "3.73",
+      "p2": "2.19",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Getafe",
+      "away": "Athletic Bilbao",
+      "p1": "3.1",
+      "x": "2.78",
+      "p2": "2.81",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "p1": "2.36",
+      "x": "3.33",
+      "p2": "3.17",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Real Oviedo",
+      "away": "Sevilla",
+      "p1": "3.04",
+      "x": "2.89",
+      "p2": "2.75",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Alaves",
+      "away": "Osasuna",
+      "p1": "2.44",
+      "x": "3.24",
+      "p2": "3.12",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Girona",
+      "away": "Villarreal",
+      "p1": "3.25",
+      "x": "3.31",
+      "p2": "2.33",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Girona",
+      "p1": "1.215",
+      "x": "7.23",
+      "p2": "9.88",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Alaves",
+      "p1": "1.787",
+      "x": "3.53",
+      "p2": "4.76",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Elche",
+      "away": "Valencia",
+      "p1": "2.41",
+      "x": "3.27",
+      "p2": "3.04",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Espanyol",
+      "p1": "1.187",
+      "x": "7.69",
+      "p2": "11.27",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Sevilla",
+      "away": "Atletico Madrid",
+      "p1": "3.59",
+      "x": "3.47",
+      "p2": "2.07",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Osasuna",
+      "away": "Real Betis",
+      "p1": "2.36",
+      "x": "3.54",
+      "p2": "2.92",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Rayo Vallecano",
+      "p1": "2.58",
+      "x": "3.45",
+      "p2": "2.69",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Celta Vigo",
+      "away": "Real Oviedo",
+      "p1": "1.694",
+      "x": "4.34",
+      "p2": "4.29",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Athletic Bilbao",
+      "away": "Villarreal",
+      "p1": "2.39",
+      "x": "3.59",
+      "p2": "2.84",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "Levante",
+      "away": "Getafe",
+      "p1": "2.71",
+      "x": "3.04",
+      "p2": "2.85",
+      "league": "Spain LaLiga:"
+    },
+    {
+      "home": "West Ham United",
+      "away": "Wolverhampton",
+      "p1": "1.833",
+      "x": "3.67",
+      "p2": "4.26",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Arsenal",
+      "away": "Bournemouth",
+      "p1": "1.378",
+      "x": "4.78",
+      "p2": "8.14",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Burnley",
+      "away": "Brighton",
+      "p1": "4.37",
+      "x": "4.1",
+      "p2": "1.719",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Brentford",
+      "away": "Everton",
+      "p1": "2.21",
+      "x": "3.33",
+      "p2": "3.36",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Liverpool",
+      "away": "Fulham",
+      "p1": "1.549",
+      "x": "4.5",
+      "p2": "5.31",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "p1": "2.66",
+      "x": "3.31",
+      "p2": "2.7",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Sunderland",
+      "away": "Tottenham Hotspur",
+      "p1": "2.62",
+      "x": "3.43",
+      "p2": "2.66",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Newcastle United",
+      "p1": "2.75",
+      "x": "3.52",
+      "p2": "2.49",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Chelsea",
+      "away": "Manchester City",
+      "p1": "2.94",
+      "x": "3.98",
+      "p2": "2.18",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Manchester United",
+      "away": "Leeds United",
+      "p1": "1.574",
+      "x": "4.28",
+      "p2": "5.36",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Brentford",
+      "away": "Fulham",
+      "p1": "2.09",
+      "x": "3.76",
+      "p2": "3.25",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Leeds United",
+      "away": "Wolverhampton",
+      "p1": "1.645",
+      "x": "3.96",
+      "p2": "5.15",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Newcastle United",
+      "away": "Bournemouth",
+      "p1": "1.862",
+      "x": "3.96",
+      "p2": "3.81",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Tottenham Hotspur",
+      "away": "Brighton",
+      "p1": "2.46",
+      "x": "3.73",
+      "p2": "2.67",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "p1": "2.27",
+      "x": "3.18",
+      "p2": "3.39",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Burnley",
+      "p1": "1.512",
+      "x": "4.21",
+      "p2": "6.32",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "p1": "1.617",
+      "x": "3.85",
+      "p2": "5.63",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Everton",
+      "away": "Liverpool",
+      "p1": "3.48",
+      "x": "3.44",
+      "p2": "2.12",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "p1": "2.26",
+      "x": "3.46",
+      "p2": "3.13",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "West Ham United",
+      "p1": "2.19",
+      "x": "3.06",
+      "p2": "3.75",
+      "league": "England Premier League:"
+    }
+  ]
+}

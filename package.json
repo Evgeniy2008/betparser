@@ -1,0 +1,17 @@
+{
+  "name": "betparser",
+  "version": "1.0.0",
+  "description": "Football odds scraper for 24-parik.club",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:debug": "node scraper.js --debug",
+    "scrape:daemon": "node scraper.js --daemon --interval=2",
+    "scrape:daemon:debug": "node scraper.js --daemon --debug --interval=2"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "jsdom": "^29.0.1",
+    "puppeteer": "^24.40.0"
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "stream": "live",
+  "phase": "full",
+  "cycleId": "2026-03-28T13:14:24.622Z",
+  "updated": "2026-03-28T13:20:40.968Z",
+  "total": 22,
+  "matches": [
+    {
+      "href": "https://24-parik.club/en/events/namibia-comoros-16181708",
+      "league": "",
+      "home": "Namibia",
+      "away": "Comoros",
+      "date": "",
+      "time": "H2 58:14",
+      "isLive": true,
+      "odds": {
+        "p1": "5.25",
+        "x": "1.80",
+        "p2": "2.75"
+      },
+      "_raw": {
+        "1": "5.25",
+        "2": "2.75",
+        "X": "1.80"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ad-ceuta-cadiz-16052902",
+      "league": "",
+      "home": "AD Ceuta",
+      "away": "Cadiz",
+      "date": "",
+      "time": "H1 13:38",
+      "isLive": true,
+      "odds": {
+        "p1": "1.95",
+        "x": "3.40",
+        "p2": "3.80"
+      },
+      "_raw": {
+        "1": "1.95",
+        "2": "3.80",
+        "X": "3.40"
+      },
+      "oddsPinnacle": {
+        "p1": "1.892",
+        "x": "3.350",
+        "p2": "4.360"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/spain-segunda-division/ceuta-vs-cadiz/1626998412/",
+        "league": "Spain - Segunda Division",
+        "home": "Ceuta (Match)",
+        "away": "Cadiz (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/eik-tonsberg-follo-16178558",
+      "league": "",
+      "home": "Eik Tonsberg",
+      "away": "Follo",
+      "date": "",
+      "time": "H2 55:04",
+      "isLive": true,
+      "odds": {
+        "p1": "2.60",
+        "x": "2.38",
+        "p2": "3.20"
+      },
+      "_raw": {
+        "1": "2.60",
+        "2": "3.20",
+        "X": "2.38"
+      },
+      "oddsPinnacle": {
+        "p1": "2.610",
+        "x": "2.340",
+        "p2": "3.280"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/eik-tonsberg-vs-follo/1627038672/",
+        "league": "Club Friendlies",
+        "home": "Eik Tonsberg (Match)",
+        "away": "Follo (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/falkenbergs-ff-ariana-16188943",
+      "league": "",
+      "home": "Falkenbergs FF",
+      "away": "Ariana",
+      "date": "",
+      "time": "H2 67:36",
+      "isLive": true,
+      "odds": {
+        "p1": "1.18",
+        "x": "4.50",
+        "p2": "19.00"
+      },
+      "_raw": {
+        "1": "1.18",
+        "2": "19.00",
+        "X": "4.50"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ff-jaro-ac-oulu-16168122",
+      "league": "",
+      "home": "FF Jaro",
+      "away": "AC Oulu",
+      "date": "",
+      "time": "H2 58:07",
+      "isLive": true,
+      "odds": {
+        "p1": "1.51",
+        "x": "3.37",
+        "p2": "6.70"
+      },
+      "_raw": {
+        "1": "1.51",
+        "2": "6.70",
+        "X": "3.37"
+      },
+      "oddsPinnacle": {
+        "p1": "1.526",
+        "x": "3.300",
+        "p2": "6.310"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/jaro-vs-ac-oulu/1627027229/",
+        "league": "Club Friendlies",
+        "home": "Jaro (Match)",
+        "away": "AC Oulu (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ifk-stocksund-vasalunds-if-16180471",
+      "league": "",
+      "home": "IFK Stocksund",
+      "away": "Vasalunds IF",
+      "date": "",
+      "time": "H2 52:15",
+      "isLive": true,
+      "odds": {
+        "p1": "3.70",
+        "x": "2.75",
+        "p2": "2.05"
+      },
+      "_raw": {
+        "1": "3.70",
+        "2": "2.05",
+        "X": "2.75"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/japs-tpv-16182989",
+      "league": "",
+      "home": "JaPS",
+      "away": "TPV",
+      "date": "",
+      "time": "H2 59:41",
+      "isLive": true,
+      "odds": {
+        "p1": "1.15",
+        "x": "5.50",
+        "p2": "15.00"
+      },
+      "_raw": {
+        "1": "1.15",
+        "2": "15.00",
+        "X": "5.50"
+      },
+      "oddsPinnacle": {
+        "p1": "1.177",
+        "x": "5.240",
+        "p2": "14.100"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/japs-vs-tpv/1627025373/",
+        "league": "Club Friendlies",
+        "home": "JaPS (Match)",
+        "away": "TPV (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ljungskile-sk-fc-rosengard-16188945",
+      "league": "",
+      "home": "Ljungskile SK",
+      "away": "FC Rosengard",
+      "date": "",
+      "time": "H2 56:20",
+      "isLive": true,
+      "odds": {
+        "p1": "2.70",
+        "x": "2.37",
+        "p2": "3.17"
+      },
+      "_raw": {
+        "1": "2.70",
+        "2": "3.17",
+        "X": "2.37"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/kjelsas-fotball-kvik-halden-16189639",
+      "league": "",
+      "home": "Kjelsas Fotball",
+      "away": "Kvik Halden",
+      "date": "",
+      "time": "H1 45:25",
+      "isLive": true,
+      "odds": {
+        "p1": "1.65",
+        "x": "3.37",
+        "p2": "4.78"
+      },
+      "_raw": {
+        "1": "1.65",
+        "2": "4.78",
+        "X": "3.37"
+      },
+      "oddsPinnacle": {
+        "p1": "1.578",
+        "x": "3.400",
+        "p2": "5.250"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/kjelsas-vs-kvik-halden/1627046690/",
+        "league": "Club Friendlies",
+        "home": "Kjelsas (Match)",
+        "away": "Kvik Halden (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/zalgiris-vilnius-ogre-united-16186944",
+      "league": "",
+      "home": "Zalgiris Vilnius",
+      "away": "Ogre United",
+      "date": "",
+      "time": "H1 45:22",
+      "isLive": true,
+      "odds": {
+        "p1": "1.62",
+        "x": "3.25",
+        "p2": "5.00"
+      },
+      "_raw": {
+        "1": "1.62",
+        "2": "5.00",
+        "X": "3.25"
+      },
+      "oddsPinnacle": {
+        "p1": "1.243",
+        "x": "4.650",
+        "p2": "10.380"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/vilnius-zalgiris-vs-ogre-united/1627027234/",
+        "league": "Club Friendlies",
+        "home": "Vilnius Zalgiris (Match)",
+        "away": "Ogre United (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/egersund-bryne-fk-16168120",
+      "league": "",
+      "home": "Egersund",
+      "away": "Bryne FK",
+      "date": "",
+      "time": "H1 16:59",
+      "isLive": true,
+      "odds": {
+        "p1": "3.50",
+        "x": "4.00",
+        "p2": "1.73"
+      },
+      "_raw": {
+        "1": "3.50",
+        "2": "1.73",
+        "X": "4.00"
+      },
+      "oddsPinnacle": {
+        "p1": "3.110",
+        "x": "3.800",
+        "p2": "1.884"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/egersunds-vs-bryne/1627027237/",
+        "league": "",
+        "home": "Egersunds (Match)",
+        "away": "Bryne (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/fc-lahti-jippo-16186943",
+      "league": "",
+      "home": "FC Lahti",
+      "away": "JIPPO",
+      "date": "",
+      "time": "15:00",
+      "isLive": true,
+      "odds": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      },
+      "_raw": {},
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/if-brommapojkarna-ik-brage-16160711",
+      "league": "",
+      "home": "IF Brommapojkarna",
+      "away": "IK Brage",
+      "date": "",
+      "time": "H1 14:46",
+      "isLive": true,
+      "odds": {
+        "p1": "1.30",
+        "x": "5.00",
+        "p2": "7.00"
+      },
+      "_raw": {
+        "1": "1.30",
+        "2": "7.00",
+        "X": "5.00"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/kristiansund-bk-brattvag-16178578",
+      "league": "",
+      "home": "Kristiansund BK",
+      "away": "Brattvag",
+      "date": "",
+      "time": "H1 16:17",
+      "isLive": true,
+      "odds": {
+        "p1": "1.03",
+        "x": null,
+        "p2": null
+      },
+      "_raw": {
+        "1": "1.03"
+      },
+      "oddsPinnacle": {
+        "p1": "1.157",
+        "x": "6.310",
+        "p2": "11.090"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/club-friendlies/kristiansund-vs-brattvag/1627026768/",
+        "league": "Club Friendlies",
+        "home": "Kristiansund (Match)",
+        "away": "Brattvag (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/landskrona-bois-jonkopings-sodra-16188083",
+      "league": "",
+      "home": "Landskrona BoIS",
+      "away": "Jonkopings Sodra",
+      "date": "",
+      "time": "H1 13:53",
+      "isLive": true,
+      "odds": {
+        "p1": null,
+        "x": null,
+        "p2": "2.63"
+      },
+      "_raw": {
+        "2": "2.63"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/vasteras-sk-sandvikens-if-16188951",
+      "league": "",
+      "home": "Vasteras SK",
+      "away": "Sandvikens IF",
+      "date": "",
+      "time": "H1 15:09",
+      "isLive": true,
+      "odds": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      },
+      "_raw": {},
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ppj-vantaan-jalkapalloseura-16189811",
+      "league": "",
+      "home": "PPJ",
+      "away": "Vantaan Jalkapalloseura",
+      "date": "",
+      "time": "15:15",
+      "isLive": true,
+      "odds": {
+        "p1": "10.00",
+        "x": "6.50",
+        "p2": "1.18"
+      },
+      "_raw": {
+        "1": "10.00",
+        "2": "1.18",
+        "X": "6.50"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/czech-republic-u-19-belgium-u-19-16149918",
+      "league": "",
+      "home": "Czech Republic U-19",
+      "away": "Belgium U-19",
+      "date": "",
+      "time": "H1 13:37",
+      "isLive": true,
+      "odds": {
+        "p1": "2.50",
+        "x": "3.15",
+        "p2": "2.50"
+      },
+      "_raw": {
+        "1": "2.50",
+        "2": "2.50",
+        "X": "3.15"
+      },
+      "oddsPinnacle": {
+        "p1": "2.620",
+        "x": "3.280",
+        "p2": "2.630"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/uefa-u19-euro-championship-qualifiers/czechia-vs-belgium/1626998324/",
+        "league": "UEFA - U19 Euro Championship Qualifiers",
+        "home": "Czechia (Match)",
+        "away": "Belgium (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/kepez-belediyespor-adana-1954-fk-16183519",
+      "league": "",
+      "home": "Kepez Belediyespor",
+      "away": "Adana 1954 FK",
+      "date": "",
+      "time": "H1 43:53",
+      "isLive": true,
+      "odds": {
+        "p1": "14.00",
+        "x": "5.55",
+        "p2": "1.17"
+      },
+      "_raw": {
+        "1": "14.00",
+        "2": "1.17",
+        "X": "5.55"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/bucaspor-1928-elazigspor-16141713",
+      "league": "",
+      "home": "Bucaspor 1928",
+      "away": "Elazigspor",
+      "date": "",
+      "time": "H1 14:54",
+      "isLive": true,
+      "odds": {
+        "p1": "15.00",
+        "x": "6.00",
+        "p2": "1.14"
+      },
+      "_raw": {
+        "1": "15.00",
+        "2": "1.14",
+        "X": "6.00"
+      },
+      "oddsPinnacle": {
+        "p1": "28.480",
+        "x": "8.400",
+        "p2": "1.084"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/turkey-2nd-league/bucaspor-1928-vs-elazigspor/1627008207/",
+        "league": "",
+        "home": "Bucaspor 1928 (Match)",
+        "away": "Elazigspor (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/inegolspor-24-erzincanspor-16149468",
+      "league": "",
+      "home": "Inegolspor",
+      "away": "Anagold 24erzincanspor",
+      "date": "",
+      "time": "H1 15:08",
+      "isLive": true,
+      "odds": {
+        "p1": "1.12",
+        "x": "6.80",
+        "p2": "15.00"
+      },
+      "_raw": {
+        "1": "1.12",
+        "2": "15.00",
+        "X": "6.80"
+      },
+      "oddsPinnacle": {
+        "p1": "1.111",
+        "x": "7.450",
+        "p2": "20.600"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/turkey-2nd-league/inegolspor-vs-24-erzincanspor/1627006992/",
+        "league": "Turkey - 2nd League",
+        "home": "Inegolspor (Match)",
+        "away": "24 Erzincanspor (Match)"
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/somaspor-sk-kirklarelispor-16141714",
+      "league": "",
+      "home": "Somaspor SK",
+      "away": "Kirklarelispor",
+      "date": "",
+      "time": "H1 14:48",
+      "isLive": true,
+      "odds": {
+        "p1": "2.20",
+        "x": "3.10",
+        "p2": "3.00"
+      },
+      "_raw": {
+        "1": "2.20",
+        "2": "3.00",
+        "X": "3.10"
+      },
+      "oddsPinnacle": {
+        "p1": "2.340",
+        "x": "3.070",
+        "p2": "2.930"
+      },
+      "pinnacle": {
+        "href": "https://www.pinnacle.com/en/soccer/turkey-2nd-league/somaspor-vs-kirklarelispor/1627006991/",
+        "league": "Turkey - 2nd League",
+        "home": "Somaspor (Match)",
+        "away": "Kirklarelispor (Match)"
+      }
+    }
+  ]
+}
