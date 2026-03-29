@@ -533,6 +533,8 @@ function oddsValue($source, string $key): ?string {
                         data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
                         data-away="<?= htmlspecialchars($match['away'] ?? '') ?>"
                         data-league="<?= htmlspecialchars($league) ?>"
+                        data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
+                        data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
                         data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
                         data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
                         data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
@@ -573,6 +575,36 @@ function oddsValue($source, string $key): ?string {
   </main>
 
 
+
+  <div id="matchModalBackdrop" class="modal-backdrop" aria-hidden="true" style="position:fixed;inset:0;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;z-index:9999;">
+    <div class="modal" role="dialog" aria-modal="true" style="width:900px;max-width:95vw;background:#0f172a;border:1px solid #24304d;border-radius:14px;box-shadow:0 10px 50px rgba(0,0,0,0.6);">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #1e293b;">
+        <div>
+          <div id="matchModalTitle" style="font-weight:800;font-size:18px;color:#e5e7eb;">—</div>
+          <div id="matchModalSub" style="font-size:13px;color:#94a3b8;margin-top:4px;">—</div>
+        </div>
+        <button id="matchModalClose" class="btn" type="button">Закрыть</button>
+      </div>
+      <div style="padding:14px 16px;display:flex;gap:16px;flex-direction:column;max-height:80vh;overflow:auto;">
+        <div style="display:flex;gap:16px;align-items:stretch;">
+          <div style="flex:1;display:flex;gap:8px;align-items:center;justify-content:center;background:#0b1224;border:1px solid #1e293b;border-radius:10px;padding:10px;">
+            <div style="font-size:12px;color:#94a3b8;font-weight:700;min-width:70px;text-align:right;">Parik24</div>
+            <div id="modalParik" style="display:flex;gap:8px;flex-wrap:wrap;"></div>
+          </div>
+          <div style="flex:1;display:flex;gap:8px;align-items:center;justify-content:center;background:#0b1224;border:1px solid #1e293b;border-radius:10px;padding:10px;">
+            <div style="font-size:12px;color:#94a3b8;font-weight:700;min-width:70px;text-align:right;">Pinnacle</div>
+            <div id="modalPinnacle" style="display:flex;gap:8px;flex-wrap:wrap;"></div>
+          </div>
+        </div>
+        <div id="totalsContainer" style="background:#0b1224;border:1px solid #1e293b;border-radius:10px;padding:12px;">
+          <div id="totalsTitle" style="font-weight:800;color:#bfdbfe;margin-bottom:10px;">Тотали</div>
+          <div id="totalsContent" style="overflow:auto;">
+            <div style="color:#94a3b8;">Завантаження...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     // --- Лиги-фильтры ---
@@ -676,10 +708,14 @@ function oddsValue($source, string $key): ?string {
       const sub = document.getElementById('matchModalSub');
       const parik = document.getElementById('modalParik');
       const pinnacle = document.getElementById('modalPinnacle');
+      const totalsTitle = document.getElementById('totalsTitle');
+      const totalsContent = document.getElementById('totalsContent');
 
       const home = button.dataset.home || '—';
       const away = button.dataset.away || '—';
       const league = button.dataset.league || '—';
+      const parikUrl = button.dataset.parikUrl || '';
+      const pinnUrl = button.dataset.pinnUrl || '';
 
       title.textContent = `${home} vs ${away}`;
       sub.textContent = league;
@@ -696,8 +732,77 @@ function oddsValue($source, string $key): ?string {
         oddBox('П2', button.dataset.pinP2)
       ].join('');
 
+      // Reset totals UI
+      totalsTitle.textContent = 'Тотали';
+      totalsContent.innerHTML = `<div style="color:#94a3b8;">Завантаження...</div>`;
+
       backdrop.classList.add('show');
+      backdrop.style.display = 'flex';
       backdrop.setAttribute('aria-hidden', 'false');
+
+      // Load totals (only overlapping lines across both sites)
+      if (parikUrl && pinnUrl) {
+        const form = new FormData();
+        form.append('parikUrl', parikUrl);
+        form.append('pinnUrl', pinnUrl);
+        fetch('totals_endpoint.php', { method: 'POST', body: form })
+          .then(r => r.json())
+          .then(json => {
+            if (!json || !json.ok) {
+              const msg = (json && json.error) ? json.error : 'Помилка завантаження тоталів';
+              totalsContent.innerHTML = `<div style="color:#fecaca;">${escapeHtml(msg)}</div>`;
+              return;
+            }
+            totalsTitle.textContent = json.marketTitle || 'Тотали';
+            const rows = Array.isArray(json.rows) ? json.rows : [];
+            if (!rows.length) {
+              totalsContent.innerHTML = `<div style="color:#94a3b8;">Спільних тоталів не знайдено</div>`;
+              return;
+            }
+            const html = [
+              '<table style="width:100%;border-collapse:separate;border-spacing:0 6px;">',
+              '<thead>',
+              '<tr style="color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.5px;">',
+              '<th style="text-align:left;padding:6px 8px;">Линия</th>',
+              '<th style="text-align:center;padding:6px 8px;">Parik Over</th>',
+              '<th style="text-align:center;padding:6px 8px;">Parik Under</th>',
+              '<th style="text-align:center;padding:6px 8px;">Pin Over</th>',
+              '<th style="text-align:center;padding:6px 8px;">Pin Under</th>',
+              '<th style="text-align:center;padding:6px 8px;">z (Over = 1/x + 1/y)</th>',
+              '<th style="text-align:center;padding:6px 8px;">z (Under = 1/x + 1/y)</th>',
+              '</tr>',
+              '</thead>',
+              '<tbody>'
+            ];
+            rows.forEach(r => {
+              const line = r.line ?? '—';
+              const pOver = r.parik?.over ?? '—';
+              const pUnder = r.parik?.under ?? '—';
+              const pinOver = r.pinnacle?.over ?? '—';
+              const pinUnder = r.pinnacle?.under ?? '—';
+              const zO = (typeof r.zOver === 'number') ? r.zOver : null;
+              const zU = (typeof r.zUnder === 'number') ? r.zUnder : null;
+              const zOCls = zO !== null ? (zO < 0.8 ? 'cell-green' : (zO < 1 ? 'cell-blue' : 'cell-red')) : '';
+              const zUCls = zU !== null ? (zU < 0.8 ? 'cell-green' : (zU < 1 ? 'cell-blue' : 'cell-red')) : '';
+              html.push('<tr>');
+              html.push(`<td style="padding:6px 8px;color:#e5e7eb;font-weight:700;">${escapeHtml(line)}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pOver)}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pUnder)}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pinOver)}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pinUnder)}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;" class="${zOCls}">${zO !== null ? Number(zO).toFixed(3) : '—'}</td>`);
+              html.push(`<td style="padding:6px 8px;text-align:center;" class="${zUCls}">${zU !== null ? Number(zU).toFixed(3) : '—'}</td>`);
+              html.push('</tr>');
+            });
+            html.push('</tbody></table>');
+            totalsContent.innerHTML = html.join('');
+          })
+          .catch(() => {
+            totalsContent.innerHTML = `<div style="color:#fecaca;">Помилка мережі при завантаженні тоталів</div>`;
+          });
+      } else {
+        totalsContent.innerHTML = `<div style="color:#94a3b8;">Посилання на матчі відсутні</div>`;
+      }
     }
 
     (function bindModal() {
@@ -710,12 +815,14 @@ function oddsValue($source, string $key): ?string {
 
       closeBtn.addEventListener('click', () => {
         backdrop.classList.remove('show');
+        backdrop.style.display = 'none';
         backdrop.setAttribute('aria-hidden', 'true');
       });
 
       backdrop.addEventListener('click', (e) => {
         if (e.target === backdrop) {
           backdrop.classList.remove('show');
+          backdrop.style.display = 'none';
           backdrop.setAttribute('aria-hidden', 'true');
         }
       });
@@ -723,6 +830,7 @@ function oddsValue($source, string $key): ?string {
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && backdrop.classList.contains('show')) {
           backdrop.classList.remove('show');
+          backdrop.style.display = 'none';
           backdrop.setAttribute('aria-hidden', 'true');
         }
       });

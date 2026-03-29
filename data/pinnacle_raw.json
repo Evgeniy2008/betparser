@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T16:25:44.771Z",
+  "updated": "2026-03-29T14:50:27.453Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -7,22 +7,25 @@
       "p1": "1.806",
       "x": "3.59",
       "p2": "4.52",
+      "link": "https://www.pinnacle.com/en/soccer/spain-copa-del-rey/atletico-madrid-vs-real-sociedad/1625468891/",
       "league": "Spain, Copa del Rey:"
     },
     {
       "home": "Sassuolo",
       "away": "Cagliari",
       "p1": "2.02",
-      "x": "3.04",
-      "p2": "4.6",
+      "x": "3.09",
+      "p2": "4.63",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/sassuolo-vs-cagliari/1626173970/",
       "league": "Italy. Serie A:"
     },
     {
       "home": "Hellas Verona",
       "away": "Fiorentina",
-      "p1": "4.17",
+      "p1": "4.16",
       "x": "3.49",
       "p2": "1.943",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/hellas-verona-vs-fiorentina/1626177374/",
       "league": "Italy. Serie A:"
     },
     {
@@ -31,6 +34,7 @@
       "p1": "1.819",
       "x": "3.43",
       "p2": "4.98",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/lazio-vs-parma/1626180284/",
       "league": "Italy. Serie A:"
     },
     {
@@ -39,6 +43,7 @@
       "p1": "3.6",
       "x": "3.46",
       "p2": "2.11",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/cremonese-vs-bologna/1626177375/",
       "league": "Italy. Serie A:"
     },
     {
@@ -47,22 +52,16 @@
       "p1": "3.09",
       "x": "2.87",
       "p2": "2.74",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/pisa-vs-torino/1626177376/",
       "league": "Italy. Serie A:"
     },
     {
       "home": "Internazionale",
       "away": "Roma",
-      "p1": "1.645",
-      "x": "4.03",
-      "p2": "5.31",
-      "league": "Italy. Serie A:"
-    },
-    {
-      "home": "Lecce",
-      "away": "Atalanta",
-      "p1": "4.73",
-      "x": "3.79",
-      "p2": "1.763",
+      "p1": "1.649",
+      "x": "4.02",
+      "p2": "5.3",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/internazionale-vs-roma/1626180285/",
       "league": "Italy. Serie A:"
     },
     {
@@ -71,6 +70,16 @@
       "p1": "5.06",
       "x": "3.92",
       "p2": "1.694",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/udinese-vs-como/1626173971/",
+      "league": "Italy. Serie A:"
+    },
+    {
+      "home": "Lecce",
+      "away": "Atalanta",
+      "p1": "4.73",
+      "x": "3.79",
+      "p2": "1.763",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/lecce-vs-atalanta/1626186202/",
       "league": "Italy. Serie A:"
     },
     {
@@ -79,14 +88,16 @@
       "p1": "1.4",
       "x": "4.67",
       "p2": "8.63",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/juventus-vs-genoa/1626186203/",
       "league": "Italy. Serie A:"
     },
     {
       "home": "Napoli",
       "away": "AC Milan",
-      "p1": "2.72",
+      "p1": "2.71",
       "x": "3",
-      "p2": "2.96",
+      "p2": "2.98",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/napoli-vs-ac-milan/1626177377/",
       "league": "Italy. Serie A:"
     },
     {
@@ -95,6 +106,7 @@
       "p1": "1.344",
       "x": "4.97",
       "p2": "8.89",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/roma-vs-pisa/1626759240/",
       "league": "Italy. Serie A:"
     },
     {
@@ -103,6 +115,7 @@
       "p1": "2.19",
       "x": "3.16",
       "p2": "3.61",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/cagliari-vs-cremonese/1626759351/",
       "league": "Italy. Serie A:"
     },
     {
@@ -111,6 +124,7 @@
       "p1": "1.877",
       "x": "3.4",
       "p2": "4.41",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/torino-vs-hellas-verona/1626759243/",
       "league": "Italy. Serie A:"
     },
     {
@@ -119,6 +133,7 @@
       "p1": "1.361",
       "x": "5.05",
       "p2": "8.02",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/ac-milan-vs-udinese/1626759352/",
       "league": "Italy. Serie A:"
     },
     {
@@ -127,6 +142,7 @@
       "p1": "3.11",
       "x": "3.55",
       "p2": "2.24",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/atalanta-vs-juventus/1626759242/",
       "league": "Italy. Serie A:"
     },
     {
@@ -135,6 +151,7 @@
       "p1": "2.14",
       "x": "3.33",
       "p2": "3.54",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/genoa-vs-sassuolo/1626759244/",
       "league": "Italy. Serie A:"
     },
     {
@@ -143,22 +160,25 @@
       "p1": "5.42",
       "x": "3.71",
       "p2": "1.662",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/parma-vs-napoli/1626759241/",
       "league": "Italy. Serie A:"
     },
     {
       "home": "Bologna",
       "away": "Lecce",
-      "p1": "1.632",
-      "x": "3.72",
-      "p2": "5.71",
+      "p1": "1.653",
+      "x": "3.67",
+      "p2": "5.63",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/bologna-vs-lecce/1626759245/",
       "league": "Italy. Serie A:"
     },
     {
       "home": "Como",
       "away": "Internazionale",
-      "p1": "3.16",
+      "p1": "3.12",
       "x": "3.42",
-      "p2": "2.26",
+      "p2": "2.29",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/como-vs-internazionale/1626759353/",
       "league": "Italy. Serie A:"
     },
     {
@@ -167,54 +187,61 @@
       "p1": "2.23",
       "x": "2.91",
       "p2": "3.87",
+      "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/fiorentina-vs-lazio/1626745163/",
       "league": "Italy. Serie A:"
-    },
-    {
-      "home": "Hamburger SV",
-      "away": "Augsburg",
-      "p1": "2.27",
-      "x": "3.46",
-      "p2": "3.22",
-      "league": "Bundesliga:"
     },
     {
       "home": "Freiburg",
       "away": "Bayern Munich",
-      "p1": "6.62",
-      "x": "5.54",
-      "p2": "1.401",
+      "p1": "6.72",
+      "x": "5.6",
+      "p2": "1.406",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/freiburg-vs-bayern-munich/1626177383/",
       "league": "Bundesliga:"
     },
     {
       "home": "Bayer Leverkusen",
       "away": "Wolfsburg",
-      "p1": "1.421",
-      "x": "5.15",
-      "p2": "6.8",
-      "league": "Bundesliga:"
-    },
-    {
-      "home": "Hoffenheim",
-      "away": "Mainz 05",
-      "p1": "1.729",
-      "x": "4.26",
-      "p2": "4.36",
-      "league": "Bundesliga:"
-    },
-    {
-      "home": "Borussia Monchengladbach",
-      "away": "Heidenheim",
-      "p1": "1.568",
-      "x": "4.48",
-      "p2": "5.48",
+      "p1": "1.423",
+      "x": "5.21",
+      "p2": "6.93",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/bayer-leverkusen-vs-wolfsburg/1626186209/",
       "league": "Bundesliga:"
     },
     {
       "home": "Werder Bremen",
       "away": "RB Leipzig",
-      "p1": "3.38",
-      "x": "3.92",
-      "p2": "2.05",
+      "p1": "3.4",
+      "x": "3.95",
+      "p2": "2.06",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/werder-bremen-vs-rb-leipzig/1626177384/",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Hoffenheim",
+      "away": "Mainz 05",
+      "p1": "1.735",
+      "x": "4.29",
+      "p2": "4.39",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hoffenheim-vs-mainz-05/1626177385/",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Borussia Monchengladbach",
+      "away": "Heidenheim",
+      "p1": "1.574",
+      "x": "4.51",
+      "p2": "5.53",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-monchengladbach-vs-heidenheim/1626180291/",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Hamburger SV",
+      "away": "Augsburg",
+      "p1": "2.28",
+      "x": "3.48",
+      "p2": "3.24",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hamburger-sv-vs-augsburg/1626177386/",
       "league": "Bundesliga:"
     },
     {
@@ -223,6 +250,7 @@
       "p1": "2.42",
       "x": "4.07",
       "p2": "2.63",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-borussia-dortmund/1626180292/",
       "league": "Bundesliga:"
     },
     {
@@ -231,6 +259,7 @@
       "p1": "2.17",
       "x": "3.31",
       "p2": "3.63",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/union-berlin-vs-st-pauli/1626177387/",
       "league": "Bundesliga:"
     },
     {
@@ -239,6 +268,7 @@
       "p1": "2.22",
       "x": "3.5",
       "p2": "3.3",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/eintracht-frankfurt-vs-fc-koln/1626180290/",
       "league": "Bundesliga:"
     },
     {
@@ -247,6 +277,7 @@
       "p1": "3.35",
       "x": "3.73",
       "p2": "2.07",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/augsburg-vs-hoffenheim/1626759359/",
       "league": "Bundesliga:"
     },
     {
@@ -255,6 +286,7 @@
       "p1": "3.23",
       "x": "3.63",
       "p2": "2.15",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/heidenheim-vs-union-berlin/1626759360/",
       "league": "Bundesliga:"
     },
     {
@@ -263,14 +295,16 @@
       "p1": "2.45",
       "x": "3.57",
       "p2": "2.77",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/wolfsburg-vs-eintracht-frankfurt/1626759358/",
       "league": "Bundesliga:"
     },
     {
       "home": "RB Leipzig",
       "away": "Borussia Monchengladbach",
-      "p1": "1.531",
-      "x": "4.63",
-      "p2": "5.35",
+      "p1": "1.518",
+      "x": "4.66",
+      "p2": "5.45",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/rb-leipzig-vs-borussia-monchengladbach/1626759254/",
       "league": "Bundesliga:"
     },
     {
@@ -279,6 +313,7 @@
       "p1": "1.892",
       "x": "3.92",
       "p2": "3.74",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-dortmund-vs-bayer-leverkusen/1626759250/",
       "league": "Bundesliga:"
     },
     {
@@ -287,6 +322,7 @@
       "p1": "8.12",
       "x": "5.64",
       "p2": "1.321",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/st-pauli-vs-bayern-munich/1626759357/",
       "league": "Bundesliga:"
     },
     {
@@ -295,6 +331,7 @@
       "p1": "2.17",
       "x": "3.57",
       "p2": "3.22",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/fc-koln-vs-werder-bremen/1626759252/",
       "league": "Bundesliga:"
     },
     {
@@ -303,6 +340,7 @@
       "p1": "1.446",
       "x": "4.73",
       "p2": "6.48",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-hamburger-sv/1626759253/",
       "league": "Bundesliga:"
     },
     {
@@ -311,6 +349,7 @@
       "p1": "2.13",
       "x": "2.97",
       "p2": "4.08",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/mainz-05-vs-freiburg/1626759251/",
       "league": "Bundesliga:"
     },
     {
@@ -319,6 +358,7 @@
       "p1": "4.56",
       "x": "4.37",
       "p2": "1.645",
+      "link": "https://www.pinnacle.com/en/soccer/germany-cup/bayer-leverkusen-vs-bayern-munich/1625587718/",
       "league": "Germany Cup:"
     },
     {
@@ -327,14 +367,16 @@
       "p1": "1.609",
       "x": "4.15",
       "p2": "5.19",
+      "link": "https://www.pinnacle.com/en/soccer/germany-cup/stuttgart-vs-freiburg/1625597319/",
       "league": "Germany Cup:"
     },
     {
       "home": "Paris Saint-Germain",
       "away": "Toulouse",
-      "p1": "1.289",
-      "x": "5.83",
-      "p2": "10.29",
+      "p1": "1.293",
+      "x": "5.9",
+      "p2": "10.5",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/paris-saint-germain-vs-toulouse/1626180286/",
       "league": "France Ligue 1:"
     },
     {
@@ -343,14 +385,16 @@
       "p1": "1.826",
       "x": "3.7",
       "p2": "4.48",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/strasbourg-vs-nice/1626186205/",
       "league": "France Ligue 1:"
     },
     {
       "home": "Brest",
       "away": "Rennes",
-      "p1": "3.59",
-      "x": "3.63",
-      "p2": "2.06",
+      "p1": "3.58",
+      "x": "3.61",
+      "p2": "2.07",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/brest-vs-rennes/1626186204/",
       "league": "France Ligue 1:"
     },
     {
@@ -359,30 +403,16 @@
       "p1": "2.67",
       "x": "3.37",
       "p2": "2.72",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lille-vs-lens/1626177378/",
       "league": "France Ligue 1:"
     },
     {
       "home": "Angers",
       "away": "Lyon",
-      "p1": "4.8",
-      "x": "3.51",
+      "p1": "4.81",
+      "x": "3.53",
       "p2": "1.819",
-      "league": "France Ligue 1:"
-    },
-    {
-      "home": "Lorient",
-      "away": "Paris FC",
-      "p1": "2.31",
-      "x": "3.32",
-      "p2": "3.28",
-      "league": "France Ligue 1:"
-    },
-    {
-      "home": "Metz",
-      "away": "Nantes",
-      "p1": "2.97",
-      "x": "3.31",
-      "p2": "2.5",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/angers-vs-lyon/1626180287/",
       "league": "France Ligue 1:"
     },
     {
@@ -391,6 +421,25 @@
       "p1": "2.39",
       "x": "3.15",
       "p2": "3.3",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/le-havre-vs-auxerre/1626180289/",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Metz",
+      "away": "Nantes",
+      "p1": "2.97",
+      "x": "3.31",
+      "p2": "2.5",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/metz-vs-nantes/1626180288/",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Lorient",
+      "away": "Paris FC",
+      "p1": "2.31",
+      "x": "3.32",
+      "p2": "3.28",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lorient-vs-paris-fc/1626186206/",
       "league": "France Ligue 1:"
     },
     {
@@ -399,6 +448,7 @@
       "p1": "2.28",
       "x": "3.61",
       "p2": "3.1",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/monaco-vs-marseille/1626177379/",
       "league": "France Ligue 1:"
     },
     {
@@ -407,6 +457,7 @@
       "p1": "3.29",
       "x": "3.74",
       "p2": "2.09",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/paris-fc-vs-monaco/1626759238/",
       "league": "France Ligue 1:"
     },
     {
@@ -415,6 +466,7 @@
       "p1": "1.259",
       "x": "5.92",
       "p2": "10.04",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/marseille-vs-metz/1626759348/",
       "league": "France Ligue 1:"
     },
     {
@@ -423,6 +475,7 @@
       "p1": "2.11",
       "x": "3.25",
       "p2": "3.71",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/auxerre-vs-nantes/1626759349/",
       "league": "France Ligue 1:"
     },
     {
@@ -431,6 +484,7 @@
       "p1": "1.383",
       "x": "4.82",
       "p2": "7.9",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/rennes-vs-angers/1626759347/",
       "league": "France Ligue 1:"
     },
     {
@@ -439,6 +493,7 @@
       "p1": "3.06",
       "x": "3.28",
       "p2": "2.39",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/toulouse-vs-lille/1626759237/",
       "league": "France Ligue 1:"
     },
     {
@@ -447,6 +502,7 @@
       "p1": "1.97",
       "x": "2.99",
       "p2": "4.73",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/nice-vs-le-havre/1626745158/",
       "league": "France Ligue 1:"
     },
     {
@@ -455,46 +511,52 @@
       "p1": "1.729",
       "x": "3.8",
       "p2": "4.71",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lyon-vs-lorient/1626745159/",
       "league": "France Ligue 1:"
+    },
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "p1": "6.73",
+      "x": "3.72",
+      "p2": "1.564",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/",
+      "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Sweden",
       "away": "Poland",
-      "p1": "1.99",
-      "x": "3.43",
-      "p2": "3.89",
+      "p1": "2.02",
+      "x": "3.37",
+      "p2": "3.86",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/sweden-vs-poland/1626937436/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Kosovo",
       "away": "Turkiye",
-      "p1": "4.05",
-      "x": "3.58",
+      "p1": "4.03",
+      "x": "3.59",
       "p2": "1.9",
-      "league": "World Cup Qualifiers Europe:"
-    },
-    {
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "p1": "6.62",
-      "x": "3.7",
-      "p2": "1.574",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/kosovo-vs-turkiye/1626937318/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Czechia",
       "away": "Denmark",
-      "p1": "4.01",
-      "x": "3.16",
-      "p2": "2.06",
+      "p1": "4.03",
+      "x": "3.17",
+      "p2": "2.05",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/czechia-vs-denmark/1626938493/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Manchester City",
       "away": "Liverpool",
-      "p1": "1.775",
-      "x": "4.15",
-      "p2": "4.23",
+      "p1": "1.781",
+      "x": "4.17",
+      "p2": "4.26",
+      "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/manchester-city-vs-liverpool/1625802249/",
       "league": "England FA Cup:"
     },
     {
@@ -503,14 +565,16 @@
       "p1": "1.052",
       "x": "14.88",
       "p2": "30.83",
+      "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/chelsea-vs-port-vale/1625807093/",
       "league": "England FA Cup:"
     },
     {
       "home": "Southampton",
       "away": "Arsenal",
-      "p1": "10.74",
-      "x": "6.11",
-      "p2": "1.24",
+      "p1": "10.59",
+      "x": "6.07",
+      "p2": "1.244",
+      "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/southampton-vs-arsenal/1625802159/",
       "league": "England FA Cup:"
     },
     {
@@ -519,30 +583,34 @@
       "p1": "2.44",
       "x": "3.55",
       "p2": "2.88",
+      "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/west-ham-united-vs-leeds-united/1625827228/",
       "league": "England FA Cup:"
     },
     {
       "home": "Rayo Vallecano",
       "away": "Elche",
-      "p1": "1.757",
-      "x": "3.7",
-      "p2": "4.91",
+      "p1": "1.763",
+      "x": "3.72",
+      "p2": "4.95",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/rayo-vallecano-vs-elche/1626186258/",
       "league": "Spain LaLiga:"
     },
     {
       "home": "Real Sociedad",
       "away": "Levante",
-      "p1": "1.641",
-      "x": "4.01",
-      "p2": "5.43",
+      "p1": "1.649",
+      "x": "4.04",
+      "p2": "5.48",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-sociedad-vs-levante/1626180336/",
       "league": "Spain LaLiga:"
     },
     {
       "home": "Mallorca",
       "away": "Real Madrid",
-      "p1": "5.08",
-      "x": "4.16",
-      "p2": "1.649",
+      "p1": "5.14",
+      "x": "4.2",
+      "p2": "1.653",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/mallorca-vs-real-madrid/1626195023/",
       "league": "Spain LaLiga:"
     },
     {
@@ -551,14 +619,16 @@
       "p1": "1.8",
       "x": "4.12",
       "p2": "4.1",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-betis-vs-espanyol/1626195024/",
       "league": "Spain LaLiga:"
     },
     {
       "home": "Atletico Madrid",
       "away": "Barcelona",
-      "p1": "3.18",
-      "x": "3.73",
-      "p2": "2.19",
+      "p1": "3.11",
+      "x": "3.69",
+      "p2": "2.24",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/atletico-madrid-vs-barcelona/1626195025/",
       "league": "Spain LaLiga:"
     },
     {
@@ -567,6 +637,7 @@
       "p1": "3.1",
       "x": "2.78",
       "p2": "2.81",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/getafe-vs-athletic-bilbao/1626195026/",
       "league": "Spain LaLiga:"
     },
     {
@@ -575,6 +646,7 @@
       "p1": "2.36",
       "x": "3.33",
       "p2": "3.17",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/valencia-vs-celta-vigo/1626186256/",
       "league": "Spain LaLiga:"
     },
     {
@@ -583,6 +655,7 @@
       "p1": "3.04",
       "x": "2.89",
       "p2": "2.75",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-oviedo-vs-sevilla/1626186257/",
       "league": "Spain LaLiga:"
     },
     {
@@ -591,6 +664,7 @@
       "p1": "2.44",
       "x": "3.24",
       "p2": "3.12",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/alaves-vs-osasuna/1626186255/",
       "league": "Spain LaLiga:"
     },
     {
@@ -599,6 +673,7 @@
       "p1": "3.25",
       "x": "3.31",
       "p2": "2.33",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/girona-vs-villarreal/1626186254/",
       "league": "Spain LaLiga:"
     },
     {
@@ -607,6 +682,7 @@
       "p1": "1.215",
       "x": "7.23",
       "p2": "9.88",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-madrid-vs-girona/1626759247/",
       "league": "Spain LaLiga:"
     },
     {
@@ -615,6 +691,7 @@
       "p1": "1.787",
       "x": "3.53",
       "p2": "4.76",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-sociedad-vs-alaves/1626759249/",
       "league": "Spain LaLiga:"
     },
     {
@@ -623,6 +700,7 @@
       "p1": "2.41",
       "x": "3.27",
       "p2": "3.04",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/elche-vs-valencia/1626745166/",
       "league": "Spain LaLiga:"
     },
     {
@@ -631,6 +709,7 @@
       "p1": "1.187",
       "x": "7.69",
       "p2": "11.27",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/barcelona-vs-espanyol/1626759246/",
       "league": "Spain LaLiga:"
     },
     {
@@ -639,6 +718,7 @@
       "p1": "3.59",
       "x": "3.47",
       "p2": "2.07",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/sevilla-vs-atletico-madrid/1626745164/",
       "league": "Spain LaLiga:"
     },
     {
@@ -647,6 +727,7 @@
       "p1": "2.36",
       "x": "3.54",
       "p2": "2.92",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/osasuna-vs-real-betis/1626759248/",
       "league": "Spain LaLiga:"
     },
     {
@@ -655,6 +736,7 @@
       "p1": "2.58",
       "x": "3.45",
       "p2": "2.69",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/mallorca-vs-rayo-vallecano/1626759356/",
       "league": "Spain LaLiga:"
     },
     {
@@ -663,6 +745,7 @@
       "p1": "1.694",
       "x": "4.34",
       "p2": "4.29",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/celta-vigo-vs-real-oviedo/1626759354/",
       "league": "Spain LaLiga:"
     },
     {
@@ -671,6 +754,7 @@
       "p1": "2.39",
       "x": "3.59",
       "p2": "2.84",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/athletic-bilbao-vs-villarreal/1626745167/",
       "league": "Spain LaLiga:"
     },
     {
@@ -679,14 +763,16 @@
       "p1": "2.71",
       "x": "3.04",
       "p2": "2.85",
+      "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/levante-vs-getafe/1626745165/",
       "league": "Spain LaLiga:"
     },
     {
       "home": "West Ham United",
       "away": "Wolverhampton",
-      "p1": "1.833",
-      "x": "3.67",
-      "p2": "4.26",
+      "p1": "1.806",
+      "x": "3.73",
+      "p2": "4.3",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/west-ham-united-vs-wolverhampton/1626293771/",
       "league": "England Premier League:"
     },
     {
@@ -695,14 +781,7 @@
       "p1": "1.378",
       "x": "4.78",
       "p2": "8.14",
-      "league": "England Premier League:"
-    },
-    {
-      "home": "Burnley",
-      "away": "Brighton",
-      "p1": "4.37",
-      "x": "4.1",
-      "p2": "1.719",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/arsenal-vs-bournemouth/1626291711/",
       "league": "England Premier League:"
     },
     {
@@ -711,38 +790,52 @@
       "p1": "2.21",
       "x": "3.33",
       "p2": "3.36",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-everton/1626293774/",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Burnley",
+      "away": "Brighton",
+      "p1": "4.37",
+      "x": "4.1",
+      "p2": "1.719",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/burnley-vs-brighton/1626293772/",
       "league": "England Premier League:"
     },
     {
       "home": "Liverpool",
       "away": "Fulham",
-      "p1": "1.549",
-      "x": "4.5",
-      "p2": "5.31",
+      "p1": "1.546",
+      "x": "4.51",
+      "p2": "5.32",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/liverpool-vs-fulham/1626291708/",
       "league": "England Premier League:"
     },
     {
       "home": "Nottingham Forest",
       "away": "Aston Villa",
-      "p1": "2.66",
-      "x": "3.31",
-      "p2": "2.7",
+      "p1": "2.67",
+      "x": "3.27",
+      "p2": "2.71",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-aston-villa/1626291710/",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Newcastle United",
+      "p1": "2.76",
+      "x": "3.52",
+      "p2": "2.48",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/crystal-palace-vs-newcastle-united/1626293773/",
       "league": "England Premier League:"
     },
     {
       "home": "Sunderland",
       "away": "Tottenham Hotspur",
       "p1": "2.62",
-      "x": "3.43",
+      "x": "3.42",
       "p2": "2.66",
-      "league": "England Premier League:"
-    },
-    {
-      "home": "Crystal Palace",
-      "away": "Newcastle United",
-      "p1": "2.75",
-      "x": "3.52",
-      "p2": "2.49",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/sunderland-vs-tottenham-hotspur/1626291707/",
       "league": "England Premier League:"
     },
     {
@@ -751,6 +844,7 @@
       "p1": "2.94",
       "x": "3.98",
       "p2": "2.18",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/chelsea-vs-manchester-city/1626291709/",
       "league": "England Premier League:"
     },
     {
@@ -759,6 +853,7 @@
       "p1": "1.574",
       "x": "4.28",
       "p2": "5.36",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/manchester-united-vs-leeds-united/1626291706/",
       "league": "England Premier League:"
     },
     {
@@ -767,6 +862,7 @@
       "p1": "2.09",
       "x": "3.76",
       "p2": "3.25",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-fulham/1626745154/",
       "league": "England Premier League:"
     },
     {
@@ -775,6 +871,7 @@
       "p1": "1.645",
       "x": "3.96",
       "p2": "5.15",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/leeds-united-vs-wolverhampton/1626759341/",
       "league": "England Premier League:"
     },
     {
@@ -783,6 +880,7 @@
       "p1": "1.862",
       "x": "3.96",
       "p2": "3.81",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/newcastle-united-vs-bournemouth/1626759344/",
       "league": "England Premier League:"
     },
     {
@@ -791,6 +889,7 @@
       "p1": "2.46",
       "x": "3.73",
       "p2": "2.67",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/tottenham-hotspur-vs-brighton/1626759343/",
       "league": "England Premier League:"
     },
     {
@@ -799,14 +898,7 @@
       "p1": "2.27",
       "x": "3.18",
       "p2": "3.39",
-      "league": "England Premier League:"
-    },
-    {
-      "home": "Nottingham Forest",
-      "away": "Burnley",
-      "p1": "1.512",
-      "x": "4.21",
-      "p2": "6.32",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/chelsea-vs-manchester-united/1626759235/",
       "league": "England Premier League:"
     },
     {
@@ -815,6 +907,16 @@
       "p1": "1.617",
       "x": "3.85",
       "p2": "5.63",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/aston-villa-vs-sunderland/1626759342/",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Burnley",
+      "p1": "1.512",
+      "x": "4.21",
+      "p2": "6.32",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-burnley/1626759234/",
       "league": "England Premier League:"
     },
     {
@@ -823,6 +925,7 @@
       "p1": "3.48",
       "x": "3.44",
       "p2": "2.12",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/everton-vs-liverpool/1626745153/",
       "league": "England Premier League:"
     },
     {
@@ -831,14 +934,16 @@
       "p1": "2.26",
       "x": "3.46",
       "p2": "3.13",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/manchester-city-vs-arsenal/1626759345/",
       "league": "England Premier League:"
     },
     {
       "home": "Crystal Palace",
       "away": "West Ham United",
-      "p1": "2.19",
+      "p1": "2.21",
       "x": "3.06",
-      "p2": "3.75",
+      "p2": "3.7",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/crystal-palace-vs-west-ham-united/1626759233/",
       "league": "England Premier League:"
     }
   ]

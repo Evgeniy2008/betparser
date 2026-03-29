@@ -26,7 +26,7 @@ function isValidEventUrl(url) {
     const parsed = new URL(url);
     if (parsed.protocol !== 'https:') return false;
     if (parsed.hostname !== '24-parik.club') return false;
-    return parsed.pathname.startsWith('/uk/events/');
+    return parsed.pathname.startsWith('/uk/events/') || parsed.pathname.startsWith('/en/events/');
   } catch {
     return false;
   }

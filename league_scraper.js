@@ -9,6 +9,25 @@ const CONFIG = {
   timeout: 45000,
 };
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function withRetry(fn, retries = 2, label = '') {
+  let lastErr = null;
+  for (let attempt = 1; attempt <= retries + 1; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      console.warn(`    [retry${attempt}/${retries + 1}${label ? `:${label}` : ''}] ${err?.message || String(err)}`);
+      // Small backoff to avoid hammering the target / browser cleanup races
+      await sleep(1200 * attempt);
+    }
+  }
+  throw lastErr;
+}
+
 // Parse task.txt to extract leagues
 function parseLeaguesFromTaskFile() {
   const taskFile = path.join(__dirname, 'task.txt');
@@ -101,6 +120,10 @@ async function parseParik24WithPuppeteer(browser, url) {
           const away = nameEls[1]?.textContent?.trim() || '';
           if (!home || !away || home.length < 2 || away.length < 2) continue;
           
+          // Get match link
+          const href = card.getAttribute('href') || '';
+          const url = href.startsWith('http') ? href : `https://24-parik.club${href}`;
+          
           // Get odds from outcome buttons
           const outcomeButtons = card.querySelectorAll('[class*="wrapper__aeiCE"], [class*="wrapper__noCZB"], [class*="total__"]');
           const odds = [];
@@ -120,6 +143,7 @@ async function parseParik24WithPuppeteer(browser, url) {
               p1: odds[0],
               x: odds[1],
               p2: odds[2],
+              link: url,
             });
           }
         } catch (e) {
@@ -130,10 +154,10 @@ async function parseParik24WithPuppeteer(browser, url) {
       return matches;
     });
     
-    await page.close();
+    try { await page.close(); } catch {}
     return matches;
   } catch (err) {
-    if (page) await page.close();
+    try { if (page) await page.close(); } catch {}
     console.error(`    [parik24 error] ${err.message}`);
     return [];
   }
@@ -146,27 +170,35 @@ async function parsePinnacleWithPuppeteer(browser, url) {
     page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 800 });
     
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: CONFIG.timeout });
-    await new Promise(r => setTimeout(r, 2000));
-    
-    // CRITICAL: Wait for Pinnacle moneyline elements to render
-    // The page is a React SPA that loads match elements dynamically
-    try {
-      await page.waitForSelector('div[data-test-id="moneyline"]', { timeout: 10000 });
-    } catch (e) {
-      console.warn(`    [pinnacle] Could not find moneyline elements after 10s, continuing anyway...`);
-    }
-    
-    // Scroll to load matches
-    for (let i = 0; i < 3; i++) {
-      await page.evaluate(() => window.scrollBy(0, 500));
-      await new Promise(r => setTimeout(r, 1000));
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: CONFIG.timeout });
+    await page.waitForSelector('div[data-test-id="moneyline"]', { timeout: 20000 }).catch(() => null);
+
+    // Scroll until row count stabilizes (similar to the older stable scraper)
+    let prevRows = 0;
+    let stagnant = 0;
+    for (let i = 0; i < 18; i++) {
+      await page.evaluate(() => window.scrollBy(0, Math.max(900, Math.floor(window.innerHeight * 0.9))));
+      await sleep(450);
+      const rows = await page.evaluate(() => document.querySelectorAll('div[class*="row-k9"]').length);
+      if (rows === prevRows) {
+        stagnant += 1;
+        if (stagnant >= 4) break;
+      } else {
+        stagnant = 0;
+      }
+      prevRows = rows;
     }
     
     const matches = await page.evaluate(() => {
       const matches = [];
       
-      // Use Pinnacle selectors that match the working scraper.js implementation
+      const toAbsolute = (href) => {
+        if (!href) return '';
+        if (href.startsWith('http')) return href;
+        // Pinnacle links are already absolute-ish enough for our use; normalize using the current origin.
+        return `${window.location.origin}${href}`;
+      };
+
       const moneylineBlocks = Array.from(document.querySelectorAll('div[data-test-id="moneyline"]'));
       
       for (const moneyline of moneylineBlocks) {
@@ -183,6 +215,11 @@ async function parsePinnacleWithPuppeteer(browser, url) {
           const home = names[0].replace(/\s*\(match\)\s*$/i, '').trim();
           const away = names[1].replace(/\s*\(match\)\s*$/i, '').trim();
           if (!home || !away || home.length < 2 || away.length < 2) continue;
+          
+          const eventHref = row
+            .querySelector('a[href*="/en/soccer/"]:not([href*="/matchups/"])')
+            ?.getAttribute('href') || '';
+          const url = eventHref ? toAbsolute(eventHref) : '';
           
           // Get prices/odds from moneyline buttons
           const prices = Array.from(row.querySelectorAll('div[data-test-id="moneyline"] button[class*="market-btn"] span[class*="price-"]'))
@@ -206,6 +243,7 @@ async function parsePinnacleWithPuppeteer(browser, url) {
               p1: odds[0],
               x: odds[1],
               p2: odds[2],
+              link: url,
             });
           }
         } catch (e) {
@@ -216,10 +254,10 @@ async function parsePinnacleWithPuppeteer(browser, url) {
       return matches;
     });
     
-    await page.close();
+    try { await page.close(); } catch {}
     return matches;
   } catch (err) {
-    if (page) await page.close();
+    try { if (page) await page.close(); } catch {}
     console.error(`    [pinnacle error] ${err.message}`);
     return [];
   }
@@ -303,10 +341,15 @@ async function scrapeLeagues() {
   
   const leagues = parseLeaguesFromTaskFile();
   console.log(`[league_scraper] Found ${leagues.length} leagues`);
-  
+
+  // Use unique user data dir to reduce races with dev-chrome profiles between runs.
+  const runId = `${Date.now()}_${Math.random().toString(16).slice(2)}`;
+  const userDataDir = path.join(CONFIG.dataDir, `puppeteer_user_data_${runId}`);
+
   const browser = await puppeteer.launch({ 
     headless: CONFIG.headless,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    userDataDir,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
   });
   
   const parikAllMatches = [];
@@ -317,13 +360,21 @@ async function scrapeLeagues() {
     
     // Fetch Parik24
     console.log(`  [parik24]`);
-    const parikMatches = await parseParik24WithPuppeteer(browser, league.parik24);
+    const parikMatches = await withRetry(
+      () => parseParik24WithPuppeteer(browser, league.parik24),
+      2,
+      `parik24:${league.name}`
+    );
     console.log(`  [parik24] Found ${parikMatches.length} matches`);
     parikAllMatches.push(...parikMatches.map(m => ({ ...m, league: league.name })));
     
     // Fetch Pinnacle
     console.log(`  [pinnacle]`);
-    const pinnacleMatches = await parsePinnacleWithPuppeteer(browser, league.pinnacle);
+    const pinnacleMatches = await withRetry(
+      () => parsePinnacleWithPuppeteer(browser, league.pinnacle),
+      2,
+      `pinnacle:${league.name}`
+    );
     console.log(`  [pinnacle] Found ${pinnacleMatches.length} matches`);
     pinnacleAllMatches.push(...pinnacleMatches.map(m => ({ ...m, league: league.name })));
     
@@ -331,7 +382,7 @@ async function scrapeLeagues() {
     await new Promise(r => setTimeout(r, 3000));
   }
   
-  await browser.close();
+  try { await browser.close(); } catch {}
   
   // Save raw data
   fs.writeFileSync(
@@ -378,8 +429,8 @@ async function scrapeLeagues() {
         league: parik.league,
         home: parik.home,
         away: parik.away,
-        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2 },
-        pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2 },
+        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null },
+        pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null },
         matchScore: bestMatch.score,
       });
       console.log(`  ✓ ${parik.league}: ${parik.home} vs ${parik.away} (score: ${bestMatch.score.toFixed(2)})`);
@@ -388,7 +439,7 @@ async function scrapeLeagues() {
         league: parik.league,
         home: parik.home,
         away: parik.away,
-        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2 },
+        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null },
         pinnacle: null,
         matchScore: 0,
       });

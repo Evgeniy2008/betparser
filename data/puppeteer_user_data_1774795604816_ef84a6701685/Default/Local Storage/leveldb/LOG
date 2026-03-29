@@ -1,0 +1,8 @@
+2026/03/29-17:46:45.313 a604 Creating DB D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774795604816_ef84a6701685\Default\Local Storage\leveldb since it was missing.
+2026/03/29-17:46:45.327 a604 Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774795604816_ef84a6701685\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/29-17:47:10.380 a604 Level-0 table #5: started
+2026/03/29-17:47:10.385 a604 Level-0 table #5: 15985 bytes OK
+2026/03/29-17:47:10.388 a604 Delete type=0 #3
+2026/03/29-17:47:35.313 a604 Level-0 table #7: started
+2026/03/29-17:47:35.321 a604 Level-0 table #7: 837148 bytes OK
+2026/03/29-17:47:35.323 a604 Delete type=0 #4
