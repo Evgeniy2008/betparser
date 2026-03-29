@@ -1,0 +1,8 @@
+2026/03/29-21:53:55.921 dabc Creating DB D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774810435676_aff9f1c4343b7\Default\Local Storage\leveldb since it was missing.
+2026/03/29-21:53:55.937 dabc Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774810435676_aff9f1c4343b7\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/29-21:54:19.047 dabc Level-0 table #5: started
+2026/03/29-21:54:19.051 dabc Level-0 table #5: 16067 bytes OK
+2026/03/29-21:54:19.053 dabc Delete type=0 #3
+2026/03/29-21:54:43.788 dabc Level-0 table #7: started
+2026/03/29-21:54:43.797 dabc Level-0 table #7: 837150 bytes OK
+2026/03/29-21:54:43.799 dabc Delete type=0 #4

@@ -720,17 +720,55 @@ function oddsValue($source, string $key): ?string {
       title.textContent = `${home} vs ${away}`;
       sub.textContent = league;
 
+
+      // Коэффициенты Parik
+      const parikP1 = button.dataset.parikP1;
+      const parikX = button.dataset.parikX;
+      const parikP2 = button.dataset.parikP2;
+      // Коэффициенты Pinnacle
+      const pinP1 = button.dataset.pinP1;
+      const pinX = button.dataset.pinX;
+      const pinP2 = button.dataset.pinP2;
+
       parik.innerHTML = [
-        oddBox('П1', button.dataset.parikP1),
-        oddBox('Х', button.dataset.parikX),
-        oddBox('П2', button.dataset.parikP2)
+        oddBox('П1', parikP1),
+        oddBox('Х', parikX),
+        oddBox('П2', parikP2)
       ].join('');
 
       pinnacle.innerHTML = [
-        oddBox('П1', button.dataset.pinP1),
-        oddBox('Х', button.dataset.pinX),
-        oddBox('П2', button.dataset.pinP2)
+        oddBox('П1', pinP1),
+        oddBox('Х', pinX),
+        oddBox('П2', pinP2)
       ].join('');
+
+      // Формула расчета (П1+П2 и X+X)
+      function safeNum(val) {
+        const n = parseFloat((val || '').replace(',', '.'));
+        return (!isNaN(n) && n > 0) ? n : null;
+      }
+      const zWin = (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null;
+      const zDraw = (safeNum(parikX) && safeNum(pinX)) ? (1/safeNum(parikX) + 1/safeNum(pinX)) : null;
+      let formulaHtml = '';
+      if (zWin !== null) {
+        formulaHtml += `<div title=\"Победа: П1 (Parik) + П2 (Pin)\">П1+П2: <b>${zWin.toFixed(3)}</b></div>`;
+      }
+      if (zDraw !== null) {
+        formulaHtml += `<div title=\"Ничья: X (Parik) + X (Pin)\">X+X: <b>${zDraw.toFixed(3)}</b></div>`;
+      }
+      // Удалить предыдущий блок формулы, если есть
+      const prevFormula = document.getElementById('modalFormulaBlock');
+      if (prevFormula) prevFormula.remove();
+      // Вставить формулу под коэффициентами, перед тоталами
+      const formulaBlock = document.createElement('div');
+      formulaBlock.id = 'modalFormulaBlock';
+      formulaBlock.style = 'margin: 12px 0 12px 0; color: #bfdbfe; font-weight: 700; font-size: 15px;';
+      formulaBlock.innerHTML = formulaHtml;
+      // Найти контейнер для тоталов и вставить формулу перед ним
+      const totalsContainer = document.getElementById('totalsContainer');
+      if (totalsContainer && formulaHtml) {
+        totalsContainer.parentNode.insertBefore(formulaBlock, totalsContainer);
+      }
 
       // Reset totals UI
       totalsTitle.textContent = 'Тотали';
@@ -742,66 +780,89 @@ function oddsValue($source, string $key): ?string {
 
       // Load totals (only overlapping lines across both sites)
       if (parikUrl && pinnUrl) {
-        const form = new FormData();
-        form.append('parikUrl', parikUrl);
-        form.append('pinnUrl', pinnUrl);
-        fetch('totals_endpoint.php', { method: 'POST', body: form })
+        fetch('https://argue-site-absorption-shade.trycloudflare.com/totals', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ parikUrl, pinnUrl })
+        })
           .then(r => r.json())
           .then(json => {
+            console.log('Тоталы обеих сайтов:', json);
             if (!json || !json.ok) {
               const msg = (json && json.error) ? json.error : 'Помилка завантаження тоталів';
-              totalsContent.innerHTML = `<div style="color:#fecaca;">${escapeHtml(msg)}</div>`;
+              totalsContent.innerHTML = `<div style=\"color:#fecaca;\">${escapeHtml(msg)}</div>`;
               return;
             }
-            totalsTitle.textContent = json.marketTitle || 'Тотали';
-            const rows = Array.isArray(json.rows) ? json.rows : [];
+            const parikTotals = (json.parik && Array.isArray(json.parik.totals)) ? json.parik.totals : [];
+            const pinnTotals = (json.pinn && Array.isArray(json.pinn.totals)) ? json.pinn.totals : [];
+            // Сопоставить по line
+            const pinnMap = {};
+            pinnTotals.forEach(t => { if (t.line) pinnMap[t.line] = t; });
+            const rows = [];
+            parikTotals.forEach(p => {
+              if (p.line && pinnMap[p.line]) {
+                const pin = pinnMap[p.line];
+                const x = parseFloat((p.over || '').replace(',', '.'));
+                const y = parseFloat((pin.under || '').replace(',', '.'));
+                let z = null;
+                if (!isNaN(x) && x > 0 && !isNaN(y) && y > 0) {
+                  z = 1/x + 1/y;
+                }
+                rows.push({
+                  line: p.line,
+                  parikOver: p.over,
+                  pinnUnder: pin.under,
+                  z: z
+                });
+              }
+            });
             if (!rows.length) {
-              totalsContent.innerHTML = `<div style="color:#94a3b8;">Спільних тоталів не знайдено</div>`;
+              totalsContent.innerHTML = `<div style=\"color:#94a3b8;\">Совпадающих тоталов не найдено</div>`;
               return;
             }
             const html = [
-              '<table style="width:100%;border-collapse:separate;border-spacing:0 6px;">',
+              '<table style=\"width:100%;border-collapse:separate;border-spacing:0 6px;\">',
               '<thead>',
-              '<tr style="color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.5px;">',
-              '<th style="text-align:left;padding:6px 8px;">Линия</th>',
-              '<th style="text-align:center;padding:6px 8px;">Parik Over</th>',
-              '<th style="text-align:center;padding:6px 8px;">Parik Under</th>',
-              '<th style="text-align:center;padding:6px 8px;">Pin Over</th>',
-              '<th style="text-align:center;padding:6px 8px;">Pin Under</th>',
-              '<th style="text-align:center;padding:6px 8px;">z (Over = 1/x + 1/y)</th>',
-              '<th style="text-align:center;padding:6px 8px;">z (Under = 1/x + 1/y)</th>',
+              '<tr style=\"color:#94a3b8;font-size:12px;text-transform:uppercase;letter-spacing:.5px;\">',
+              '<th style=\"text-align:left;padding:6px 8px;\">Линия</th>',
+              '<th style=\"text-align:center;padding:6px 8px;\">Parik Over</th>',
+              '<th style=\"text-align:center;padding:6px 8px;\">Pin Under</th>',
+              '<th style=\"text-align:center;padding:6px 8px;\">z = 1/x + 1/y</th>',
+              '<th style=\"text-align:center;padding:6px 8px;\">Статус</th>',
               '</tr>',
               '</thead>',
               '<tbody>'
             ];
             rows.forEach(r => {
-              const line = r.line ?? '—';
-              const pOver = r.parik?.over ?? '—';
-              const pUnder = r.parik?.under ?? '—';
-              const pinOver = r.pinnacle?.over ?? '—';
-              const pinUnder = r.pinnacle?.under ?? '—';
-              const zO = (typeof r.zOver === 'number') ? r.zOver : null;
-              const zU = (typeof r.zUnder === 'number') ? r.zUnder : null;
-              const zOCls = zO !== null ? (zO < 0.8 ? 'cell-green' : (zO < 1 ? 'cell-blue' : 'cell-red')) : '';
-              const zUCls = zU !== null ? (zU < 0.8 ? 'cell-green' : (zU < 1 ? 'cell-blue' : 'cell-red')) : '';
-              html.push('<tr>');
-              html.push(`<td style="padding:6px 8px;color:#e5e7eb;font-weight:700;">${escapeHtml(line)}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pOver)}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pUnder)}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pinOver)}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;">${escapeHtml(pinUnder)}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;" class="${zOCls}">${zO !== null ? Number(zO).toFixed(3) : '—'}</td>`);
-              html.push(`<td style="padding:6px 8px;text-align:center;" class="${zUCls}">${zU !== null ? Number(zU).toFixed(3) : '—'}</td>`);
+              let status = '', color = '';
+              if (r.z !== null) {
+                if (r.z < 0) {
+                  status = 'Подходит';
+                  color = 'background:#083c1c;color:#4ade80;font-weight:700;';
+                } else {
+                  status = 'Не подходит';
+                  color = 'background:#3c1a1a;color:#fecaca;font-weight:700;';
+                }
+              } else {
+                status = 'Нет данных';
+                color = 'background:#1b2335;color:#475569;';
+              }
+              html.push(`<tr style=\"${color}\">`);
+              html.push(`<td style=\"padding:6px 8px;\">${escapeHtml(r.line)}</td>`);
+              html.push(`<td style=\"padding:6px 8px;text-align:center;\">${escapeHtml(r.parikOver)}</td>`);
+              html.push(`<td style=\"padding:6px 8px;text-align:center;\">${escapeHtml(r.pinnUnder)}</td>`);
+              html.push(`<td style=\"padding:6px 8px;text-align:center;\">${r.z !== null ? r.z.toFixed(3) : '—'}</td>`);
+              html.push(`<td style=\"padding:6px 8px;text-align:center;\">${status}</td>`);
               html.push('</tr>');
             });
             html.push('</tbody></table>');
             totalsContent.innerHTML = html.join('');
           })
           .catch(() => {
-            totalsContent.innerHTML = `<div style="color:#fecaca;">Помилка мережі при завантаженні тоталів</div>`;
+            totalsContent.innerHTML = `<div style=\"color:#fecaca;\">Помилка мережі при завантаженні тоталів</div>`;
           });
       } else {
-        totalsContent.innerHTML = `<div style="color:#94a3b8;">Посилання на матчі відсутні</div>`;
+        totalsContent.innerHTML = `<div style=\"color:#94a3b8;\">Посилання на матчі відсутні</div>`;
       }
     }
 

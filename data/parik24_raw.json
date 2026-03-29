@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T16:41:00.036Z",
+  "updated": "2026-03-29T18:57:33.396Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -33,7 +33,7 @@
       "away": "Parma",
       "p1": "1.811",
       "x": "3.39",
-      "p2": "4.862",
+      "p2": "4.872",
       "link": "https://24-parik.club/en/events/lazio-parma-16071074",
       "league": "Italy. Serie A:"
     },
@@ -49,9 +49,9 @@
     {
       "home": "Pisa",
       "away": "Torino",
-      "p1": "3.051",
-      "x": "2.82",
-      "p2": "2.702",
+      "p1": "3.131",
+      "x": "2.85",
+      "p2": "2.622",
       "link": "https://24-parik.club/en/events/pisa-torino-16071069",
       "league": "Italy. Serie A:"
     },
@@ -445,9 +445,9 @@
     {
       "home": "AS Monaco",
       "away": "Marseille",
-      "p1": "2.291",
-      "x": "3.55",
-      "p2": "2.982",
+      "p1": "2.231",
+      "x": "3.57",
+      "p2": "3.072",
       "link": "https://24-parik.club/en/events/as-monaco-marseille-16065572",
       "league": "France Ligue 1:"
     },
@@ -517,36 +517,36 @@
     {
       "home": "Bosnia and Herzegovina",
       "away": "Italy",
-      "p1": "6.761",
-      "x": "3.66",
-      "p2": "1.582",
+      "p1": "6.971",
+      "x": "3.72",
+      "p2": "1.602",
       "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Czech Republic",
       "away": "Denmark",
-      "p1": "3.981",
-      "x": "3.18",
-      "p2": "2.052",
+      "p1": "4.051",
+      "x": "3.23",
+      "p2": "2.082",
       "link": "https://24-parik.club/en/events/czech-republic-denmark-16174926",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Kosovo",
       "away": "Turkey",
-      "p1": "4.021",
-      "x": "3.58",
-      "p2": "1.902",
+      "p1": "4.311",
+      "x": "3.71",
+      "p2": "1.862",
       "link": "https://24-parik.club/en/events/kosovo-turkey-16174679",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Sweden",
       "away": "Poland",
-      "p1": "2.011",
-      "x": "3.38",
-      "p2": "3.822",
+      "p1": "2.041",
+      "x": "3.44",
+      "p2": "3.902",
       "link": "https://24-parik.club/en/events/sweden-poland-16174697",
       "league": "World Cup Qualifiers Europe:"
     },
@@ -625,9 +625,9 @@
     {
       "home": "Atletico Madrid",
       "away": "Barcelona",
-      "p1": "2.851",
-      "x": "3.9",
-      "p2": "2.242",
+      "p1": "3.111",
+      "x": "3.64",
+      "p2": "2.192",
       "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794",
       "league": "Spain LaLiga:"
     },

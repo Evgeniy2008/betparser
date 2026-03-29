@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T16:41:00.067Z",
+  "updated": "2026-03-29T18:57:33.428Z",
   "matches": [
     {
       "league": "Spain, Copa del Rey:",
@@ -62,13 +62,13 @@
       "parik24": {
         "p1": "1.811",
         "x": "3.39",
-        "p2": "4.862",
+        "p2": "4.872",
         "link": "https://24-parik.club/en/events/lazio-parma-16071074"
       },
       "pinnacle": {
-        "p1": "1.819",
-        "x": "3.43",
-        "p2": "4.98",
+        "p1": "1.826",
+        "x": "3.45",
+        "p2": "5.02",
         "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/lazio-vs-parma/1626180284/"
       },
       "matchScore": 1
@@ -96,9 +96,9 @@
       "home": "Pisa",
       "away": "Torino",
       "parik24": {
-        "p1": "3.051",
-        "x": "2.82",
-        "p2": "2.702",
+        "p1": "3.131",
+        "x": "2.85",
+        "p2": "2.622",
         "link": "https://24-parik.club/en/events/pisa-torino-16071069"
       },
       "pinnacle": {
@@ -781,9 +781,9 @@
         "link": "https://24-parik.club/en/events/brest-rennes-16065058"
       },
       "pinnacle": {
-        "p1": "3.58",
-        "x": "3.61",
-        "p2": "2.07",
+        "p1": "3.6",
+        "x": "3.63",
+        "p2": "2.08",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/brest-vs-rennes/1626186204/"
       },
       "matchScore": 1
@@ -883,15 +883,15 @@
       "home": "AS Monaco",
       "away": "Marseille",
       "parik24": {
-        "p1": "2.291",
-        "x": "3.55",
-        "p2": "2.982",
+        "p1": "2.231",
+        "x": "3.57",
+        "p2": "3.072",
         "link": "https://24-parik.club/en/events/as-monaco-marseille-16065572"
       },
       "pinnacle": {
-        "p1": "2.28",
-        "x": "3.61",
-        "p2": "3.1",
+        "p1": "2.25",
+        "x": "3.63",
+        "p2": "3.13",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/monaco-vs-marseille/1626177379/"
       },
       "matchScore": 1
@@ -1027,27 +1027,22 @@
       "home": "Bosnia and Herzegovina",
       "away": "Italy",
       "parik24": {
-        "p1": "6.761",
-        "x": "3.66",
-        "p2": "1.582",
+        "p1": "6.971",
+        "x": "3.72",
+        "p2": "1.602",
         "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910"
       },
-      "pinnacle": {
-        "p1": "6.73",
-        "x": "3.71",
-        "p2": "1.568",
-        "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/"
-      },
-      "matchScore": 1
+      "pinnacle": null,
+      "matchScore": 0
     },
     {
       "league": "World Cup Qualifiers Europe:",
       "home": "Czech Republic",
       "away": "Denmark",
       "parik24": {
-        "p1": "3.981",
-        "x": "3.18",
-        "p2": "2.052",
+        "p1": "4.051",
+        "x": "3.23",
+        "p2": "2.082",
         "link": "https://24-parik.club/en/events/czech-republic-denmark-16174926"
       },
       "pinnacle": {
@@ -1063,9 +1058,9 @@
       "home": "Kosovo",
       "away": "Turkey",
       "parik24": {
-        "p1": "4.021",
-        "x": "3.58",
-        "p2": "1.902",
+        "p1": "4.311",
+        "x": "3.71",
+        "p2": "1.862",
         "link": "https://24-parik.club/en/events/kosovo-turkey-16174679"
       },
       "pinnacle": null,
@@ -1076,9 +1071,9 @@
       "home": "Sweden",
       "away": "Poland",
       "parik24": {
-        "p1": "2.011",
-        "x": "3.38",
-        "p2": "3.822",
+        "p1": "2.041",
+        "x": "3.44",
+        "p2": "3.902",
         "link": "https://24-parik.club/en/events/sweden-poland-16174697"
       },
       "pinnacle": {
@@ -1226,9 +1221,9 @@
         "link": "https://24-parik.club/en/events/betis-espanyol-16065280"
       },
       "pinnacle": {
-        "p1": "1.8",
-        "x": "4.12",
-        "p2": "4.1",
+        "p1": "1.806",
+        "x": "4.15",
+        "p2": "4.14",
         "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-betis-vs-espanyol/1626195024/"
       },
       "matchScore": 0.8333333333333333
@@ -1238,15 +1233,15 @@
       "home": "Atletico Madrid",
       "away": "Barcelona",
       "parik24": {
-        "p1": "2.851",
-        "x": "3.9",
-        "p2": "2.242",
+        "p1": "3.111",
+        "x": "3.64",
+        "p2": "2.192",
         "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794"
       },
       "pinnacle": {
-        "p1": "3.11",
-        "x": "3.69",
-        "p2": "2.24",
+        "p1": "3.16",
+        "x": "3.7",
+        "p2": "2.21",
         "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/atletico-madrid-vs-barcelona/1626195025/"
       },
       "matchScore": 1
@@ -1262,9 +1257,9 @@
         "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844"
       },
       "pinnacle": {
-        "p1": "3.1",
-        "x": "2.78",
-        "p2": "2.81",
+        "p1": "3.11",
+        "x": "2.79",
+        "p2": "2.8",
         "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/getafe-vs-athletic-bilbao/1626195026/"
       },
       "matchScore": 1
