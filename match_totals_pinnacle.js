@@ -57,134 +57,72 @@ async function scrapePinnacleTeamTotals(url, proxy) {
 
     await page.goto(url, { waitUntil: 'networkidle2', timeout: 90000 });
 
-    // Give React time to render markets
-    await sleep(2000);
-    // Try to click "Team Totals" filter if exists
+    // Клик по cookie-баннеру, если есть
     try {
-      const teamTotalsBtn = await page.$('button#team_total, button[id*="team_total"]');
-      if (teamTotalsBtn) {
-        await teamTotalsBtn.click();
-        await sleep(1200);
+      const cookieBtn = await page.$x("//button[contains(., 'Accept') or contains(., 'Принять')]");
+      if (cookieBtn.length) {
+        await cookieBtn[0].click();
+        await sleep(1000);
       }
     } catch {}
 
-    // Expand markets if there are collapsed accordions
-    try {
-      const expanders = await page.$$('[data-test-id*="market"] button[aria-expanded="false"]');
-      for (const btn of expanders) {
-        try { await btn.click(); await sleep(150); } catch {}
-      }
-    } catch {}
+    // Дождаться блока с тоталами
+    await page.waitForSelector('span.titleText-BgvECQYfHf', {timeout: 20000});
 
+    // Клик по "See more" внутри блока "Total – Match"
+    await page.evaluate(() => {
+      const totalBlock = Array.from(document.querySelectorAll('div.primary-Z9ojHlU8JP.marketGroup-wMlWprW2iC')).find(
+        el => el.querySelector('span.titleText-BgvECQYfHf') && /total/i.test(el.querySelector('span.titleText-BgvECQYfHf').textContent)
+      );
+      if (totalBlock) {
+        const seeMoreBtn = Array.from(totalBlock.querySelectorAll('button.button-VcnnvaBxJw')).find(
+          btn => btn.textContent && btn.textContent.toLowerCase().includes('see more')
+        );
+        if (seeMoreBtn) {
+          seeMoreBtn.click();
+        }
+      }
+    });
+    await sleep(1200);
+
+    // Собрать тоталы из раскрытого блока
     const extracted = await page.evaluate(() => {
       const norm = (v) => String(v || '').replace(/\s+/g, ' ').trim();
+      // Найти блок "Total – Match"
+      const totalBlock = Array.from(document.querySelectorAll('div.primary-Z9ojHlU8JP.marketGroup-wMlWprW2iC')).find(
+        el => el.querySelector('span.titleText-BgvECQYfHf') && /total/i.test(el.querySelector('span.titleText-BgvECQYfHf').textContent)
+      );
+      if (!totalBlock) return { marketTitle: null, totals: [], teams: [] };
 
-      // Try to detect team names from header/title
-      const teamLabels = [];
-      const hdrTeams = Array.from(document.querySelectorAll('[class*="header"], [class*="matchup"] span'))
-        .map((el) => norm(el.textContent))
-        .filter(Boolean)
-        .filter((t) => /[a-z]/i.test(t))
-        .slice(0, 2);
-      if (hdrTeams.length >= 2) {
-        teamLabels.push(hdrTeams[0], hdrTeams[1]);
-      }
-
-      // Collect team total markets by scanning for headings that include "Team Total" or contain team names
-      const marketRoots = Array.from(document.querySelectorAll('[data-test-id], section, div'))
-        .filter((el) => {
-          const txt = norm(el.textContent).toLowerCase();
-          return /team total|totals? - .*team|player team totals?/i.test(txt) ||
-                 (teamLabels.length === 2 && (txt.includes(teamLabels[0].toLowerCase() + ' total') || txt.includes(teamLabels[1].toLowerCase() + ' total')));
-        });
-
-      // Fallback to any market blocks that have Over/Under rows and a numeric line
-      const parseNumber = (value) => {
-        if (!value) return null;
-        const cleaned = String(value).replace(/,/g, '.').trim();
-        if (/^\.\d+$/.test(cleaned)) {
-          return parseFloat('1' + cleaned);
-        }
-        const num = parseFloat(cleaned);
-        return Number.isFinite(num) ? num : null;
-      };
-
-      const guessMarkets = (els) => {
-        const rows = [];
-
-        els.forEach((root) => {
-          const text = norm(root.textContent);
-          if (!/over|under/i.test(text)) return;
-
-          const matches = [...text.matchAll(/(Over|Under)\s*([0-9]+(?:[.,][0-9]+)?)\s*([0-9]*[.,][0-9]+)/gi)];
-          if (!matches.length) return;
-
-          const lineGroups = {};
-          matches.forEach((match) => {
-            const side = match[1].toLowerCase();
-            const lineRaw = match[2];
-            let oddRaw = match[3];
-            if (/^\.\d+$/.test(oddRaw.trim())) {
-              oddRaw = '1' + oddRaw.trim();
-            }
-            const line = parseNumber(lineRaw);
-            const odd = parseNumber(oddRaw);
-            if (!line || !odd) return;
-
-            const key = line.toFixed(2);
-            if (!lineGroups[key]) {
-              lineGroups[key] = { line: key, over: null, under: null, raw: text };
-            }
-            if (side === 'over') {
-              lineGroups[key].over = odd;
-            } else if (side === 'under') {
-              lineGroups[key].under = odd;
-            }
-          });
-
-          Object.values(lineGroups).forEach((item) => {
-            if (item.over && item.under) {
-              rows.push({
-                line: item.line,
-                over: String(item.over),
-                under: String(item.under),
-                raw: item.raw,
-              });
-            }
-          });
-        });
-
-        const unique = [];
-        const seen = new Set();
-        rows.forEach((row) => {
-          const key = `${row.line}|${row.over}|${row.under}`;
-          if (!seen.has(key)) {
-            seen.add(key);
-            unique.push(row);
+      // Собрать все строки тоталов
+      const rows = [];
+      const buttonRows = totalBlock.querySelectorAll('div.buttonRow-zWMLOGu5YB');
+      buttonRows.forEach(row => {
+        const btns = row.querySelectorAll('button.market-btn');
+        if (btns.length === 2) {
+          const overBtn = btns[0];
+          const underBtn = btns[1];
+          const overLabel = overBtn.querySelector('span.label-GT4CkXEOFj')?.textContent || '';
+          const underLabel = underBtn.querySelector('span.label-GT4CkXEOFj')?.textContent || '';
+          const overPrice = overBtn.querySelector('span.price-r5BU0ynJha')?.textContent || '';
+          const underPrice = underBtn.querySelector('span.price-r5BU0ynJha')?.textContent || '';
+          // Извлечь линию тотала
+          const lineMatch = overLabel.match(/Over\s*([0-9.]+)/i);
+          const line = lineMatch ? lineMatch[1] : '';
+          if (line && overPrice && underPrice) {
+            rows.push({
+              line,
+              over: overPrice,
+              under: underPrice
+            });
           }
-        });
-
-        return unique;
-      };
-
-      // Build per team maps; we cannot reliably split teams without explicit headings,
-      // so we return a generic list and the consumer can decide which team to use.
-      const rows = guessMarkets(marketRoots);
-
-      // Sort lines numerically if possible
-      rows.sort((a, b) => {
-        const fa = Number(String(a.line).replace(',', '.'));
-        const fb = Number(String(b.line).replace(',', '.'));
-        if (Number.isNaN(fa) || Number.isNaN(fb)) {
-          return String(a.line).localeCompare(String(b.line), 'en');
         }
-        return fa - fb;
       });
-
+      const marketTitle = totalBlock.querySelector('span.titleText-BgvECQYfHf')?.textContent || null;
       return {
-        marketTitle: 'Team Totals',
+        marketTitle,
         totals: rows,
-        teams: teamLabels,
+        teams: []
       };
     });
 
