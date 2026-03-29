@@ -99,37 +99,72 @@ async function scrapePinnacleTeamTotals(url, proxy) {
         });
 
       // Fallback to any market blocks that have Over/Under rows and a numeric line
+      const parseNumber = (value) => {
+        if (!value) return null;
+        const cleaned = String(value).replace(/,/g, '.').trim();
+        if (/^\.\d+$/.test(cleaned)) {
+          return parseFloat('1' + cleaned);
+        }
+        const num = parseFloat(cleaned);
+        return Number.isFinite(num) ? num : null;
+      };
+
       const guessMarkets = (els) => {
         const rows = [];
+
         els.forEach((root) => {
-          const rowLike = Array.from(root.querySelectorAll('div, li')).filter((r) => {
-            const txt = norm(r.textContent).toLowerCase();
-            return /over|under/.test(txt) && /(\d+([.,]\d+)?)/.test(txt);
+          const text = norm(root.textContent);
+          if (!/over|under/i.test(text)) return;
+
+          const matches = [...text.matchAll(/(Over|Under)\s*([0-9]+(?:[.,][0-9]+)?)\s*([0-9]*[.,][0-9]+)/gi)];
+          if (!matches.length) return;
+
+          const lineGroups = {};
+          matches.forEach((match) => {
+            const side = match[1].toLowerCase();
+            const lineRaw = match[2];
+            let oddRaw = match[3];
+            if (/^\.\d+$/.test(oddRaw.trim())) {
+              oddRaw = '1' + oddRaw.trim();
+            }
+            const line = parseNumber(lineRaw);
+            const odd = parseNumber(oddRaw);
+            if (!line || !odd) return;
+
+            const key = line.toFixed(2);
+            if (!lineGroups[key]) {
+              lineGroups[key] = { line: key, over: null, under: null, raw: text };
+            }
+            if (side === 'over') {
+              lineGroups[key].over = odd;
+            } else if (side === 'under') {
+              lineGroups[key].under = odd;
+            }
           });
-          rowLike.forEach((r) => {
-            const parts = norm(r.textContent);
-            // Try to split into Over/Under with odds and line
-            // We'll pick the numeric closest to typical .5 steps as line
-            const nums = (parts.match(/\d+([.,]\d+)?/g) || []).map((s) => s.replace(',', '.'));
-            if (nums.length >= 3) {
-              // Heuristic: first numeric that is <= 10 is line
-              const lineIdx = nums.findIndex((n) => parseFloat(n) <= 15);
-              if (lineIdx >= 0) {
-                const line = nums[lineIdx];
-                // The remaining two larger numbers are prices
-                const odds = nums.filter((_, i) => i !== lineIdx).map((n) => parseFloat(n)).filter((n) => n > 1.01);
-                if (odds.length >= 2) {
-                  // Determine which is Over vs Under based on text order
-                  const overFirst = /over/i.test(parts.split(/\d/)[0] || '');
-                  const over = odds[0];
-                  const under = odds[1];
-                  rows.push({ line, over: String(over), under: String(under), raw: parts });
-                }
-              }
+
+          Object.values(lineGroups).forEach((item) => {
+            if (item.over && item.under) {
+              rows.push({
+                line: item.line,
+                over: String(item.over),
+                under: String(item.under),
+                raw: item.raw,
+              });
             }
           });
         });
-        return rows;
+
+        const unique = [];
+        const seen = new Set();
+        rows.forEach((row) => {
+          const key = `${row.line}|${row.over}|${row.under}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            unique.push(row);
+          }
+        });
+
+        return unique;
       };
 
       // Build per team maps; we cannot reliably split teams without explicit headings,

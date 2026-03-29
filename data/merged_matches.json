@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T14:50:27.487Z",
+  "updated": "2026-03-29T16:41:00.067Z",
   "matches": [
     {
       "league": "Spain, Copa del Rey:",
@@ -48,9 +48,9 @@
         "link": "https://24-parik.club/en/events/hellas-verona-fiorentina-16071072"
       },
       "pinnacle": {
-        "p1": "4.16",
-        "x": "3.49",
-        "p2": "1.943",
+        "p1": "4.19",
+        "x": "3.51",
+        "p2": "1.952",
         "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/hellas-verona-vs-fiorentina/1626177374/"
       },
       "matchScore": 1
@@ -492,15 +492,15 @@
       "home": "VfB Stuttgart",
       "away": "Borussia Dortmund",
       "parik24": {
-        "p1": "2.401",
+        "p1": "2.411",
         "x": "4",
-        "p2": "2.582",
+        "p2": "2.572",
         "link": "https://24-parik.club/en/events/vfb-stuttgart-borussia-dortmund-16054718"
       },
       "pinnacle": {
-        "p1": "2.42",
-        "x": "4.07",
-        "p2": "2.63",
+        "p1": "2.43",
+        "x": "4.1",
+        "p2": "2.64",
         "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-borussia-dortmund/1626180292/"
       },
       "matchScore": 0.8333333333333333
@@ -759,13 +759,13 @@
       "parik24": {
         "p1": "1.811",
         "x": "3.64",
-        "p2": "4.402",
+        "p2": "4.412",
         "link": "https://24-parik.club/en/events/strasbourg-nice-16065041"
       },
       "pinnacle": {
-        "p1": "1.826",
-        "x": "3.7",
-        "p2": "4.48",
+        "p1": "1.833",
+        "x": "3.71",
+        "p2": "4.51",
         "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/strasbourg-vs-nice/1626186205/"
       },
       "matchScore": 1
@@ -1027,15 +1027,15 @@
       "home": "Bosnia and Herzegovina",
       "away": "Italy",
       "parik24": {
-        "p1": "6.771",
-        "x": "3.67",
+        "p1": "6.761",
+        "x": "3.66",
         "p2": "1.582",
         "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910"
       },
       "pinnacle": {
         "p1": "6.73",
-        "x": "3.72",
-        "p2": "1.564",
+        "x": "3.71",
+        "p2": "1.568",
         "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/"
       },
       "matchScore": 1
@@ -1045,15 +1045,15 @@
       "home": "Czech Republic",
       "away": "Denmark",
       "parik24": {
-        "p1": "4.021",
-        "x": "3.16",
+        "p1": "3.981",
+        "x": "3.18",
         "p2": "2.052",
         "link": "https://24-parik.club/en/events/czech-republic-denmark-16174926"
       },
       "pinnacle": {
-        "p1": "4.03",
-        "x": "3.17",
-        "p2": "2.05",
+        "p1": "4.05",
+        "x": "3.19",
+        "p2": "2.04",
         "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/czechia-vs-denmark/1626938493/"
       },
       "matchScore": 0.8611111111111112
@@ -1076,15 +1076,15 @@
       "home": "Sweden",
       "away": "Poland",
       "parik24": {
-        "p1": "2.031",
-        "x": "3.36",
-        "p2": "3.812",
+        "p1": "2.011",
+        "x": "3.38",
+        "p2": "3.822",
         "link": "https://24-parik.club/en/events/sweden-poland-16174697"
       },
       "pinnacle": {
-        "p1": "2.02",
-        "x": "3.37",
-        "p2": "3.86",
+        "p1": "2",
+        "x": "3.39",
+        "p2": "3.88",
         "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/sweden-vs-poland/1626937436/"
       },
       "matchScore": 1
@@ -1202,7 +1202,7 @@
       "home": "Mallorca",
       "away": "Real Madrid",
       "parik24": {
-        "p1": "5.011",
+        "p1": "5.021",
         "x": "3.98",
         "p2": "1.662",
         "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827"

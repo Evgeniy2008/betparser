@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T14:50:27.443Z",
+  "updated": "2026-03-29T16:41:00.036Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -247,9 +247,9 @@
     {
       "home": "VfB Stuttgart",
       "away": "Borussia Dortmund",
-      "p1": "2.401",
+      "p1": "2.411",
       "x": "4",
-      "p2": "2.582",
+      "p2": "2.572",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-borussia-dortmund-16054718",
       "league": "Bundesliga:"
     },
@@ -384,7 +384,7 @@
       "away": "Nice",
       "p1": "1.811",
       "x": "3.64",
-      "p2": "4.402",
+      "p2": "4.412",
       "link": "https://24-parik.club/en/events/strasbourg-nice-16065041",
       "league": "France Ligue 1:"
     },
@@ -517,8 +517,8 @@
     {
       "home": "Bosnia and Herzegovina",
       "away": "Italy",
-      "p1": "6.771",
-      "x": "3.67",
+      "p1": "6.761",
+      "x": "3.66",
       "p2": "1.582",
       "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910",
       "league": "World Cup Qualifiers Europe:"
@@ -526,8 +526,8 @@
     {
       "home": "Czech Republic",
       "away": "Denmark",
-      "p1": "4.021",
-      "x": "3.16",
+      "p1": "3.981",
+      "x": "3.18",
       "p2": "2.052",
       "link": "https://24-parik.club/en/events/czech-republic-denmark-16174926",
       "league": "World Cup Qualifiers Europe:"
@@ -544,9 +544,9 @@
     {
       "home": "Sweden",
       "away": "Poland",
-      "p1": "2.031",
-      "x": "3.36",
-      "p2": "3.812",
+      "p1": "2.011",
+      "x": "3.38",
+      "p2": "3.822",
       "link": "https://24-parik.club/en/events/sweden-poland-16174697",
       "league": "World Cup Qualifiers Europe:"
     },
@@ -607,7 +607,7 @@
     {
       "home": "Mallorca",
       "away": "Real Madrid",
-      "p1": "5.011",
+      "p1": "5.021",
       "x": "3.98",
       "p2": "1.662",
       "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827",

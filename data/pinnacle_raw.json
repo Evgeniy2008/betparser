@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T14:50:27.453Z",
+  "updated": "2026-03-29T16:41:00.038Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -22,9 +22,9 @@
     {
       "home": "Hellas Verona",
       "away": "Fiorentina",
-      "p1": "4.16",
-      "x": "3.49",
-      "p2": "1.943",
+      "p1": "4.19",
+      "x": "3.51",
+      "p2": "1.952",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/hellas-verona-vs-fiorentina/1626177374/",
       "league": "Italy. Serie A:"
     },
@@ -191,12 +191,12 @@
       "league": "Italy. Serie A:"
     },
     {
-      "home": "Freiburg",
-      "away": "Bayern Munich",
-      "p1": "6.72",
-      "x": "5.6",
-      "p2": "1.406",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/freiburg-vs-bayern-munich/1626177383/",
+      "home": "Hoffenheim",
+      "away": "Mainz 05",
+      "p1": "1.735",
+      "x": "4.29",
+      "p2": "4.39",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hoffenheim-vs-mainz-05/1626177385/",
       "league": "Bundesliga:"
     },
     {
@@ -206,24 +206,6 @@
       "x": "5.21",
       "p2": "6.93",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/bayer-leverkusen-vs-wolfsburg/1626186209/",
-      "league": "Bundesliga:"
-    },
-    {
-      "home": "Werder Bremen",
-      "away": "RB Leipzig",
-      "p1": "3.4",
-      "x": "3.95",
-      "p2": "2.06",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/werder-bremen-vs-rb-leipzig/1626177384/",
-      "league": "Bundesliga:"
-    },
-    {
-      "home": "Hoffenheim",
-      "away": "Mainz 05",
-      "p1": "1.735",
-      "x": "4.29",
-      "p2": "4.39",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hoffenheim-vs-mainz-05/1626177385/",
       "league": "Bundesliga:"
     },
     {
@@ -245,11 +227,29 @@
       "league": "Bundesliga:"
     },
     {
+      "home": "Freiburg",
+      "away": "Bayern Munich",
+      "p1": "6.72",
+      "x": "5.6",
+      "p2": "1.406",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/freiburg-vs-bayern-munich/1626177383/",
+      "league": "Bundesliga:"
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "RB Leipzig",
+      "p1": "3.4",
+      "x": "3.95",
+      "p2": "2.06",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/werder-bremen-vs-rb-leipzig/1626177384/",
+      "league": "Bundesliga:"
+    },
+    {
       "home": "Stuttgart",
       "away": "Borussia Dortmund",
-      "p1": "2.42",
-      "x": "4.07",
-      "p2": "2.63",
+      "p1": "2.43",
+      "x": "4.1",
+      "p2": "2.64",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-borussia-dortmund/1626180292/",
       "league": "Bundesliga:"
     },
@@ -281,6 +281,15 @@
       "league": "Bundesliga:"
     },
     {
+      "home": "Borussia Dortmund",
+      "away": "Bayer Leverkusen",
+      "p1": "1.892",
+      "x": "3.92",
+      "p2": "3.74",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-dortmund-vs-bayer-leverkusen/1626759250/",
+      "league": "Bundesliga:"
+    },
+    {
       "home": "Heidenheim",
       "away": "Union Berlin",
       "p1": "3.23",
@@ -305,15 +314,6 @@
       "x": "4.66",
       "p2": "5.45",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/rb-leipzig-vs-borussia-monchengladbach/1626759254/",
-      "league": "Bundesliga:"
-    },
-    {
-      "home": "Borussia Dortmund",
-      "away": "Bayer Leverkusen",
-      "p1": "1.892",
-      "x": "3.92",
-      "p2": "3.74",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-dortmund-vs-bayer-leverkusen/1626759250/",
       "league": "Bundesliga:"
     },
     {
@@ -382,9 +382,9 @@
     {
       "home": "Strasbourg",
       "away": "Nice",
-      "p1": "1.826",
-      "x": "3.7",
-      "p2": "4.48",
+      "p1": "1.833",
+      "x": "3.71",
+      "p2": "4.51",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/strasbourg-vs-nice/1626186205/",
       "league": "France Ligue 1:"
     },
@@ -416,12 +416,12 @@
       "league": "France Ligue 1:"
     },
     {
-      "home": "Le Havre",
-      "away": "Auxerre",
-      "p1": "2.39",
-      "x": "3.15",
-      "p2": "3.3",
-      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/le-havre-vs-auxerre/1626180289/",
+      "home": "Lorient",
+      "away": "Paris FC",
+      "p1": "2.31",
+      "x": "3.32",
+      "p2": "3.28",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lorient-vs-paris-fc/1626186206/",
       "league": "France Ligue 1:"
     },
     {
@@ -434,12 +434,12 @@
       "league": "France Ligue 1:"
     },
     {
-      "home": "Lorient",
-      "away": "Paris FC",
-      "p1": "2.31",
-      "x": "3.32",
-      "p2": "3.28",
-      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lorient-vs-paris-fc/1626186206/",
+      "home": "Le Havre",
+      "away": "Auxerre",
+      "p1": "2.39",
+      "x": "3.15",
+      "p2": "3.3",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/le-havre-vs-auxerre/1626180289/",
       "league": "France Ligue 1:"
     },
     {
@@ -488,21 +488,21 @@
       "league": "France Ligue 1:"
     },
     {
-      "home": "Toulouse",
-      "away": "Lille",
-      "p1": "3.06",
-      "x": "3.28",
-      "p2": "2.39",
-      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/toulouse-vs-lille/1626759237/",
-      "league": "France Ligue 1:"
-    },
-    {
       "home": "Nice",
       "away": "Le Havre",
       "p1": "1.97",
       "x": "2.99",
       "p2": "4.73",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/nice-vs-le-havre/1626745158/",
+      "league": "France Ligue 1:"
+    },
+    {
+      "home": "Toulouse",
+      "away": "Lille",
+      "p1": "3.06",
+      "x": "3.28",
+      "p2": "2.39",
+      "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/toulouse-vs-lille/1626759237/",
       "league": "France Ligue 1:"
     },
     {
@@ -515,39 +515,39 @@
       "league": "France Ligue 1:"
     },
     {
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "p1": "6.73",
-      "x": "3.72",
-      "p2": "1.564",
-      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/",
+      "home": "Czechia",
+      "away": "Denmark",
+      "p1": "4.05",
+      "x": "3.19",
+      "p2": "2.04",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/czechia-vs-denmark/1626938493/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Sweden",
       "away": "Poland",
-      "p1": "2.02",
-      "x": "3.37",
-      "p2": "3.86",
+      "p1": "2",
+      "x": "3.39",
+      "p2": "3.88",
       "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/sweden-vs-poland/1626937436/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
       "home": "Kosovo",
       "away": "Turkiye",
-      "p1": "4.03",
-      "x": "3.59",
+      "p1": "4.04",
+      "x": "3.58",
       "p2": "1.9",
       "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/kosovo-vs-turkiye/1626937318/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
-      "home": "Czechia",
-      "away": "Denmark",
-      "p1": "4.03",
-      "x": "3.17",
-      "p2": "2.05",
-      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/czechia-vs-denmark/1626938493/",
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "p1": "6.73",
+      "x": "3.71",
+      "p2": "1.568",
+      "link": "https://www.pinnacle.com/en/soccer/fifa-world-cup-qualifiers-europe/bosnia-and-herzegovina-vs-italy/1626948897/",
       "league": "World Cup Qualifiers Europe:"
     },
     {
@@ -785,21 +785,21 @@
       "league": "England Premier League:"
     },
     {
-      "home": "Brentford",
-      "away": "Everton",
-      "p1": "2.21",
-      "x": "3.33",
-      "p2": "3.36",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-everton/1626293774/",
-      "league": "England Premier League:"
-    },
-    {
       "home": "Burnley",
       "away": "Brighton",
       "p1": "4.37",
       "x": "4.1",
       "p2": "1.719",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/burnley-vs-brighton/1626293772/",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Brentford",
+      "away": "Everton",
+      "p1": "2.21",
+      "x": "3.33",
+      "p2": "3.36",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-everton/1626293774/",
       "league": "England Premier League:"
     },
     {
@@ -812,12 +812,12 @@
       "league": "England Premier League:"
     },
     {
-      "home": "Nottingham Forest",
-      "away": "Aston Villa",
-      "p1": "2.67",
-      "x": "3.27",
-      "p2": "2.71",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-aston-villa/1626291710/",
+      "home": "Sunderland",
+      "away": "Tottenham Hotspur",
+      "p1": "2.61",
+      "x": "3.43",
+      "p2": "2.67",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/sunderland-vs-tottenham-hotspur/1626291707/",
       "league": "England Premier League:"
     },
     {
@@ -830,12 +830,12 @@
       "league": "England Premier League:"
     },
     {
-      "home": "Sunderland",
-      "away": "Tottenham Hotspur",
-      "p1": "2.62",
-      "x": "3.42",
-      "p2": "2.66",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/sunderland-vs-tottenham-hotspur/1626291707/",
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "p1": "2.67",
+      "x": "3.27",
+      "p2": "2.71",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-aston-villa/1626291710/",
       "league": "England Premier League:"
     },
     {
@@ -902,21 +902,21 @@
       "league": "England Premier League:"
     },
     {
-      "home": "Aston Villa",
-      "away": "Sunderland",
-      "p1": "1.617",
-      "x": "3.85",
-      "p2": "5.63",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/aston-villa-vs-sunderland/1626759342/",
-      "league": "England Premier League:"
-    },
-    {
       "home": "Nottingham Forest",
       "away": "Burnley",
       "p1": "1.512",
       "x": "4.21",
       "p2": "6.32",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-burnley/1626759234/",
+      "league": "England Premier League:"
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "p1": "1.617",
+      "x": "3.85",
+      "p2": "5.63",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/aston-villa-vs-sunderland/1626759342/",
       "league": "England Premier League:"
     },
     {
