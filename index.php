@@ -97,6 +97,10 @@ function oddsValue($source, string $key): ?string {
   return ($value === null || $value === '') ? null : (string)$value;
 }
 ?>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betparser - Парсер коэффициентов ставок</title>
 <style>
   body {
     font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
@@ -113,19 +117,96 @@ function oddsValue($source, string $key): ?string {
     flex-direction: column;
     gap: 24px;
   }
-  .table-wrap {
-    overflow-x: auto;
-    background: #151c2e;
+  .matches-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+  .match-block {
+    background: #00245f;
     border-radius: 18px;
     box-shadow: 0 4px 32px rgba(0,0,0,0.18);
-    padding: 8px 0 8px 0;
+    padding: 18px 22px 18px 22px;
+    min-width: 260px;
+    max-width: 340px;
+    flex: 1 1 120px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: box-shadow 0.18s, border 0.18s;
+    border: 2px solid transparent;
   }
-  table {
+  .match-block:hover {
+    box-shadow: 0 8px 40px rgba(0,0,0,0.28);
+    border: 2px solid #38bdf8;
+  }
+  .match-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  .match-league {
+    color: #7c8aa5;
+    font-size: 13px;
+    font-weight: 700;
+    background: #0f172a;
+    border-radius: 6px;
+    padding: 2px 10px;
+    margin-right: 8px;
+  }
+  .match-formula {
+    font-size: 13px;
+    color: #38bdf8;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-end;
+    text-align: right;
+  }
+  .match-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    min-width: 980px;
-    border-collapse: separate;
-    border-spacing: 0;
     background: none;
+    border: none;
+    color: #e5e7eb;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: background 0.15s;
+    margin-top: 8px;
+  }
+  .match-btn:hover .team {
+    text-decoration: underline;
+    color: #38bdf8;
+  }
+  .team {
+    display: block;
+    font-weight: 800;
+    line-height: 1.35;
+    font-size: 18px;
+  }
+  .vs {
+    font-size: 13px;
+    color: #64748b;
+    margin: 0 8px;
+    font-weight: 600;
+  }
+  .cell-green {
+    border-left: 5px solid #96ff09;
+  }
+  .cell-blue {
+    border-left: 5px solid #38bdf8;
+  }
+  .cell-red {
+    border-left: 5px solid #ef4444;
   }
   thead th {
     padding: 14px 10px;
@@ -217,7 +298,7 @@ function oddsValue($source, string $key): ?string {
   .odd.odds-mid { background: #17263d; } .odd.odds-mid .v { color: #60a5fa; }
   .odd.odds-high { background: #2c1d18; } .odd.odds-high .v { color: #fb923c; }
   .odd.odds-null { background: #1b2335; } .odd.odds-null .v { color: #475569; }
-  .cell-green { background: #083c1c !important; color: #4ade80; font-weight: 800; }
+  .cell-green { background: #19224e !important; color: #4ade80; font-weight: 800; }
   .cell-blue { background: #0a2540 !important; color: #60a5fa; font-weight: 800; }
   .cell-red { background: #3c1a1a !important; color: #fecaca; font-weight: 800; }
   .leagues-filter {
@@ -386,6 +467,11 @@ function oddsValue($source, string $key): ?string {
     .odd { min-width: 44px; padding: 7px 4px; font-size: 13px; }
     .team { font-size: 15px; }
     .modal { width: 100vw; min-width: unset; }
+    .matches-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
   @media (max-width: 480px) {
     body { font-size: 15px; }
@@ -398,7 +484,7 @@ function oddsValue($source, string $key): ?string {
     .search input { font-size: 15px; }
     .btn, .leagues-filter .btn { font-size: 15px; padding: 12px 12px; border-radius: 9px; }
     .leagues-filter { gap: 6px; margin-bottom: 14px; }
-    .stats { font-size: 14px; gap: 12px; padding: 10px 0 0 0; }
+    .stats { font-size: 14px; gap: 12px; padding: 20px; }
     .stats .num { font-size: 15px; }
     .table-wrap { border-radius: 12px; padding: 8px 0; }
     table { min-width: 480px; font-size: 15px; }
@@ -408,7 +494,7 @@ function oddsValue($source, string $key): ?string {
     .odd { min-width: 38px; padding: 7px 4px; font-size: 13px; border-radius: 8px; }
     .odd .l { font-size: 10px; }
     .odd .v { font-size: 15px; }
-    .match-btn { font-size: 14px; border-radius: 8px; }
+    .match-btn { font-size: 14px; border-radius: 8px; background: #172d51; padding: 5px; }
     .team { font-size: 14px; }
     .vs { font-size: 11px; }
     .modal { width: 99vw; min-width: unset; }
@@ -432,16 +518,54 @@ function oddsValue($source, string $key): ?string {
     .odd { min-width: 24px; font-size: 9px; }
     .modal { width: 100vw; }
   }
+    /* Скрыть коэффициенты на мобильных, оставить только формулу */
+    @media (max-width: 700px) {
+      .desktop-only { display: none !important; }
+      .formula-main { font-size: 15px; font-weight: 700; color: #fbbf24; text-align: right; }
+      .odds:not(.desktop-only) { text-align: right; }
+    }
+    @media (max-width: 480px) {
+      .formula-main { font-size: 13px; }
+    }
   .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   table { font-size: 18px; }
+    @media (max-width: 700px) {
+    .matches-list {
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+    .match-block {
+      min-width: unset;
+      max-width: unset;
+      width: 90vw;
+      box-sizing: border-box;
+      padding: 14px 6vw 14px 6vw;
+    }
+    .match-block-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .match-btn {
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 16px;
+    }
+    .team {
+      font-size: 16px;
+    }
+    .vs {
+      margin: 4px 0;
+    }
+  }
 </style>
 </head>
 <body>
   <header class="header">
     <h1>⚽ Bet<span>parser</span></h1>
     <div style="flex:1"></div>
-    <div class="pill">Источник: merged_matches.json</div>
-    <div class="pill">Обновлено: <?= htmlspecialchars(fmtDate($updated)) ?></div>
+    <!-- Источник и обновлено убраны по требованию -->
   </header>
 
     <form class="toolbar" method="get" action="" onsubmit="return false;">
@@ -467,105 +591,72 @@ function oddsValue($source, string $key): ?string {
   <main class="content">
     <?php if (!empty($matches)): ?>
       <div class="leagues-filter" id="leaguesFilter" style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th class="col-num">#</th>
-              <th>Лига</th>
-              <th>Матч</th>
-              <th class="odds">Parik П1</th>
-              <th class="odds">Parik Х</th>
-              <th class="odds">Parik П2</th>
-              <th class="odds">Pin П1</th>
-              <th class="odds">Pin Х</th>
-              <th class="odds">Pin П2</th>
-              <th class="odds">Расчет формулы</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php $globalIndex = 1; ?>
-            <?php foreach ($matches as $match): ?>
-                  <?php
-                    $parik = $match['parik24'] ?? null;
-                    $pinnacle = $match['pinnacle'] ?? null;
-                    $parikP1 = oddsValue($parik, 'p1');
-                    $parikX = oddsValue($parik, 'x');
-                    $parikP2 = oddsValue($parik, 'p2');
-                    $pinP1 = oddsValue($pinnacle, 'p1');
-                    $pinX = oddsValue($pinnacle, 'x');
-                    $pinP2 = oddsValue($pinnacle, 'p2');
-                    // Определяем лигу для каждой строки
-                    $league = trim((string)($match['league'] ?? 'Без ліги'));
-                    if ($league === '') $league = 'Без ліги';
-                    // Рассчет коэффициентов для выделения только ячейки
-                    $zWin = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
-                    $zDraw = (is_numeric($parikX) && is_numeric($pinX) && $parikX > 0 && $pinX > 0) ? (1/floatval($parikX) + 1/floatval($pinX)) : null;
-                    $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
-                    $minZ = $zVals ? min($zVals) : null;
-                    $cellClass = '';
-                    if ($minZ !== null) {
-                      if ($minZ < 0.8) $cellClass = 'cell-green';
-                      elseif ($minZ < 1) $cellClass = 'cell-blue';
-                      else $cellClass = 'cell-red';
-                    }
-                    // Рассчет коэффициентов для выделения строки и вывода
-                    $highlight = '';
-                    // Победа: П1 (parik) + П2 (pinnacle)
-                    $zWin = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
-                    // Ничья: X (parik) + X (pinnacle)
-                    $zDraw = (is_numeric($parikX) && is_numeric($pinX) && $parikX > 0 && $pinX > 0) ? (1/floatval($parikX) + 1/floatval($pinX)) : null;
-                    $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
-                    $minZ = $zVals ? min($zVals) : null;
-                    if ($minZ !== null) {
-                      if ($minZ < 0.8) $highlight = 'row-green';
-                      elseif ($minZ < 1) $highlight = 'row-blue';
-                      else $highlight = 'row-red';
-                    }
-                  ?>
-                  <tr<?php if ($highlight) echo ' class="'.$highlight.'"'; ?>>
-                    <td class="col-num"><?= $globalIndex++ ?></td>
-                    <td><?= htmlspecialchars($league) ?></td>
-                    <td>
-                      <button
-                        type="button"
-                        class="match-btn js-open-match"
-                        data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
-                        data-away="<?= htmlspecialchars($match['away'] ?? '') ?>"
-                        data-league="<?= htmlspecialchars($league) ?>"
-                        data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
-                        data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
-                        data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
-                        data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
-                        data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
-                        data-pin-p1="<?= htmlspecialchars((string)($pinP1 ?? '')) ?>"
-                        data-pin-x="<?= htmlspecialchars((string)($pinX ?? '')) ?>"
-                        data-pin-p2="<?= htmlspecialchars((string)($pinP2 ?? '')) ?>"
-                      >
-                        <span class="team"><?= htmlspecialchars($match['home'] ?? '—') ?></span>
-                        <div class="vs">vs</div>
-                        <span class="team"><?= htmlspecialchars($match['away'] ?? '—') ?></span>
-                      </button>
-                    </td>
-                    <td class="odds"><div class="odd <?= oddsClass($parikP1) ?>"><span class="l">П1</span><span class="v"><?= htmlspecialchars($parikP1 ?? '—') ?></span></div></td>
-                    <td class="odds"><div class="odd <?= oddsClass($parikX) ?>"><span class="l">Х</span><span class="v"><?= htmlspecialchars($parikX ?? '—') ?></span></div></td>
-                    <td class="odds"><div class="odd <?= oddsClass($parikP2) ?>"><span class="l">П2</span><span class="v"><?= htmlspecialchars($parikP2 ?? '—') ?></span></div></td>
-                    <td class="odds"><div class="odd <?= oddsClass($pinP1) ?>"><span class="l">П1</span><span class="v"><?= htmlspecialchars($pinP1 ?? '—') ?></span></div></td>
-                    <td class="odds"><div class="odd <?= oddsClass($pinX) ?>"><span class="l">Х</span><span class="v"><?= htmlspecialchars($pinX ?? '—') ?></span></div></td>
-                    <td class="odds"><div class="odd <?= oddsClass($pinP2) ?>"><span class="l">П2</span><span class="v"><?= htmlspecialchars($pinP2 ?? '—') ?></span></div></td>
-                    <td class="odds <?= $cellClass ?>">
-                      <?php if ($zWin !== null): ?>
-                        <div title="Победа: П1 (Parik) + П2 (Pin)">П1+П2: <b><?= number_format($zWin, 3) ?></b></div>
-                      <?php endif; ?>
-                      <?php if ($zDraw !== null): ?>
-                        <div title="Ничья: X (Parik) + X (Pin)">X+X: <b><?= number_format($zDraw, 3) ?></b></div>
-                      <?php endif; ?>
-                    </td>
-                  </tr>
-          <?php endforeach; ?>
-        </tbody>
-      </table>
-    </div>
+      <div class="formula-filter-wrap" style="margin-bottom:20px;display:flex;align-items:center;gap:12px;">
+        <label for="formulaRange" style="font-size:15px;color:#7c8aa5;">Фильтр формулы (от 0 до 1):</label>
+        <input type="range" id="formulaRange" min="0" max="1" step="0.001" value="1" style="width:180px;">
+        <input type="number" id="formulaValue" min="0" max="1" step="0.001" value="1" style="width:70px;background:#151c2e;color:#e5e7eb;border:1px solid #22305a;border-radius:6px;padding:2px 6px;">
+      </div>
+      <div class="matches-list" id="matchesList">
+        <?php $globalIndex = 1; ?>
+        <?php foreach ($matches as $match): ?>
+          <?php
+            $parik = $match['parik24'] ?? null;
+            $pinnacle = $match['pinnacle'] ?? null;
+            $parikP1 = oddsValue($parik, 'p1');
+            $parikX = oddsValue($parik, 'x');
+            $parikP2 = oddsValue($parik, 'p2');
+            $pinP1 = oddsValue($pinnacle, 'p1');
+            $pinX = oddsValue($pinnacle, 'x');
+            $pinP2 = oddsValue($pinnacle, 'p2');
+            $league = trim((string)($match['league'] ?? 'Без ліги'));
+            if ($league === '') $league = 'Без ліги';
+            $zWin = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
+            $zDraw = (is_numeric($parikX) && is_numeric($pinX) && $parikX > 0 && $pinX > 0) ? (1/floatval($parikX) + 1/floatval($pinX)) : null;
+            $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+            $minZ = $zVals ? min($zVals) : null;
+            $cellClass = '';
+            if ($minZ !== null) {
+              if ($minZ < 0.8) $cellClass = 'cell-green';
+              elseif ($minZ < 1) $cellClass = 'cell-blue';
+              else $cellClass = 'cell-red';
+            }
+          ?>
+          <?php if ($minZ !== null): ?>
+          <div class="match-block <?= $cellClass ?>" data-minz="<?= number_format($minZ, 3, '.', '') ?>">
+            <div class="match-block-header">
+              <span class="match-league"><?= htmlspecialchars($league) ?></span>
+              <span class="match-formula">
+                <?php if ($zWin !== null): ?>
+                  <span title="1/П1 + 1/П2">1/П1+1/П2: <b><?= number_format($zWin, 3) ?></b></span>
+                <?php endif; ?>
+                <?php if ($zDraw !== null): ?>
+                  <span title="1/Х + 1/Х">1/Х+1/Х: <b><?= number_format($zDraw, 3) ?></b></span>
+                <?php endif; ?>
+              </span>
+            </div>
+            <button
+              type="button"
+              class="match-btn js-open-match"
+              data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
+              data-away="<?= htmlspecialchars($match['away'] ?? '') ?>"
+              data-league="<?= htmlspecialchars($league) ?>"
+              data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
+              data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
+              data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
+              data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
+              data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
+              data-pin-p1="<?= htmlspecialchars((string)($pinP1 ?? '')) ?>"
+              data-pin-x="<?= htmlspecialchars((string)($pinX ?? '')) ?>"
+              data-pin-p2="<?= htmlspecialchars((string)($pinP2 ?? '')) ?>"
+            >
+              <span class="team"><?= htmlspecialchars($match['home'] ?? '—') ?></span>
+              <div class="vs">vs</div>
+              <span class="team"><?= htmlspecialchars($match['away'] ?? '—') ?></span>
+            </button>
+          </div>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </div>
     <?php else: ?>
       <div class="league-card empty">
         <div style="font-size:44px;margin-bottom:10px">⚽</div>
@@ -607,7 +698,7 @@ function oddsValue($source, string $key): ?string {
   </div>
 
   <script>
-    // --- Лиги-фильтры ---
+    // --- Лиги-фильтры и фильтр формулы ---
     document.addEventListener('DOMContentLoaded', function() {
       const rows = Array.from(document.querySelectorAll('tbody tr'));
       const leagues = <?php echo json_encode(array_keys($grouped), JSON_UNESCAPED_UNICODE); ?>;
@@ -667,6 +758,31 @@ function oddsValue($source, string $key): ?string {
         const btn = e.target.closest('.js-open-match');
         if (btn) openMatchModal(btn);
       });
+      // --- Фильтр по формуле ---
+      const formulaRange = document.getElementById('formulaRange');
+      const formulaValue = document.getElementById('formulaValue');
+      const matchesList = document.getElementById('matchesList');
+      function filterByFormula() {
+        const maxVal = parseFloat(formulaRange.value);
+        formulaValue.value = maxVal;
+        Array.from(matchesList.children).forEach(block => {
+          const z = parseFloat(block.getAttribute('data-minz'));
+          if (isNaN(z) || z > maxVal) {
+            block.style.display = 'none';
+          } else {
+            block.style.display = '';
+          }
+        });
+      }
+      formulaRange.addEventListener('input', filterByFormula);
+      formulaValue.addEventListener('input', function() {
+        let v = parseFloat(formulaValue.value);
+        if (isNaN(v) || v < 0) v = 0;
+        if (v > 1) v = 1;
+        formulaRange.value = v;
+        filterByFormula();
+      });
+      filterByFormula();
     });
     // Скрыть строки, где есть хотя бы один прочерк среди коэффициентов
     // Скрыть строки, где есть хотя бы один прочерк среди коэффициентов
@@ -742,7 +858,7 @@ function oddsValue($source, string $key): ?string {
         oddBox('П2', pinP2)
       ].join('');
 
-      // Формула расчета (П1+П2 и X+X)
+      // Формула расчета (1/П1+1/П2 и 1/Х+1/Х)
       function safeNum(val) {
         const n = parseFloat((val || '').replace(',', '.'));
         return (!isNaN(n) && n > 0) ? n : null;
@@ -751,10 +867,10 @@ function oddsValue($source, string $key): ?string {
       const zDraw = (safeNum(parikX) && safeNum(pinX)) ? (1/safeNum(parikX) + 1/safeNum(pinX)) : null;
       let formulaHtml = '';
       if (zWin !== null) {
-        formulaHtml += `<div title=\"Победа: П1 (Parik) + П2 (Pin)\">П1+П2: <b>${zWin.toFixed(3)}</b></div>`;
+        formulaHtml += `<span title=\"1/П1 + 1/П2\">1/П1+1/П2: <b>${zWin.toFixed(3)}</b></span>`;
       }
       if (zDraw !== null) {
-        formulaHtml += `<div title=\"Ничья: X (Parik) + X (Pin)\">X+X: <b>${zDraw.toFixed(3)}</b></div>`;
+        formulaHtml += `<span title=\"1/Х + 1/Х\">1/Х+1/Х: <b>${zDraw.toFixed(3)}</b></span>`;
       }
       // Удалить предыдущий блок формулы, если есть
       const prevFormula = document.getElementById('modalFormulaBlock');
@@ -762,7 +878,7 @@ function oddsValue($source, string $key): ?string {
       // Вставить формулу под коэффициентами, перед тоталами
       const formulaBlock = document.createElement('div');
       formulaBlock.id = 'modalFormulaBlock';
-      formulaBlock.style = 'margin: 12px 0 12px 0; color: #bfdbfe; font-weight: 700; font-size: 15px;';
+      formulaBlock.style = 'margin: 12px 0 12px 0; color: #bfdbfe; font-weight: 700; font-size: 15px; display: flex; flex-direction: column; gap: 2px; align-items: flex-end; text-align: right;';
       formulaBlock.innerHTML = formulaHtml;
       // Найти контейнер для тоталов и вставить формулу перед ним
       const totalsContainer = document.getElementById('totalsContainer');
