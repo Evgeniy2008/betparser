@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T10:13:03.285Z",
+  "updated": "2026-04-03T13:04:26.701Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -8,6 +8,7 @@
       "x": "3.6",
       "p2": "4.512",
       "link": "https://24-parik.club/en/events/atletico-madrid-real-sociedad-15964837",
+      "time": "22:00",
       "league": "Spain, Copa del Rey:",
       "sport": "football"
     },
@@ -18,6 +19,7 @@
       "x": "3.14",
       "p2": "4.522",
       "link": "https://24-parik.club/en/events/sassuolo-cagliari-16071073",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -28,6 +30,7 @@
       "x": "3.62",
       "p2": "1.912",
       "link": "https://24-parik.club/en/events/hellas-verona-fiorentina-16071072",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -38,6 +41,7 @@
       "x": "3.45",
       "p2": "5.342",
       "link": "https://24-parik.club/en/events/lazio-parma-16071074",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -48,6 +52,7 @@
       "x": "3.41",
       "p2": "2.112",
       "link": "https://24-parik.club/en/events/cremonese-bologna-16071071",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -58,6 +63,7 @@
       "x": "2.92",
       "p2": "2.582",
       "link": "https://24-parik.club/en/events/pisa-torino-16071069",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -68,6 +74,7 @@
       "x": "3.95",
       "p2": "5.322",
       "link": "https://24-parik.club/en/events/inter-milan-roma-16071070",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -78,6 +85,7 @@
       "x": "3.88",
       "p2": "1.672",
       "link": "https://24-parik.club/en/events/udinese-como-16072787",
+      "time": "13:30",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -88,6 +96,7 @@
       "x": "3.76",
       "p2": "1.732",
       "link": "https://24-parik.club/en/events/lecce-atalanta-16071068",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -98,16 +107,18 @@
       "x": "4.59",
       "p2": "9.342",
       "link": "https://24-parik.club/en/events/juventus-genoa-16074383",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
     {
       "home": "Napoli",
       "away": "AC Milan",
-      "p1": "2.551",
-      "x": "2.97",
-      "p2": "3.072",
+      "p1": "2.531",
+      "x": "3.13",
+      "p2": "2.952",
       "link": "https://24-parik.club/en/events/napoli-ac-milan-16075584",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -118,6 +129,7 @@
       "x": "4.72",
       "p2": "9.632",
       "link": "https://24-parik.club/en/events/roma-pisa-16134833",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -128,6 +140,7 @@
       "x": "3.15",
       "p2": "3.582",
       "link": "https://24-parik.club/en/events/cagliari-cremonese-16134837",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -138,6 +151,7 @@
       "x": "3.4",
       "p2": "4.432",
       "link": "https://24-parik.club/en/events/torino-hellas-verona-16134876",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -148,6 +162,7 @@
       "x": "4.63",
       "p2": "9.222",
       "link": "https://24-parik.club/en/events/ac-milan-udinese-16134875",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -158,6 +173,7 @@
       "x": "3.55",
       "p2": "2.232",
       "link": "https://24-parik.club/en/events/atalanta-juventus-16134896",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -168,6 +184,7 @@
       "x": "3.25",
       "p2": "3.532",
       "link": "https://24-parik.club/en/events/genoa-sassuolo-16134872",
+      "time": "13:30",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -178,6 +195,7 @@
       "x": "3.69",
       "p2": "1.662",
       "link": "https://24-parik.club/en/events/parma-napoli-16134870",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -188,6 +206,7 @@
       "x": "3.53",
       "p2": "5.592",
       "link": "https://24-parik.club/en/events/bologna-lecce-16134895",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -198,6 +217,7 @@
       "x": "3.42",
       "p2": "2.282",
       "link": "https://24-parik.club/en/events/como-inter-milan-16134925",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -208,6 +228,7 @@
       "x": "2.9",
       "p2": "3.892",
       "link": "https://24-parik.club/en/events/fiorentina-lazio-16135201",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -218,6 +239,7 @@
       "x": "5.16",
       "p2": "7.462",
       "link": "https://24-parik.club/en/events/bayer-leverkusen-wolfsburg-16053249",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -228,6 +250,7 @@
       "x": "4.41",
       "p2": "5.452",
       "link": "https://24-parik.club/en/events/borussia-mgladbach-heidenheim-16053248",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -238,6 +261,7 @@
       "x": "3.45",
       "p2": "3.222",
       "link": "https://24-parik.club/en/events/hamburg-augsburg-16053247",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -248,6 +272,7 @@
       "x": "5.44",
       "p2": "1.412",
       "link": "https://24-parik.club/en/events/sc-freiburg-bayern-munchen-16053244",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -258,6 +283,7 @@
       "x": "4.3",
       "p2": "4.672",
       "link": "https://24-parik.club/en/events/tsg-hoffenheim-mainz-05-16053246",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -268,6 +294,7 @@
       "x": "4.13",
       "p2": "1.962",
       "link": "https://24-parik.club/en/events/werder-bremen-rb-leipzig-16053245",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -278,6 +305,7 @@
       "x": "4.09",
       "p2": "2.732",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-borussia-dortmund-16054718",
+      "time": "19:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -288,16 +316,18 @@
       "x": "3.23",
       "p2": "3.762",
       "link": "https://24-parik.club/en/events/union-berlin-st-pauli-16063611",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
     {
       "home": "Eintracht Frankfurt",
       "away": "Koln",
-      "p1": "2.031",
-      "x": "3.51",
-      "p2": "3.632",
+      "p1": "2.051",
+      "x": "3.69",
+      "p2": "3.392",
       "link": "https://24-parik.club/en/events/eintracht-frankfurt-koln-16064751",
+      "time": "18:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -308,6 +338,7 @@
       "x": "3.74",
       "p2": "2.092",
       "link": "https://24-parik.club/en/events/augsburg-tsg-hoffenheim-16115906",
+      "time": "21:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -318,6 +349,7 @@
       "x": "3.92",
       "p2": "3.742",
       "link": "https://24-parik.club/en/events/borussia-dortmund-bayer-leverkusen-16123402",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -328,6 +360,7 @@
       "x": "3.64",
       "p2": "2.162",
       "link": "https://24-parik.club/en/events/heidenheim-union-berlin-16123403",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -338,6 +371,7 @@
       "x": "4.63",
       "p2": "5.592",
       "link": "https://24-parik.club/en/events/rb-leipzig-borussia-mgladbach-16123404",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -348,6 +382,7 @@
       "x": "3.58",
       "p2": "2.722",
       "link": "https://24-parik.club/en/events/wolfsburg-eintracht-frankfurt-16123401",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -358,6 +393,7 @@
       "x": "5.4",
       "p2": "1.332",
       "link": "https://24-parik.club/en/events/st-pauli-bayern-munchen-16124905",
+      "time": "19:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -368,6 +404,7 @@
       "x": "3.66",
       "p2": "3.112",
       "link": "https://24-parik.club/en/events/koln-werder-bremen-16133163",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -378,6 +415,7 @@
       "x": "4.7",
       "p2": "6.742",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-hamburg-16134477",
+      "time": "18:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -388,6 +426,7 @@
       "x": "3.49",
       "p2": "3.362",
       "link": "https://24-parik.club/en/events/mainz-05-sc-freiburg-16135322",
+      "time": "20:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -398,6 +437,7 @@
       "x": "4.61",
       "p2": "1.632",
       "link": "https://24-parik.club/en/events/bayer-leverkusen-bayern-munchen-15876555",
+      "time": "21:45",
       "league": "Germany Cup:",
       "sport": "football"
     },
@@ -408,26 +448,29 @@
       "x": "4.07",
       "p2": "5.282",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-sc-freiburg-16059154",
+      "time": "21:45",
       "league": "Germany Cup:",
       "sport": "football"
     },
     {
       "home": "PSG",
       "away": "Toulouse",
-      "p1": "1.271",
-      "x": "6.22",
-      "p2": "11.502",
+      "p1": "1.261",
+      "x": "6.23",
+      "p2": "11.702",
       "link": "https://24-parik.club/en/events/psg-toulouse-16065033",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Strasbourg",
       "away": "Nice",
-      "p1": "1.851",
-      "x": "3.69",
-      "p2": "4.432",
+      "p1": "1.841",
+      "x": "3.7",
+      "p2": "4.452",
       "link": "https://24-parik.club/en/events/strasbourg-nice-16065041",
+      "time": "18:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -438,6 +481,7 @@
       "x": "3.55",
       "p2": "2.332",
       "link": "https://24-parik.club/en/events/brest-rennes-16065058",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -448,6 +492,7 @@
       "x": "3.31",
       "p2": "2.732",
       "link": "https://24-parik.club/en/events/lille-lens-16065059",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -458,6 +503,7 @@
       "x": "3.48",
       "p2": "1.792",
       "link": "https://24-parik.club/en/events/angers-lyon-16065062",
+      "time": "16:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -468,36 +514,40 @@
       "x": "3.05",
       "p2": "2.982",
       "link": "https://24-parik.club/en/events/le-havre-auxerre-16065090",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Lorient",
       "away": "Paris FC",
-      "p1": "2.271",
-      "x": "3.25",
-      "p2": "3.282",
+      "p1": "2.281",
+      "x": "3.24",
+      "p2": "3.262",
       "link": "https://24-parik.club/en/events/lorient-paris-fc-16065092",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Metz",
       "away": "Nantes",
-      "p1": "2.901",
+      "p1": "2.831",
       "x": "3.24",
-      "p2": "2.502",
+      "p2": "2.552",
       "link": "https://24-parik.club/en/events/metz-nantes-16065096",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "AS Monaco",
       "away": "Marseille",
-      "p1": "2.171",
+      "p1": "2.151",
       "x": "3.61",
-      "p2": "3.172",
+      "p2": "3.212",
       "link": "https://24-parik.club/en/events/as-monaco-marseille-16065572",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -508,6 +558,7 @@
       "x": "3.75",
       "p2": "2.082",
       "link": "https://24-parik.club/en/events/paris-fc-as-monaco-16136556",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -518,6 +569,7 @@
       "x": "5.91",
       "p2": "11.302",
       "link": "https://24-parik.club/en/events/marseille-metz-16136594",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -528,6 +580,7 @@
       "x": "3.25",
       "p2": "3.672",
       "link": "https://24-parik.club/en/events/auxerre-nantes-16136593",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -538,6 +591,7 @@
       "x": "4.55",
       "p2": "8.412",
       "link": "https://24-parik.club/en/events/rennes-angers-16136546",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -548,6 +602,7 @@
       "x": "2.98",
       "p2": "4.732",
       "link": "https://24-parik.club/en/events/nice-le-havre-16136559",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -558,6 +613,7 @@
       "x": "3.25",
       "p2": "2.432",
       "link": "https://24-parik.club/en/events/toulouse-lille-16136560",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -568,6 +624,7 @@
       "x": "3.77",
       "p2": "4.792",
       "link": "https://24-parik.club/en/events/lyon-lorient-16136561",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -578,6 +635,7 @@
       "x": "4.12",
       "p2": "4.202",
       "link": "https://24-parik.club/en/events/man-city-liverpool-16007385",
+      "time": "14:45",
       "league": "England FA Cup:",
       "sport": "football"
     },
@@ -585,9 +643,10 @@
       "home": "Chelsea",
       "away": "Port Vale",
       "p1": "1.041",
-      "x": "22.3",
-      "p2": "31.002",
+      "x": "21.7",
+      "p2": "32.002",
       "link": "https://24-parik.club/en/events/chelsea-port-vale-16007386",
+      "time": "19:15",
       "league": "England FA Cup:",
       "sport": "football"
     },
@@ -598,6 +657,7 @@
       "x": "5.87",
       "p2": "1.282",
       "link": "https://24-parik.club/en/events/southampton-arsenal-fc-16007387",
+      "time": "22:00",
       "league": "England FA Cup:",
       "sport": "football"
     },
@@ -608,16 +668,18 @@
       "x": "3.51",
       "p2": "2.772",
       "link": "https://24-parik.club/en/events/west-ham-leeds-16010306",
+      "time": "18:30",
       "league": "England FA Cup:",
       "sport": "football"
     },
     {
       "home": "Rayo Vallecano",
       "away": "Elche CF",
-      "p1": "1.731",
-      "x": "3.84",
-      "p2": "5.022",
+      "p1": "1.761",
+      "x": "3.81",
+      "p2": "4.822",
       "link": "https://24-parik.club/en/events/rayo-vallecano-elche-cf-16052761",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -628,16 +690,18 @@
       "x": "4.11",
       "p2": "5.862",
       "link": "https://24-parik.club/en/events/real-sociedad-levante-16052762",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Mallorca",
       "away": "Real Madrid",
-      "p1": "5.741",
+      "p1": "5.781",
       "x": "4.31",
       "p2": "1.582",
       "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827",
+      "time": "17:15",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -648,6 +712,7 @@
       "x": "4.02",
       "p2": "4.522",
       "link": "https://24-parik.club/en/events/betis-espanyol-16065280",
+      "time": "19:30",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -658,16 +723,18 @@
       "x": "3.88",
       "p2": "2.192",
       "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Getafe",
       "away": "Athletic Bilbao",
-      "p1": "3.001",
-      "x": "2.82",
+      "p1": "3.071",
+      "x": "2.85",
       "p2": "2.752",
       "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -675,19 +742,21 @@
       "home": "Valencia",
       "away": "Celta",
       "p1": "2.341",
-      "x": "3.28",
-      "p2": "3.112",
+      "x": "3.26",
+      "p2": "3.132",
       "link": "https://24-parik.club/en/events/valencia-celta-16064203",
+      "time": "17:15",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Real Oviedo",
       "away": "Sevilla",
-      "p1": "2.731",
-      "x": "3.05",
-      "p2": "2.782",
+      "p1": "2.831",
+      "x": "2.87",
+      "p2": "2.832",
       "link": "https://24-parik.club/en/events/real-oviedo-sevilla-16065117",
+      "time": "19:30",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -698,6 +767,7 @@
       "x": "3.1",
       "p2": "3.052",
       "link": "https://24-parik.club/en/events/alaves-osasuna-16054719",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -708,6 +778,7 @@
       "x": "3.73",
       "p2": "2.242",
       "link": "https://24-parik.club/en/events/girona-villarreal-16065510",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -718,6 +789,7 @@
       "x": "6.76",
       "p2": "11.702",
       "link": "https://24-parik.club/en/events/real-madrid-girona-16116156",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -728,6 +800,7 @@
       "x": "3.53",
       "p2": "4.812",
       "link": "https://24-parik.club/en/events/real-sociedad-alaves-16122347",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -738,6 +811,7 @@
       "x": "3.27",
       "p2": "3.022",
       "link": "https://24-parik.club/en/events/elche-cf-valencia-16124047",
+      "time": "17:15",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -748,6 +822,7 @@
       "x": "6.53",
       "p2": "11.702",
       "link": "https://24-parik.club/en/events/barcelona-espanyol-16124908",
+      "time": "19:30",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -758,6 +833,7 @@
       "x": "3.48",
       "p2": "2.212",
       "link": "https://24-parik.club/en/events/sevilla-atletico-madrid-16125977",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -768,6 +844,7 @@
       "x": "3.49",
       "p2": "2.882",
       "link": "https://24-parik.club/en/events/osasuna-betis-16132245",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -778,6 +855,7 @@
       "x": "3.44",
       "p2": "2.622",
       "link": "https://24-parik.club/en/events/mallorca-rayo-vallecano-16133732",
+      "time": "17:15",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -788,16 +866,18 @@
       "x": "3.83",
       "p2": "5.462",
       "link": "https://24-parik.club/en/events/celta-real-oviedo-16134965",
+      "time": "19:30",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Athletic Bilbao",
       "away": "Villarreal",
-      "p1": "2.411",
+      "p1": "2.391",
       "x": "3.6",
-      "p2": "2.782",
+      "p2": "2.802",
       "link": "https://24-parik.club/en/events/athletic-bilbao-villarreal-16135516",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -808,6 +888,7 @@
       "x": "2.93",
       "p2": "2.822",
       "link": "https://24-parik.club/en/events/levante-getafe-16135521",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -818,6 +899,7 @@
       "x": "3.74",
       "p2": "4.302",
       "link": "https://24-parik.club/en/events/west-ham-wolverhampton-16061253",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -828,6 +910,7 @@
       "x": "4.49",
       "p2": "7.702",
       "link": "https://24-parik.club/en/events/arsenal-fc-bournemouth-16061254",
+      "time": "14:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -838,6 +921,7 @@
       "x": "3.46",
       "p2": "3.172",
       "link": "https://24-parik.club/en/events/brentford-everton-16061258",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -848,6 +932,7 @@
       "x": "4.09",
       "p2": "1.722",
       "link": "https://24-parik.club/en/events/burnley-brighton-16061255",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -858,6 +943,7 @@
       "x": "4.39",
       "p2": "5.392",
       "link": "https://24-parik.club/en/events/liverpool-fulham-16061259",
+      "time": "19:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -868,6 +954,7 @@
       "x": "3.52",
       "p2": "2.482",
       "link": "https://24-parik.club/en/events/crystal-palace-newcastle-16061256",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -878,6 +965,7 @@
       "x": "3.27",
       "p2": "2.702",
       "link": "https://24-parik.club/en/events/nottm-forest-aston-villa-16061257",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -888,16 +976,18 @@
       "x": "3.44",
       "p2": "2.622",
       "link": "https://24-parik.club/en/events/sunderland-tottenham-16061260",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
     {
       "home": "Chelsea",
       "away": "Man City",
-      "p1": "2.971",
-      "x": "4",
-      "p2": "2.142",
+      "p1": "3.001",
+      "x": "3.93",
+      "p2": "2.152",
       "link": "https://24-parik.club/en/events/chelsea-man-city-16061261",
+      "time": "18:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -908,6 +998,7 @@
       "x": "3.97",
       "p2": "5.502",
       "link": "https://24-parik.club/en/events/man-utd-leeds-16061262",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -918,6 +1009,7 @@
       "x": "3.78",
       "p2": "3.222",
       "link": "https://24-parik.club/en/events/brentford-fulham-16125429",
+      "time": "14:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -928,6 +1020,7 @@
       "x": "3.77",
       "p2": "5.282",
       "link": "https://24-parik.club/en/events/leeds-wolverhampton-16125430",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -938,6 +1031,7 @@
       "x": "3.95",
       "p2": "3.832",
       "link": "https://24-parik.club/en/events/newcastle-bournemouth-16125431",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -948,6 +1042,7 @@
       "x": "3.67",
       "p2": "2.622",
       "link": "https://24-parik.club/en/events/tottenham-brighton-16125432",
+      "time": "19:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -958,6 +1053,7 @@
       "x": "3.28",
       "p2": "3.382",
       "link": "https://24-parik.club/en/events/chelsea-man-utd--16125433",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -968,6 +1064,7 @@
       "x": "4",
       "p2": "5.502",
       "link": "https://24-parik.club/en/events/aston-villa-sunderland-16125436",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -978,6 +1075,7 @@
       "x": "3.44",
       "p2": "2.112",
       "link": "https://24-parik.club/en/events/everton-liverpool-16125434",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -988,6 +1086,7 @@
       "x": "3.99",
       "p2": "6.182",
       "link": "https://24-parik.club/en/events/nottm-forest-burnley-16125435",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -998,6 +1097,7 @@
       "x": "3.4",
       "p2": "2.972",
       "link": "https://24-parik.club/en/events/man-city-arsenal-fc-16125437",
+      "time": "18:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -1008,6 +1108,7 @@
       "x": "3.58",
       "p2": "3.102",
       "link": "https://24-parik.club/en/events/crystal-palace-west-ham-16125438",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -1016,8 +1117,9 @@
       "away": "Indiana Pacers",
       "p1": "1.101",
       "x": null,
-      "p2": "24.54",
+      "p2": "24.87",
       "link": "https://24-parik.club/en/events/charlotte-hornets-indiana-pacers-16242807",
+      "time": "02:00",
       "league": "NBA",
       "sport": "basketball"
     },
@@ -1026,18 +1128,20 @@
       "away": "Minnesota Timberwolves",
       "p1": "1.811",
       "x": null,
-      "p2": "14.78",
+      "p2": "15.15",
       "link": "https://24-parik.club/en/events/philadelphia-76ers-minnesota-timberwolves-16242813",
+      "time": "02:00",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Brooklyn Nets",
       "away": "Atlanta Hawks",
-      "p1": "9.711",
+      "p1": "9.911",
       "x": null,
-      "p2": "26.45",
+      "p2": "26.56",
       "link": "https://24-parik.club/en/events/brooklyn-nets-atlanta-hawks-16242806",
+      "time": "02:30",
       "league": "NBA",
       "sport": "basketball"
     },
@@ -1046,8 +1150,9 @@
       "away": "Chicago Bulls",
       "p1": "1.091",
       "x": null,
-      "p2": "25.7",
+      "p2": "25.87",
       "link": "https://24-parik.club/en/events/new-york-knicks-chicago-bulls-16242808",
+      "time": "02:30",
       "league": "NBA",
       "sport": "basketball"
     },
@@ -1056,48 +1161,53 @@
       "away": "Utah Jazz",
       "p1": "1.091",
       "x": null,
-      "p2": "26.84",
+      "p2": "27.19",
       "link": "https://24-parik.club/en/events/houston-rockets-utah-jazz-16242811",
+      "time": "03:00",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Memphis Grizzlies",
       "away": "Toronto Raptors",
-      "p1": "6.911",
+      "p1": "7.021",
       "x": null,
-      "p2": "21.53",
+      "p2": "21.84",
       "link": "https://24-parik.club/en/events/memphis-grizzlies-toronto-raptors-16242812",
+      "time": "03:00",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Milwaukee Bucks",
       "away": "Boston Celtics",
-      "p1": "9.591",
+      "p1": "10.051",
       "x": null,
-      "p2": "25.87",
+      "p2": "27.14",
       "link": "https://24-parik.club/en/events/milwaukee-bucks-boston-celtics-16242809",
+      "time": "03:00",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Dallas Mavericks",
       "away": "Orlando Magic",
-      "p1": "3.321",
+      "p1": "3.281",
       "x": null,
-      "p2": "16.56",
+      "p2": "16.47",
       "link": "https://24-parik.club/en/events/dallas-mavericks-orlando-magic-16242810",
+      "time": "03:30",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Sacramento Kings",
       "away": "New Orleans Pelicans",
-      "p1": "2.891",
+      "p1": "2.941",
       "x": null,
       "p2": "16.59",
       "link": "https://24-parik.club/en/events/sacramento-kings-new-orleans-pelicans-16242814",
+      "time": "05:00",
       "league": "NBA",
       "sport": "basketball"
     },
@@ -1108,6 +1218,7 @@
       "x": null,
       "p2": "13.78",
       "link": "https://24-parik.club/en/events/baylor-oklahoma-16244725",
+      "time": "20:30",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -1118,6 +1229,7 @@
       "x": null,
       "p2": "12.84",
       "link": "https://24-parik.club/en/events/uconn-illinois-16203856",
+      "time": "01:09",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -1128,6 +1240,7 @@
       "x": null,
       "p2": "12.84",
       "link": "https://24-parik.club/en/events/arizona-michigan-16206229",
+      "time": "03:49",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -1138,6 +1251,7 @@
       "x": null,
       "p2": "2.712",
       "link": "https://24-parik.club/en/events/arizona-uconn-16223739",
+      "time": "04:00",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -1148,16 +1262,18 @@
       "x": null,
       "p2": "2.422",
       "link": "https://24-parik.club/en/events/michigan-illinois-16223738",
+      "time": "04:00",
       "league": "NCAA",
       "sport": "basketball"
     },
     {
       "home": "Bahcesehir Koleji",
       "away": "Besiktas",
-      "p1": "1.891",
+      "p1": "1.991",
       "x": null,
       "p2": "13.27",
       "link": "https://24-parik.club/en/events/bahcesehir-koleji-besiktas-16230547",
+      "time": "19:00",
       "league": "Eurocup",
       "sport": "basketball"
     },
@@ -1168,6 +1284,7 @@
       "x": null,
       "p2": "16.28",
       "link": "https://24-parik.club/en/events/turk-telekom-jl-bourg-basket-16230497",
+      "time": "20:00",
       "league": "Eurocup",
       "sport": "basketball"
     },
@@ -1178,6 +1295,7 @@
       "x": null,
       "p2": "13.34",
       "link": "https://24-parik.club/en/events/kk-borac-cacak-kk-zadar-16226106",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1188,6 +1306,7 @@
       "x": null,
       "p2": "16.74",
       "link": "https://24-parik.club/en/events/bc-dubai-kk-cedevita-olimpija-16236434",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1198,6 +1317,7 @@
       "x": null,
       "p2": "13.14",
       "link": "https://24-parik.club/en/events/kk-studentski-centar-bc-vienna-16236433",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1208,6 +1328,7 @@
       "x": null,
       "p2": "18.41",
       "link": "https://24-parik.club/en/events/igokea-crvena-zvezda-16237163",
+      "time": "20:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1218,6 +1339,7 @@
       "x": null,
       "p2": "13.07",
       "link": "https://24-parik.club/en/events/kk-buducnost-partizan-16246622",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1226,8 +1348,9 @@
       "away": "KK Bosna Sarajevo",
       "p1": "1.161",
       "x": null,
-      "p2": "17.87",
+      "p2": "18.19",
       "link": "https://24-parik.club/en/events/u-bt-cluj-kk-bosna-sarajevo-16247737",
+      "time": "20:30",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1238,6 +1361,7 @@
       "x": null,
       "p2": "12.99",
       "link": "https://24-parik.club/en/events/fmp-beograd-kk-spartak-subotica-16236582",
+      "time": "18:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -1248,16 +1372,18 @@
       "x": null,
       "p2": "13.96",
       "link": "https://24-parik.club/en/events/mega-basket-krka-16246691",
+      "time": "20:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
     {
       "home": "CA Santa Paula de Galvez",
       "away": "Independiente BBC",
-      "p1": "1.181",
+      "p1": "1.191",
       "x": null,
-      "p2": "17.04",
+      "p2": "16.74",
       "link": "https://24-parik.club/en/events/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1268,16 +1394,18 @@
       "x": null,
       "p2": "16.73",
       "link": "https://24-parik.club/en/events/comunicaciones-mercedes-bochas-sport-club-de-colonia-caroya-16239421",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
     {
       "home": "Jujuy Basquet",
       "away": "Villa San Martin",
-      "p1": "1.941",
+      "p1": "2.041",
       "x": null,
       "p2": "12.89",
       "link": "https://24-parik.club/en/events/jujuy-basquet-villa-san-martin-16240303",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1288,6 +1416,7 @@
       "x": null,
       "p2": "14.48",
       "link": "https://24-parik.club/en/events/salta-basket-ca-estudiantes-de-tucuman--16240302",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1296,8 +1425,9 @@
       "away": "Racing Club Avellaneda",
       "p1": "1.331",
       "x": null,
-      "p2": "14.64",
+      "p2": "14.82",
       "link": "https://24-parik.club/en/events/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119",
+      "time": "01:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1306,8 +1436,9 @@
       "away": "Club Villa Mitre de Bahia Blanca",
       "p1": "1.351",
       "x": null,
-      "p2": "14.63",
+      "p2": "14.82",
       "link": "https://24-parik.club/en/events/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1318,6 +1449,7 @@
       "x": null,
       "p2": "13.43",
       "link": "https://24-parik.club/en/events/deportivo-viedma-centenario-de-venado-tuerto-16251172",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1326,38 +1458,42 @@
       "away": "El Talar",
       "p1": "1.101",
       "x": null,
-      "p2": "24.18",
+      "p2": "26.83",
       "link": "https://24-parik.club/en/events/pico-foot-ball-club-el-talar-16252062",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
     {
-      "home": "Damir Dzumhur",
-      "away": "Botic van de Zandschulp",
-      "p1": "2.55",
+      "home": "Alex Molcan",
+      "away": "Mariano Navone",
+      "p1": "3.07",
       "x": null,
-      "p2": "1.51",
-      "link": "https://24-parik.club/en/events/damir-dzumhur-botic-van-de-zandschulp-16233882",
+      "p2": "1.37",
+      "link": "https://24-parik.club/en/events/alex-molcan-mariano-navone-16235416",
+      "time": "16:23",
       "league": "ATP Bucharest",
       "sport": "tennis"
     },
     {
-      "home": "Alex Molcan",
-      "away": "Mariano Navone",
-      "p1": "3.11",
+      "home": "Titouan Droguet",
+      "away": "Daniel Merida Aguilar",
+      "p1": "1.63",
       "x": null,
-      "p2": "1.37",
-      "link": "https://24-parik.club/en/events/alex-molcan-mariano-navone-16235416",
+      "p2": "2.27",
+      "link": "https://24-parik.club/en/events/titouan-droguet-daniel-merida-aguilar-16253554",
+      "time": "17:48",
       "league": "ATP Bucharest",
       "sport": "tennis"
     },
     {
       "home": "Learner Tien",
       "away": "Roman Andres Burruchaga",
-      "p1": "1.57",
+      "p1": "1.61",
       "x": null,
-      "p2": "2.4",
+      "p2": "2.33",
       "link": "https://24-parik.club/en/events/learner-tien-roman-andres-burruchaga-16251692",
+      "time": "20:03",
       "league": "ATP Houston",
       "sport": "tennis"
     },
@@ -1368,76 +1504,84 @@
       "x": null,
       "p2": "2.78",
       "link": "https://24-parik.club/en/events/ben-shelton-thiago-agustin-tirante-16240507",
+      "time": "21:33",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Tomas Martin Etcheverry",
       "away": "Tommy Paul",
-      "p1": "2.85",
+      "p1": "2.68",
       "x": null,
-      "p2": "1.43",
+      "p2": "1.47",
       "link": "https://24-parik.club/en/events/tomas-martin-etcheverry-tommy-paul-16240805",
+      "time": "23:03",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Alexei Popyrin",
       "away": "Frances Tiafoe",
-      "p1": "2.46",
+      "p1": "2.38",
       "x": null,
-      "p2": "1.55",
+      "p2": "1.58",
       "link": "https://24-parik.club/en/events/alexei-popyrin-frances-tiafoe-16251711",
+      "time": "02:03",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Jazmin Ortenzi",
       "away": "Julia Riera",
-      "p1": "2.26",
+      "p1": "2.29",
       "x": null,
-      "p2": "1.64",
+      "p2": "1.62",
       "link": "https://24-parik.club/en/events/jazmin-ortenzi-julia-riera-16247713",
+      "time": "19:03",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Marie Bouzkova",
       "away": "Darja Semenistaja",
-      "p1": "1.31",
+      "p1": "1.32",
       "x": null,
-      "p2": "3.45",
+      "p2": "3.4",
       "link": "https://24-parik.club/en/events/marie-bouzkova-darja-semenistaja-16248304",
+      "time": "20:33",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Emiliana Arango",
       "away": "Varvara Lepchenko",
-      "p1": "1.5",
+      "p1": "1.47",
       "x": null,
-      "p2": "2.6",
+      "p2": "2.68",
       "link": "https://24-parik.club/en/events/emiliana-arango-varvara-lepchenko-16250871",
+      "time": "22:03",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Panna Udvardy",
       "away": "Katarzyna Kawa",
-      "p1": "2.26",
+      "p1": "2.22",
       "x": null,
-      "p2": "1.64",
+      "p2": "1.66",
       "link": "https://24-parik.club/en/events/panna-udvardy-katarzyna-kawa-16238799",
+      "time": "23:33",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Jessica Pegula",
       "away": "Diana Shnaider",
-      "p1": "1.35",
+      "p1": "1.3",
       "x": null,
-      "p2": "3.19",
+      "p2": "3.49",
       "link": "https://24-parik.club/en/events/jessica-pegula-diana-shnaider-16248733",
+      "time": "18:03",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
@@ -1448,16 +1592,18 @@
       "x": null,
       "p2": "1.79",
       "link": "https://24-parik.club/en/events/madison-keys-belinda-bencic-16248558",
+      "time": "19:33",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
     {
       "home": "Iva Jovic",
       "away": "Anna Kalinskaya",
-      "p1": "2.01",
+      "p1": "2",
       "x": null,
-      "p2": "1.8",
+      "p2": "1.81",
       "link": "https://24-parik.club/en/events/iva-jovic-anna-kalinskaya-16249993",
+      "time": "21:03",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
@@ -1466,8 +1612,9 @@
       "away": "Yulia Starodubtseva",
       "p1": "1.71",
       "x": null,
-      "p2": "2.13",
+      "p2": "2.14",
       "link": "https://24-parik.club/en/events/mccartney-kessler-yulia-starodubtseva-16248018",
+      "time": "01:03",
       "league": "WTA Charleston",
       "sport": "tennis"
     }

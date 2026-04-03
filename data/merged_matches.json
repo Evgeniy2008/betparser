@@ -1,22 +1,25 @@
 {
-    "updated": "2026-04-03T10:13:03.314Z",
+    "updated": "2026-04-03T13:04:26.728Z",
     "matches": [
         {
             "league": "Spain, Copa del Rey:",
             "sport": "football",
             "home": "Atletico Madrid",
             "away": "Real Sociedad",
+            "time": "22:00",
             "parik24": {
                 "p1": "1.811",
                 "x": "3.6",
                 "p2": "4.512",
-                "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-real-sociedad-15964837"
+                "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-real-sociedad-15964837",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "1.806",
                 "x": "3.59",
                 "p2": "4.52",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-copa-del-rey\/atletico-madrid-vs-real-sociedad\/1625468891\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-copa-del-rey\/atletico-madrid-vs-real-sociedad\/1625468891\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -25,17 +28,20 @@
             "sport": "football",
             "home": "Sassuolo",
             "away": "Cagliari",
+            "time": "16:00",
             "parik24": {
                 "p1": "2.011",
                 "x": "3.14",
                 "p2": "4.522",
-                "link": "https:\/\/24-parik.club\/en\/events\/sassuolo-cagliari-16071073"
+                "link": "https:\/\/24-parik.club\/en\/events\/sassuolo-cagliari-16071073",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "2.02",
                 "x": "3.15",
                 "p2": "4.49",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-cagliari\/1626173970\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-cagliari\/1626173970\/",
+                "time": "16:00"
             },
             "matchScore": 1
         },
@@ -44,17 +50,20 @@
             "sport": "football",
             "home": "Hellas Verona",
             "away": "Fiorentina",
+            "time": "19:00",
             "parik24": {
                 "p1": "4.191",
                 "x": "3.62",
                 "p2": "1.912",
-                "link": "https:\/\/24-parik.club\/en\/events\/hellas-verona-fiorentina-16071072"
+                "link": "https:\/\/24-parik.club\/en\/events\/hellas-verona-fiorentina-16071072",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "4.23",
                 "x": "3.63",
                 "p2": "1.909",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/hellas-verona-vs-fiorentina\/1626177374\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/hellas-verona-vs-fiorentina\/1626177374\/",
+                "time": "19:00"
             },
             "matchScore": 1
         },
@@ -63,17 +72,20 @@
             "sport": "football",
             "home": "Lazio",
             "away": "Parma",
+            "time": "21:45",
             "parik24": {
                 "p1": "1.781",
                 "x": "3.45",
                 "p2": "5.342",
-                "link": "https:\/\/24-parik.club\/en\/events\/lazio-parma-16071074"
+                "link": "https:\/\/24-parik.club\/en\/events\/lazio-parma-16071074",
+                "time": "21:45"
             },
             "pinnacle": {
                 "p1": "1.787",
                 "x": "3.54",
                 "p2": "5.17",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/lazio-vs-parma\/1626180284\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/lazio-vs-parma\/1626180284\/",
+                "time": "21:45"
             },
             "matchScore": 1
         },
@@ -82,17 +94,20 @@
             "sport": "football",
             "home": "Cremonese",
             "away": "Bologna",
+            "time": "16:00",
             "parik24": {
                 "p1": "3.491",
                 "x": "3.41",
                 "p2": "2.112",
-                "link": "https:\/\/24-parik.club\/en\/events\/cremonese-bologna-16071071"
+                "link": "https:\/\/24-parik.club\/en\/events\/cremonese-bologna-16071071",
+                "time": "16:00"
             },
             "pinnacle": {
-                "p1": "3.65",
-                "x": "3.48",
-                "p2": "2.12",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/cremonese-vs-bologna\/1626177375\/"
+                "p1": "3.64",
+                "x": "3.46",
+                "p2": "2.13",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/cremonese-vs-bologna\/1626177375\/",
+                "time": "16:00"
             },
             "matchScore": 1
         },
@@ -101,17 +116,20 @@
             "sport": "football",
             "home": "Pisa",
             "away": "Torino",
+            "time": "19:00",
             "parik24": {
                 "p1": "3.071",
                 "x": "2.92",
                 "p2": "2.582",
-                "link": "https:\/\/24-parik.club\/en\/events\/pisa-torino-16071069"
+                "link": "https:\/\/24-parik.club\/en\/events\/pisa-torino-16071069",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "3.15",
                 "x": "2.98",
                 "p2": "2.63",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/pisa-vs-torino\/1626177376\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/pisa-vs-torino\/1626177376\/",
+                "time": "19:00"
             },
             "matchScore": 1
         },
@@ -120,17 +138,20 @@
             "sport": "football",
             "home": "Inter Milan",
             "away": "Roma",
+            "time": "21:45",
             "parik24": {
                 "p1": "1.631",
                 "x": "3.95",
                 "p2": "5.322",
-                "link": "https:\/\/24-parik.club\/en\/events\/inter-milan-roma-16071070"
+                "link": "https:\/\/24-parik.club\/en\/events\/inter-milan-roma-16071070",
+                "time": "21:45"
             },
             "pinnacle": {
                 "p1": "1.662",
                 "x": "4.04",
                 "p2": "5.34",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/internazionale-vs-roma\/1626180285\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/internazionale-vs-roma\/1626180285\/",
+                "time": "21:45"
             },
             "matchScore": 0.8333333333333333
         },
@@ -139,17 +160,20 @@
             "sport": "football",
             "home": "Udinese",
             "away": "Como",
+            "time": "13:30",
             "parik24": {
                 "p1": "5.101",
                 "x": "3.88",
                 "p2": "1.672",
-                "link": "https:\/\/24-parik.club\/en\/events\/udinese-como-16072787"
+                "link": "https:\/\/24-parik.club\/en\/events\/udinese-como-16072787",
+                "time": "13:30"
             },
             "pinnacle": {
-                "p1": "5.15",
-                "x": "3.98",
-                "p2": "1.689",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/udinese-vs-como\/1626173971\/"
+                "p1": "5.16",
+                "x": "3.97",
+                "p2": "1.694",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/udinese-vs-como\/1626173971\/",
+                "time": "13:30"
             },
             "matchScore": 1
         },
@@ -158,11 +182,13 @@
             "sport": "football",
             "home": "Lecce",
             "away": "Atalanta",
+            "time": "16:00",
             "parik24": {
                 "p1": "4.741",
                 "x": "3.76",
                 "p2": "1.732",
-                "link": "https:\/\/24-parik.club\/en\/events\/lecce-atalanta-16071068"
+                "link": "https:\/\/24-parik.club\/en\/events\/lecce-atalanta-16071068",
+                "time": "16:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -172,11 +198,13 @@
             "sport": "football",
             "home": "Juventus",
             "away": "Genoa",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.371",
                 "x": "4.59",
                 "p2": "9.342",
-                "link": "https:\/\/24-parik.club\/en\/events\/juventus-genoa-16074383"
+                "link": "https:\/\/24-parik.club\/en\/events\/juventus-genoa-16074383",
+                "time": "19:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -186,11 +214,13 @@
             "sport": "football",
             "home": "Napoli",
             "away": "AC Milan",
+            "time": "21:45",
             "parik24": {
-                "p1": "2.551",
-                "x": "2.97",
-                "p2": "3.072",
-                "link": "https:\/\/24-parik.club\/en\/events\/napoli-ac-milan-16075584"
+                "p1": "2.531",
+                "x": "3.13",
+                "p2": "2.952",
+                "link": "https:\/\/24-parik.club\/en\/events\/napoli-ac-milan-16075584",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -200,11 +230,13 @@
             "sport": "football",
             "home": "Roma",
             "away": "Pisa",
+            "time": "21:45",
             "parik24": {
                 "p1": "1.361",
                 "x": "4.72",
                 "p2": "9.632",
-                "link": "https:\/\/24-parik.club\/en\/events\/roma-pisa-16134833"
+                "link": "https:\/\/24-parik.club\/en\/events\/roma-pisa-16134833",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -214,11 +246,13 @@
             "sport": "football",
             "home": "Cagliari",
             "away": "Cremonese",
+            "time": "16:00",
             "parik24": {
                 "p1": "2.191",
                 "x": "3.15",
                 "p2": "3.582",
-                "link": "https:\/\/24-parik.club\/en\/events\/cagliari-cremonese-16134837"
+                "link": "https:\/\/24-parik.club\/en\/events\/cagliari-cremonese-16134837",
+                "time": "16:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -228,11 +262,13 @@
             "sport": "football",
             "home": "Torino",
             "away": "Hellas Verona",
+            "time": "16:00",
             "parik24": {
                 "p1": "1.871",
                 "x": "3.4",
                 "p2": "4.432",
-                "link": "https:\/\/24-parik.club\/en\/events\/torino-hellas-verona-16134876"
+                "link": "https:\/\/24-parik.club\/en\/events\/torino-hellas-verona-16134876",
+                "time": "16:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -242,11 +278,13 @@
             "sport": "football",
             "home": "AC Milan",
             "away": "Udinese",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.371",
                 "x": "4.63",
                 "p2": "9.222",
-                "link": "https:\/\/24-parik.club\/en\/events\/ac-milan-udinese-16134875"
+                "link": "https:\/\/24-parik.club\/en\/events\/ac-milan-udinese-16134875",
+                "time": "19:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -256,11 +294,13 @@
             "sport": "football",
             "home": "Atalanta",
             "away": "Juventus",
+            "time": "21:45",
             "parik24": {
                 "p1": "3.101",
                 "x": "3.55",
                 "p2": "2.232",
-                "link": "https:\/\/24-parik.club\/en\/events\/atalanta-juventus-16134896"
+                "link": "https:\/\/24-parik.club\/en\/events\/atalanta-juventus-16134896",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -270,11 +310,13 @@
             "sport": "football",
             "home": "Genoa",
             "away": "Sassuolo",
+            "time": "13:30",
             "parik24": {
                 "p1": "2.161",
                 "x": "3.25",
                 "p2": "3.532",
-                "link": "https:\/\/24-parik.club\/en\/events\/genoa-sassuolo-16134872"
+                "link": "https:\/\/24-parik.club\/en\/events\/genoa-sassuolo-16134872",
+                "time": "13:30"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -284,11 +326,13 @@
             "sport": "football",
             "home": "Parma",
             "away": "Napoli",
+            "time": "16:00",
             "parik24": {
                 "p1": "5.581",
                 "x": "3.69",
                 "p2": "1.662",
-                "link": "https:\/\/24-parik.club\/en\/events\/parma-napoli-16134870"
+                "link": "https:\/\/24-parik.club\/en\/events\/parma-napoli-16134870",
+                "time": "16:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -298,11 +342,13 @@
             "sport": "football",
             "home": "Bologna",
             "away": "Lecce",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.691",
                 "x": "3.53",
                 "p2": "5.592",
-                "link": "https:\/\/24-parik.club\/en\/events\/bologna-lecce-16134895"
+                "link": "https:\/\/24-parik.club\/en\/events\/bologna-lecce-16134895",
+                "time": "19:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -312,11 +358,13 @@
             "sport": "football",
             "home": "Como",
             "away": "Inter Milan",
+            "time": "21:45",
             "parik24": {
                 "p1": "3.101",
                 "x": "3.42",
                 "p2": "2.282",
-                "link": "https:\/\/24-parik.club\/en\/events\/como-inter-milan-16134925"
+                "link": "https:\/\/24-parik.club\/en\/events\/como-inter-milan-16134925",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -326,11 +374,13 @@
             "sport": "football",
             "home": "Fiorentina",
             "away": "Lazio",
+            "time": "21:45",
             "parik24": {
                 "p1": "2.211",
                 "x": "2.9",
                 "p2": "3.892",
-                "link": "https:\/\/24-parik.club\/en\/events\/fiorentina-lazio-16135201"
+                "link": "https:\/\/24-parik.club\/en\/events\/fiorentina-lazio-16135201",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -340,17 +390,20 @@
             "sport": "football",
             "home": "Bayer Leverkusen",
             "away": "Wolfsburg",
+            "time": "16:30",
             "parik24": {
                 "p1": "1.411",
                 "x": "5.16",
                 "p2": "7.462",
-                "link": "https:\/\/24-parik.club\/en\/events\/bayer-leverkusen-wolfsburg-16053249"
+                "link": "https:\/\/24-parik.club\/en\/events\/bayer-leverkusen-wolfsburg-16053249",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "1.413",
                 "x": "5.25",
                 "p2": "7.12",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/bayer-leverkusen-vs-wolfsburg\/1626186209\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/bayer-leverkusen-vs-wolfsburg\/1626186209\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -359,17 +412,20 @@
             "sport": "football",
             "home": "Borussia M'gladbach",
             "away": "Heidenheim",
+            "time": "16:30",
             "parik24": {
                 "p1": "1.591",
                 "x": "4.41",
                 "p2": "5.452",
-                "link": "https:\/\/24-parik.club\/en\/events\/borussia-mgladbach-heidenheim-16053248"
+                "link": "https:\/\/24-parik.club\/en\/events\/borussia-mgladbach-heidenheim-16053248",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "1.598",
-                "x": "4.44",
-                "p2": "5.36",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/borussia-monchengladbach-vs-heidenheim\/1626180291\/"
+                "x": "4.45",
+                "p2": "5.37",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/borussia-monchengladbach-vs-heidenheim\/1626180291\/",
+                "time": "16:30"
             },
             "matchScore": 0.8611111111111112
         },
@@ -378,17 +434,20 @@
             "sport": "football",
             "home": "Hamburg",
             "away": "Augsburg",
+            "time": "16:30",
             "parik24": {
                 "p1": "2.291",
                 "x": "3.45",
                 "p2": "3.222",
-                "link": "https:\/\/24-parik.club\/en\/events\/hamburg-augsburg-16053247"
+                "link": "https:\/\/24-parik.club\/en\/events\/hamburg-augsburg-16053247",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "2.3",
                 "x": "3.45",
                 "p2": "3.23",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/hamburger-sv-vs-augsburg\/1626177386\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/hamburger-sv-vs-augsburg\/1626177386\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -397,17 +456,20 @@
             "sport": "football",
             "home": "SC Freiburg",
             "away": "Bayern Munchen",
+            "time": "16:30",
             "parik24": {
                 "p1": "6.901",
                 "x": "5.44",
                 "p2": "1.412",
-                "link": "https:\/\/24-parik.club\/en\/events\/sc-freiburg-bayern-munchen-16053244"
+                "link": "https:\/\/24-parik.club\/en\/events\/sc-freiburg-bayern-munchen-16053244",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "6.75",
                 "x": "5.65",
                 "p2": "1.403",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/freiburg-vs-bayern-munich\/1626177383\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/freiburg-vs-bayern-munich\/1626177383\/",
+                "time": "16:30"
             },
             "matchScore": 0.7222222222222222
         },
@@ -416,17 +478,20 @@
             "sport": "football",
             "home": "TSG Hoffenheim",
             "away": "Mainz 05",
+            "time": "16:30",
             "parik24": {
                 "p1": "1.691",
                 "x": "4.3",
                 "p2": "4.672",
-                "link": "https:\/\/24-parik.club\/en\/events\/tsg-hoffenheim-mainz-05-16053246"
+                "link": "https:\/\/24-parik.club\/en\/events\/tsg-hoffenheim-mainz-05-16053246",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "1.699",
                 "x": "4.3",
                 "p2": "4.64",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/hoffenheim-vs-mainz-05\/1626177385\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/hoffenheim-vs-mainz-05\/1626177385\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -435,17 +500,20 @@
             "sport": "football",
             "home": "Werder Bremen",
             "away": "RB Leipzig",
+            "time": "16:30",
             "parik24": {
                 "p1": "3.501",
                 "x": "4.13",
                 "p2": "1.962",
-                "link": "https:\/\/24-parik.club\/en\/events\/werder-bremen-rb-leipzig-16053245"
+                "link": "https:\/\/24-parik.club\/en\/events\/werder-bremen-rb-leipzig-16053245",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "3.62",
                 "x": "4.03",
                 "p2": "1.961",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/werder-bremen-vs-rb-leipzig\/1626177384\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/werder-bremen-vs-rb-leipzig\/1626177384\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -454,17 +522,20 @@
             "sport": "football",
             "home": "VfB Stuttgart",
             "away": "Borussia Dortmund",
+            "time": "19:30",
             "parik24": {
                 "p1": "2.341",
                 "x": "4.09",
                 "p2": "2.732",
-                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-borussia-dortmund-16054718"
+                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-borussia-dortmund-16054718",
+                "time": "19:30"
             },
             "pinnacle": {
                 "p1": "2.33",
                 "x": "4.07",
                 "p2": "2.78",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/stuttgart-vs-borussia-dortmund\/1626180292\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/stuttgart-vs-borussia-dortmund\/1626180292\/",
+                "time": "19:30"
             },
             "matchScore": 0.8333333333333333
         },
@@ -473,17 +544,20 @@
             "sport": "football",
             "home": "Union Berlin",
             "away": "St Pauli",
+            "time": "16:30",
             "parik24": {
                 "p1": "2.091",
                 "x": "3.23",
                 "p2": "3.762",
-                "link": "https:\/\/24-parik.club\/en\/events\/union-berlin-st-pauli-16063611"
+                "link": "https:\/\/24-parik.club\/en\/events\/union-berlin-st-pauli-16063611",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "2.11",
                 "x": "3.3",
                 "p2": "3.9",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/union-berlin-vs-st-pauli\/1626177387\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/union-berlin-vs-st-pauli\/1626177387\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -492,17 +566,20 @@
             "sport": "football",
             "home": "Eintracht Frankfurt",
             "away": "Koln",
+            "time": "18:30",
             "parik24": {
-                "p1": "2.031",
-                "x": "3.51",
-                "p2": "3.632",
-                "link": "https:\/\/24-parik.club\/en\/events\/eintracht-frankfurt-koln-16064751"
+                "p1": "2.051",
+                "x": "3.69",
+                "p2": "3.392",
+                "link": "https:\/\/24-parik.club\/en\/events\/eintracht-frankfurt-koln-16064751",
+                "time": "18:30"
             },
             "pinnacle": {
-                "p1": "2.06",
-                "x": "3.57",
-                "p2": "3.7",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/eintracht-frankfurt-vs-fc-koln\/1626180290\/"
+                "p1": "2.09",
+                "x": "3.58",
+                "p2": "3.63",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/eintracht-frankfurt-vs-fc-koln\/1626180290\/",
+                "time": "18:30"
             },
             "matchScore": 1
         },
@@ -511,17 +588,20 @@
             "sport": "football",
             "home": "Augsburg",
             "away": "TSG Hoffenheim",
+            "time": "21:30",
             "parik24": {
                 "p1": "3.251",
                 "x": "3.74",
                 "p2": "2.092",
-                "link": "https:\/\/24-parik.club\/en\/events\/augsburg-tsg-hoffenheim-16115906"
+                "link": "https:\/\/24-parik.club\/en\/events\/augsburg-tsg-hoffenheim-16115906",
+                "time": "21:30"
             },
             "pinnacle": {
                 "p1": "3.35",
                 "x": "3.73",
                 "p2": "2.07",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/augsburg-vs-hoffenheim\/1626759359\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/augsburg-vs-hoffenheim\/1626759359\/",
+                "time": "21:30"
             },
             "matchScore": 1
         },
@@ -530,17 +610,20 @@
             "sport": "football",
             "home": "Borussia Dortmund",
             "away": "Bayer Leverkusen",
+            "time": "16:30",
             "parik24": {
                 "p1": "1.881",
                 "x": "3.92",
                 "p2": "3.742",
-                "link": "https:\/\/24-parik.club\/en\/events\/borussia-dortmund-bayer-leverkusen-16123402"
+                "link": "https:\/\/24-parik.club\/en\/events\/borussia-dortmund-bayer-leverkusen-16123402",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "1.892",
                 "x": "3.92",
                 "p2": "3.74",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/borussia-dortmund-vs-bayer-leverkusen\/1626759250\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/borussia-dortmund-vs-bayer-leverkusen\/1626759250\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -549,17 +632,20 @@
             "sport": "football",
             "home": "Heidenheim",
             "away": "Union Berlin",
+            "time": "16:30",
             "parik24": {
                 "p1": "3.161",
                 "x": "3.64",
                 "p2": "2.162",
-                "link": "https:\/\/24-parik.club\/en\/events\/heidenheim-union-berlin-16123403"
+                "link": "https:\/\/24-parik.club\/en\/events\/heidenheim-union-berlin-16123403",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "3.23",
                 "x": "3.63",
                 "p2": "2.15",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/heidenheim-vs-union-berlin\/1626759360\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/heidenheim-vs-union-berlin\/1626759360\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -568,17 +654,20 @@
             "sport": "football",
             "home": "RB Leipzig",
             "away": "Borussia M'gladbach",
+            "time": "16:30",
             "parik24": {
                 "p1": "1.521",
                 "x": "4.63",
                 "p2": "5.592",
-                "link": "https:\/\/24-parik.club\/en\/events\/rb-leipzig-borussia-mgladbach-16123404"
+                "link": "https:\/\/24-parik.club\/en\/events\/rb-leipzig-borussia-mgladbach-16123404",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "1.518",
                 "x": "4.66",
                 "p2": "5.45",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/rb-leipzig-vs-borussia-monchengladbach\/1626759254\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/rb-leipzig-vs-borussia-monchengladbach\/1626759254\/",
+                "time": "16:30"
             },
             "matchScore": 0.8611111111111112
         },
@@ -587,17 +676,20 @@
             "sport": "football",
             "home": "Wolfsburg",
             "away": "Eintracht Frankfurt",
+            "time": "16:30",
             "parik24": {
                 "p1": "2.461",
                 "x": "3.58",
                 "p2": "2.722",
-                "link": "https:\/\/24-parik.club\/en\/events\/wolfsburg-eintracht-frankfurt-16123401"
+                "link": "https:\/\/24-parik.club\/en\/events\/wolfsburg-eintracht-frankfurt-16123401",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "2.45",
                 "x": "3.57",
                 "p2": "2.77",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/wolfsburg-vs-eintracht-frankfurt\/1626759358\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/wolfsburg-vs-eintracht-frankfurt\/1626759358\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -606,17 +698,20 @@
             "sport": "football",
             "home": "St Pauli",
             "away": "Bayern Munchen",
+            "time": "19:30",
             "parik24": {
                 "p1": "8.611",
                 "x": "5.4",
                 "p2": "1.332",
-                "link": "https:\/\/24-parik.club\/en\/events\/st-pauli-bayern-munchen-16124905"
+                "link": "https:\/\/24-parik.club\/en\/events\/st-pauli-bayern-munchen-16124905",
+                "time": "19:30"
             },
             "pinnacle": {
                 "p1": "8.12",
                 "x": "5.64",
                 "p2": "1.321",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/st-pauli-vs-bayern-munich\/1626759357\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/st-pauli-vs-bayern-munich\/1626759357\/",
+                "time": "19:30"
             },
             "matchScore": 0.7222222222222222
         },
@@ -625,17 +720,20 @@
             "sport": "football",
             "home": "Koln",
             "away": "Werder Bremen",
+            "time": "16:30",
             "parik24": {
                 "p1": "2.181",
                 "x": "3.66",
                 "p2": "3.112",
-                "link": "https:\/\/24-parik.club\/en\/events\/koln-werder-bremen-16133163"
+                "link": "https:\/\/24-parik.club\/en\/events\/koln-werder-bremen-16133163",
+                "time": "16:30"
             },
             "pinnacle": {
                 "p1": "2.17",
                 "x": "3.57",
                 "p2": "3.22",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/fc-koln-vs-werder-bremen\/1626759252\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/fc-koln-vs-werder-bremen\/1626759252\/",
+                "time": "16:30"
             },
             "matchScore": 1
         },
@@ -644,17 +742,20 @@
             "sport": "football",
             "home": "VfB Stuttgart",
             "away": "Hamburg",
+            "time": "18:30",
             "parik24": {
                 "p1": "1.441",
                 "x": "4.7",
                 "p2": "6.742",
-                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-hamburg-16134477"
+                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-hamburg-16134477",
+                "time": "18:30"
             },
             "pinnacle": {
                 "p1": "1.446",
                 "x": "4.73",
                 "p2": "6.48",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/stuttgart-vs-hamburger-sv\/1626759253\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/stuttgart-vs-hamburger-sv\/1626759253\/",
+                "time": "18:30"
             },
             "matchScore": 0.8333333333333333
         },
@@ -663,17 +764,20 @@
             "sport": "football",
             "home": "Mainz 05",
             "away": "SC Freiburg",
+            "time": "20:30",
             "parik24": {
                 "p1": "2.131",
                 "x": "3.49",
                 "p2": "3.362",
-                "link": "https:\/\/24-parik.club\/en\/events\/mainz-05-sc-freiburg-16135322"
+                "link": "https:\/\/24-parik.club\/en\/events\/mainz-05-sc-freiburg-16135322",
+                "time": "20:30"
             },
             "pinnacle": {
                 "p1": "2.13",
                 "x": "2.97",
                 "p2": "4.08",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/mainz-05-vs-freiburg\/1626759251\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/mainz-05-vs-freiburg\/1626759251\/",
+                "time": "20:30"
             },
             "matchScore": 1
         },
@@ -682,17 +786,20 @@
             "sport": "football",
             "home": "Bayer Leverkusen",
             "away": "Bayern Munchen",
+            "time": "21:45",
             "parik24": {
                 "p1": "4.471",
                 "x": "4.61",
                 "p2": "1.632",
-                "link": "https:\/\/24-parik.club\/en\/events\/bayer-leverkusen-bayern-munchen-15876555"
+                "link": "https:\/\/24-parik.club\/en\/events\/bayer-leverkusen-bayern-munchen-15876555",
+                "time": "21:45"
             },
             "pinnacle": {
                 "p1": "4.59",
                 "x": "4.39",
                 "p2": "1.641",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-cup\/bayer-leverkusen-vs-bayern-munich\/1625587718\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-cup\/bayer-leverkusen-vs-bayern-munich\/1625587718\/",
+                "time": "21:45"
             },
             "matchScore": 0.7222222222222222
         },
@@ -701,17 +808,20 @@
             "sport": "football",
             "home": "VfB Stuttgart",
             "away": "SC Freiburg",
+            "time": "21:45",
             "parik24": {
                 "p1": "1.621",
                 "x": "4.07",
                 "p2": "5.282",
-                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-sc-freiburg-16059154"
+                "link": "https:\/\/24-parik.club\/en\/events\/vfb-stuttgart-sc-freiburg-16059154",
+                "time": "21:45"
             },
             "pinnacle": {
                 "p1": "1.613",
                 "x": "4.13",
                 "p2": "5.16",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-cup\/stuttgart-vs-freiburg\/1625597319\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-cup\/stuttgart-vs-freiburg\/1625597319\/",
+                "time": "21:45"
             },
             "matchScore": 0.8333333333333333
         },
@@ -720,11 +830,13 @@
             "sport": "football",
             "home": "PSG",
             "away": "Toulouse",
+            "time": "21:45",
             "parik24": {
-                "p1": "1.271",
-                "x": "6.22",
-                "p2": "11.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/psg-toulouse-16065033"
+                "p1": "1.261",
+                "x": "6.23",
+                "p2": "11.702",
+                "link": "https:\/\/24-parik.club\/en\/events\/psg-toulouse-16065033",
+                "time": "21:45"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -734,17 +846,20 @@
             "sport": "football",
             "home": "Strasbourg",
             "away": "Nice",
+            "time": "18:00",
             "parik24": {
-                "p1": "1.851",
-                "x": "3.69",
-                "p2": "4.432",
-                "link": "https:\/\/24-parik.club\/en\/events\/strasbourg-nice-16065041"
+                "p1": "1.841",
+                "x": "3.7",
+                "p2": "4.452",
+                "link": "https:\/\/24-parik.club\/en\/events\/strasbourg-nice-16065041",
+                "time": "18:00"
             },
             "pinnacle": {
-                "p1": "1.862",
-                "x": "3.67",
+                "p1": "1.854",
+                "x": "3.71",
                 "p2": "4.43",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/strasbourg-vs-nice\/1626186205\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/strasbourg-vs-nice\/1626186205\/",
+                "time": "18:00"
             },
             "matchScore": 1
         },
@@ -753,17 +868,20 @@
             "sport": "football",
             "home": "Brest",
             "away": "Rennes",
+            "time": "20:00",
             "parik24": {
                 "p1": "3.071",
                 "x": "3.55",
                 "p2": "2.332",
-                "link": "https:\/\/24-parik.club\/en\/events\/brest-rennes-16065058"
+                "link": "https:\/\/24-parik.club\/en\/events\/brest-rennes-16065058",
+                "time": "20:00"
             },
             "pinnacle": {
                 "p1": "3.11",
                 "x": "3.57",
                 "p2": "2.32",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/brest-vs-rennes\/1626186204\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/brest-vs-rennes\/1626186204\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -772,17 +890,20 @@
             "sport": "football",
             "home": "Lille",
             "away": "Lens",
+            "time": "22:05",
             "parik24": {
                 "p1": "2.701",
                 "x": "3.31",
                 "p2": "2.732",
-                "link": "https:\/\/24-parik.club\/en\/events\/lille-lens-16065059"
+                "link": "https:\/\/24-parik.club\/en\/events\/lille-lens-16065059",
+                "time": "22:05"
             },
             "pinnacle": {
                 "p1": "2.72",
                 "x": "3.32",
                 "p2": "2.75",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lille-vs-lens\/1626177378\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lille-vs-lens\/1626177378\/",
+                "time": "22:05"
             },
             "matchScore": 1
         },
@@ -791,17 +912,20 @@
             "sport": "football",
             "home": "Angers",
             "away": "Lyon",
+            "time": "16:00",
             "parik24": {
                 "p1": "4.801",
                 "x": "3.48",
                 "p2": "1.792",
-                "link": "https:\/\/24-parik.club\/en\/events\/angers-lyon-16065062"
+                "link": "https:\/\/24-parik.club\/en\/events\/angers-lyon-16065062",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "4.89",
                 "x": "3.57",
                 "p2": "1.813",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/angers-vs-lyon\/1626180287\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/angers-vs-lyon\/1626180287\/",
+                "time": "16:00"
             },
             "matchScore": 1
         },
@@ -810,17 +934,20 @@
             "sport": "football",
             "home": "Le Havre",
             "away": "Auxerre",
+            "time": "18:15",
             "parik24": {
                 "p1": "2.551",
                 "x": "3.05",
                 "p2": "2.982",
-                "link": "https:\/\/24-parik.club\/en\/events\/le-havre-auxerre-16065090"
+                "link": "https:\/\/24-parik.club\/en\/events\/le-havre-auxerre-16065090",
+                "time": "18:15"
             },
             "pinnacle": {
                 "p1": "2.6",
                 "x": "3.12",
                 "p2": "3.04",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/le-havre-vs-auxerre\/1626180289\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/le-havre-vs-auxerre\/1626180289\/",
+                "time": "18:15"
             },
             "matchScore": 1
         },
@@ -829,17 +956,20 @@
             "sport": "football",
             "home": "Lorient",
             "away": "Paris FC",
+            "time": "18:15",
             "parik24": {
-                "p1": "2.271",
-                "x": "3.25",
-                "p2": "3.282",
-                "link": "https:\/\/24-parik.club\/en\/events\/lorient-paris-fc-16065092"
+                "p1": "2.281",
+                "x": "3.24",
+                "p2": "3.262",
+                "link": "https:\/\/24-parik.club\/en\/events\/lorient-paris-fc-16065092",
+                "time": "18:15"
             },
             "pinnacle": {
-                "p1": "2.28",
+                "p1": "2.31",
                 "x": "3.31",
-                "p2": "3.41",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lorient-vs-paris-fc\/1626186206\/"
+                "p2": "3.36",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lorient-vs-paris-fc\/1626186206\/",
+                "time": "18:15"
             },
             "matchScore": 1
         },
@@ -848,17 +978,20 @@
             "sport": "football",
             "home": "Metz",
             "away": "Nantes",
+            "time": "18:15",
             "parik24": {
-                "p1": "2.901",
+                "p1": "2.831",
                 "x": "3.24",
-                "p2": "2.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/metz-nantes-16065096"
+                "p2": "2.552",
+                "link": "https:\/\/24-parik.club\/en\/events\/metz-nantes-16065096",
+                "time": "18:15"
             },
             "pinnacle": {
-                "p1": "2.98",
+                "p1": "2.9",
                 "x": "3.3",
-                "p2": "2.54",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/metz-vs-nantes\/1626180288\/"
+                "p2": "2.6",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/metz-vs-nantes\/1626180288\/",
+                "time": "18:15"
             },
             "matchScore": 1
         },
@@ -867,17 +1000,20 @@
             "sport": "football",
             "home": "AS Monaco",
             "away": "Marseille",
+            "time": "21:45",
             "parik24": {
-                "p1": "2.171",
+                "p1": "2.151",
                 "x": "3.61",
-                "p2": "3.172",
-                "link": "https:\/\/24-parik.club\/en\/events\/as-monaco-marseille-16065572"
+                "p2": "3.212",
+                "link": "https:\/\/24-parik.club\/en\/events\/as-monaco-marseille-16065572",
+                "time": "21:45"
             },
             "pinnacle": {
-                "p1": "2.21",
-                "x": "3.67",
-                "p2": "3.23",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/monaco-vs-marseille\/1626177379\/"
+                "p1": "2.19",
+                "x": "3.68",
+                "p2": "3.28",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/monaco-vs-marseille\/1626177379\/",
+                "time": "21:45"
             },
             "matchScore": 1
         },
@@ -886,17 +1022,20 @@
             "sport": "football",
             "home": "Paris FC",
             "away": "AS Monaco",
+            "time": "20:00",
             "parik24": {
                 "p1": "3.251",
                 "x": "3.75",
                 "p2": "2.082",
-                "link": "https:\/\/24-parik.club\/en\/events\/paris-fc-as-monaco-16136556"
+                "link": "https:\/\/24-parik.club\/en\/events\/paris-fc-as-monaco-16136556",
+                "time": "20:00"
             },
             "pinnacle": {
                 "p1": "3.29",
                 "x": "3.74",
                 "p2": "2.09",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/paris-fc-vs-monaco\/1626759238\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/paris-fc-vs-monaco\/1626759238\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -905,17 +1044,20 @@
             "sport": "football",
             "home": "Marseille",
             "away": "Metz",
+            "time": "22:05",
             "parik24": {
                 "p1": "1.261",
                 "x": "5.91",
                 "p2": "11.302",
-                "link": "https:\/\/24-parik.club\/en\/events\/marseille-metz-16136594"
+                "link": "https:\/\/24-parik.club\/en\/events\/marseille-metz-16136594",
+                "time": "22:05"
             },
             "pinnacle": {
                 "p1": "1.26",
                 "x": "5.89",
                 "p2": "10.02",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/marseille-vs-metz\/1626759348\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/marseille-vs-metz\/1626759348\/",
+                "time": "22:05"
             },
             "matchScore": 1
         },
@@ -924,17 +1066,20 @@
             "sport": "football",
             "home": "Auxerre",
             "away": "Nantes",
+            "time": "20:00",
             "parik24": {
                 "p1": "2.111",
                 "x": "3.25",
                 "p2": "3.672",
-                "link": "https:\/\/24-parik.club\/en\/events\/auxerre-nantes-16136593"
+                "link": "https:\/\/24-parik.club\/en\/events\/auxerre-nantes-16136593",
+                "time": "20:00"
             },
             "pinnacle": {
                 "p1": "2.11",
                 "x": "3.25",
                 "p2": "3.71",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/auxerre-vs-nantes\/1626759349\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/auxerre-vs-nantes\/1626759349\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -943,17 +1088,20 @@
             "sport": "football",
             "home": "Rennes",
             "away": "Angers",
+            "time": "22:05",
             "parik24": {
                 "p1": "1.401",
                 "x": "4.55",
                 "p2": "8.412",
-                "link": "https:\/\/24-parik.club\/en\/events\/rennes-angers-16136546"
+                "link": "https:\/\/24-parik.club\/en\/events\/rennes-angers-16136546",
+                "time": "22:05"
             },
             "pinnacle": {
                 "p1": "1.383",
                 "x": "4.82",
                 "p2": "7.9",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/rennes-vs-angers\/1626759347\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/rennes-vs-angers\/1626759347\/",
+                "time": "22:05"
             },
             "matchScore": 1
         },
@@ -962,17 +1110,20 @@
             "sport": "football",
             "home": "Nice",
             "away": "Le Havre",
+            "time": "18:15",
             "parik24": {
                 "p1": "1.971",
                 "x": "2.98",
                 "p2": "4.732",
-                "link": "https:\/\/24-parik.club\/en\/events\/nice-le-havre-16136559"
+                "link": "https:\/\/24-parik.club\/en\/events\/nice-le-havre-16136559",
+                "time": "18:15"
             },
             "pinnacle": {
                 "p1": "1.97",
                 "x": "2.99",
                 "p2": "4.73",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/nice-vs-le-havre\/1626745158\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/nice-vs-le-havre\/1626745158\/",
+                "time": "18:15"
             },
             "matchScore": 1
         },
@@ -981,17 +1132,20 @@
             "sport": "football",
             "home": "Toulouse",
             "away": "Lille",
+            "time": "18:15",
             "parik24": {
                 "p1": "3.001",
                 "x": "3.25",
                 "p2": "2.432",
-                "link": "https:\/\/24-parik.club\/en\/events\/toulouse-lille-16136560"
+                "link": "https:\/\/24-parik.club\/en\/events\/toulouse-lille-16136560",
+                "time": "18:15"
             },
             "pinnacle": {
                 "p1": "3.06",
                 "x": "3.28",
                 "p2": "2.39",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/toulouse-vs-lille\/1626759237\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/toulouse-vs-lille\/1626759237\/",
+                "time": "18:15"
             },
             "matchScore": 1
         },
@@ -1000,17 +1154,20 @@
             "sport": "football",
             "home": "Lyon",
             "away": "Lorient",
+            "time": "21:45",
             "parik24": {
                 "p1": "1.731",
                 "x": "3.77",
                 "p2": "4.792",
-                "link": "https:\/\/24-parik.club\/en\/events\/lyon-lorient-16136561"
+                "link": "https:\/\/24-parik.club\/en\/events\/lyon-lorient-16136561",
+                "time": "21:45"
             },
             "pinnacle": {
                 "p1": "1.729",
                 "x": "3.8",
                 "p2": "4.71",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lyon-vs-lorient\/1626745159\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/lyon-vs-lorient\/1626745159\/",
+                "time": "21:45"
             },
             "matchScore": 1
         },
@@ -1019,17 +1176,20 @@
             "sport": "football",
             "home": "Man City",
             "away": "Liverpool",
+            "time": "14:45",
             "parik24": {
                 "p1": "1.791",
                 "x": "4.12",
                 "p2": "4.202",
-                "link": "https:\/\/24-parik.club\/en\/events\/man-city-liverpool-16007385"
+                "link": "https:\/\/24-parik.club\/en\/events\/man-city-liverpool-16007385",
+                "time": "14:45"
             },
             "pinnacle": {
                 "p1": "1.793",
                 "x": "4.15",
                 "p2": "4.2",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/manchester-city-vs-liverpool\/1625802249\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/manchester-city-vs-liverpool\/1625802249\/",
+                "time": "14:45"
             },
             "matchScore": 1
         },
@@ -1038,17 +1198,20 @@
             "sport": "football",
             "home": "Chelsea",
             "away": "Port Vale",
+            "time": "19:15",
             "parik24": {
                 "p1": "1.041",
-                "x": "22.3",
-                "p2": "31.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-port-vale-16007386"
+                "x": "21.7",
+                "p2": "32.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-port-vale-16007386",
+                "time": "19:15"
             },
             "pinnacle": {
-                "p1": "1.036",
-                "x": "21.28",
+                "p1": "1.037",
+                "x": "20.89",
                 "p2": "30.34",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/chelsea-vs-port-vale\/1625807093\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/chelsea-vs-port-vale\/1625807093\/",
+                "time": "19:15"
             },
             "matchScore": 1
         },
@@ -1057,17 +1220,20 @@
             "sport": "football",
             "home": "Southampton",
             "away": "Arsenal FC",
+            "time": "22:00",
             "parik24": {
                 "p1": "11.701",
                 "x": "5.87",
                 "p2": "1.282",
-                "link": "https:\/\/24-parik.club\/en\/events\/southampton-arsenal-fc-16007387"
+                "link": "https:\/\/24-parik.club\/en\/events\/southampton-arsenal-fc-16007387",
+                "time": "22:00"
             },
             "pinnacle": {
-                "p1": "10.04",
-                "x": "5.83",
+                "p1": "10.02",
+                "x": "5.82",
                 "p2": "1.263",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/southampton-vs-arsenal\/1625802159\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/southampton-vs-arsenal\/1625802159\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -1076,17 +1242,20 @@
             "sport": "football",
             "home": "West Ham",
             "away": "Leeds",
+            "time": "18:30",
             "parik24": {
                 "p1": "2.451",
                 "x": "3.51",
                 "p2": "2.772",
-                "link": "https:\/\/24-parik.club\/en\/events\/west-ham-leeds-16010306"
+                "link": "https:\/\/24-parik.club\/en\/events\/west-ham-leeds-16010306",
+                "time": "18:30"
             },
             "pinnacle": {
                 "p1": "2.47",
                 "x": "3.58",
                 "p2": "2.87",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/west-ham-united-vs-leeds-united\/1625827228\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/west-ham-united-vs-leeds-united\/1625827228\/",
+                "time": "18:30"
             },
             "matchScore": 0.7222222222222221
         },
@@ -1095,17 +1264,20 @@
             "sport": "football",
             "home": "Rayo Vallecano",
             "away": "Elche CF",
+            "time": "22:00",
             "parik24": {
-                "p1": "1.731",
-                "x": "3.84",
-                "p2": "5.022",
-                "link": "https:\/\/24-parik.club\/en\/events\/rayo-vallecano-elche-cf-16052761"
+                "p1": "1.761",
+                "x": "3.81",
+                "p2": "4.822",
+                "link": "https:\/\/24-parik.club\/en\/events\/rayo-vallecano-elche-cf-16052761",
+                "time": "22:00"
             },
             "pinnacle": {
-                "p1": "1.746",
-                "x": "3.87",
-                "p2": "5.01",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/rayo-vallecano-vs-elche\/1626186258\/"
+                "p1": "1.775",
+                "x": "3.83",
+                "p2": "4.8",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/rayo-vallecano-vs-elche\/1626186258\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -1114,17 +1286,20 @@
             "sport": "football",
             "home": "Real Sociedad",
             "away": "Levante",
+            "time": "15:00",
             "parik24": {
                 "p1": "1.601",
                 "x": "4.11",
                 "p2": "5.862",
-                "link": "https:\/\/24-parik.club\/en\/events\/real-sociedad-levante-16052762"
+                "link": "https:\/\/24-parik.club\/en\/events\/real-sociedad-levante-16052762",
+                "time": "15:00"
             },
             "pinnacle": {
                 "p1": "1.591",
                 "x": "4.25",
                 "p2": "5.76",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/real-sociedad-vs-levante\/1626180336\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/real-sociedad-vs-levante\/1626180336\/",
+                "time": "15:00"
             },
             "matchScore": 1
         },
@@ -1133,17 +1308,20 @@
             "sport": "football",
             "home": "Mallorca",
             "away": "Real Madrid",
+            "time": "17:15",
             "parik24": {
-                "p1": "5.741",
+                "p1": "5.781",
                 "x": "4.31",
                 "p2": "1.582",
-                "link": "https:\/\/24-parik.club\/en\/events\/mallorca-real-madrid-16053827"
+                "link": "https:\/\/24-parik.club\/en\/events\/mallorca-real-madrid-16053827",
+                "time": "17:15"
             },
             "pinnacle": {
-                "p1": "5.66",
-                "x": "4.45",
-                "p2": "1.571",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/mallorca-vs-real-madrid\/1626195023\/"
+                "p1": "5.68",
+                "x": "4.46",
+                "p2": "1.568",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/mallorca-vs-real-madrid\/1626195023\/",
+                "time": "17:15"
             },
             "matchScore": 1
         },
@@ -1152,17 +1330,20 @@
             "sport": "football",
             "home": "Betis",
             "away": "Espanyol",
+            "time": "19:30",
             "parik24": {
                 "p1": "1.761",
                 "x": "4.02",
                 "p2": "4.522",
-                "link": "https:\/\/24-parik.club\/en\/events\/betis-espanyol-16065280"
+                "link": "https:\/\/24-parik.club\/en\/events\/betis-espanyol-16065280",
+                "time": "19:30"
             },
             "pinnacle": {
                 "p1": "1.735",
                 "x": "4.21",
                 "p2": "4.51",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/real-betis-vs-espanyol\/1626195024\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/real-betis-vs-espanyol\/1626195024\/",
+                "time": "19:30"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1171,17 +1352,20 @@
             "sport": "football",
             "home": "Atletico Madrid",
             "away": "Barcelona",
+            "time": "22:00",
             "parik24": {
                 "p1": "3.071",
                 "x": "3.88",
                 "p2": "2.192",
-                "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-barcelona-16055794"
+                "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-barcelona-16055794",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "3.13",
                 "x": "3.87",
                 "p2": "2.19",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/atletico-madrid-vs-barcelona\/1626195025\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/atletico-madrid-vs-barcelona\/1626195025\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -1190,17 +1374,20 @@
             "sport": "football",
             "home": "Getafe",
             "away": "Athletic Bilbao",
+            "time": "15:00",
             "parik24": {
-                "p1": "3.001",
-                "x": "2.82",
+                "p1": "3.071",
+                "x": "2.85",
                 "p2": "2.752",
-                "link": "https:\/\/24-parik.club\/en\/events\/getafe-athletic-bilbao-16062844"
+                "link": "https:\/\/24-parik.club\/en\/events\/getafe-athletic-bilbao-16062844",
+                "time": "15:00"
             },
             "pinnacle": {
-                "p1": "3.07",
+                "p1": "3.09",
                 "x": "2.87",
-                "p2": "2.79",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/getafe-vs-athletic-bilbao\/1626195026\/"
+                "p2": "2.77",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/getafe-vs-athletic-bilbao\/1626195026\/",
+                "time": "15:00"
             },
             "matchScore": 1
         },
@@ -1209,11 +1396,13 @@
             "sport": "football",
             "home": "Valencia",
             "away": "Celta",
+            "time": "17:15",
             "parik24": {
                 "p1": "2.341",
-                "x": "3.28",
-                "p2": "3.112",
-                "link": "https:\/\/24-parik.club\/en\/events\/valencia-celta-16064203"
+                "x": "3.26",
+                "p2": "3.132",
+                "link": "https:\/\/24-parik.club\/en\/events\/valencia-celta-16064203",
+                "time": "17:15"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1223,11 +1412,13 @@
             "sport": "football",
             "home": "Real Oviedo",
             "away": "Sevilla",
+            "time": "19:30",
             "parik24": {
-                "p1": "2.731",
-                "x": "3.05",
-                "p2": "2.782",
-                "link": "https:\/\/24-parik.club\/en\/events\/real-oviedo-sevilla-16065117"
+                "p1": "2.831",
+                "x": "2.87",
+                "p2": "2.832",
+                "link": "https:\/\/24-parik.club\/en\/events\/real-oviedo-sevilla-16065117",
+                "time": "19:30"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1237,11 +1428,13 @@
             "sport": "football",
             "home": "Alaves",
             "away": "Osasuna",
+            "time": "22:00",
             "parik24": {
                 "p1": "2.481",
                 "x": "3.1",
                 "p2": "3.052",
-                "link": "https:\/\/24-parik.club\/en\/events\/alaves-osasuna-16054719"
+                "link": "https:\/\/24-parik.club\/en\/events\/alaves-osasuna-16054719",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1251,11 +1444,13 @@
             "sport": "football",
             "home": "Girona",
             "away": "Villarreal",
+            "time": "22:00",
             "parik24": {
                 "p1": "2.951",
                 "x": "3.73",
                 "p2": "2.242",
-                "link": "https:\/\/24-parik.club\/en\/events\/girona-villarreal-16065510"
+                "link": "https:\/\/24-parik.club\/en\/events\/girona-villarreal-16065510",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1265,11 +1460,13 @@
             "sport": "football",
             "home": "Real Madrid",
             "away": "Girona",
+            "time": "22:00",
             "parik24": {
                 "p1": "1.221",
                 "x": "6.76",
                 "p2": "11.702",
-                "link": "https:\/\/24-parik.club\/en\/events\/real-madrid-girona-16116156"
+                "link": "https:\/\/24-parik.club\/en\/events\/real-madrid-girona-16116156",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1279,11 +1476,13 @@
             "sport": "football",
             "home": "Real Sociedad",
             "away": "Alaves",
+            "time": "15:00",
             "parik24": {
                 "p1": "1.781",
                 "x": "3.53",
                 "p2": "4.812",
-                "link": "https:\/\/24-parik.club\/en\/events\/real-sociedad-alaves-16122347"
+                "link": "https:\/\/24-parik.club\/en\/events\/real-sociedad-alaves-16122347",
+                "time": "15:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1293,11 +1492,13 @@
             "sport": "football",
             "home": "Elche CF",
             "away": "Valencia",
+            "time": "17:15",
             "parik24": {
                 "p1": "2.391",
                 "x": "3.27",
                 "p2": "3.022",
-                "link": "https:\/\/24-parik.club\/en\/events\/elche-cf-valencia-16124047"
+                "link": "https:\/\/24-parik.club\/en\/events\/elche-cf-valencia-16124047",
+                "time": "17:15"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1307,11 +1508,13 @@
             "sport": "football",
             "home": "Barcelona",
             "away": "Espanyol",
+            "time": "19:30",
             "parik24": {
                 "p1": "1.231",
                 "x": "6.53",
                 "p2": "11.702",
-                "link": "https:\/\/24-parik.club\/en\/events\/barcelona-espanyol-16124908"
+                "link": "https:\/\/24-parik.club\/en\/events\/barcelona-espanyol-16124908",
+                "time": "19:30"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1321,11 +1524,13 @@
             "sport": "football",
             "home": "Sevilla",
             "away": "Atletico Madrid",
+            "time": "22:00",
             "parik24": {
                 "p1": "3.201",
                 "x": "3.48",
                 "p2": "2.212",
-                "link": "https:\/\/24-parik.club\/en\/events\/sevilla-atletico-madrid-16125977"
+                "link": "https:\/\/24-parik.club\/en\/events\/sevilla-atletico-madrid-16125977",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1335,11 +1540,13 @@
             "sport": "football",
             "home": "Osasuna",
             "away": "Betis",
+            "time": "15:00",
             "parik24": {
                 "p1": "2.381",
                 "x": "3.49",
                 "p2": "2.882",
-                "link": "https:\/\/24-parik.club\/en\/events\/osasuna-betis-16132245"
+                "link": "https:\/\/24-parik.club\/en\/events\/osasuna-betis-16132245",
+                "time": "15:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1349,11 +1556,13 @@
             "sport": "football",
             "home": "Mallorca",
             "away": "Rayo Vallecano",
+            "time": "17:15",
             "parik24": {
                 "p1": "2.621",
                 "x": "3.44",
                 "p2": "2.622",
-                "link": "https:\/\/24-parik.club\/en\/events\/mallorca-rayo-vallecano-16133732"
+                "link": "https:\/\/24-parik.club\/en\/events\/mallorca-rayo-vallecano-16133732",
+                "time": "17:15"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1363,11 +1572,13 @@
             "sport": "football",
             "home": "Celta",
             "away": "Real Oviedo",
+            "time": "19:30",
             "parik24": {
                 "p1": "1.641",
                 "x": "3.83",
                 "p2": "5.462",
-                "link": "https:\/\/24-parik.club\/en\/events\/celta-real-oviedo-16134965"
+                "link": "https:\/\/24-parik.club\/en\/events\/celta-real-oviedo-16134965",
+                "time": "19:30"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1377,11 +1588,13 @@
             "sport": "football",
             "home": "Athletic Bilbao",
             "away": "Villarreal",
+            "time": "22:00",
             "parik24": {
-                "p1": "2.411",
+                "p1": "2.391",
                 "x": "3.6",
-                "p2": "2.782",
-                "link": "https:\/\/24-parik.club\/en\/events\/athletic-bilbao-villarreal-16135516"
+                "p2": "2.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/athletic-bilbao-villarreal-16135516",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1391,11 +1604,13 @@
             "sport": "football",
             "home": "Levante",
             "away": "Getafe",
+            "time": "22:00",
             "parik24": {
                 "p1": "2.801",
                 "x": "2.93",
                 "p2": "2.822",
-                "link": "https:\/\/24-parik.club\/en\/events\/levante-getafe-16135521"
+                "link": "https:\/\/24-parik.club\/en\/events\/levante-getafe-16135521",
+                "time": "22:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1405,17 +1620,20 @@
             "sport": "football",
             "home": "West Ham",
             "away": "Wolverhampton",
+            "time": "22:00",
             "parik24": {
                 "p1": "1.811",
                 "x": "3.74",
                 "p2": "4.302",
-                "link": "https:\/\/24-parik.club\/en\/events\/west-ham-wolverhampton-16061253"
+                "link": "https:\/\/24-parik.club\/en\/events\/west-ham-wolverhampton-16061253",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "1.806",
                 "x": "3.75",
                 "p2": "4.3",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/west-ham-united-vs-wolverhampton\/1626293771\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/west-ham-united-vs-wolverhampton\/1626293771\/",
+                "time": "22:00"
             },
             "matchScore": 0.8888888888888888
         },
@@ -1424,17 +1642,20 @@
             "sport": "football",
             "home": "Arsenal FC",
             "away": "Bournemouth",
+            "time": "14:30",
             "parik24": {
                 "p1": "1.431",
                 "x": "4.49",
                 "p2": "7.702",
-                "link": "https:\/\/24-parik.club\/en\/events\/arsenal-fc-bournemouth-16061254"
+                "link": "https:\/\/24-parik.club\/en\/events\/arsenal-fc-bournemouth-16061254",
+                "time": "14:30"
             },
             "pinnacle": {
                 "p1": "1.374",
                 "x": "4.82",
                 "p2": "8.2",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/arsenal-vs-bournemouth\/1626291711\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/arsenal-vs-bournemouth\/1626291711\/",
+                "time": "14:30"
             },
             "matchScore": 1
         },
@@ -1443,17 +1664,20 @@
             "sport": "football",
             "home": "Brentford",
             "away": "Everton",
+            "time": "17:00",
             "parik24": {
                 "p1": "2.231",
                 "x": "3.46",
                 "p2": "3.172",
-                "link": "https:\/\/24-parik.club\/en\/events\/brentford-everton-16061258"
+                "link": "https:\/\/24-parik.club\/en\/events\/brentford-everton-16061258",
+                "time": "17:00"
             },
             "pinnacle": {
                 "p1": "2.2",
                 "x": "3.34",
                 "p2": "3.37",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/brentford-vs-everton\/1626293774\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/brentford-vs-everton\/1626293774\/",
+                "time": "17:00"
             },
             "matchScore": 1
         },
@@ -1462,17 +1686,20 @@
             "sport": "football",
             "home": "Burnley",
             "away": "Brighton",
+            "time": "17:00",
             "parik24": {
                 "p1": "4.411",
                 "x": "4.09",
                 "p2": "1.722",
-                "link": "https:\/\/24-parik.club\/en\/events\/burnley-brighton-16061255"
+                "link": "https:\/\/24-parik.club\/en\/events\/burnley-brighton-16061255",
+                "time": "17:00"
             },
             "pinnacle": {
                 "p1": "4.37",
                 "x": "4.1",
                 "p2": "1.719",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/burnley-vs-brighton\/1626293772\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/burnley-vs-brighton\/1626293772\/",
+                "time": "17:00"
             },
             "matchScore": 1
         },
@@ -1481,17 +1708,20 @@
             "sport": "football",
             "home": "Liverpool",
             "away": "Fulham",
+            "time": "19:30",
             "parik24": {
                 "p1": "1.561",
                 "x": "4.39",
                 "p2": "5.392",
-                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-fulham-16061259"
+                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-fulham-16061259",
+                "time": "19:30"
             },
             "pinnacle": {
                 "p1": "1.558",
                 "x": "4.46",
                 "p2": "5.26",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/liverpool-vs-fulham\/1626291708\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/liverpool-vs-fulham\/1626291708\/",
+                "time": "19:30"
             },
             "matchScore": 1
         },
@@ -1500,17 +1730,20 @@
             "sport": "football",
             "home": "Crystal Palace",
             "away": "Newcastle",
+            "time": "16:00",
             "parik24": {
                 "p1": "2.721",
                 "x": "3.52",
                 "p2": "2.482",
-                "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-newcastle-16061256"
+                "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-newcastle-16061256",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "2.76",
                 "x": "3.52",
                 "p2": "2.48",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/crystal-palace-vs-newcastle-united\/1626293773\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/crystal-palace-vs-newcastle-united\/1626293773\/",
+                "time": "16:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1519,17 +1752,20 @@
             "sport": "football",
             "home": "Nottm Forest",
             "away": "Aston Villa",
+            "time": "16:00",
             "parik24": {
                 "p1": "2.651",
                 "x": "3.27",
                 "p2": "2.702",
-                "link": "https:\/\/24-parik.club\/en\/events\/nottm-forest-aston-villa-16061257"
+                "link": "https:\/\/24-parik.club\/en\/events\/nottm-forest-aston-villa-16061257",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "2.69",
                 "x": "3.28",
                 "p2": "2.69",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/nottingham-forest-vs-aston-villa\/1626291710\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/nottingham-forest-vs-aston-villa\/1626291710\/",
+                "time": "16:00"
             },
             "matchScore": 0.7222222222222222
         },
@@ -1538,17 +1774,20 @@
             "sport": "football",
             "home": "Sunderland",
             "away": "Tottenham",
+            "time": "16:00",
             "parik24": {
                 "p1": "2.621",
                 "x": "3.44",
                 "p2": "2.622",
-                "link": "https:\/\/24-parik.club\/en\/events\/sunderland-tottenham-16061260"
+                "link": "https:\/\/24-parik.club\/en\/events\/sunderland-tottenham-16061260",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "2.66",
                 "x": "3.44",
                 "p2": "2.61",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/sunderland-vs-tottenham-hotspur\/1626291707\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/sunderland-vs-tottenham-hotspur\/1626291707\/",
+                "time": "16:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1557,17 +1796,20 @@
             "sport": "football",
             "home": "Chelsea",
             "away": "Man City",
+            "time": "18:30",
             "parik24": {
-                "p1": "2.971",
-                "x": "4",
-                "p2": "2.142",
-                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-man-city-16061261"
+                "p1": "3.001",
+                "x": "3.93",
+                "p2": "2.152",
+                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-man-city-16061261",
+                "time": "18:30"
             },
             "pinnacle": {
-                "p1": "2.94",
-                "x": "3.98",
-                "p2": "2.18",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/chelsea-vs-manchester-city\/1626291709\/"
+                "p1": "3.01",
+                "x": "3.96",
+                "p2": "2.15",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/chelsea-vs-manchester-city\/1626291709\/",
+                "time": "18:30"
             },
             "matchScore": 1
         },
@@ -1576,17 +1818,20 @@
             "sport": "football",
             "home": "Man Utd",
             "away": "Leeds",
+            "time": "22:00",
             "parik24": {
                 "p1": "1.611",
                 "x": "3.97",
                 "p2": "5.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/man-utd-leeds-16061262"
+                "link": "https:\/\/24-parik.club\/en\/events\/man-utd-leeds-16061262",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "1.574",
                 "x": "4.28",
                 "p2": "5.36",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/manchester-united-vs-leeds-united\/1626291706\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/manchester-united-vs-leeds-united\/1626291706\/",
+                "time": "22:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1595,17 +1840,20 @@
             "sport": "football",
             "home": "Brentford",
             "away": "Fulham",
+            "time": "14:30",
             "parik24": {
                 "p1": "2.091",
                 "x": "3.78",
                 "p2": "3.222",
-                "link": "https:\/\/24-parik.club\/en\/events\/brentford-fulham-16125429"
+                "link": "https:\/\/24-parik.club\/en\/events\/brentford-fulham-16125429",
+                "time": "14:30"
             },
             "pinnacle": {
                 "p1": "2.09",
                 "x": "3.76",
                 "p2": "3.25",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/brentford-vs-fulham\/1626745154\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/brentford-vs-fulham\/1626745154\/",
+                "time": "14:30"
             },
             "matchScore": 1
         },
@@ -1614,17 +1862,20 @@
             "sport": "football",
             "home": "Leeds",
             "away": "Wolverhampton",
+            "time": "17:00",
             "parik24": {
                 "p1": "1.671",
                 "x": "3.77",
                 "p2": "5.282",
-                "link": "https:\/\/24-parik.club\/en\/events\/leeds-wolverhampton-16125430"
+                "link": "https:\/\/24-parik.club\/en\/events\/leeds-wolverhampton-16125430",
+                "time": "17:00"
             },
             "pinnacle": {
                 "p1": "1.666",
                 "x": "3.84",
                 "p2": "5.16",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/leeds-united-vs-wolverhampton\/1626759341\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/leeds-united-vs-wolverhampton\/1626759341\/",
+                "time": "17:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1633,17 +1884,20 @@
             "sport": "football",
             "home": "Newcastle",
             "away": "Bournemouth",
+            "time": "17:00",
             "parik24": {
                 "p1": "1.851",
                 "x": "3.95",
                 "p2": "3.832",
-                "link": "https:\/\/24-parik.club\/en\/events\/newcastle-bournemouth-16125431"
+                "link": "https:\/\/24-parik.club\/en\/events\/newcastle-bournemouth-16125431",
+                "time": "17:00"
             },
             "pinnacle": {
                 "p1": "1.862",
                 "x": "3.96",
                 "p2": "3.81",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/newcastle-united-vs-bournemouth\/1626759344\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/newcastle-united-vs-bournemouth\/1626759344\/",
+                "time": "17:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1652,17 +1906,20 @@
             "sport": "football",
             "home": "Tottenham",
             "away": "Brighton",
+            "time": "19:30",
             "parik24": {
                 "p1": "2.501",
                 "x": "3.67",
                 "p2": "2.622",
-                "link": "https:\/\/24-parik.club\/en\/events\/tottenham-brighton-16125432"
+                "link": "https:\/\/24-parik.club\/en\/events\/tottenham-brighton-16125432",
+                "time": "19:30"
             },
             "pinnacle": {
                 "p1": "2.5",
                 "x": "3.66",
                 "p2": "2.66",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/tottenham-hotspur-vs-brighton\/1626759343\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/tottenham-hotspur-vs-brighton\/1626759343\/",
+                "time": "19:30"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1671,17 +1928,20 @@
             "sport": "football",
             "home": "Chelsea",
             "away": "Man Utd",
+            "time": "22:00",
             "parik24": {
                 "p1": "2.211",
                 "x": "3.28",
                 "p2": "3.382",
-                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-man-utd--16125433"
+                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-man-utd--16125433",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "2.22",
                 "x": "3.28",
                 "p2": "3.38",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/chelsea-vs-manchester-united\/1626759235\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/chelsea-vs-manchester-united\/1626759235\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -1690,17 +1950,20 @@
             "sport": "football",
             "home": "Aston Villa",
             "away": "Sunderland",
+            "time": "16:00",
             "parik24": {
                 "p1": "1.611",
                 "x": "4",
                 "p2": "5.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/aston-villa-sunderland-16125436"
+                "link": "https:\/\/24-parik.club\/en\/events\/aston-villa-sunderland-16125436",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "1.617",
                 "x": "3.85",
                 "p2": "5.63",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/aston-villa-vs-sunderland\/1626759342\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/aston-villa-vs-sunderland\/1626759342\/",
+                "time": "16:00"
             },
             "matchScore": 1
         },
@@ -1709,17 +1972,20 @@
             "sport": "football",
             "home": "Everton",
             "away": "Liverpool",
+            "time": "16:00",
             "parik24": {
                 "p1": "3.471",
                 "x": "3.44",
                 "p2": "2.112",
-                "link": "https:\/\/24-parik.club\/en\/events\/everton-liverpool-16125434"
+                "link": "https:\/\/24-parik.club\/en\/events\/everton-liverpool-16125434",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "3.48",
                 "x": "3.44",
                 "p2": "2.12",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/everton-vs-liverpool\/1626745153\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/everton-vs-liverpool\/1626745153\/",
+                "time": "16:00"
             },
             "matchScore": 1
         },
@@ -1728,17 +1994,20 @@
             "sport": "football",
             "home": "Nottm Forest",
             "away": "Burnley",
+            "time": "16:00",
             "parik24": {
                 "p1": "1.561",
                 "x": "3.99",
                 "p2": "6.182",
-                "link": "https:\/\/24-parik.club\/en\/events\/nottm-forest-burnley-16125435"
+                "link": "https:\/\/24-parik.club\/en\/events\/nottm-forest-burnley-16125435",
+                "time": "16:00"
             },
             "pinnacle": {
                 "p1": "1.571",
                 "x": "3.97",
                 "p2": "5.97",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/nottingham-forest-vs-burnley\/1626759234\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/nottingham-forest-vs-burnley\/1626759234\/",
+                "time": "16:00"
             },
             "matchScore": 0.7222222222222222
         },
@@ -1747,17 +2016,20 @@
             "sport": "football",
             "home": "Man City",
             "away": "Arsenal FC",
+            "time": "18:30",
             "parik24": {
                 "p1": "2.361",
                 "x": "3.4",
                 "p2": "2.972",
-                "link": "https:\/\/24-parik.club\/en\/events\/man-city-arsenal-fc-16125437"
+                "link": "https:\/\/24-parik.club\/en\/events\/man-city-arsenal-fc-16125437",
+                "time": "18:30"
             },
             "pinnacle": {
                 "p1": "2.22",
                 "x": "3.58",
                 "p2": "3.11",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/manchester-city-vs-arsenal\/1626759345\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/manchester-city-vs-arsenal\/1626759345\/",
+                "time": "18:30"
             },
             "matchScore": 1
         },
@@ -1766,17 +2038,20 @@
             "sport": "football",
             "home": "Crystal Palace",
             "away": "West Ham",
+            "time": "22:00",
             "parik24": {
                 "p1": "2.221",
                 "x": "3.58",
                 "p2": "3.102",
-                "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-west-ham-16125438"
+                "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-west-ham-16125438",
+                "time": "22:00"
             },
             "pinnacle": {
                 "p1": "2.21",
                 "x": "3.08",
                 "p2": "3.66",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/crystal-palace-vs-west-ham-united\/1626759233\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league\/crystal-palace-vs-west-ham-united\/1626759233\/",
+                "time": "22:00"
             },
             "matchScore": 0.8888888888888888
         },
@@ -1785,17 +2060,20 @@
             "sport": "basketball",
             "home": "Charlotte Hornets",
             "away": "Indiana Pacers",
+            "time": "02:00",
             "parik24": {
                 "p1": "1.101",
                 "x": null,
-                "p2": "24.54",
-                "link": "https:\/\/24-parik.club\/en\/events\/charlotte-hornets-indiana-pacers-16242807"
+                "p2": "24.87",
+                "link": "https:\/\/24-parik.club\/en\/events\/charlotte-hornets-indiana-pacers-16242807",
+                "time": "02:00"
             },
             "pinnacle": {
-                "p1": "9.63",
+                "p1": "10.1",
                 "x": null,
-                "p2": "1.072",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/indiana-pacers-vs-charlotte-hornets\/1627350795\/"
+                "p2": "1.074",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/indiana-pacers-vs-charlotte-hornets\/1627350795\/",
+                "time": "02:10"
             },
             "matchScore": 1
         },
@@ -1804,17 +2082,20 @@
             "sport": "basketball",
             "home": "Philadelphia 76ers",
             "away": "Minnesota Timberwolves",
+            "time": "02:00",
             "parik24": {
                 "p1": "1.811",
                 "x": null,
-                "p2": "14.78",
-                "link": "https:\/\/24-parik.club\/en\/events\/philadelphia-76ers-minnesota-timberwolves-16242813"
+                "p2": "15.15",
+                "link": "https:\/\/24-parik.club\/en\/events\/philadelphia-76ers-minnesota-timberwolves-16242813",
+                "time": "02:00"
             },
             "pinnacle": {
-                "p1": "2.19",
+                "p1": "2.22",
                 "x": null,
-                "p2": "1.746",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/minnesota-timberwolves-vs-philadelphia-76ers\/1627349022\/"
+                "p2": "1.74",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/minnesota-timberwolves-vs-philadelphia-76ers\/1627349022\/",
+                "time": "02:10"
             },
             "matchScore": 1
         },
@@ -1823,17 +2104,20 @@
             "sport": "basketball",
             "home": "Brooklyn Nets",
             "away": "Atlanta Hawks",
+            "time": "02:30",
             "parik24": {
-                "p1": "9.711",
+                "p1": "9.911",
                 "x": null,
-                "p2": "26.45",
-                "link": "https:\/\/24-parik.club\/en\/events\/brooklyn-nets-atlanta-hawks-16242806"
+                "p2": "26.56",
+                "link": "https:\/\/24-parik.club\/en\/events\/brooklyn-nets-atlanta-hawks-16242806",
+                "time": "02:30"
             },
             "pinnacle": {
-                "p1": "1.072",
+                "p1": "1.076",
                 "x": null,
-                "p2": "9.59",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/atlanta-hawks-vs-brooklyn-nets\/1627349020\/"
+                "p2": "9.85",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/atlanta-hawks-vs-brooklyn-nets\/1627349020\/",
+                "time": "02:40"
             },
             "matchScore": 1
         },
@@ -1842,17 +2126,20 @@
             "sport": "basketball",
             "home": "New York Knicks",
             "away": "Chicago Bulls",
+            "time": "02:30",
             "parik24": {
                 "p1": "1.091",
                 "x": null,
-                "p2": "25.7",
-                "link": "https:\/\/24-parik.club\/en\/events\/new-york-knicks-chicago-bulls-16242808"
+                "p2": "25.87",
+                "link": "https:\/\/24-parik.club\/en\/events\/new-york-knicks-chicago-bulls-16242808",
+                "time": "02:30"
             },
             "pinnacle": {
-                "p1": "8.92",
+                "p1": "9.47",
                 "x": null,
-                "p2": "1.08",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/chicago-bulls-vs-new-york-knicks\/1627350794\/"
+                "p2": "1.081",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/chicago-bulls-vs-new-york-knicks\/1627350794\/",
+                "time": "02:40"
             },
             "matchScore": 1
         },
@@ -1861,17 +2148,20 @@
             "sport": "basketball",
             "home": "Houston Rockets",
             "away": "Utah Jazz",
+            "time": "03:00",
             "parik24": {
                 "p1": "1.091",
                 "x": null,
-                "p2": "26.84",
-                "link": "https:\/\/24-parik.club\/en\/events\/houston-rockets-utah-jazz-16242811"
+                "p2": "27.19",
+                "link": "https:\/\/24-parik.club\/en\/events\/houston-rockets-utah-jazz-16242811",
+                "time": "03:00"
             },
             "pinnacle": {
-                "p1": "10.44",
+                "p1": "10.87",
                 "x": null,
-                "p2": "1.063",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/utah-jazz-vs-houston-rockets\/1627350796\/"
+                "p2": "1.066",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/utah-jazz-vs-houston-rockets\/1627350796\/",
+                "time": "03:10"
             },
             "matchScore": 1
         },
@@ -1880,17 +2170,20 @@
             "sport": "basketball",
             "home": "Memphis Grizzlies",
             "away": "Toronto Raptors",
+            "time": "03:00",
             "parik24": {
-                "p1": "6.911",
+                "p1": "7.021",
                 "x": null,
-                "p2": "21.53",
-                "link": "https:\/\/24-parik.club\/en\/events\/memphis-grizzlies-toronto-raptors-16242812"
+                "p2": "21.84",
+                "link": "https:\/\/24-parik.club\/en\/events\/memphis-grizzlies-toronto-raptors-16242812",
+                "time": "03:00"
             },
             "pinnacle": {
-                "p1": "1.125",
+                "p1": "1.127",
                 "x": null,
-                "p2": "6.66",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/toronto-raptors-vs-memphis-grizzlies\/1627349021\/"
+                "p2": "6.88",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/toronto-raptors-vs-memphis-grizzlies\/1627349021\/",
+                "time": "03:10"
             },
             "matchScore": 1
         },
@@ -1899,17 +2192,20 @@
             "sport": "basketball",
             "home": "Milwaukee Bucks",
             "away": "Boston Celtics",
+            "time": "03:00",
             "parik24": {
-                "p1": "9.591",
+                "p1": "10.051",
                 "x": null,
-                "p2": "25.87",
-                "link": "https:\/\/24-parik.club\/en\/events\/milwaukee-bucks-boston-celtics-16242809"
+                "p2": "27.14",
+                "link": "https:\/\/24-parik.club\/en\/events\/milwaukee-bucks-boston-celtics-16242809",
+                "time": "03:00"
             },
             "pinnacle": {
-                "p1": "1.06",
+                "p1": "1.061",
                 "x": null,
-                "p2": "10.87",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/boston-celtics-vs-milwaukee-bucks\/1627349437\/"
+                "p2": "11.56",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/boston-celtics-vs-milwaukee-bucks\/1627349437\/",
+                "time": "03:10"
             },
             "matchScore": 1
         },
@@ -1918,17 +2214,20 @@
             "sport": "basketball",
             "home": "Dallas Mavericks",
             "away": "Orlando Magic",
+            "time": "03:30",
             "parik24": {
-                "p1": "3.321",
+                "p1": "3.281",
                 "x": null,
-                "p2": "16.56",
-                "link": "https:\/\/24-parik.club\/en\/events\/dallas-mavericks-orlando-magic-16242810"
+                "p2": "16.47",
+                "link": "https:\/\/24-parik.club\/en\/events\/dallas-mavericks-orlando-magic-16242810",
+                "time": "03:30"
             },
             "pinnacle": {
-                "p1": "1.414",
+                "p1": "1.413",
                 "x": null,
-                "p2": "3.06",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/orlando-magic-vs-dallas-mavericks\/1627349438\/"
+                "p2": "3.12",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/orlando-magic-vs-dallas-mavericks\/1627349438\/",
+                "time": "03:40"
             },
             "matchScore": 1
         },
@@ -1937,17 +2236,20 @@
             "sport": "basketball",
             "home": "Sacramento Kings",
             "away": "New Orleans Pelicans",
+            "time": "05:00",
             "parik24": {
-                "p1": "2.891",
+                "p1": "2.941",
                 "x": null,
                 "p2": "16.59",
-                "link": "https:\/\/24-parik.club\/en\/events\/sacramento-kings-new-orleans-pelicans-16242814"
+                "link": "https:\/\/24-parik.club\/en\/events\/sacramento-kings-new-orleans-pelicans-16242814",
+                "time": "05:00"
             },
             "pinnacle": {
-                "p1": "1.571",
+                "p1": "1.483",
                 "x": null,
-                "p2": "2.54",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/new-orleans-pelicans-vs-sacramento-kings\/1627349023\/"
+                "p2": "2.83",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/new-orleans-pelicans-vs-sacramento-kings\/1627349023\/",
+                "time": "05:10"
             },
             "matchScore": 1
         },
@@ -1956,17 +2258,20 @@
             "sport": "basketball",
             "home": "Baylor",
             "away": "Oklahoma",
+            "time": "20:30",
             "parik24": {
                 "p1": "1.991",
                 "x": null,
                 "p2": "13.78",
-                "link": "https:\/\/24-parik.club\/en\/events\/baylor-oklahoma-16244725"
+                "link": "https:\/\/24-parik.club\/en\/events\/baylor-oklahoma-16244725",
+                "time": "20:30"
             },
             "pinnacle": {
                 "p1": "1.869",
                 "x": null,
                 "p2": "1.99",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/ncaa\/oklahoma-vs-baylor\/1627349054\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/ncaa\/oklahoma-vs-baylor\/1627349054\/",
+                "time": "20:30"
             },
             "matchScore": 1
         },
@@ -1975,11 +2280,13 @@
             "sport": "basketball",
             "home": "UConn",
             "away": "Illinois",
+            "time": "01:09",
             "parik24": {
                 "p1": "2.161",
                 "x": null,
                 "p2": "12.84",
-                "link": "https:\/\/24-parik.club\/en\/events\/uconn-illinois-16203856"
+                "link": "https:\/\/24-parik.club\/en\/events\/uconn-illinois-16203856",
+                "time": "01:09"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1989,17 +2296,20 @@
             "sport": "basketball",
             "home": "Arizona",
             "away": "Michigan",
+            "time": "03:49",
             "parik24": {
                 "p1": "2.071",
                 "x": null,
                 "p2": "12.84",
-                "link": "https:\/\/24-parik.club\/en\/events\/arizona-michigan-16206229"
+                "link": "https:\/\/24-parik.club\/en\/events\/arizona-michigan-16206229",
+                "time": "03:49"
             },
             "pinnacle": {
                 "p1": "1.869",
                 "x": null,
                 "p2": "2.02",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/ncaa\/michigan-vs-arizona\/1627116762\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/ncaa\/michigan-vs-arizona\/1627116762\/",
+                "time": "03:49"
             },
             "matchScore": 1
         },
@@ -2008,11 +2318,13 @@
             "sport": "basketball",
             "home": "Arizona",
             "away": "UConn",
+            "time": "04:00",
             "parik24": {
                 "p1": "1.401",
                 "x": null,
                 "p2": "2.712",
-                "link": "https:\/\/24-parik.club\/en\/events\/arizona-uconn-16223739"
+                "link": "https:\/\/24-parik.club\/en\/events\/arizona-uconn-16223739",
+                "time": "04:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -2022,11 +2334,13 @@
             "sport": "basketball",
             "home": "Michigan",
             "away": "Illinois",
+            "time": "04:00",
             "parik24": {
                 "p1": "1.501",
                 "x": null,
                 "p2": "2.422",
-                "link": "https:\/\/24-parik.club\/en\/events\/michigan-illinois-16223738"
+                "link": "https:\/\/24-parik.club\/en\/events\/michigan-illinois-16223738",
+                "time": "04:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -2036,17 +2350,20 @@
             "sport": "basketball",
             "home": "Bahcesehir Koleji",
             "away": "Besiktas",
+            "time": "19:00",
             "parik24": {
-                "p1": "1.891",
+                "p1": "1.991",
                 "x": null,
                 "p2": "13.27",
-                "link": "https:\/\/24-parik.club\/en\/events\/bahcesehir-koleji-besiktas-16230547"
+                "link": "https:\/\/24-parik.club\/en\/events\/bahcesehir-koleji-besiktas-16230547",
+                "time": "19:00"
             },
             "pinnacle": {
-                "p1": "1.781",
+                "p1": "1.943",
                 "x": null,
-                "p2": "2.05",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/europe-eurocup\/bahcesehir-koleji-vs-besiktas-jk\/1627243385\/"
+                "p2": "1.869",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/europe-eurocup\/bahcesehir-koleji-vs-besiktas-jk\/1627243385\/",
+                "time": "19:00"
             },
             "matchScore": 1
         },
@@ -2055,17 +2372,20 @@
             "sport": "basketball",
             "home": "Turk Telekom",
             "away": "JL Bourg Basket",
+            "time": "20:00",
             "parik24": {
                 "p1": "1.401",
                 "x": null,
                 "p2": "16.28",
-                "link": "https:\/\/24-parik.club\/en\/events\/turk-telekom-jl-bourg-basket-16230497"
+                "link": "https:\/\/24-parik.club\/en\/events\/turk-telekom-jl-bourg-basket-16230497",
+                "time": "20:00"
             },
             "pinnacle": {
-                "p1": "1.303",
+                "p1": "1.292",
                 "x": null,
-                "p2": "3.44",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/europe-eurocup\/turk-telekom-vs-jl-bourg-basket\/1627227775\/"
+                "p2": "3.51",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/europe-eurocup\/turk-telekom-vs-jl-bourg-basket\/1627227775\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -2074,17 +2394,20 @@
             "sport": "basketball",
             "home": "KK Borac Cacak",
             "away": "KK Zadar",
+            "time": "19:00",
             "parik24": {
                 "p1": "2.401",
                 "x": null,
                 "p2": "13.34",
-                "link": "https:\/\/24-parik.club\/en\/events\/kk-borac-cacak-kk-zadar-16226106"
+                "link": "https:\/\/24-parik.club\/en\/events\/kk-borac-cacak-kk-zadar-16226106",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "2.37",
                 "x": null,
                 "p2": "1.591",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-borac-cacak-vs-kk-zadar\/1627240569\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-borac-cacak-vs-kk-zadar\/1627240569\/",
+                "time": "19:00"
             },
             "matchScore": 1
         },
@@ -2093,17 +2416,20 @@
             "sport": "basketball",
             "home": "BC Dubai",
             "away": "KK Cedevita Olimpija",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.271",
                 "x": null,
                 "p2": "16.74",
-                "link": "https:\/\/24-parik.club\/en\/events\/bc-dubai-kk-cedevita-olimpija-16236434"
+                "link": "https:\/\/24-parik.club\/en\/events\/bc-dubai-kk-cedevita-olimpija-16236434",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "1.235",
                 "x": null,
                 "p2": "3.96",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/bc-dubai-vs-kk-cedevita-olimpija-ljubljana\/1627327166\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/bc-dubai-vs-kk-cedevita-olimpija-ljubljana\/1627327166\/",
+                "time": "19:00"
             },
             "matchScore": 0.8888888888888888
         },
@@ -2112,17 +2438,20 @@
             "sport": "basketball",
             "home": "KK Studentski Centar",
             "away": "BC Vienna",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.581",
                 "x": null,
                 "p2": "13.14",
-                "link": "https:\/\/24-parik.club\/en\/events\/kk-studentski-centar-bc-vienna-16236433"
+                "link": "https:\/\/24-parik.club\/en\/events\/kk-studentski-centar-bc-vienna-16236433",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "1.534",
                 "x": null,
                 "p2": "2.5",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-studentski-centar-podgorica-vs-bc-vienna\/1627327976\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-studentski-centar-podgorica-vs-bc-vienna\/1627327976\/",
+                "time": "19:00"
             },
             "matchScore": 0.8888888888888888
         },
@@ -2131,17 +2460,20 @@
             "sport": "basketball",
             "home": "Igokea",
             "away": "Crvena Zvezda",
+            "time": "20:00",
             "parik24": {
                 "p1": "5.111",
                 "x": null,
                 "p2": "18.41",
-                "link": "https:\/\/24-parik.club\/en\/events\/igokea-crvena-zvezda-16237163"
+                "link": "https:\/\/24-parik.club\/en\/events\/igokea-crvena-zvezda-16237163",
+                "time": "20:00"
             },
             "pinnacle": {
                 "p1": "4.9",
                 "x": null,
                 "p2": "1.162",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/igokea-vs-crvena-zvezda\/1627327996\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/igokea-vs-crvena-zvezda\/1627327996\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -2150,17 +2482,20 @@
             "sport": "basketball",
             "home": "KK Buducnost",
             "away": "Partizan",
+            "time": "19:00",
             "parik24": {
                 "p1": "1.861",
                 "x": null,
                 "p2": "13.07",
-                "link": "https:\/\/24-parik.club\/en\/events\/kk-buducnost-partizan-16246622"
+                "link": "https:\/\/24-parik.club\/en\/events\/kk-buducnost-partizan-16246622",
+                "time": "19:00"
             },
             "pinnacle": {
                 "p1": "1.854",
                 "x": null,
                 "p2": "1.97",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-buducnost-voli-vs-kk-partizan-belgrade\/1627382467\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-buducnost-voli-vs-kk-partizan-belgrade\/1627382467\/",
+                "time": "19:00"
             },
             "matchScore": 0.6666666666666666
         },
@@ -2169,17 +2504,20 @@
             "sport": "basketball",
             "home": "U-BT Cluj",
             "away": "KK Bosna Sarajevo",
+            "time": "20:30",
             "parik24": {
                 "p1": "1.161",
                 "x": null,
-                "p2": "17.87",
-                "link": "https:\/\/24-parik.club\/en\/events\/u-bt-cluj-kk-bosna-sarajevo-16247737"
+                "p2": "18.19",
+                "link": "https:\/\/24-parik.club\/en\/events\/u-bt-cluj-kk-bosna-sarajevo-16247737",
+                "time": "20:30"
             },
             "pinnacle": {
-                "p1": "1.162",
+                "p1": "1.156",
                 "x": null,
-                "p2": "4.9",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/universitatea-cluj-napoca-vs-kk-bosna-royal-sarajevo\/1627382485\/"
+                "p2": "5.02",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/universitatea-cluj-napoca-vs-kk-bosna-royal-sarajevo\/1627382485\/",
+                "time": "20:30"
             },
             "matchScore": 0.5694444444444444
         },
@@ -2188,17 +2526,20 @@
             "sport": "basketball",
             "home": "FMP Beograd",
             "away": "KK Spartak Subotica",
+            "time": "18:00",
             "parik24": {
                 "p1": "2.001",
                 "x": null,
                 "p2": "12.99",
-                "link": "https:\/\/24-parik.club\/en\/events\/fmp-beograd-kk-spartak-subotica-16236582"
+                "link": "https:\/\/24-parik.club\/en\/events\/fmp-beograd-kk-spartak-subotica-16236582",
+                "time": "18:00"
             },
             "pinnacle": {
                 "p1": "1.934",
                 "x": null,
                 "p2": "1.877",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-fmp-beograd-vs-spartak-subotica\/1627327970\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-fmp-beograd-vs-spartak-subotica\/1627327970\/",
+                "time": "18:00"
             },
             "matchScore": 1
         },
@@ -2207,17 +2548,20 @@
             "sport": "basketball",
             "home": "Mega Basket",
             "away": "Krka",
+            "time": "20:00",
             "parik24": {
                 "p1": "1.451",
                 "x": null,
                 "p2": "13.96",
-                "link": "https:\/\/24-parik.club\/en\/events\/mega-basket-krka-16246691"
+                "link": "https:\/\/24-parik.club\/en\/events\/mega-basket-krka-16246691",
+                "time": "20:00"
             },
             "pinnacle": {
                 "p1": "1.4",
                 "x": null,
                 "p2": "2.94",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-mega-basket-belgrade-vs-kk-krka-novo-mesto\/1627388865\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-mega-basket-belgrade-vs-kk-krka-novo-mesto\/1627388865\/",
+                "time": "20:00"
             },
             "matchScore": 0.6666666666666665
         },
@@ -2226,17 +2570,20 @@
             "sport": "basketball",
             "home": "CA Santa Paula de Galvez",
             "away": "Independiente BBC",
+            "time": "03:00",
             "parik24": {
-                "p1": "1.181",
+                "p1": "1.191",
                 "x": null,
-                "p2": "17.04",
-                "link": "https:\/\/24-parik.club\/en\/events\/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420"
+                "p2": "16.74",
+                "link": "https:\/\/24-parik.club\/en\/events\/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420",
+                "time": "03:00"
             },
             "pinnacle": {
-                "p1": "1.095",
+                "p1": "1.106",
                 "x": null,
-                "p2": "4.75",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/santa-paula-de-galvez-vs-independiente-santiago-del-estero\/1627116833\/"
+                "p2": "4.57",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/santa-paula-de-galvez-vs-independiente-santiago-del-estero\/1627116833\/",
+                "time": "03:00"
             },
             "matchScore": 0.6583333333333333
         },
@@ -2245,11 +2592,13 @@
             "sport": "basketball",
             "home": "Comunicaciones Mercedes",
             "away": "Bochas Sport Club de Colonia Caroya",
+            "time": "03:00",
             "parik24": {
                 "p1": "1.221",
                 "x": null,
                 "p2": "16.73",
-                "link": "https:\/\/24-parik.club\/en\/events\/comunicaciones-mercedes-bochas-sport-club-de-colonia-caroya-16239421"
+                "link": "https:\/\/24-parik.club\/en\/events\/comunicaciones-mercedes-bochas-sport-club-de-colonia-caroya-16239421",
+                "time": "03:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -2259,17 +2608,20 @@
             "sport": "basketball",
             "home": "Jujuy Basquet",
             "away": "Villa San Martin",
+            "time": "03:30",
             "parik24": {
-                "p1": "1.941",
+                "p1": "2.041",
                 "x": null,
                 "p2": "12.89",
-                "link": "https:\/\/24-parik.club\/en\/events\/jujuy-basquet-villa-san-martin-16240303"
+                "link": "https:\/\/24-parik.club\/en\/events\/jujuy-basquet-villa-san-martin-16240303",
+                "time": "03:30"
             },
             "pinnacle": {
                 "p1": "1.97",
                 "x": null,
                 "p2": "1.714",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/jujuy-basket-vs-villa-san-martin\/1627174782\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/jujuy-basket-vs-villa-san-martin\/1627174782\/",
+                "time": "03:30"
             },
             "matchScore": 0.7222222222222222
         },
@@ -2278,17 +2630,20 @@
             "sport": "basketball",
             "home": "Salta Basket",
             "away": "CA Estudiantes de Tucuman",
+            "time": "03:30",
             "parik24": {
                 "p1": "1.421",
                 "x": null,
                 "p2": "14.48",
-                "link": "https:\/\/24-parik.club\/en\/events\/salta-basket-ca-estudiantes-de-tucuman--16240302"
+                "link": "https:\/\/24-parik.club\/en\/events\/salta-basket-ca-estudiantes-de-tucuman--16240302",
+                "time": "03:30"
             },
             "pinnacle": {
                 "p1": "1.325",
                 "x": null,
                 "p2": "2.84",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/salta-basket-vs-club-estudiantes-tucuman\/1627116087\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/salta-basket-vs-club-estudiantes-tucuman\/1627116087\/",
+                "time": "03:30"
             },
             "matchScore": 1
         },
@@ -2297,17 +2652,20 @@
             "sport": "basketball",
             "home": "Gimnasia y Esgrima La Plata",
             "away": "Racing Club Avellaneda",
+            "time": "01:30",
             "parik24": {
                 "p1": "1.331",
                 "x": null,
-                "p2": "14.64",
-                "link": "https:\/\/24-parik.club\/en\/events\/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119"
+                "p2": "14.82",
+                "link": "https:\/\/24-parik.club\/en\/events\/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119",
+                "time": "01:30"
             },
             "pinnacle": {
                 "p1": "1.247",
                 "x": null,
                 "p2": "3.22",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/gimnasia-y-esgrima-la-plata-vs-racing-club-de-avellaneda\/1627422891\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/gimnasia-y-esgrima-la-plata-vs-racing-club-de-avellaneda\/1627422891\/",
+                "time": "01:30"
             },
             "matchScore": 1
         },
@@ -2316,17 +2674,20 @@
             "sport": "basketball",
             "home": "CA Quilmes",
             "away": "Club Villa Mitre de Bahia Blanca",
+            "time": "03:00",
             "parik24": {
                 "p1": "1.351",
                 "x": null,
-                "p2": "14.63",
-                "link": "https:\/\/24-parik.club\/en\/events\/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118"
+                "p2": "14.82",
+                "link": "https:\/\/24-parik.club\/en\/events\/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118",
+                "time": "03:00"
             },
             "pinnacle": {
                 "p1": "1.271",
                 "x": null,
                 "p2": "3.09",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/club-atletico-quilmes-vs-villa-mitre-de-bahia-blanca\/1627191590\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/club-atletico-quilmes-vs-villa-mitre-de-bahia-blanca\/1627191590\/",
+                "time": "03:00"
             },
             "matchScore": 0.8333333333333333
         },
@@ -2335,17 +2696,20 @@
             "sport": "basketball",
             "home": "Deportivo Viedma",
             "away": "Centenario de Venado Tuerto",
+            "time": "03:00",
             "parik24": {
                 "p1": "1.321",
                 "x": null,
                 "p2": "13.43",
-                "link": "https:\/\/24-parik.club\/en\/events\/deportivo-viedma-centenario-de-venado-tuerto-16251172"
+                "link": "https:\/\/24-parik.club\/en\/events\/deportivo-viedma-centenario-de-venado-tuerto-16251172",
+                "time": "03:00"
             },
             "pinnacle": {
                 "p1": "1.271",
                 "x": null,
                 "p2": "3.09",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/deportivo-viedma-vs-centenario\/1627327231\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/deportivo-viedma-vs-centenario\/1627327231\/",
+                "time": "03:00"
             },
             "matchScore": 0.7777777777777777
         },
@@ -2354,30 +2718,35 @@
             "sport": "basketball",
             "home": "Pico Foot Ball Club",
             "away": "El Talar",
+            "time": "03:30",
             "parik24": {
                 "p1": "1.101",
                 "x": null,
-                "p2": "24.18",
-                "link": "https:\/\/24-parik.club\/en\/events\/pico-foot-ball-club-el-talar-16252062"
+                "p2": "26.83",
+                "link": "https:\/\/24-parik.club\/en\/events\/pico-foot-ball-club-el-talar-16252062",
+                "time": "03:30"
             },
             "pinnacle": {
                 "p1": "1.07",
                 "x": null,
                 "p2": "5.31",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/pico-football-club-vs-el-talar\/1627326978\/"
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/pico-football-club-vs-el-talar\/1627326978\/",
+                "time": "03:30"
             },
             "matchScore": 1
         },
         {
             "league": "ATP Bucharest",
             "sport": "tennis",
-            "home": "Damir Dzumhur",
-            "away": "Botic van de Zandschulp",
+            "home": "Alex Molcan",
+            "away": "Mariano Navone",
+            "time": "16:23",
             "parik24": {
-                "p1": "2.55",
+                "p1": "3.07",
                 "x": null,
-                "p2": "1.51",
-                "link": "https:\/\/24-parik.club\/en\/events\/damir-dzumhur-botic-van-de-zandschulp-16233882"
+                "p2": "1.37",
+                "link": "https:\/\/24-parik.club\/en\/events\/alex-molcan-mariano-navone-16235416",
+                "time": "16:23"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -2385,13 +2754,15 @@
         {
             "league": "ATP Bucharest",
             "sport": "tennis",
-            "home": "Alex Molcan",
-            "away": "Mariano Navone",
+            "home": "Titouan Droguet",
+            "away": "Daniel Merida Aguilar",
+            "time": "17:48",
             "parik24": {
-                "p1": "3.11",
+                "p1": "1.63",
                 "x": null,
-                "p2": "1.37",
-                "link": "https:\/\/24-parik.club\/en\/events\/alex-molcan-mariano-navone-16235416"
+                "p2": "2.27",
+                "link": "https:\/\/24-parik.club\/en\/events\/titouan-droguet-daniel-merida-aguilar-16253554",
+                "time": "17:48"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -2401,17 +2772,20 @@
             "sport": "tennis",
             "home": "Learner Tien",
             "away": "Roman Andres Burruchaga",
+            "time": "20:03",
             "parik24": {
-                "p1": "1.57",
+                "p1": "1.61",
                 "x": null,
-                "p2": "2.4",
-                "link": "https:\/\/24-parik.club\/en\/events\/learner-tien-roman-andres-burruchaga-16251692"
+                "p2": "2.33",
+                "link": "https:\/\/24-parik.club\/en\/events\/learner-tien-roman-andres-burruchaga-16251692",
+                "time": "20:03"
             },
             "pinnacle": {
-                "p1": "1.617",
+                "p1": "1.653",
                 "x": null,
-                "p2": "2.43",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/learner-tien-vs-roman-andres-burruchaga\/1627415949\/"
+                "p2": "2.36",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/learner-tien-vs-roman-andres-burruchaga\/1627415949\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -2420,17 +2794,20 @@
             "sport": "tennis",
             "home": "Ben Shelton",
             "away": "Thiago Agustin Tirante",
+            "time": "21:33",
             "parik24": {
                 "p1": "1.44",
                 "x": null,
                 "p2": "2.78",
-                "link": "https:\/\/24-parik.club\/en\/events\/ben-shelton-thiago-agustin-tirante-16240507"
+                "link": "https:\/\/24-parik.club\/en\/events\/ben-shelton-thiago-agustin-tirante-16240507",
+                "time": "21:33"
             },
             "pinnacle": {
-                "p1": "1.48",
+                "p1": "1.471",
                 "x": null,
-                "p2": "2.86",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/ben-shelton-vs-thiago-agustin-tirante\/1627338205\/"
+                "p2": "2.9",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/ben-shelton-vs-thiago-agustin-tirante\/1627338205\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -2439,17 +2816,20 @@
             "sport": "tennis",
             "home": "Tomas Martin Etcheverry",
             "away": "Tommy Paul",
+            "time": "23:03",
             "parik24": {
-                "p1": "2.85",
+                "p1": "2.68",
                 "x": null,
-                "p2": "1.43",
-                "link": "https:\/\/24-parik.club\/en\/events\/tomas-martin-etcheverry-tommy-paul-16240805"
+                "p2": "1.47",
+                "link": "https:\/\/24-parik.club\/en\/events\/tomas-martin-etcheverry-tommy-paul-16240805",
+                "time": "23:03"
             },
             "pinnacle": {
-                "p1": "2.95",
+                "p1": "2.76",
                 "x": null,
-                "p2": "1.458",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/tomas-martin-etcheverry-vs-tommy-paul\/1627338530\/"
+                "p2": "1.51",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/tomas-martin-etcheverry-vs-tommy-paul\/1627338530\/",
+                "time": "00:00"
             },
             "matchScore": 1
         },
@@ -2458,17 +2838,20 @@
             "sport": "tennis",
             "home": "Alexei Popyrin",
             "away": "Frances Tiafoe",
+            "time": "02:03",
             "parik24": {
-                "p1": "2.46",
+                "p1": "2.38",
                 "x": null,
-                "p2": "1.55",
-                "link": "https:\/\/24-parik.club\/en\/events\/alexei-popyrin-frances-tiafoe-16251711"
+                "p2": "1.58",
+                "link": "https:\/\/24-parik.club\/en\/events\/alexei-popyrin-frances-tiafoe-16251711",
+                "time": "02:03"
             },
             "pinnacle": {
-                "p1": "2.5",
+                "p1": "2.37",
                 "x": null,
-                "p2": "1.591",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/alexei-popyrin-vs-frances-tiafoe\/1627422920\/"
+                "p2": "1.645",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/alexei-popyrin-vs-frances-tiafoe\/1627422920\/",
+                "time": "02:00"
             },
             "matchScore": 1
         },
@@ -2477,17 +2860,20 @@
             "sport": "tennis",
             "home": "Jazmin Ortenzi",
             "away": "Julia Riera",
+            "time": "19:03",
             "parik24": {
-                "p1": "2.26",
+                "p1": "2.29",
                 "x": null,
-                "p2": "1.64",
-                "link": "https:\/\/24-parik.club\/en\/events\/jazmin-ortenzi-julia-riera-16247713"
+                "p2": "1.62",
+                "link": "https:\/\/24-parik.club\/en\/events\/jazmin-ortenzi-julia-riera-16247713",
+                "time": "19:03"
             },
             "pinnacle": {
-                "p1": "2.31",
+                "p1": "2.38",
                 "x": null,
-                "p2": "1.666",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/jazmin-ortenzi-vs-julia-riera\/1627415890\/"
+                "p2": "1.628",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/jazmin-ortenzi-vs-julia-riera\/1627415890\/",
+                "time": "19:00"
             },
             "matchScore": 1
         },
@@ -2496,17 +2882,20 @@
             "sport": "tennis",
             "home": "Marie Bouzkova",
             "away": "Darja Semenistaja",
+            "time": "20:33",
             "parik24": {
-                "p1": "1.31",
+                "p1": "1.32",
                 "x": null,
-                "p2": "3.45",
-                "link": "https:\/\/24-parik.club\/en\/events\/marie-bouzkova-darja-semenistaja-16248304"
+                "p2": "3.4",
+                "link": "https:\/\/24-parik.club\/en\/events\/marie-bouzkova-darja-semenistaja-16248304",
+                "time": "20:33"
             },
             "pinnacle": {
-                "p1": "1.314",
+                "p1": "1.289",
                 "x": null,
-                "p2": "3.66",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/marie-bouzkova-vs-darja-semenistaja\/1627415901\/"
+                "p2": "3.87",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/marie-bouzkova-vs-darja-semenistaja\/1627415901\/",
+                "time": "21:00"
             },
             "matchScore": 1
         },
@@ -2515,17 +2904,20 @@
             "sport": "tennis",
             "home": "Emiliana Arango",
             "away": "Varvara Lepchenko",
+            "time": "22:03",
             "parik24": {
-                "p1": "1.5",
+                "p1": "1.47",
                 "x": null,
-                "p2": "2.6",
-                "link": "https:\/\/24-parik.club\/en\/events\/emiliana-arango-varvara-lepchenko-16250871"
+                "p2": "2.68",
+                "link": "https:\/\/24-parik.club\/en\/events\/emiliana-arango-varvara-lepchenko-16250871",
+                "time": "22:03"
             },
             "pinnacle": {
-                "p1": "1.502",
+                "p1": "1.473",
                 "x": null,
-                "p2": "2.72",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/emiliana-arango-vs-varvara-lepchenko\/1627425803\/"
+                "p2": "2.81",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/emiliana-arango-vs-varvara-lepchenko\/1627425803\/",
+                "time": "23:00"
             },
             "matchScore": 1
         },
@@ -2534,17 +2926,20 @@
             "sport": "tennis",
             "home": "Panna Udvardy",
             "away": "Katarzyna Kawa",
+            "time": "23:33",
             "parik24": {
-                "p1": "2.26",
+                "p1": "2.22",
                 "x": null,
-                "p2": "1.64",
-                "link": "https:\/\/24-parik.club\/en\/events\/panna-udvardy-katarzyna-kawa-16238799"
+                "p2": "1.66",
+                "link": "https:\/\/24-parik.club\/en\/events\/panna-udvardy-katarzyna-kawa-16238799",
+                "time": "23:33"
             },
             "pinnacle": {
-                "p1": "2.35",
+                "p1": "2.26",
                 "x": null,
-                "p2": "1.653",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/panna-udvardy-vs-katarzyna-kawa\/1627338449\/"
+                "p2": "1.704",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/panna-udvardy-vs-katarzyna-kawa\/1627338449\/",
+                "time": "01:00"
             },
             "matchScore": 1
         },
@@ -2553,17 +2948,20 @@
             "sport": "tennis",
             "home": "Jessica Pegula",
             "away": "Diana Shnaider",
+            "time": "18:03",
             "parik24": {
-                "p1": "1.35",
+                "p1": "1.3",
                 "x": null,
-                "p2": "3.19",
-                "link": "https:\/\/24-parik.club\/en\/events\/jessica-pegula-diana-shnaider-16248733"
+                "p2": "3.49",
+                "link": "https:\/\/24-parik.club\/en\/events\/jessica-pegula-diana-shnaider-16248733",
+                "time": "18:03"
             },
             "pinnacle": {
-                "p1": "1.387",
+                "p1": "1.303",
                 "x": null,
-                "p2": "3.25",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/jessica-pegula-vs-diana-shnaider\/1627388907\/"
+                "p2": "3.81",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/jessica-pegula-vs-diana-shnaider\/1627388907\/",
+                "time": "18:00"
             },
             "matchScore": 1
         },
@@ -2572,17 +2970,20 @@
             "sport": "tennis",
             "home": "Madison Keys",
             "away": "Belinda Bencic",
+            "time": "19:33",
             "parik24": {
                 "p1": "2.02",
                 "x": null,
                 "p2": "1.79",
-                "link": "https:\/\/24-parik.club\/en\/events\/madison-keys-belinda-bencic-16248558"
+                "link": "https:\/\/24-parik.club\/en\/events\/madison-keys-belinda-bencic-16248558",
+                "time": "19:33"
             },
             "pinnacle": {
-                "p1": "2.09",
+                "p1": "2.05",
                 "x": null,
-                "p2": "1.813",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/madison-keys-vs-belinda-bencic\/1627388923\/"
+                "p2": "1.847",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/madison-keys-vs-belinda-bencic\/1627388923\/",
+                "time": "20:00"
             },
             "matchScore": 1
         },
@@ -2591,17 +2992,20 @@
             "sport": "tennis",
             "home": "Iva Jovic",
             "away": "Anna Kalinskaya",
+            "time": "21:03",
             "parik24": {
-                "p1": "2.01",
+                "p1": "2",
                 "x": null,
-                "p2": "1.8",
-                "link": "https:\/\/24-parik.club\/en\/events\/iva-jovic-anna-kalinskaya-16249993"
+                "p2": "1.81",
+                "link": "https:\/\/24-parik.club\/en\/events\/iva-jovic-anna-kalinskaya-16249993",
+                "time": "21:03"
             },
             "pinnacle": {
-                "p1": "2.09",
+                "p1": "2.07",
                 "x": null,
-                "p2": "1.819",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/iva-jovic-vs-anna-kalinskaya\/1627422893\/"
+                "p2": "1.833",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/iva-jovic-vs-anna-kalinskaya\/1627422893\/",
+                "time": "22:00"
             },
             "matchScore": 1
         },
@@ -2610,17 +3014,20 @@
             "sport": "tennis",
             "home": "McCartney Kessler",
             "away": "Yulia Starodubtseva",
+            "time": "01:03",
             "parik24": {
                 "p1": "1.71",
                 "x": null,
-                "p2": "2.13",
-                "link": "https:\/\/24-parik.club\/en\/events\/mccartney-kessler-yulia-starodubtseva-16248018"
+                "p2": "2.14",
+                "link": "https:\/\/24-parik.club\/en\/events\/mccartney-kessler-yulia-starodubtseva-16248018",
+                "time": "01:03"
             },
             "pinnacle": {
-                "p1": "1.775",
+                "p1": "1.763",
                 "x": null,
-                "p2": "2.15",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/mccartney-kessler-vs-yuliia-starodubtseva\/1627388912\/"
+                "p2": "2.17",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/mccartney-kessler-vs-yuliia-starodubtseva\/1627388912\/",
+                "time": "01:00"
             },
             "matchScore": 0.7222222222222222
         }

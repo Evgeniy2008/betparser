@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T10:13:03.287Z",
+  "updated": "2026-04-03T13:04:26.703Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -8,6 +8,7 @@
       "x": "3.59",
       "p2": "4.52",
       "link": "https://www.pinnacle.com/en/soccer/spain-copa-del-rey/atletico-madrid-vs-real-sociedad/1625468891/",
+      "time": "22:00",
       "league": "Spain, Copa del Rey:",
       "sport": "football"
     },
@@ -18,6 +19,7 @@
       "x": "3.15",
       "p2": "4.49",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/sassuolo-vs-cagliari/1626173970/",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -28,6 +30,7 @@
       "x": "3.63",
       "p2": "1.909",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/hellas-verona-vs-fiorentina/1626177374/",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -38,16 +41,18 @@
       "x": "3.54",
       "p2": "5.17",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/lazio-vs-parma/1626180284/",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
     {
       "home": "Cremonese",
       "away": "Bologna",
-      "p1": "3.65",
-      "x": "3.48",
-      "p2": "2.12",
+      "p1": "3.64",
+      "x": "3.46",
+      "p2": "2.13",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/cremonese-vs-bologna/1626177375/",
+      "time": "16:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -58,6 +63,7 @@
       "x": "2.98",
       "p2": "2.63",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/pisa-vs-torino/1626177376/",
+      "time": "19:00",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
@@ -68,27 +74,19 @@
       "x": "4.04",
       "p2": "5.34",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/internazionale-vs-roma/1626180285/",
+      "time": "21:45",
       "league": "Italy. Serie A:",
       "sport": "football"
     },
     {
       "home": "Udinese",
       "away": "Como",
-      "p1": "5.15",
-      "x": "3.98",
-      "p2": "1.689",
+      "p1": "5.16",
+      "x": "3.97",
+      "p2": "1.694",
       "link": "https://www.pinnacle.com/en/soccer/italy-serie-a/udinese-vs-como/1626173971/",
+      "time": "13:30",
       "league": "Italy. Serie A:",
-      "sport": "football"
-    },
-    {
-      "home": "Werder Bremen",
-      "away": "RB Leipzig",
-      "p1": "3.62",
-      "x": "4.03",
-      "p2": "1.961",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/werder-bremen-vs-rb-leipzig/1626177384/",
-      "league": "Bundesliga:",
       "sport": "football"
     },
     {
@@ -98,6 +96,18 @@
       "x": "5.65",
       "p2": "1.403",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/freiburg-vs-bayern-munich/1626177383/",
+      "time": "16:30",
+      "league": "Bundesliga:",
+      "sport": "football"
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "RB Leipzig",
+      "p1": "3.62",
+      "x": "4.03",
+      "p2": "1.961",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/werder-bremen-vs-rb-leipzig/1626177384/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -108,16 +118,18 @@
       "x": "5.25",
       "p2": "7.12",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/bayer-leverkusen-vs-wolfsburg/1626186209/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
     {
-      "home": "Hamburger SV",
-      "away": "Augsburg",
-      "p1": "2.3",
-      "x": "3.45",
-      "p2": "3.23",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hamburger-sv-vs-augsburg/1626177386/",
+      "home": "Borussia Monchengladbach",
+      "away": "Heidenheim",
+      "p1": "1.598",
+      "x": "4.45",
+      "p2": "5.37",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-monchengladbach-vs-heidenheim/1626180291/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -128,16 +140,18 @@
       "x": "4.3",
       "p2": "4.64",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hoffenheim-vs-mainz-05/1626177385/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
     {
-      "home": "Borussia Monchengladbach",
-      "away": "Heidenheim",
-      "p1": "1.598",
-      "x": "4.44",
-      "p2": "5.36",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-monchengladbach-vs-heidenheim/1626180291/",
+      "home": "Hamburger SV",
+      "away": "Augsburg",
+      "p1": "2.3",
+      "x": "3.45",
+      "p2": "3.23",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/hamburger-sv-vs-augsburg/1626177386/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -148,6 +162,7 @@
       "x": "4.07",
       "p2": "2.78",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-borussia-dortmund/1626180292/",
+      "time": "19:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -158,16 +173,18 @@
       "x": "3.3",
       "p2": "3.9",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/union-berlin-vs-st-pauli/1626177387/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
     {
       "home": "Eintracht Frankfurt",
       "away": "FC Koln",
-      "p1": "2.06",
-      "x": "3.57",
-      "p2": "3.7",
+      "p1": "2.09",
+      "x": "3.58",
+      "p2": "3.63",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/eintracht-frankfurt-vs-fc-koln/1626180290/",
+      "time": "18:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -178,36 +195,7 @@
       "x": "3.73",
       "p2": "2.07",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/augsburg-vs-hoffenheim/1626759359/",
-      "league": "Bundesliga:",
-      "sport": "football"
-    },
-    {
-      "home": "Wolfsburg",
-      "away": "Eintracht Frankfurt",
-      "p1": "2.45",
-      "x": "3.57",
-      "p2": "2.77",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/wolfsburg-vs-eintracht-frankfurt/1626759358/",
-      "league": "Bundesliga:",
-      "sport": "football"
-    },
-    {
-      "home": "Heidenheim",
-      "away": "Union Berlin",
-      "p1": "3.23",
-      "x": "3.63",
-      "p2": "2.15",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/heidenheim-vs-union-berlin/1626759360/",
-      "league": "Bundesliga:",
-      "sport": "football"
-    },
-    {
-      "home": "RB Leipzig",
-      "away": "Borussia Monchengladbach",
-      "p1": "1.518",
-      "x": "4.66",
-      "p2": "5.45",
-      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/rb-leipzig-vs-borussia-monchengladbach/1626759254/",
+      "time": "21:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -218,6 +206,40 @@
       "x": "3.92",
       "p2": "3.74",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/borussia-dortmund-vs-bayer-leverkusen/1626759250/",
+      "time": "16:30",
+      "league": "Bundesliga:",
+      "sport": "football"
+    },
+    {
+      "home": "RB Leipzig",
+      "away": "Borussia Monchengladbach",
+      "p1": "1.518",
+      "x": "4.66",
+      "p2": "5.45",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/rb-leipzig-vs-borussia-monchengladbach/1626759254/",
+      "time": "16:30",
+      "league": "Bundesliga:",
+      "sport": "football"
+    },
+    {
+      "home": "Wolfsburg",
+      "away": "Eintracht Frankfurt",
+      "p1": "2.45",
+      "x": "3.57",
+      "p2": "2.77",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/wolfsburg-vs-eintracht-frankfurt/1626759358/",
+      "time": "16:30",
+      "league": "Bundesliga:",
+      "sport": "football"
+    },
+    {
+      "home": "Heidenheim",
+      "away": "Union Berlin",
+      "p1": "3.23",
+      "x": "3.63",
+      "p2": "2.15",
+      "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/heidenheim-vs-union-berlin/1626759360/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -228,6 +250,7 @@
       "x": "5.64",
       "p2": "1.321",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/st-pauli-vs-bayern-munich/1626759357/",
+      "time": "19:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -238,6 +261,7 @@
       "x": "3.57",
       "p2": "3.22",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/fc-koln-vs-werder-bremen/1626759252/",
+      "time": "16:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -248,6 +272,7 @@
       "x": "4.73",
       "p2": "6.48",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/stuttgart-vs-hamburger-sv/1626759253/",
+      "time": "18:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -258,6 +283,7 @@
       "x": "2.97",
       "p2": "4.08",
       "link": "https://www.pinnacle.com/en/soccer/germany-bundesliga/mainz-05-vs-freiburg/1626759251/",
+      "time": "20:30",
       "league": "Bundesliga:",
       "sport": "football"
     },
@@ -268,6 +294,7 @@
       "x": "4.39",
       "p2": "1.641",
       "link": "https://www.pinnacle.com/en/soccer/germany-cup/bayer-leverkusen-vs-bayern-munich/1625587718/",
+      "time": "21:45",
       "league": "Germany Cup:",
       "sport": "football"
     },
@@ -278,26 +305,29 @@
       "x": "4.13",
       "p2": "5.16",
       "link": "https://www.pinnacle.com/en/soccer/germany-cup/stuttgart-vs-freiburg/1625597319/",
+      "time": "21:45",
       "league": "Germany Cup:",
       "sport": "football"
     },
     {
       "home": "Paris Saint-Germain",
       "away": "Toulouse",
-      "p1": "1.277",
-      "x": "6.13",
-      "p2": "10.83",
+      "p1": "1.24",
+      "x": "5.9",
+      "p2": "10.06",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/paris-saint-germain-vs-toulouse/1626180286/",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Strasbourg",
       "away": "Nice",
-      "p1": "1.862",
-      "x": "3.67",
+      "p1": "1.854",
+      "x": "3.71",
       "p2": "4.43",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/strasbourg-vs-nice/1626186205/",
+      "time": "18:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -308,6 +338,7 @@
       "x": "3.57",
       "p2": "2.32",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/brest-vs-rennes/1626186204/",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -318,6 +349,7 @@
       "x": "3.32",
       "p2": "2.75",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lille-vs-lens/1626177378/",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -328,16 +360,18 @@
       "x": "3.57",
       "p2": "1.813",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/angers-vs-lyon/1626180287/",
+      "time": "16:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Lorient",
       "away": "Paris FC",
-      "p1": "2.28",
+      "p1": "2.31",
       "x": "3.31",
-      "p2": "3.41",
+      "p2": "3.36",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lorient-vs-paris-fc/1626186206/",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -348,26 +382,29 @@
       "x": "3.12",
       "p2": "3.04",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/le-havre-vs-auxerre/1626180289/",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Metz",
       "away": "Nantes",
-      "p1": "2.98",
+      "p1": "2.9",
       "x": "3.3",
-      "p2": "2.54",
+      "p2": "2.6",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/metz-vs-nantes/1626180288/",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
     {
       "home": "Monaco",
       "away": "Marseille",
-      "p1": "2.21",
-      "x": "3.67",
-      "p2": "3.23",
+      "p1": "2.19",
+      "x": "3.68",
+      "p2": "3.28",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/monaco-vs-marseille/1626177379/",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -378,6 +415,7 @@
       "x": "3.74",
       "p2": "2.09",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/paris-fc-vs-monaco/1626759238/",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -388,6 +426,7 @@
       "x": "5.89",
       "p2": "10.02",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/marseille-vs-metz/1626759348/",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -398,6 +437,7 @@
       "x": "3.25",
       "p2": "3.71",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/auxerre-vs-nantes/1626759349/",
+      "time": "20:00",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -408,6 +448,7 @@
       "x": "4.82",
       "p2": "7.9",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/rennes-vs-angers/1626759347/",
+      "time": "22:05",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -418,6 +459,7 @@
       "x": "2.99",
       "p2": "4.73",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/nice-vs-le-havre/1626745158/",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -428,6 +470,7 @@
       "x": "3.28",
       "p2": "2.39",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/toulouse-vs-lille/1626759237/",
+      "time": "18:15",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -438,6 +481,7 @@
       "x": "3.8",
       "p2": "4.71",
       "link": "https://www.pinnacle.com/en/soccer/france-ligue-1/lyon-vs-lorient/1626745159/",
+      "time": "21:45",
       "league": "France Ligue 1:",
       "sport": "football"
     },
@@ -448,26 +492,29 @@
       "x": "4.15",
       "p2": "4.2",
       "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/manchester-city-vs-liverpool/1625802249/",
+      "time": "14:45",
       "league": "England FA Cup:",
       "sport": "football"
     },
     {
       "home": "Chelsea",
       "away": "Port Vale",
-      "p1": "1.036",
-      "x": "21.28",
+      "p1": "1.037",
+      "x": "20.89",
       "p2": "30.34",
       "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/chelsea-vs-port-vale/1625807093/",
+      "time": "19:15",
       "league": "England FA Cup:",
       "sport": "football"
     },
     {
       "home": "Southampton",
       "away": "Arsenal",
-      "p1": "10.04",
-      "x": "5.83",
+      "p1": "10.02",
+      "x": "5.82",
       "p2": "1.263",
       "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/southampton-vs-arsenal/1625802159/",
+      "time": "22:00",
       "league": "England FA Cup:",
       "sport": "football"
     },
@@ -478,16 +525,18 @@
       "x": "3.58",
       "p2": "2.87",
       "link": "https://www.pinnacle.com/en/soccer/england-fa-cup/west-ham-united-vs-leeds-united/1625827228/",
+      "time": "18:30",
       "league": "England FA Cup:",
       "sport": "football"
     },
     {
       "home": "Rayo Vallecano",
       "away": "Elche",
-      "p1": "1.746",
-      "x": "3.87",
-      "p2": "5.01",
+      "p1": "1.775",
+      "x": "3.83",
+      "p2": "4.8",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/rayo-vallecano-vs-elche/1626186258/",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -498,16 +547,18 @@
       "x": "4.25",
       "p2": "5.76",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-sociedad-vs-levante/1626180336/",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Mallorca",
       "away": "Real Madrid",
-      "p1": "5.66",
-      "x": "4.45",
-      "p2": "1.571",
+      "p1": "5.68",
+      "x": "4.46",
+      "p2": "1.568",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/mallorca-vs-real-madrid/1626195023/",
+      "time": "17:15",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -518,6 +569,7 @@
       "x": "4.21",
       "p2": "4.51",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/real-betis-vs-espanyol/1626195024/",
+      "time": "19:30",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -528,16 +580,18 @@
       "x": "3.87",
       "p2": "2.19",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/atletico-madrid-vs-barcelona/1626195025/",
+      "time": "22:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
       "home": "Getafe",
       "away": "Athletic Bilbao",
-      "p1": "3.07",
+      "p1": "3.09",
       "x": "2.87",
-      "p2": "2.79",
+      "p2": "2.77",
       "link": "https://www.pinnacle.com/en/soccer/spain-la-liga/getafe-vs-athletic-bilbao/1626195026/",
+      "time": "15:00",
       "league": "Spain LaLiga:",
       "sport": "football"
     },
@@ -548,6 +602,7 @@
       "x": "3.75",
       "p2": "4.3",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/west-ham-united-vs-wolverhampton/1626293771/",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -558,16 +613,7 @@
       "x": "4.82",
       "p2": "8.2",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/arsenal-vs-bournemouth/1626291711/",
-      "league": "England Premier League:",
-      "sport": "football"
-    },
-    {
-      "home": "Burnley",
-      "away": "Brighton",
-      "p1": "4.37",
-      "x": "4.1",
-      "p2": "1.719",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/burnley-vs-brighton/1626293772/",
+      "time": "14:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -578,6 +624,18 @@
       "x": "3.34",
       "p2": "3.37",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-everton/1626293774/",
+      "time": "17:00",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Burnley",
+      "away": "Brighton",
+      "p1": "4.37",
+      "x": "4.1",
+      "p2": "1.719",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/burnley-vs-brighton/1626293772/",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -588,26 +646,7 @@
       "x": "4.46",
       "p2": "5.26",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/liverpool-vs-fulham/1626291708/",
-      "league": "England Premier League:",
-      "sport": "football"
-    },
-    {
-      "home": "Nottingham Forest",
-      "away": "Aston Villa",
-      "p1": "2.69",
-      "x": "3.28",
-      "p2": "2.69",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-aston-villa/1626291710/",
-      "league": "England Premier League:",
-      "sport": "football"
-    },
-    {
-      "home": "Crystal Palace",
-      "away": "Newcastle United",
-      "p1": "2.76",
-      "x": "3.52",
-      "p2": "2.48",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/crystal-palace-vs-newcastle-united/1626293773/",
+      "time": "19:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -618,16 +657,40 @@
       "x": "3.44",
       "p2": "2.61",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/sunderland-vs-tottenham-hotspur/1626291707/",
+      "time": "16:00",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Newcastle United",
+      "p1": "2.76",
+      "x": "3.52",
+      "p2": "2.48",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/crystal-palace-vs-newcastle-united/1626293773/",
+      "time": "16:00",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "p1": "2.69",
+      "x": "3.28",
+      "p2": "2.69",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-aston-villa/1626291710/",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
     {
       "home": "Chelsea",
       "away": "Manchester City",
-      "p1": "2.94",
-      "x": "3.98",
-      "p2": "2.18",
+      "p1": "3.01",
+      "x": "3.96",
+      "p2": "2.15",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/chelsea-vs-manchester-city/1626291709/",
+      "time": "18:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -638,6 +701,7 @@
       "x": "4.28",
       "p2": "5.36",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/manchester-united-vs-leeds-united/1626291706/",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -648,6 +712,7 @@
       "x": "3.76",
       "p2": "3.25",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/brentford-vs-fulham/1626745154/",
+      "time": "14:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -658,6 +723,7 @@
       "x": "3.84",
       "p2": "5.16",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/leeds-united-vs-wolverhampton/1626759341/",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -668,6 +734,7 @@
       "x": "3.96",
       "p2": "3.81",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/newcastle-united-vs-bournemouth/1626759344/",
+      "time": "17:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -678,6 +745,7 @@
       "x": "3.66",
       "p2": "2.66",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/tottenham-hotspur-vs-brighton/1626759343/",
+      "time": "19:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -688,26 +756,7 @@
       "x": "3.28",
       "p2": "3.38",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/chelsea-vs-manchester-united/1626759235/",
-      "league": "England Premier League:",
-      "sport": "football"
-    },
-    {
-      "home": "Nottingham Forest",
-      "away": "Burnley",
-      "p1": "1.571",
-      "x": "3.97",
-      "p2": "5.97",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-burnley/1626759234/",
-      "league": "England Premier League:",
-      "sport": "football"
-    },
-    {
-      "home": "Everton",
-      "away": "Liverpool",
-      "p1": "3.48",
-      "x": "3.44",
-      "p2": "2.12",
-      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/everton-vs-liverpool/1626745153/",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -718,6 +767,29 @@
       "x": "3.85",
       "p2": "5.63",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/aston-villa-vs-sunderland/1626759342/",
+      "time": "16:00",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Burnley",
+      "p1": "1.571",
+      "x": "3.97",
+      "p2": "5.97",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/nottingham-forest-vs-burnley/1626759234/",
+      "time": "16:00",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Everton",
+      "away": "Liverpool",
+      "p1": "3.48",
+      "x": "3.44",
+      "p2": "2.12",
+      "link": "https://www.pinnacle.com/en/soccer/england-premier-league/everton-vs-liverpool/1626745153/",
+      "time": "16:00",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -728,6 +800,7 @@
       "x": "3.58",
       "p2": "3.11",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/manchester-city-vs-arsenal/1626759345/",
+      "time": "18:30",
       "league": "England Premier League:",
       "sport": "football"
     },
@@ -738,96 +811,106 @@
       "x": "3.08",
       "p2": "3.66",
       "link": "https://www.pinnacle.com/en/soccer/england-premier-league/crystal-palace-vs-west-ham-united/1626759233/",
+      "time": "22:00",
       "league": "England Premier League:",
       "sport": "football"
     },
     {
-      "home": "Minnesota Timberwolves",
-      "away": "Philadelphia 76ers",
-      "p1": "2.19",
-      "x": null,
-      "p2": "1.746",
-      "link": "https://www.pinnacle.com/en/basketball/nba/minnesota-timberwolves-vs-philadelphia-76ers/1627349022/",
-      "league": "NBA",
-      "sport": "basketball"
-    },
-    {
       "home": "Indiana Pacers",
       "away": "Charlotte Hornets",
-      "p1": "9.63",
+      "p1": "10.1",
       "x": null,
-      "p2": "1.072",
+      "p2": "1.074",
       "link": "https://www.pinnacle.com/en/basketball/nba/indiana-pacers-vs-charlotte-hornets/1627350795/",
+      "time": "02:10",
       "league": "NBA",
       "sport": "basketball"
     },
     {
-      "home": "Chicago Bulls",
-      "away": "New York Knicks",
-      "p1": "8.92",
+      "home": "Minnesota Timberwolves",
+      "away": "Philadelphia 76ers",
+      "p1": "2.22",
       "x": null,
-      "p2": "1.08",
-      "link": "https://www.pinnacle.com/en/basketball/nba/chicago-bulls-vs-new-york-knicks/1627350794/",
+      "p2": "1.74",
+      "link": "https://www.pinnacle.com/en/basketball/nba/minnesota-timberwolves-vs-philadelphia-76ers/1627349022/",
+      "time": "02:10",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Atlanta Hawks",
       "away": "Brooklyn Nets",
-      "p1": "1.072",
+      "p1": "1.076",
       "x": null,
-      "p2": "9.59",
+      "p2": "9.85",
       "link": "https://www.pinnacle.com/en/basketball/nba/atlanta-hawks-vs-brooklyn-nets/1627349020/",
+      "time": "02:40",
       "league": "NBA",
       "sport": "basketball"
     },
     {
-      "home": "Boston Celtics",
-      "away": "Milwaukee Bucks",
-      "p1": "1.06",
+      "home": "Chicago Bulls",
+      "away": "New York Knicks",
+      "p1": "9.47",
       "x": null,
-      "p2": "10.87",
-      "link": "https://www.pinnacle.com/en/basketball/nba/boston-celtics-vs-milwaukee-bucks/1627349437/",
+      "p2": "1.081",
+      "link": "https://www.pinnacle.com/en/basketball/nba/chicago-bulls-vs-new-york-knicks/1627350794/",
+      "time": "02:40",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Toronto Raptors",
       "away": "Memphis Grizzlies",
-      "p1": "1.125",
+      "p1": "1.127",
       "x": null,
-      "p2": "6.66",
+      "p2": "6.88",
       "link": "https://www.pinnacle.com/en/basketball/nba/toronto-raptors-vs-memphis-grizzlies/1627349021/",
+      "time": "03:10",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Boston Celtics",
+      "away": "Milwaukee Bucks",
+      "p1": "1.061",
+      "x": null,
+      "p2": "11.56",
+      "link": "https://www.pinnacle.com/en/basketball/nba/boston-celtics-vs-milwaukee-bucks/1627349437/",
+      "time": "03:10",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Utah Jazz",
       "away": "Houston Rockets",
-      "p1": "10.44",
+      "p1": "10.87",
       "x": null,
-      "p2": "1.063",
+      "p2": "1.066",
       "link": "https://www.pinnacle.com/en/basketball/nba/utah-jazz-vs-houston-rockets/1627350796/",
+      "time": "03:10",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "Orlando Magic",
       "away": "Dallas Mavericks",
-      "p1": "1.414",
+      "p1": "1.413",
       "x": null,
-      "p2": "3.06",
+      "p2": "3.12",
       "link": "https://www.pinnacle.com/en/basketball/nba/orlando-magic-vs-dallas-mavericks/1627349438/",
+      "time": "03:40",
       "league": "NBA",
       "sport": "basketball"
     },
     {
       "home": "New Orleans Pelicans",
       "away": "Sacramento Kings",
-      "p1": "1.571",
+      "p1": "1.483",
       "x": null,
-      "p2": "2.54",
+      "p2": "2.83",
       "link": "https://www.pinnacle.com/en/basketball/nba/new-orleans-pelicans-vs-sacramento-kings/1627349023/",
+      "time": "05:10",
       "league": "NBA",
       "sport": "basketball"
     },
@@ -838,6 +921,7 @@
       "x": null,
       "p2": "1.99",
       "link": "https://www.pinnacle.com/en/basketball/ncaa/oklahoma-vs-baylor/1627349054/",
+      "time": "20:30",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -848,6 +932,7 @@
       "x": null,
       "p2": "2.16",
       "link": "https://www.pinnacle.com/en/basketball/ncaa/illinois-vs-connecticut/1627100625/",
+      "time": "01:09",
       "league": "NCAA",
       "sport": "basketball"
     },
@@ -858,37 +943,30 @@
       "x": null,
       "p2": "2.02",
       "link": "https://www.pinnacle.com/en/basketball/ncaa/michigan-vs-arizona/1627116762/",
+      "time": "03:49",
       "league": "NCAA",
       "sport": "basketball"
     },
     {
       "home": "Bahcesehir Koleji",
       "away": "Besiktas JK",
-      "p1": "1.781",
+      "p1": "1.943",
       "x": null,
-      "p2": "2.05",
+      "p2": "1.869",
       "link": "https://www.pinnacle.com/en/basketball/europe-eurocup/bahcesehir-koleji-vs-besiktas-jk/1627243385/",
+      "time": "19:00",
       "league": "Eurocup",
       "sport": "basketball"
     },
     {
       "home": "Turk Telekom",
       "away": "JL Bourg Basket",
-      "p1": "1.303",
+      "p1": "1.292",
       "x": null,
-      "p2": "3.44",
+      "p2": "3.51",
       "link": "https://www.pinnacle.com/en/basketball/europe-eurocup/turk-telekom-vs-jl-bourg-basket/1627227775/",
+      "time": "20:00",
       "league": "Eurocup",
-      "sport": "basketball"
-    },
-    {
-      "home": "Yongin Life Blue Minx",
-      "away": "Woori Bank Woori Won",
-      "p1": "2.99",
-      "x": null,
-      "p2": "1.358",
-      "link": "https://www.pinnacle.com/en/basketball/korea-wkbl/yongin-life-blue-minx-vs-woori-bank-woori-won/1627405724/",
-      "league": "Korea - WKBL",
       "sport": "basketball"
     },
     {
@@ -898,6 +976,7 @@
       "x": null,
       "p2": "1.591",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/kk-borac-cacak-vs-kk-zadar/1627240569/",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -908,6 +987,7 @@
       "x": null,
       "p2": "2.5",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/kk-studentski-centar-podgorica-vs-bc-vienna/1627327976/",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -918,6 +998,7 @@
       "x": null,
       "p2": "3.96",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/bc-dubai-vs-kk-cedevita-olimpija-ljubljana/1627327166/",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -928,6 +1009,7 @@
       "x": null,
       "p2": "1.162",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/igokea-vs-crvena-zvezda/1627327996/",
+      "time": "20:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -938,16 +1020,18 @@
       "x": null,
       "p2": "1.97",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/kk-buducnost-voli-vs-kk-partizan-belgrade/1627382467/",
+      "time": "19:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
     {
       "home": "Universitatea Cluj Napoca",
       "away": "KK Bosna Royal Sarajevo",
-      "p1": "1.162",
+      "p1": "1.156",
       "x": null,
-      "p2": "4.9",
+      "p2": "5.02",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/universitatea-cluj-napoca-vs-kk-bosna-royal-sarajevo/1627382485/",
+      "time": "20:30",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -958,6 +1042,7 @@
       "x": null,
       "p2": "1.877",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/kk-fmp-beograd-vs-spartak-subotica/1627327970/",
+      "time": "18:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
@@ -968,16 +1053,18 @@
       "x": null,
       "p2": "2.94",
       "link": "https://www.pinnacle.com/en/basketball/aba-adriatic-league/kk-mega-basket-belgrade-vs-kk-krka-novo-mesto/1627388865/",
+      "time": "20:00",
       "league": "ABA - Adriatic League",
       "sport": "basketball"
     },
     {
       "home": "Santa Paula de Galvez",
       "away": "Independiente Santiago del Estero",
-      "p1": "1.095",
+      "p1": "1.106",
       "x": null,
-      "p2": "4.75",
+      "p2": "4.57",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/santa-paula-de-galvez-vs-independiente-santiago-del-estero/1627116833/",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -988,6 +1075,7 @@
       "x": null,
       "p2": "4.1",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/csd-comunicaciones-vs-bochas/1627149343/",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -998,6 +1086,7 @@
       "x": null,
       "p2": "1.714",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/jujuy-basket-vs-villa-san-martin/1627174782/",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1008,6 +1097,7 @@
       "x": null,
       "p2": "2.84",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/salta-basket-vs-club-estudiantes-tucuman/1627116087/",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1018,6 +1108,7 @@
       "x": null,
       "p2": "3.22",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/gimnasia-y-esgrima-la-plata-vs-racing-club-de-avellaneda/1627422891/",
+      "time": "01:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1028,6 +1119,7 @@
       "x": null,
       "p2": "3.09",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/club-atletico-quilmes-vs-villa-mitre-de-bahia-blanca/1627191590/",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1038,6 +1130,7 @@
       "x": null,
       "p2": "3.09",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/deportivo-viedma-vs-centenario/1627327231/",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1048,146 +1141,150 @@
       "x": null,
       "p2": "5.31",
       "link": "https://www.pinnacle.com/en/basketball/argentina-la-liga/pico-football-club-vs-el-talar/1627326978/",
+      "time": "03:30",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
     {
-      "home": "Stefanos Sakellaridis",
-      "away": "Fabian Marozsan",
-      "p1": "1.735",
-      "x": null,
-      "p2": "2.14",
-      "link": "https://www.pinnacle.com/en/tennis/atp-bucharest-r16/stefanos-sakellaridis-vs-fabian-marozsan/1627251408/",
-      "league": "ATP Bucharest",
-      "sport": "tennis"
-    },
-    {
       "home": "Daniel Altmaier",
       "away": "Dino Prizmic",
-      "p1": "2.55",
+      "p1": "2.17",
       "x": null,
-      "p2": "1.568",
-      "link": "https://www.pinnacle.com/en/tennis/atp-bucharest-r16/daniel-altmaier-vs-dino-prizmic/1627243436/",
+      "p2": "1.719",
+      "link": "https://www.pinnacle.com/en/tennis/atp-bucharest-r16/daniel-altmaier-vs-dino-prizmic/1627262832/",
+      "time": null,
       "league": "ATP Bucharest",
       "sport": "tennis"
     },
     {
       "home": "Learner Tien",
       "away": "Roman Andres Burruchaga",
-      "p1": "1.617",
+      "p1": "1.653",
       "x": null,
-      "p2": "2.43",
+      "p2": "2.36",
       "link": "https://www.pinnacle.com/en/tennis/atp-houston-qf/learner-tien-vs-roman-andres-burruchaga/1627415949/",
+      "time": "20:00",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Ben Shelton",
       "away": "Thiago Agustin Tirante",
-      "p1": "1.48",
+      "p1": "1.471",
       "x": null,
-      "p2": "2.86",
+      "p2": "2.9",
       "link": "https://www.pinnacle.com/en/tennis/atp-houston-qf/ben-shelton-vs-thiago-agustin-tirante/1627338205/",
+      "time": "22:00",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Tomas Martin Etcheverry",
       "away": "Tommy Paul",
-      "p1": "2.95",
+      "p1": "2.76",
       "x": null,
-      "p2": "1.458",
+      "p2": "1.51",
       "link": "https://www.pinnacle.com/en/tennis/atp-houston-qf/tomas-martin-etcheverry-vs-tommy-paul/1627338530/",
+      "time": "00:00",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Alexei Popyrin",
       "away": "Frances Tiafoe",
-      "p1": "2.5",
+      "p1": "2.37",
       "x": null,
-      "p2": "1.591",
+      "p2": "1.645",
       "link": "https://www.pinnacle.com/en/tennis/atp-houston-qf/alexei-popyrin-vs-frances-tiafoe/1627422920/",
+      "time": "02:00",
       "league": "ATP Houston",
       "sport": "tennis"
     },
     {
       "home": "Jazmin Ortenzi",
       "away": "Julia Riera",
-      "p1": "2.31",
+      "p1": "2.38",
       "x": null,
-      "p2": "1.666",
+      "p2": "1.628",
       "link": "https://www.pinnacle.com/en/tennis/wta-bogota-qf/jazmin-ortenzi-vs-julia-riera/1627415890/",
+      "time": "19:00",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Marie Bouzkova",
       "away": "Darja Semenistaja",
-      "p1": "1.314",
+      "p1": "1.289",
       "x": null,
-      "p2": "3.66",
+      "p2": "3.87",
       "link": "https://www.pinnacle.com/en/tennis/wta-bogota-qf/marie-bouzkova-vs-darja-semenistaja/1627415901/",
+      "time": "21:00",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Emiliana Arango",
       "away": "Varvara Lepchenko",
-      "p1": "1.502",
+      "p1": "1.473",
       "x": null,
-      "p2": "2.72",
+      "p2": "2.81",
       "link": "https://www.pinnacle.com/en/tennis/wta-bogota-qf/emiliana-arango-vs-varvara-lepchenko/1627425803/",
+      "time": "23:00",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Panna Udvardy",
       "away": "Katarzyna Kawa",
-      "p1": "2.35",
+      "p1": "2.26",
       "x": null,
-      "p2": "1.653",
+      "p2": "1.704",
       "link": "https://www.pinnacle.com/en/tennis/wta-bogota-qf/panna-udvardy-vs-katarzyna-kawa/1627338449/",
+      "time": "01:00",
       "league": "WTA Bogota",
       "sport": "tennis"
     },
     {
       "home": "Jessica Pegula",
       "away": "Diana Shnaider",
-      "p1": "1.387",
+      "p1": "1.303",
       "x": null,
-      "p2": "3.25",
+      "p2": "3.81",
       "link": "https://www.pinnacle.com/en/tennis/wta-charleston-open-qf/jessica-pegula-vs-diana-shnaider/1627388907/",
+      "time": "18:00",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
     {
       "home": "Madison Keys",
       "away": "Belinda Bencic",
-      "p1": "2.09",
+      "p1": "2.05",
       "x": null,
-      "p2": "1.813",
+      "p2": "1.847",
       "link": "https://www.pinnacle.com/en/tennis/wta-charleston-open-qf/madison-keys-vs-belinda-bencic/1627388923/",
+      "time": "20:00",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
     {
       "home": "Iva Jovic",
       "away": "Anna Kalinskaya",
-      "p1": "2.09",
+      "p1": "2.07",
       "x": null,
-      "p2": "1.819",
+      "p2": "1.833",
       "link": "https://www.pinnacle.com/en/tennis/wta-charleston-open-qf/iva-jovic-vs-anna-kalinskaya/1627422893/",
+      "time": "22:00",
       "league": "WTA Charleston",
       "sport": "tennis"
     },
     {
       "home": "McCartney Kessler",
       "away": "Yuliia Starodubtseva",
-      "p1": "1.775",
+      "p1": "1.763",
       "x": null,
-      "p2": "2.15",
+      "p2": "2.17",
       "link": "https://www.pinnacle.com/en/tennis/wta-charleston-open-qf/mccartney-kessler-vs-yuliia-starodubtseva/1627388912/",
+      "time": "01:00",
       "league": "WTA Charleston",
       "sport": "tennis"
     }

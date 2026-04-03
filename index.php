@@ -141,444 +141,552 @@ function oddsValue($source, string $key): ?string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Betparser - Парсер коэффициентов ставок</title>
 <style>
+  :root {
+    --bg-0: #060b16;
+    --bg-1: #0a1222;
+    --bg-2: #0f1a2f;
+    --surface: rgba(18, 28, 49, 0.86);
+    --surface-hover: rgba(26, 38, 66, 0.95);
+    --border: #243454;
+    --text: #e9f0ff;
+    --muted: #9fb2d7;
+    --primary: #39b8ff;
+    --primary-2: #5de2d8;
+    --ok: #63f39d;
+    --warn: #ffb156;
+    --danger: #ff7f7f;
+    --shadow: 0 14px 42px rgba(3, 8, 22, 0.45);
+  }
+
+  * { box-sizing: border-box; }
+
   body {
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
-    background: linear-gradient(120deg, #101624 0%, #1a223a 100%);
-    color: #e5e7eb;
-    min-height: 100vh;
     margin: 0;
+    min-height: 100vh;
+    font-family: Inter, 'Segoe UI', Roboto, Arial, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(1200px 420px at 10% -10%, rgba(57, 184, 255, 0.22), transparent 55%),
+      radial-gradient(900px 400px at 95% -20%, rgba(93, 226, 216, 0.16), transparent 58%),
+      linear-gradient(160deg, var(--bg-0) 0%, var(--bg-1) 48%, #08111f 100%);
   }
-  .content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 18px 6px 24px 6px;
+
+  .header,
+  .toolbar,
+  .stats,
+  .content,
+  .alert {
+    width: min(1280px, calc(100% - 28px));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    margin-top: 16px;
+    padding: 16px 18px;
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .matches-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: flex-start;
-  }
-  .match-block {
-    background: linear-gradient(120deg, #1a2a4a 60%, #223a5f 100%);
-    border-radius: 14px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
-    padding: 8px 8px 8px 8px;
-    min-width: 210px;
-    max-width: 90%;
-    width: 80%;
-    flex: 0 0 210px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: box-shadow 0.18s, border 0.18s, background 0.18s;
-    border: 1.5px solid #223a5f;
-    cursor: pointer;
-    align-items: stretch;
-    justify-content: center;
-    min-height: 90px;
-  }
-  .match-block:hover {
-    box-shadow: 0 6px 24px rgba(56,189,248,0.13);
-    border: 1.5px solid #38bdf8;
-    background: linear-gradient(120deg, #223a5f 60%, #1a2a4a 100%);
-  }
-  @media (max-width: 700px) {
-    .matches-list {
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-    .match-block {
-      width: 100%;
-      flex: 0 0 100px;
-      margin: 0 auto;
-      border-radius: 10px;
-      padding: 7px 2vw 7px 2vw;
-    }
-  }
-  .match-block:hover {
-    box-shadow: 0 8px 40px rgba(0,0,0,0.28);
-    border: 2px solid #38bdf8;
-  }
-  .match-block-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-    gap: 4px;
-  }
-  .match-league {
-    color: #7c8aa5;
-    font-size: 11px;
-    font-weight: 700;
-    background: #0f172a;
-    border-radius: 4px;
-    padding: 1px 7px;
-    margin-right: 4px;
-  }
-  .match-formula {
-    font-size: 11px;
-    color: #38bdf8;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    align-items: flex-end;
-    text-align: right;
-  }
-  .match-btn {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background: rgba(255,255,255,0.07);
-    border: none;
-    color: #e5e7eb;
-    cursor: pointer;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    transition: background 0.15s;
-    margin-top: 0;
-    box-shadow: none;
+    gap: 14px;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: linear-gradient(135deg, rgba(15, 26, 47, 0.92), rgba(10, 18, 34, 0.92));
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(8px);
   }
-  .match-btn:hover .team {
-    text-decoration: underline;
-    color: #38bdf8;
-    background: rgba(56,189,248,0.07);
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
-  .match-btn .team {
-    background: rgba(255,255,255,0.13);
-    border-radius: 6px;
-    padding: 2px 7px;
-    margin: 0 2px;
-    transition: background 0.15s;
-  }
-  .match-btn:hover .team {
-    background: rgba(56,189,248,0.13);
-  }
-  .team {
-    display: block;
-    font-weight: 800;
-    line-height: 1.35;
-    font-size: 18px;
-  }
-  .vs {
+
+  .brand-sub {
+    margin: 0;
+    color: var(--muted);
     font-size: 13px;
-    color: #64748b;
-    margin: 0 8px;
     font-weight: 600;
+    letter-spacing: .2px;
   }
-  .cell-green {
-    border-left: 5px solid #96ff09;
+
+  .header-spacer {
+    flex: 1;
   }
-  .cell-blue {
-    border-left: 5px solid #38bdf8;
+
+  .sport-tabs {
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
-  .cell-red {
-    border-left: 5px solid #ef4444;
+
+  .header h1 {
+    margin: 0;
+    font-size: clamp(22px, 2.3vw, 34px);
+    font-weight: 900;
+    letter-spacing: .4px;
+    color: #cde9ff;
   }
-  thead th {
-    padding: 14px 10px;
-    background: #0f172a;
-    color: #7c8aa5;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: .7px;
-    text-align: left;
-    border-bottom: 2px solid #22305a;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+
+  .header h1 span {
+    background: linear-gradient(90deg, var(--primary), var(--primary-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
-  tbody tr {
-    border-bottom: 1px solid #1a2540;
-    transition: background 0.18s;
+
+  .header a.btn {
+    text-decoration: none;
   }
-  tbody tr:hover {
-    background: #18213a;
+
+  .toolbar {
+    margin-top: 14px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    flex-wrap: wrap;
   }
-  td {
-    padding: 12px 10px;
-    vertical-align: middle;
+
+  .filter-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #d7e5ff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: rgba(9, 17, 31, .55);
+    border: 1px solid #27406a;
+  }
+
+  .filter-toggle input {
+    width: 16px;
+    height: 16px;
+    accent-color: #2da4f0;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: min(540px, 100%);
+    flex: 1;
+    background: rgba(7, 14, 27, .72);
+    border: 1px solid #2b426f;
+    border-radius: 12px;
+    padding: 10px 12px;
+  }
+
+  .search input {
+    border: 0;
+    outline: none;
+    width: 100%;
+    color: var(--text);
+    background: transparent;
     font-size: 15px;
   }
-  .col-num {
-    width: 56px;
-    text-align: right;
-    color: #64748b;
-    font-size: 13px;
+
+  .search input::placeholder {
+    color: #7d93bd;
   }
-  .match-btn {
-    display: block;
-    width: 100%;
-    background: none;
-    border: none;
-    text-align: left;
-    color: #e5e7eb;
+
+  .btn {
+    border: 1px solid #2a4068;
+    border-radius: 11px;
+    background: linear-gradient(180deg, #183155, #132748);
+    color: #d8e6ff;
+    padding: 9px 14px;
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
     cursor: pointer;
+    transition: .2s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-1px);
+    border-color: #3f629c;
+    background: linear-gradient(180deg, #1f3a63, #153057);
+  }
+
+  .btn.primary {
+    border-color: #2f85bf;
+    color: #f6fcff;
+    background: linear-gradient(180deg, #1d8cd1, #1774bd);
+    box-shadow: 0 8px 20px rgba(31, 139, 206, 0.28);
+  }
+
+  .btn.reset {
+    background: linear-gradient(180deg, #2a1f39, #21162f);
+    border-color: #493261;
+    color: #cdb9e5;
+  }
+
+  .stats {
+    margin-top: 12px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: rgba(13, 22, 39, .84);
+    color: #a8bce4;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    box-shadow: var(--shadow);
+  }
+
+  .stats .num {
+    color: #f2f8ff;
+    font-weight: 900;
+  }
+
+  .alert {
+    margin-top: 14px;
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid #6f2d3e;
+    background: linear-gradient(180deg, #391723, #2a121b);
+    color: #ffc8d3;
+  }
+
+  .content {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .leagues-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .matches-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+  .match-block {
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: linear-gradient(160deg, rgba(23, 37, 62, .94), rgba(13, 22, 39, .94));
+    box-shadow: var(--shadow);
+    padding: 12px;
+    cursor: pointer;
+    transition: .2s ease;
+    overflow: hidden;
+  }
+
+  .match-block::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(280px 90px at 8% 0%, rgba(57, 184, 255, .15), transparent 70%);
+    pointer-events: none;
+  }
+
+  .match-block:hover {
+    transform: translateY(-3px);
+    border-color: #3f5f93;
+    background: linear-gradient(160deg, rgba(28, 44, 73, .98), rgba(14, 24, 43, .98));
+  }
+
+  .match-block-header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .match-time {
+    font-size: 12px;
+    font-weight: 800;
+    color: #b9d7ff;
+    background: rgba(7, 14, 25, .72);
+    border: 1px solid #2f4a78;
+    border-radius: 999px;
+    padding: 4px 10px;
+    white-space: nowrap;
+  }
+
+  .match-league {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid #2f4875;
+    background: rgba(10, 20, 36, .88);
+    color: #9fc1f2;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .25px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .match-btn {
+    position: relative;
+    z-index: 1;
+    border: 0;
+    background: transparent;
+    color: var(--text);
+    width: 100%;
+    text-align: left;
     padding: 0;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    transition: background 0.15s;
+    display: grid;
+    gap: 8px;
   }
-  .match-btn:hover .team {
-    text-decoration: underline;
-    color: #38bdf8;
-  }
+
   .team {
     display: block;
+    border-radius: 10px;
+    padding: 8px 10px;
+    background: rgba(9, 17, 32, .66);
+    border: 1px solid rgba(56, 88, 138, .55);
+    font-size: 15px;
     font-weight: 800;
-    line-height: 1.35;
-    font-size: 16px;
+    line-height: 1.3;
   }
+
   .vs {
-    font-size: 12px;
-    color: #64748b;
-    margin: 2px 0;
-  }
-  .odds {
     text-align: center;
-    min-width: 72px;
+    color: #7e96c3;
+    font-size: 11px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: 800;
   }
+
+  .cell-green { border-left: 4px solid var(--ok); }
+  .cell-blue { border-left: 4px solid var(--primary); }
+  .cell-red { border-left: 4px solid var(--danger); }
+
   .odd {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 58px;
-    padding: 7px 10px;
+    min-width: 66px;
     border-radius: 12px;
-    font-size: 12px;
-    background: #1e263b;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    margin: 0 auto;
+    padding: 8px 10px;
+    border: 1px solid #253d68;
+    background: #101d36;
   }
+
   .odd .l {
+    color: #9db4dd;
     font-size: 10px;
-    color: #64748b;
-    font-weight: 700;
-  }
-  .odd .v {
-    font-size: 16px;
     font-weight: 800;
   }
-  .odd.odds-low { background: #16281b; } .odd.odds-low .v { color: #4ade80; }
-  .odd.odds-mid { background: #17263d; } .odd.odds-mid .v { color: #60a5fa; }
-  .odd.odds-high { background: #2c1d18; } .odd.odds-high .v { color: #fb923c; }
-  .odd.odds-null { background: #1b2335; } .odd.odds-null .v { color: #475569; }
-  .cell-green { background: #19224e !important; color: #4ade80; font-weight: 800; }
-  .cell-blue { background: #0a2540 !important; color: #60a5fa; font-weight: 800; }
-  .cell-red { background: #3c1a1a !important; color: #fecaca; font-weight: 800; }
-  .leagues-filter {
-    display: flex;
-    flex-wrap: wrap;
+
+  .odd .v {
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .odd.odds-low { background: #123125; border-color: #245239; }
+  .odd.odds-low .v { color: var(--ok); }
+  .odd.odds-mid { background: #122a4a; border-color: #245186; }
+  .odd.odds-mid .v { color: #78bcff; }
+  .odd.odds-high { background: #3a2716; border-color: #6f4d24; }
+  .odd.odds-high .v { color: var(--warn); }
+  .odd.odds-null { background: #1a2438; border-color: #29354f; }
+  .odd.odds-null .v { color: #64748b; }
+
+  .empty {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 42px 18px;
+    text-align: center;
+    color: #9fb2d8;
+    background: rgba(14, 22, 38, .9);
+  }
+
+  #noMatchesMessage {
+    border-radius: 12px !important;
+    border: 1px dashed #33558e;
+    background: rgba(15, 27, 48, .75) !important;
+    color: #c8daf8 !important;
+  }
+
+  .no-matches {
+    display: none;
+    padding: 20px 15px;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  #matchModalBackdrop {
+    backdrop-filter: blur(7px);
+    background: rgba(3, 7, 15, .72) !important;
+  }
+
+  #matchModalBackdrop .modal {
+    background: linear-gradient(165deg, rgba(16, 26, 45, .97), rgba(9, 16, 30, .97)) !important;
+    border: 1px solid #2a416b !important;
+    border-radius: 16px !important;
+    box-shadow: 0 22px 65px rgba(0, 0, 0, 0.52) !important;
+  }
+
+  #matchModalBackdrop .modal > div:first-child {
+    border-bottom: 1px solid #223a62 !important;
+  }
+
+  .bookmaker-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
-    margin-bottom: 18px;
-    justify-content: flex-start;
   }
-  .leagues-filter .btn {
-    background: #1e293b;
-    color: #cbd5e1;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 18px;
-    font-size: 14px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background 0.15s, color 0.15s;
-  }
-  .leagues-filter .btn.primary {
-    background: #2563eb;
-    color: #fff;
-  }
-  .leagues-filter .btn:hover {
-    background: #334155;
-    color: #fff;
-  }
-  .toolbar {
-    padding: 18px 0 10px 0;
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-items: center;
-    border-bottom: 1px solid #1e293b;
-    background: #0f172a;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .search {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: #0b1020;
-    border: 1px solid #26395f;
-    border-radius: 10px;
-    padding: 9px 12px;
-    min-width: 280px;
-    flex: 1;
-    max-width: 520px;
-  }
-  .search input {
-    background: none;
-    border: none;
-    outline: none;
-    color: #e5e7eb;
-    width: 100%;
-    font-size: 16px;
-  }
-  .btn {
+
+  .bookmaker-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 16px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
-    background: #1e293b;
-    color: #cbd5e1;
-    transition: background 0.15s, color 0.15s;
-  }
-  .btn.primary {
-    background: #2563eb;
-    color: #fff;
-  }
-  .btn.reset {
-    background: #1f2937;
-    color: #cbd5e1;
-  }
-  .btn:hover {
-    background: #334155;
-    color: #fff;
-  }
-  .stats {
-    padding: 12px 0 0 0;
-    padding-left: 20px;
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #94a3b8;
-    font-size: 15px;
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
-  }
-  .stats .num {
-    color: #e2e8f0;
-    font-weight: 800;
-  }
-  .alert {
-    margin: 0 auto 16px auto;
-    padding: 14px 16px;
+    text-decoration: none;
     border-radius: 12px;
-    background: #3b1d1d;
-    border: 1px solid #7f1d1d;
-    color: #fecaca;
-    max-width: 900px;
+    border: 1px solid #2a4d7f;
+    background: linear-gradient(180deg, #17345a, #132b4b);
+    color: #e9f5ff;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 10px 12px;
+    transition: .2s ease;
   }
-  .empty {
-    padding: 54px 20px;
-    text-align: center;
-    color: #94a3b8;
+
+  .bookmaker-link:hover {
+    transform: translateY(-1px);
+    border-color: #3f6ba6;
+    background: linear-gradient(180deg, #1d416f, #16345a);
   }
-  .header {
-    padding: 24px 0 20px 0;
-    padding-left: 20px;
-    border-bottom: 1px solid #24304d;
-    background: linear-gradient(180deg,#121a31 0%,#0f172a 100%);
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .bookmaker-link.disabled {
+    pointer-events: none;
+    opacity: .55;
+    border-color: #33405c;
+    background: linear-gradient(180deg, #202a3c, #1a2233);
+    color: #a7b2c8;
   }
-  .header h1 {
-    font-size: 32px;
-    color: #7dd3fc;
-    margin: 0 18px 0 0;
+
+  #modalFormulaBlock span {
+    border: 1px solid rgba(78, 112, 170, .45);
   }
-  .header h1 span {
-    color: #fbbf24;
-  }
-  .pill {
-    background: #16213b;
-    border: 1px solid #26395f;
-    color: #bfdbfe;
-    border-radius: 999px;
-    padding: 7px 16px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-right: 8px;
-  }
-  .search {
-    margin-left: 20px;
-  }
-  /* Модальное окно и адаптивность оставляем прежними */
-  @media (max-width: 900px) {
-    .content, .header, .toolbar, .stats { max-width: 100vw; padding-left: 2vw; padding-right: 2vw; }
-    .header h1 { font-size: 22px; }
-    .btn, .leagues-filter .btn { font-size: 15px; padding: 10px 12px; }
-    .search input { font-size: 16px; }
-    .odd { min-width: 40px; padding: 7px 4px; font-size: 13px; }
-    .team { font-size: 14px; }
-    .modal { width: 99vw; min-width: unset; }
-  }
-  @media (max-width: 600px) {
-    .content, .header, .toolbar, .stats { padding-left: 0; padding-right: 0; }
-    .header h1 { font-size: 16px; }
-    .btn, .leagues-filter .btn { font-size: 13px; padding: 8px 8px; }
-    .search input { font-size: 14px; }
-    .odd { min-width: 32px; padding: 5px 2px; font-size: 11px; }
-    .team { font-size: 12px; }
-    .modal { width: 100vw; min-width: unset; }
+
+  @media (max-width: 1100px) {
+    .header,
+    .toolbar,
+    .stats,
+    .content,
+    .alert {
+      width: min(1280px, calc(100% - 20px));
+    }
+
     .matches-list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
   }
-  @media (max-width: 480px) {
-    body { font-size: 13px; }
-    .content, .header, .toolbar, .stats { padding: 0 6px; max-width: 100vw; }
-    .header { flex-direction: column; align-items: flex-start; gap: 7px; padding: 10px 0 8px 0; }
-    .header h1 { font-size: 13px; margin: 0 0 0 0; }
-    .pill { font-size: 11px; padding: 5px 8px; margin-right: 4px; }
-    .toolbar { flex-direction: column; gap: 7px; padding: 8px 0 6px 0; }
-    .search { min-width: 0; max-width: 100vw; padding: 7px 7px; font-size: 13px; }
-    .search input { font-size: 13px; }
-    .btn, .leagues-filter .btn { font-size: 13px; padding: 8px 8px; border-radius: 7px; }
-    .leagues-filter { gap: 4px; margin-bottom: 8px; }
-    .stats { font-size: 12px; gap: 7px; padding: 10px; }
-    .stats .num { font-size: 13px; }
-    .table-wrap { border-radius: 8px; padding: 4px 0; }
-    .match-btn { font-size: 12px; border-radius: 7px; background: #172d51; padding: 3px; }
-    .team { font-size: 12px; }
-    .vs { font-size: 9px; }
-    .modal { width: 99vw; min-width: unset; }
+
+  @media (max-width: 760px) {
+    .header {
+      flex-wrap: wrap;
+      padding: 13px;
+    }
+
+    .header > div:last-child {
+      width: 100%;
+      justify-content: stretch;
+      display: grid !important;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 7px !important;
+    }
+
+    .brand-sub {
+      font-size: 12px;
+    }
+
+    .toolbar {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+
+    .search {
+      min-width: 100%;
+      max-width: 100%;
+    }
+
+    .matches-list {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    #matchModalBackdrop .modal {
+      width: 96vw !important;
+      border-radius: 14px !important;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .header,
+    .toolbar,
+    .stats,
+    .content,
+    .alert {
+      width: calc(100% - 14px);
+    }
+
+    .header h1 {
+      font-size: 20px;
+    }
+
+    .brand-sub {
+      font-size: 11px;
+    }
+
+    .btn {
+      padding: 9px 10px;
+      font-size: 13px;
+    }
+
+    .team {
+      font-size: 14px;
+    }
+
+    .match-league {
+      font-size: 10px;
+    }
   }
 </style>
 </head>
 <body>
   <header class="header">
-    <h1><?= $sportTab === 'basketball' ? '🏀' : ($sportTab === 'tennis' ? '🎾' : '⚽') ?> Bet<span>parser</span></h1>
-    <div style="flex:1"></div>
-    <div style="display:flex;gap:8px;align-items:center;">
+    <div class="brand">
+      <h1><?= $sportTab === 'basketball' ? '🏀' : ($sportTab === 'tennis' ? '🎾' : '⚽') ?> Bet<span>parser</span></h1>
+      <p class="brand-sub">Сканер линий и быстрый поиск валуйных ситуаций</p>
+    </div>
+    <div class="header-spacer"></div>
+    <nav class="sport-tabs">
       <a href="?sport=football" class="btn<?= $sportTab === 'football' ? ' primary' : '' ?>" style="text-decoration:none;">⚽ Футбол</a>
       <a href="?sport=basketball" class="btn<?= $sportTab === 'basketball' ? ' primary' : '' ?>" style="text-decoration:none;">🏀 Баскетбол</a>
       <a href="?sport=tennis" class="btn<?= $sportTab === 'tennis' ? ' primary' : '' ?>" style="text-decoration:none;">🎾 Теннис</a>
-    </div>
+    </nav>
   </header>
 
     <form class="toolbar" method="get" action="" onsubmit="return false;">
@@ -586,8 +694,8 @@ function oddsValue($source, string $key): ?string {
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-3.5-3.5"/></svg>
         <input type="text" id="searchInput" autocomplete="off" placeholder="Поиск" />
       </div>
-      <label style="display:flex;align-items:center;gap:8px;color:#e5e7eb;font-size:14px;cursor:pointer;">
-        <input type="checkbox" id="lessThanOneFilter" style="width:16px;height:16px;"> <span>меньше 1</span>
+      <label class="filter-toggle">
+        <input type="checkbox" id="lessThanOneFilter"> <span>меньше 1</span>
       </label>
       <a class="btn reset" href="?" id="resetBtn" style="display:none">Сброс</a>
     </form>
@@ -640,6 +748,16 @@ function oddsValue($source, string $key): ?string {
               elseif ($minZ < 1) $cellClass = 'cell-blue';
               else $cellClass = 'cell-red';
             }
+            $matchTime = trim((string)($match['time'] ?? ''));
+            if ($matchTime === '') {
+              $matchTime = trim((string)($match['parik24']['time'] ?? ''));
+            }
+            if ($matchTime === '') {
+              $matchTime = trim((string)($match['pinnacle']['time'] ?? ''));
+            }
+            if ($matchTime === '') {
+              $matchTime = '—';
+            }
           ?>
           <div class="match-block <?= $cellClass ?> js-open-match"
             data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
@@ -648,6 +766,9 @@ function oddsValue($source, string $key): ?string {
             data-sport="<?= htmlspecialchars($matchSport) ?>"
             data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
             data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
+            data-time="<?= htmlspecialchars((string)($matchTime ?? '')) ?>"
+            data-parik-time="<?= htmlspecialchars((string)($match['parik24']['time'] ?? '')) ?>"
+            data-pinn-time="<?= htmlspecialchars((string)($match['pinnacle']['time'] ?? '')) ?>"
             data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
             data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
             data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
@@ -660,6 +781,7 @@ function oddsValue($source, string $key): ?string {
           >
             <div class="match-block-header">
               <span class="match-league"><?= htmlspecialchars($league) ?></span>
+              <span class="match-time"><?= htmlspecialchars($matchTime) ?></span>
             </div>
             <div class="match-btn">
               <span class="team"><?= htmlspecialchars($match['home'] ?? '—') ?></span>
@@ -669,7 +791,7 @@ function oddsValue($source, string $key): ?string {
           </div>
         <?php endforeach; ?>
       </div>
-      <div id="noMatchesMessage" style="display:none;padding:20px 15px;border-radius:12px;background:#1b2639;color:#cbd5e1;text-align:center;margin-top:14px;">Нет матча ниже 1</div>
+      <div id="noMatchesMessage" class="no-matches">Нет матча ниже 1</div>
     <?php else: ?>
       <div class="league-card empty">
         <div style="font-size:44px;margin-bottom:10px">⚽</div>
@@ -690,6 +812,7 @@ function oddsValue($source, string $key): ?string {
         <button id="matchModalClose" class="btn" type="button">Закрыть</button>
       </div>
       <div style="padding:14px 16px;display:flex;gap:16px;flex-direction:column;max-height:80vh;overflow:auto;">
+        <div id="modalBookmakerLinks" class="bookmaker-links"></div>
         <div style="display:flex;gap:16px;align-items:stretch;">
           <div style="flex:1;display:flex;gap:8px;align-items:center;justify-content:center;background:#0b1224;border:1px solid #1e293b;border-radius:10px;padding:10px;">
             <div style="font-size:12px;color:#94a3b8;font-weight:700;min-width:70px;text-align:right;">Parik24</div>
@@ -939,9 +1062,20 @@ function oddsValue($source, string $key): ?string {
       const league = button.dataset.league || '—';
       const parikUrl = button.dataset.parikUrl || '';
       const pinnUrl = button.dataset.pinnUrl || '';
+      const matchTime = button.dataset.time || button.dataset.parikTime || button.dataset.pinnTime || '—';
 
       title.textContent = `${home} против ${away}`;
-      sub.textContent = league;
+      sub.textContent = `${league} • ${matchTime}`;
+
+      const linksWrap = document.getElementById('modalBookmakerLinks');
+      const parikLinkClass = parikUrl ? 'bookmaker-link' : 'bookmaker-link disabled';
+      const pinnLinkClass = pinnUrl ? 'bookmaker-link' : 'bookmaker-link disabled';
+      const parikHref = parikUrl ? escapeHtml(parikUrl) : '#';
+      const pinnHref = pinnUrl ? escapeHtml(pinnUrl) : '#';
+      linksWrap.innerHTML = [
+        `<a class="${parikLinkClass}" href="${parikHref}" target="_blank" rel="noopener noreferrer">Открыть матч в Parik24</a>`,
+        `<a class="${pinnLinkClass}" href="${pinnHref}" target="_blank" rel="noopener noreferrer">Открыть матч в Pinnacle</a>`
+      ].join('');
 
 
       // Коэффициенты Parik

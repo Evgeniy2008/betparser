@@ -127,6 +127,13 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
           const away = nameEls[1]?.textContent?.trim() || '';
           if (!home || !away || home.length < 2 || away.length < 2) continue;
 
+          const timeTextRaw = Array.from(card.querySelectorAll('[class*="time-status"], [class*="date"], [class*="time"], [class*="matchupDate"], time'))
+            .map(el => (el.textContent || '').trim())
+            .filter(Boolean)
+            .join(' ');
+          const timeMatch = timeTextRaw.match(/\b\d{1,2}:\d{2}\b/);
+          const matchTime = timeMatch ? timeMatch[0] : null;
+
           const href = card.getAttribute('href') || '';
           const link = href.startsWith('http') ? href : `https://24-parik.club${href}`;
 
@@ -171,9 +178,9 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
 
           if (odds.length === needed) {
             if (isTwoWay) {
-              results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link });
+              results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link, time: matchTime });
             } else {
-              results.push({ home, away, p1: odds[0], x: odds[1], p2: odds[2], link });
+              results.push({ home, away, p1: odds[0], x: odds[1], p2: odds[2], link, time: matchTime });
             }
           }
         } catch (e) {
@@ -269,6 +276,14 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
             .trim();
           if (!home || !away || home.length < 2 || away.length < 2) continue;
 
+          const rowTimeRaw = [
+            row.querySelector('[class*="matchupDate"]')?.textContent || '',
+            row.querySelector('time')?.textContent || '',
+            row.querySelector('[class*="time-status"]')?.textContent || '',
+          ].join(' ');
+          const rowTimeMatch = rowTimeRaw.match(/\b\d{1,2}:\d{2}\b/);
+          const matchTime = rowTimeMatch ? rowTimeMatch[0] : null;
+
           const buttons = Array.from(moneyline.querySelectorAll('button[class*="market-btn"]'))
             .filter(btn => !btn.className.includes('disabled-'));
           const prices = Array.from(moneyline.querySelectorAll('button[class*="market-btn"] span[class*="price-"]'))
@@ -287,16 +302,16 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
           }
           if (odds.length !== needed) {
             if (includeUnavailableForTennis && isTwoWay) {
-              results.push({ home, away, p1: null, x: null, p2: null, link: toAbsolute(eventHref) });
+              results.push({ home, away, p1: null, x: null, p2: null, link: toAbsolute(eventHref), time: matchTime });
             }
             continue;
           }
 
           const link = toAbsolute(eventHref);
           if (isTwoWay) {
-            results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link });
+            results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link, time: matchTime });
           } else {
-            results.push({ home, away, p1: odds[0], x: odds[1], p2: odds[2], link });
+            results.push({ home, away, p1: odds[0], x: odds[1], p2: odds[2], link, time: matchTime });
           }
         } catch (e) {
           // Skip row parse errors
@@ -611,8 +626,9 @@ async function scrapeLeagues() {
         sport: parik.sport || 'football',
         home: parik.home,
         away: parik.away,
-        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null },
-        pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null },
+        time: parik.time || pin.time || null,
+        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
+        pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null, time: pin.time || null },
         matchScore: bestMatch.score,
       });
       console.log(`  ✓ ${parik.league}: ${parik.home} vs ${parik.away} (score: ${bestMatch.score.toFixed(2)})`);
@@ -622,7 +638,8 @@ async function scrapeLeagues() {
         sport: parik.sport || 'football',
         home: parik.home,
         away: parik.away,
-        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null },
+        time: parik.time || null,
+        parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
         pinnacle: null,
         matchScore: 0,
       });
