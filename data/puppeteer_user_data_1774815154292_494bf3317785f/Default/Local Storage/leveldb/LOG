@@ -1,8 +1,0 @@
-2026/03/29-23:12:34.671 d2bc Creating DB D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774815154292_494bf3317785f\Default\Local Storage\leveldb since it was missing.
-2026/03/29-23:12:34.690 d2bc Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\data\puppeteer_user_data_1774815154292_494bf3317785f\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/29-23:12:58.632 d2bc Level-0 table #5: started
-2026/03/29-23:12:58.637 d2bc Level-0 table #5: 15907 bytes OK
-2026/03/29-23:12:58.640 d2bc Delete type=0 #3
-2026/03/29-23:13:23.732 d2bc Level-0 table #7: started
-2026/03/29-23:13:23.740 d2bc Level-0 table #7: 837140 bytes OK
-2026/03/29-23:13:23.742 d2bc Delete type=0 #4

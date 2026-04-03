@@ -1,347 +1,385 @@
 {
-  "updated": "2026-03-29T20:15:39.084Z",
+  "updated": "2026-04-03T10:13:03.285Z",
   "matches": [
     {
       "home": "Atletico Madrid",
       "away": "Real Sociedad",
       "p1": "1.811",
-      "x": "3.59",
+      "x": "3.6",
       "p2": "4.512",
       "link": "https://24-parik.club/en/events/atletico-madrid-real-sociedad-15964837",
-      "league": "Spain, Copa del Rey:"
+      "league": "Spain, Copa del Rey:",
+      "sport": "football"
     },
     {
       "home": "Sassuolo",
       "away": "Cagliari",
       "p1": "2.011",
-      "x": "3.02",
-      "p2": "4.442",
+      "x": "3.14",
+      "p2": "4.522",
       "link": "https://24-parik.club/en/events/sassuolo-cagliari-16071073",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Hellas Verona",
       "away": "Fiorentina",
-      "p1": "4.071",
-      "x": "3.44",
-      "p2": "1.932",
+      "p1": "4.191",
+      "x": "3.62",
+      "p2": "1.912",
       "link": "https://24-parik.club/en/events/hellas-verona-fiorentina-16071072",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Lazio",
       "away": "Parma",
-      "p1": "1.811",
-      "x": "3.39",
-      "p2": "4.872",
+      "p1": "1.781",
+      "x": "3.45",
+      "p2": "5.342",
       "link": "https://24-parik.club/en/events/lazio-parma-16071074",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Cremonese",
       "away": "Bologna",
-      "p1": "3.461",
-      "x": "3.38",
-      "p2": "2.132",
+      "p1": "3.491",
+      "x": "3.41",
+      "p2": "2.112",
       "link": "https://24-parik.club/en/events/cremonese-bologna-16071071",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Pisa",
       "away": "Torino",
-      "p1": "3.131",
-      "x": "2.85",
-      "p2": "2.622",
+      "p1": "3.071",
+      "x": "2.92",
+      "p2": "2.582",
       "link": "https://24-parik.club/en/events/pisa-torino-16071069",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Inter Milan",
       "away": "Roma",
-      "p1": "1.641",
-      "x": "3.98",
-      "p2": "5.222",
+      "p1": "1.631",
+      "x": "3.95",
+      "p2": "5.322",
       "link": "https://24-parik.club/en/events/inter-milan-roma-16071070",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Udinese",
       "away": "Como",
-      "p1": "4.981",
+      "p1": "5.101",
       "x": "3.88",
-      "p2": "1.682",
+      "p2": "1.672",
       "link": "https://24-parik.club/en/events/udinese-como-16072787",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Lecce",
       "away": "Atalanta",
-      "p1": "4.641",
-      "x": "3.73",
-      "p2": "1.752",
+      "p1": "4.741",
+      "x": "3.76",
+      "p2": "1.732",
       "link": "https://24-parik.club/en/events/lecce-atalanta-16071068",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Juventus",
       "away": "Genoa",
-      "p1": "1.401",
-      "x": "4.41",
-      "p2": "8.752",
+      "p1": "1.371",
+      "x": "4.59",
+      "p2": "9.342",
       "link": "https://24-parik.club/en/events/juventus-genoa-16074383",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Napoli",
       "away": "AC Milan",
-      "p1": "2.671",
-      "x": "2.95",
-      "p2": "2.932",
+      "p1": "2.551",
+      "x": "2.97",
+      "p2": "3.072",
       "link": "https://24-parik.club/en/events/napoli-ac-milan-16075584",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Roma",
       "away": "Pisa",
-      "p1": "1.351",
-      "x": "4.68",
-      "p2": "10.202",
+      "p1": "1.361",
+      "x": "4.72",
+      "p2": "9.632",
       "link": "https://24-parik.club/en/events/roma-pisa-16134833",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Cagliari",
       "away": "Cremonese",
-      "p1": "2.231",
+      "p1": "2.191",
       "x": "3.15",
-      "p2": "3.482",
+      "p2": "3.582",
       "link": "https://24-parik.club/en/events/cagliari-cremonese-16134837",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Torino",
       "away": "Hellas Verona",
-      "p1": "1.891",
+      "p1": "1.871",
       "x": "3.4",
-      "p2": "4.352",
+      "p2": "4.432",
       "link": "https://24-parik.club/en/events/torino-hellas-verona-16134876",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "AC Milan",
       "away": "Udinese",
-      "p1": "1.381",
-      "x": "4.91",
-      "p2": "8.092",
+      "p1": "1.371",
+      "x": "4.63",
+      "p2": "9.222",
       "link": "https://24-parik.club/en/events/ac-milan-udinese-16134875",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Atalanta",
       "away": "Juventus",
-      "p1": "3.071",
-      "x": "3.53",
-      "p2": "2.242",
+      "p1": "3.101",
+      "x": "3.55",
+      "p2": "2.232",
       "link": "https://24-parik.club/en/events/atalanta-juventus-16134896",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Genoa",
       "away": "Sassuolo",
-      "p1": "2.151",
-      "x": "3.32",
-      "p2": "3.482",
+      "p1": "2.161",
+      "x": "3.25",
+      "p2": "3.532",
       "link": "https://24-parik.club/en/events/genoa-sassuolo-16134872",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Parma",
       "away": "Napoli",
-      "p1": "5.441",
-      "x": "3.73",
+      "p1": "5.581",
+      "x": "3.69",
       "p2": "1.662",
       "link": "https://24-parik.club/en/events/parma-napoli-16134870",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Bologna",
       "away": "Lecce",
       "p1": "1.691",
-      "x": "3.5",
-      "p2": "5.642",
+      "x": "3.53",
+      "p2": "5.592",
       "link": "https://24-parik.club/en/events/bologna-lecce-16134895",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Como",
       "away": "Inter Milan",
-      "p1": "3.111",
-      "x": "3.4",
+      "p1": "3.101",
+      "x": "3.42",
       "p2": "2.282",
       "link": "https://24-parik.club/en/events/como-inter-milan-16134925",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Fiorentina",
       "away": "Lazio",
-      "p1": "2.221",
+      "p1": "2.211",
       "x": "2.9",
-      "p2": "3.852",
+      "p2": "3.892",
       "link": "https://24-parik.club/en/events/fiorentina-lazio-16135201",
-      "league": "Italy. Serie A:"
+      "league": "Italy. Serie A:",
+      "sport": "football"
     },
     {
       "home": "Bayer Leverkusen",
       "away": "Wolfsburg",
       "p1": "1.411",
-      "x": "5.09",
-      "p2": "6.742",
+      "x": "5.16",
+      "p2": "7.462",
       "link": "https://24-parik.club/en/events/bayer-leverkusen-wolfsburg-16053249",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Borussia M'gladbach",
       "away": "Heidenheim",
-      "p1": "1.561",
-      "x": "4.42",
-      "p2": "5.392",
+      "p1": "1.591",
+      "x": "4.41",
+      "p2": "5.452",
       "link": "https://24-parik.club/en/events/borussia-mgladbach-heidenheim-16053248",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Hamburg",
       "away": "Augsburg",
-      "p1": "2.281",
-      "x": "3.41",
-      "p2": "3.112",
+      "p1": "2.291",
+      "x": "3.45",
+      "p2": "3.222",
       "link": "https://24-parik.club/en/events/hamburg-augsburg-16053247",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "SC Freiburg",
       "away": "Bayern Munchen",
-      "p1": "6.771",
-      "x": "5.2",
-      "p2": "1.402",
+      "p1": "6.901",
+      "x": "5.44",
+      "p2": "1.412",
       "link": "https://24-parik.club/en/events/sc-freiburg-bayern-munchen-16053244",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "TSG Hoffenheim",
       "away": "Mainz 05",
-      "p1": "1.711",
-      "x": "4.21",
-      "p2": "4.302",
+      "p1": "1.691",
+      "x": "4.3",
+      "p2": "4.672",
       "link": "https://24-parik.club/en/events/tsg-hoffenheim-mainz-05-16053246",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Werder Bremen",
       "away": "RB Leipzig",
-      "p1": "3.321",
-      "x": "3.85",
-      "p2": "2.032",
+      "p1": "3.501",
+      "x": "4.13",
+      "p2": "1.962",
       "link": "https://24-parik.club/en/events/werder-bremen-rb-leipzig-16053245",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "VfB Stuttgart",
       "away": "Borussia Dortmund",
-      "p1": "2.411",
-      "x": "4",
-      "p2": "2.572",
+      "p1": "2.341",
+      "x": "4.09",
+      "p2": "2.732",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-borussia-dortmund-16054718",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Union Berlin",
       "away": "St Pauli",
-      "p1": "2.161",
-      "x": "3.26",
-      "p2": "3.522",
+      "p1": "2.091",
+      "x": "3.23",
+      "p2": "3.762",
       "link": "https://24-parik.club/en/events/union-berlin-st-pauli-16063611",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Eintracht Frankfurt",
       "away": "Koln",
-      "p1": "2.251",
-      "x": "3.44",
-      "p2": "3.142",
+      "p1": "2.031",
+      "x": "3.51",
+      "p2": "3.632",
       "link": "https://24-parik.club/en/events/eintracht-frankfurt-koln-16064751",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Augsburg",
       "away": "TSG Hoffenheim",
-      "p1": "3.281",
-      "x": "3.71",
+      "p1": "3.251",
+      "x": "3.74",
       "p2": "2.092",
       "link": "https://24-parik.club/en/events/augsburg-tsg-hoffenheim-16115906",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Borussia Dortmund",
       "away": "Bayer Leverkusen",
-      "p1": "1.901",
-      "x": "3.89",
-      "p2": "3.702",
+      "p1": "1.881",
+      "x": "3.92",
+      "p2": "3.742",
       "link": "https://24-parik.club/en/events/borussia-dortmund-bayer-leverkusen-16123402",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Heidenheim",
       "away": "Union Berlin",
-      "p1": "3.171",
-      "x": "3.62",
-      "p2": "2.172",
+      "p1": "3.161",
+      "x": "3.64",
+      "p2": "2.162",
       "link": "https://24-parik.club/en/events/heidenheim-union-berlin-16123403",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "RB Leipzig",
       "away": "Borussia M'gladbach",
       "p1": "1.521",
-      "x": "4.67",
-      "p2": "5.482",
+      "x": "4.63",
+      "p2": "5.592",
       "link": "https://24-parik.club/en/events/rb-leipzig-borussia-mgladbach-16123404",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Wolfsburg",
       "away": "Eintracht Frankfurt",
-      "p1": "2.441",
-      "x": "3.55",
-      "p2": "2.752",
+      "p1": "2.461",
+      "x": "3.58",
+      "p2": "2.722",
       "link": "https://24-parik.club/en/events/wolfsburg-eintracht-frankfurt-16123401",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "St Pauli",
       "away": "Bayern Munchen",
-      "p1": "8.701",
-      "x": "5.42",
+      "p1": "8.611",
+      "x": "5.4",
       "p2": "1.332",
       "link": "https://24-parik.club/en/events/st-pauli-bayern-munchen-16124905",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Koln",
       "away": "Werder Bremen",
-      "p1": "2.171",
-      "x": "3.56",
-      "p2": "3.192",
+      "p1": "2.181",
+      "x": "3.66",
+      "p2": "3.112",
       "link": "https://24-parik.club/en/events/koln-werder-bremen-16133163",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "VfB Stuttgart",
       "away": "Hamburg",
       "p1": "1.441",
-      "x": "4.85",
-      "p2": "6.472",
+      "x": "4.7",
+      "p2": "6.742",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-hamburg-16134477",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Mainz 05",
@@ -350,142 +388,158 @@
       "x": "3.49",
       "p2": "3.362",
       "link": "https://24-parik.club/en/events/mainz-05-sc-freiburg-16135322",
-      "league": "Bundesliga:"
+      "league": "Bundesliga:",
+      "sport": "football"
     },
     {
       "home": "Bayer Leverkusen",
       "away": "Bayern Munchen",
-      "p1": "4.531",
-      "x": "4.48",
-      "p2": "1.642",
+      "p1": "4.471",
+      "x": "4.61",
+      "p2": "1.632",
       "link": "https://24-parik.club/en/events/bayer-leverkusen-bayern-munchen-15876555",
-      "league": "Germany Cup:"
+      "league": "Germany Cup:",
+      "sport": "football"
     },
     {
       "home": "VfB Stuttgart",
       "away": "SC Freiburg",
       "p1": "1.621",
-      "x": "4.12",
-      "p2": "5.202",
+      "x": "4.07",
+      "p2": "5.282",
       "link": "https://24-parik.club/en/events/vfb-stuttgart-sc-freiburg-16059154",
-      "league": "Germany Cup:"
+      "league": "Germany Cup:",
+      "sport": "football"
     },
     {
       "home": "PSG",
       "away": "Toulouse",
-      "p1": "1.281",
-      "x": "5.7",
-      "p2": "10.002",
+      "p1": "1.271",
+      "x": "6.22",
+      "p2": "11.502",
       "link": "https://24-parik.club/en/events/psg-toulouse-16065033",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Strasbourg",
       "away": "Nice",
-      "p1": "1.811",
-      "x": "3.64",
-      "p2": "4.412",
+      "p1": "1.851",
+      "x": "3.69",
+      "p2": "4.432",
       "link": "https://24-parik.club/en/events/strasbourg-nice-16065041",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Brest",
       "away": "Rennes",
-      "p1": "3.461",
-      "x": "3.53",
-      "p2": "2.082",
+      "p1": "3.071",
+      "x": "3.55",
+      "p2": "2.332",
       "link": "https://24-parik.club/en/events/brest-rennes-16065058",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Lille",
       "away": "Lens",
-      "p1": "2.631",
-      "x": "3.32",
-      "p2": "2.682",
+      "p1": "2.701",
+      "x": "3.31",
+      "p2": "2.732",
       "link": "https://24-parik.club/en/events/lille-lens-16065059",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Angers",
       "away": "Lyon",
-      "p1": "4.741",
-      "x": "3.49",
-      "p2": "1.802",
+      "p1": "4.801",
+      "x": "3.48",
+      "p2": "1.792",
       "link": "https://24-parik.club/en/events/angers-lyon-16065062",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Le Havre",
       "away": "Auxerre",
-      "p1": "2.371",
-      "x": "3.11",
-      "p2": "3.222",
+      "p1": "2.551",
+      "x": "3.05",
+      "p2": "2.982",
       "link": "https://24-parik.club/en/events/le-havre-auxerre-16065090",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Lorient",
       "away": "Paris FC",
-      "p1": "2.291",
-      "x": "3.27",
-      "p2": "3.222",
+      "p1": "2.271",
+      "x": "3.25",
+      "p2": "3.282",
       "link": "https://24-parik.club/en/events/lorient-paris-fc-16065092",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Metz",
       "away": "Nantes",
       "p1": "2.901",
-      "x": "3.26",
+      "x": "3.24",
       "p2": "2.502",
       "link": "https://24-parik.club/en/events/metz-nantes-16065096",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "AS Monaco",
       "away": "Marseille",
-      "p1": "2.231",
-      "x": "3.57",
-      "p2": "3.072",
+      "p1": "2.171",
+      "x": "3.61",
+      "p2": "3.172",
       "link": "https://24-parik.club/en/events/as-monaco-marseille-16065572",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Paris FC",
       "away": "AS Monaco",
-      "p1": "3.221",
-      "x": "3.72",
-      "p2": "2.112",
+      "p1": "3.251",
+      "x": "3.75",
+      "p2": "2.082",
       "link": "https://24-parik.club/en/events/paris-fc-as-monaco-16136556",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Marseille",
       "away": "Metz",
       "p1": "1.261",
-      "x": "6.1",
-      "p2": "10.202",
+      "x": "5.91",
+      "p2": "11.302",
       "link": "https://24-parik.club/en/events/marseille-metz-16136594",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Auxerre",
       "away": "Nantes",
-      "p1": "2.121",
-      "x": "3.24",
-      "p2": "3.652",
+      "p1": "2.111",
+      "x": "3.25",
+      "p2": "3.672",
       "link": "https://24-parik.club/en/events/auxerre-nantes-16136593",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Rennes",
       "away": "Angers",
       "p1": "1.401",
-      "x": "4.64",
-      "p2": "7.962",
+      "x": "4.55",
+      "p2": "8.412",
       "link": "https://24-parik.club/en/events/rennes-angers-16136546",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Nice",
@@ -494,7 +548,8 @@
       "x": "2.98",
       "p2": "4.732",
       "link": "https://24-parik.club/en/events/nice-le-havre-16136559",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Toulouse",
@@ -503,88 +558,918 @@
       "x": "3.25",
       "p2": "2.432",
       "link": "https://24-parik.club/en/events/toulouse-lille-16136560",
-      "league": "France Ligue 1:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Lyon",
       "away": "Lorient",
       "p1": "1.731",
-      "x": "3.8",
-      "p2": "4.712",
+      "x": "3.77",
+      "p2": "4.792",
       "link": "https://24-parik.club/en/events/lyon-lorient-16136561",
-      "league": "France Ligue 1:"
-    },
-    {
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "p1": "6.971",
-      "x": "3.72",
-      "p2": "1.602",
-      "link": "https://24-parik.club/en/events/bosnia-and-herzegovina-italy-16174910",
-      "league": "World Cup Qualifiers Europe:"
-    },
-    {
-      "home": "Czech Republic",
-      "away": "Denmark",
-      "p1": "4.051",
-      "x": "3.23",
-      "p2": "2.082",
-      "link": "https://24-parik.club/en/events/czech-republic-denmark-16174926",
-      "league": "World Cup Qualifiers Europe:"
-    },
-    {
-      "home": "Kosovo",
-      "away": "Turkey",
-      "p1": "4.311",
-      "x": "3.71",
-      "p2": "1.862",
-      "link": "https://24-parik.club/en/events/kosovo-turkey-16174679",
-      "league": "World Cup Qualifiers Europe:"
-    },
-    {
-      "home": "Sweden",
-      "away": "Poland",
-      "p1": "2.041",
-      "x": "3.44",
-      "p2": "3.902",
-      "link": "https://24-parik.club/en/events/sweden-poland-16174697",
-      "league": "World Cup Qualifiers Europe:"
+      "league": "France Ligue 1:",
+      "sport": "football"
     },
     {
       "home": "Man City",
       "away": "Liverpool",
-      "p1": "1.761",
-      "x": "4.09",
-      "p2": "4.162",
+      "p1": "1.791",
+      "x": "4.12",
+      "p2": "4.202",
       "link": "https://24-parik.club/en/events/man-city-liverpool-16007385",
-      "league": "England FA Cup:"
+      "league": "England FA Cup:",
+      "sport": "football"
     },
     {
       "home": "Chelsea",
       "away": "Port Vale",
-      "p1": "1.071",
-      "x": "12.7",
-      "p2": "27.002",
+      "p1": "1.041",
+      "x": "22.3",
+      "p2": "31.002",
       "link": "https://24-parik.club/en/events/chelsea-port-vale-16007386",
-      "league": "England FA Cup:"
+      "league": "England FA Cup:",
+      "sport": "football"
     },
     {
       "home": "Southampton",
       "away": "Arsenal FC",
-      "p1": "10.901",
-      "x": "6.14",
-      "p2": "1.252",
+      "p1": "11.701",
+      "x": "5.87",
+      "p2": "1.282",
       "link": "https://24-parik.club/en/events/southampton-arsenal-fc-16007387",
-      "league": "England FA Cup:"
+      "league": "England FA Cup:",
+      "sport": "football"
     },
     {
       "home": "West Ham",
       "away": "Leeds",
-      "p1": "2.411",
-      "x": "3.49",
-      "p2": "2.832",
+      "p1": "2.451",
+      "x": "3.51",
+      "p2": "2.772",
       "link": "https://24-parik.club/en/events/west-ham-leeds-16010306",
-      "league": "England FA Cup:"
+      "league": "England FA Cup:",
+      "sport": "football"
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "Elche CF",
+      "p1": "1.731",
+      "x": "3.84",
+      "p2": "5.022",
+      "link": "https://24-parik.club/en/events/rayo-vallecano-elche-cf-16052761",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Levante",
+      "p1": "1.601",
+      "x": "4.11",
+      "p2": "5.862",
+      "link": "https://24-parik.club/en/events/real-sociedad-levante-16052762",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "p1": "5.741",
+      "x": "4.31",
+      "p2": "1.582",
+      "link": "https://24-parik.club/en/events/mallorca-real-madrid-16053827",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Betis",
+      "away": "Espanyol",
+      "p1": "1.761",
+      "x": "4.02",
+      "p2": "4.522",
+      "link": "https://24-parik.club/en/events/betis-espanyol-16065280",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Atletico Madrid",
+      "away": "Barcelona",
+      "p1": "3.071",
+      "x": "3.88",
+      "p2": "2.192",
+      "link": "https://24-parik.club/en/events/atletico-madrid-barcelona-16055794",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Getafe",
+      "away": "Athletic Bilbao",
+      "p1": "3.001",
+      "x": "2.82",
+      "p2": "2.752",
+      "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta",
+      "p1": "2.341",
+      "x": "3.28",
+      "p2": "3.112",
+      "link": "https://24-parik.club/en/events/valencia-celta-16064203",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Real Oviedo",
+      "away": "Sevilla",
+      "p1": "2.731",
+      "x": "3.05",
+      "p2": "2.782",
+      "link": "https://24-parik.club/en/events/real-oviedo-sevilla-16065117",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Alaves",
+      "away": "Osasuna",
+      "p1": "2.481",
+      "x": "3.1",
+      "p2": "3.052",
+      "link": "https://24-parik.club/en/events/alaves-osasuna-16054719",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Girona",
+      "away": "Villarreal",
+      "p1": "2.951",
+      "x": "3.73",
+      "p2": "2.242",
+      "link": "https://24-parik.club/en/events/girona-villarreal-16065510",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Girona",
+      "p1": "1.221",
+      "x": "6.76",
+      "p2": "11.702",
+      "link": "https://24-parik.club/en/events/real-madrid-girona-16116156",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Alaves",
+      "p1": "1.781",
+      "x": "3.53",
+      "p2": "4.812",
+      "link": "https://24-parik.club/en/events/real-sociedad-alaves-16122347",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Elche CF",
+      "away": "Valencia",
+      "p1": "2.391",
+      "x": "3.27",
+      "p2": "3.022",
+      "link": "https://24-parik.club/en/events/elche-cf-valencia-16124047",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Espanyol",
+      "p1": "1.231",
+      "x": "6.53",
+      "p2": "11.702",
+      "link": "https://24-parik.club/en/events/barcelona-espanyol-16124908",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Sevilla",
+      "away": "Atletico Madrid",
+      "p1": "3.201",
+      "x": "3.48",
+      "p2": "2.212",
+      "link": "https://24-parik.club/en/events/sevilla-atletico-madrid-16125977",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Osasuna",
+      "away": "Betis",
+      "p1": "2.381",
+      "x": "3.49",
+      "p2": "2.882",
+      "link": "https://24-parik.club/en/events/osasuna-betis-16132245",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Rayo Vallecano",
+      "p1": "2.621",
+      "x": "3.44",
+      "p2": "2.622",
+      "link": "https://24-parik.club/en/events/mallorca-rayo-vallecano-16133732",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Celta",
+      "away": "Real Oviedo",
+      "p1": "1.641",
+      "x": "3.83",
+      "p2": "5.462",
+      "link": "https://24-parik.club/en/events/celta-real-oviedo-16134965",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Athletic Bilbao",
+      "away": "Villarreal",
+      "p1": "2.411",
+      "x": "3.6",
+      "p2": "2.782",
+      "link": "https://24-parik.club/en/events/athletic-bilbao-villarreal-16135516",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "Levante",
+      "away": "Getafe",
+      "p1": "2.801",
+      "x": "2.93",
+      "p2": "2.822",
+      "link": "https://24-parik.club/en/events/levante-getafe-16135521",
+      "league": "Spain LaLiga:",
+      "sport": "football"
+    },
+    {
+      "home": "West Ham",
+      "away": "Wolverhampton",
+      "p1": "1.811",
+      "x": "3.74",
+      "p2": "4.302",
+      "link": "https://24-parik.club/en/events/west-ham-wolverhampton-16061253",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Arsenal FC",
+      "away": "Bournemouth",
+      "p1": "1.431",
+      "x": "4.49",
+      "p2": "7.702",
+      "link": "https://24-parik.club/en/events/arsenal-fc-bournemouth-16061254",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Brentford",
+      "away": "Everton",
+      "p1": "2.231",
+      "x": "3.46",
+      "p2": "3.172",
+      "link": "https://24-parik.club/en/events/brentford-everton-16061258",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Burnley",
+      "away": "Brighton",
+      "p1": "4.411",
+      "x": "4.09",
+      "p2": "1.722",
+      "link": "https://24-parik.club/en/events/burnley-brighton-16061255",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Liverpool",
+      "away": "Fulham",
+      "p1": "1.561",
+      "x": "4.39",
+      "p2": "5.392",
+      "link": "https://24-parik.club/en/events/liverpool-fulham-16061259",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "p1": "2.721",
+      "x": "3.52",
+      "p2": "2.482",
+      "link": "https://24-parik.club/en/events/crystal-palace-newcastle-16061256",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Nottm Forest",
+      "away": "Aston Villa",
+      "p1": "2.651",
+      "x": "3.27",
+      "p2": "2.702",
+      "link": "https://24-parik.club/en/events/nottm-forest-aston-villa-16061257",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Sunderland",
+      "away": "Tottenham",
+      "p1": "2.621",
+      "x": "3.44",
+      "p2": "2.622",
+      "link": "https://24-parik.club/en/events/sunderland-tottenham-16061260",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Chelsea",
+      "away": "Man City",
+      "p1": "2.971",
+      "x": "4",
+      "p2": "2.142",
+      "link": "https://24-parik.club/en/events/chelsea-man-city-16061261",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Man Utd",
+      "away": "Leeds",
+      "p1": "1.611",
+      "x": "3.97",
+      "p2": "5.502",
+      "link": "https://24-parik.club/en/events/man-utd-leeds-16061262",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Brentford",
+      "away": "Fulham",
+      "p1": "2.091",
+      "x": "3.78",
+      "p2": "3.222",
+      "link": "https://24-parik.club/en/events/brentford-fulham-16125429",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Leeds",
+      "away": "Wolverhampton",
+      "p1": "1.671",
+      "x": "3.77",
+      "p2": "5.282",
+      "link": "https://24-parik.club/en/events/leeds-wolverhampton-16125430",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "p1": "1.851",
+      "x": "3.95",
+      "p2": "3.832",
+      "link": "https://24-parik.club/en/events/newcastle-bournemouth-16125431",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Tottenham",
+      "away": "Brighton",
+      "p1": "2.501",
+      "x": "3.67",
+      "p2": "2.622",
+      "link": "https://24-parik.club/en/events/tottenham-brighton-16125432",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Chelsea",
+      "away": "Man Utd",
+      "p1": "2.211",
+      "x": "3.28",
+      "p2": "3.382",
+      "link": "https://24-parik.club/en/events/chelsea-man-utd--16125433",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "p1": "1.611",
+      "x": "4",
+      "p2": "5.502",
+      "link": "https://24-parik.club/en/events/aston-villa-sunderland-16125436",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Everton",
+      "away": "Liverpool",
+      "p1": "3.471",
+      "x": "3.44",
+      "p2": "2.112",
+      "link": "https://24-parik.club/en/events/everton-liverpool-16125434",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Nottm Forest",
+      "away": "Burnley",
+      "p1": "1.561",
+      "x": "3.99",
+      "p2": "6.182",
+      "link": "https://24-parik.club/en/events/nottm-forest-burnley-16125435",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Man City",
+      "away": "Arsenal FC",
+      "p1": "2.361",
+      "x": "3.4",
+      "p2": "2.972",
+      "link": "https://24-parik.club/en/events/man-city-arsenal-fc-16125437",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "West Ham",
+      "p1": "2.221",
+      "x": "3.58",
+      "p2": "3.102",
+      "link": "https://24-parik.club/en/events/crystal-palace-west-ham-16125438",
+      "league": "England Premier League:",
+      "sport": "football"
+    },
+    {
+      "home": "Charlotte Hornets",
+      "away": "Indiana Pacers",
+      "p1": "1.101",
+      "x": null,
+      "p2": "24.54",
+      "link": "https://24-parik.club/en/events/charlotte-hornets-indiana-pacers-16242807",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Philadelphia 76ers",
+      "away": "Minnesota Timberwolves",
+      "p1": "1.811",
+      "x": null,
+      "p2": "14.78",
+      "link": "https://24-parik.club/en/events/philadelphia-76ers-minnesota-timberwolves-16242813",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Brooklyn Nets",
+      "away": "Atlanta Hawks",
+      "p1": "9.711",
+      "x": null,
+      "p2": "26.45",
+      "link": "https://24-parik.club/en/events/brooklyn-nets-atlanta-hawks-16242806",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "New York Knicks",
+      "away": "Chicago Bulls",
+      "p1": "1.091",
+      "x": null,
+      "p2": "25.7",
+      "link": "https://24-parik.club/en/events/new-york-knicks-chicago-bulls-16242808",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Houston Rockets",
+      "away": "Utah Jazz",
+      "p1": "1.091",
+      "x": null,
+      "p2": "26.84",
+      "link": "https://24-parik.club/en/events/houston-rockets-utah-jazz-16242811",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Memphis Grizzlies",
+      "away": "Toronto Raptors",
+      "p1": "6.911",
+      "x": null,
+      "p2": "21.53",
+      "link": "https://24-parik.club/en/events/memphis-grizzlies-toronto-raptors-16242812",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Milwaukee Bucks",
+      "away": "Boston Celtics",
+      "p1": "9.591",
+      "x": null,
+      "p2": "25.87",
+      "link": "https://24-parik.club/en/events/milwaukee-bucks-boston-celtics-16242809",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Dallas Mavericks",
+      "away": "Orlando Magic",
+      "p1": "3.321",
+      "x": null,
+      "p2": "16.56",
+      "link": "https://24-parik.club/en/events/dallas-mavericks-orlando-magic-16242810",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Sacramento Kings",
+      "away": "New Orleans Pelicans",
+      "p1": "2.891",
+      "x": null,
+      "p2": "16.59",
+      "link": "https://24-parik.club/en/events/sacramento-kings-new-orleans-pelicans-16242814",
+      "league": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Baylor",
+      "away": "Oklahoma",
+      "p1": "1.991",
+      "x": null,
+      "p2": "13.78",
+      "link": "https://24-parik.club/en/events/baylor-oklahoma-16244725",
+      "league": "NCAA",
+      "sport": "basketball"
+    },
+    {
+      "home": "UConn",
+      "away": "Illinois",
+      "p1": "2.161",
+      "x": null,
+      "p2": "12.84",
+      "link": "https://24-parik.club/en/events/uconn-illinois-16203856",
+      "league": "NCAA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Arizona",
+      "away": "Michigan",
+      "p1": "2.071",
+      "x": null,
+      "p2": "12.84",
+      "link": "https://24-parik.club/en/events/arizona-michigan-16206229",
+      "league": "NCAA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Arizona",
+      "away": "UConn",
+      "p1": "1.401",
+      "x": null,
+      "p2": "2.712",
+      "link": "https://24-parik.club/en/events/arizona-uconn-16223739",
+      "league": "NCAA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Michigan",
+      "away": "Illinois",
+      "p1": "1.501",
+      "x": null,
+      "p2": "2.422",
+      "link": "https://24-parik.club/en/events/michigan-illinois-16223738",
+      "league": "NCAA",
+      "sport": "basketball"
+    },
+    {
+      "home": "Bahcesehir Koleji",
+      "away": "Besiktas",
+      "p1": "1.891",
+      "x": null,
+      "p2": "13.27",
+      "link": "https://24-parik.club/en/events/bahcesehir-koleji-besiktas-16230547",
+      "league": "Eurocup",
+      "sport": "basketball"
+    },
+    {
+      "home": "Turk Telekom",
+      "away": "JL Bourg Basket",
+      "p1": "1.401",
+      "x": null,
+      "p2": "16.28",
+      "link": "https://24-parik.club/en/events/turk-telekom-jl-bourg-basket-16230497",
+      "league": "Eurocup",
+      "sport": "basketball"
+    },
+    {
+      "home": "KK Borac Cacak",
+      "away": "KK Zadar",
+      "p1": "2.401",
+      "x": null,
+      "p2": "13.34",
+      "link": "https://24-parik.club/en/events/kk-borac-cacak-kk-zadar-16226106",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "BC Dubai",
+      "away": "KK Cedevita Olimpija",
+      "p1": "1.271",
+      "x": null,
+      "p2": "16.74",
+      "link": "https://24-parik.club/en/events/bc-dubai-kk-cedevita-olimpija-16236434",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "KK Studentski Centar",
+      "away": "BC Vienna",
+      "p1": "1.581",
+      "x": null,
+      "p2": "13.14",
+      "link": "https://24-parik.club/en/events/kk-studentski-centar-bc-vienna-16236433",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "Igokea",
+      "away": "Crvena Zvezda",
+      "p1": "5.111",
+      "x": null,
+      "p2": "18.41",
+      "link": "https://24-parik.club/en/events/igokea-crvena-zvezda-16237163",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "KK Buducnost",
+      "away": "Partizan",
+      "p1": "1.861",
+      "x": null,
+      "p2": "13.07",
+      "link": "https://24-parik.club/en/events/kk-buducnost-partizan-16246622",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "U-BT Cluj",
+      "away": "KK Bosna Sarajevo",
+      "p1": "1.161",
+      "x": null,
+      "p2": "17.87",
+      "link": "https://24-parik.club/en/events/u-bt-cluj-kk-bosna-sarajevo-16247737",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "FMP Beograd",
+      "away": "KK Spartak Subotica",
+      "p1": "2.001",
+      "x": null,
+      "p2": "12.99",
+      "link": "https://24-parik.club/en/events/fmp-beograd-kk-spartak-subotica-16236582",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "Mega Basket",
+      "away": "Krka",
+      "p1": "1.451",
+      "x": null,
+      "p2": "13.96",
+      "link": "https://24-parik.club/en/events/mega-basket-krka-16246691",
+      "league": "ABA - Adriatic League",
+      "sport": "basketball"
+    },
+    {
+      "home": "CA Santa Paula de Galvez",
+      "away": "Independiente BBC",
+      "p1": "1.181",
+      "x": null,
+      "p2": "17.04",
+      "link": "https://24-parik.club/en/events/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Comunicaciones Mercedes",
+      "away": "Bochas Sport Club de Colonia Caroya",
+      "p1": "1.221",
+      "x": null,
+      "p2": "16.73",
+      "link": "https://24-parik.club/en/events/comunicaciones-mercedes-bochas-sport-club-de-colonia-caroya-16239421",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Jujuy Basquet",
+      "away": "Villa San Martin",
+      "p1": "1.941",
+      "x": null,
+      "p2": "12.89",
+      "link": "https://24-parik.club/en/events/jujuy-basquet-villa-san-martin-16240303",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Salta Basket",
+      "away": "CA Estudiantes de Tucuman",
+      "p1": "1.421",
+      "x": null,
+      "p2": "14.48",
+      "link": "https://24-parik.club/en/events/salta-basket-ca-estudiantes-de-tucuman--16240302",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Gimnasia y Esgrima La Plata",
+      "away": "Racing Club Avellaneda",
+      "p1": "1.331",
+      "x": null,
+      "p2": "14.64",
+      "link": "https://24-parik.club/en/events/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "CA Quilmes",
+      "away": "Club Villa Mitre de Bahia Blanca",
+      "p1": "1.351",
+      "x": null,
+      "p2": "14.63",
+      "link": "https://24-parik.club/en/events/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Deportivo Viedma",
+      "away": "Centenario de Venado Tuerto",
+      "p1": "1.321",
+      "x": null,
+      "p2": "13.43",
+      "link": "https://24-parik.club/en/events/deportivo-viedma-centenario-de-venado-tuerto-16251172",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Pico Foot Ball Club",
+      "away": "El Talar",
+      "p1": "1.101",
+      "x": null,
+      "p2": "24.18",
+      "link": "https://24-parik.club/en/events/pico-foot-ball-club-el-talar-16252062",
+      "league": "Argentina LaLiga",
+      "sport": "basketball"
+    },
+    {
+      "home": "Damir Dzumhur",
+      "away": "Botic van de Zandschulp",
+      "p1": "2.55",
+      "x": null,
+      "p2": "1.51",
+      "link": "https://24-parik.club/en/events/damir-dzumhur-botic-van-de-zandschulp-16233882",
+      "league": "ATP Bucharest",
+      "sport": "tennis"
+    },
+    {
+      "home": "Alex Molcan",
+      "away": "Mariano Navone",
+      "p1": "3.11",
+      "x": null,
+      "p2": "1.37",
+      "link": "https://24-parik.club/en/events/alex-molcan-mariano-navone-16235416",
+      "league": "ATP Bucharest",
+      "sport": "tennis"
+    },
+    {
+      "home": "Learner Tien",
+      "away": "Roman Andres Burruchaga",
+      "p1": "1.57",
+      "x": null,
+      "p2": "2.4",
+      "link": "https://24-parik.club/en/events/learner-tien-roman-andres-burruchaga-16251692",
+      "league": "ATP Houston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Ben Shelton",
+      "away": "Thiago Agustin Tirante",
+      "p1": "1.44",
+      "x": null,
+      "p2": "2.78",
+      "link": "https://24-parik.club/en/events/ben-shelton-thiago-agustin-tirante-16240507",
+      "league": "ATP Houston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Tomas Martin Etcheverry",
+      "away": "Tommy Paul",
+      "p1": "2.85",
+      "x": null,
+      "p2": "1.43",
+      "link": "https://24-parik.club/en/events/tomas-martin-etcheverry-tommy-paul-16240805",
+      "league": "ATP Houston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Alexei Popyrin",
+      "away": "Frances Tiafoe",
+      "p1": "2.46",
+      "x": null,
+      "p2": "1.55",
+      "link": "https://24-parik.club/en/events/alexei-popyrin-frances-tiafoe-16251711",
+      "league": "ATP Houston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Jazmin Ortenzi",
+      "away": "Julia Riera",
+      "p1": "2.26",
+      "x": null,
+      "p2": "1.64",
+      "link": "https://24-parik.club/en/events/jazmin-ortenzi-julia-riera-16247713",
+      "league": "WTA Bogota",
+      "sport": "tennis"
+    },
+    {
+      "home": "Marie Bouzkova",
+      "away": "Darja Semenistaja",
+      "p1": "1.31",
+      "x": null,
+      "p2": "3.45",
+      "link": "https://24-parik.club/en/events/marie-bouzkova-darja-semenistaja-16248304",
+      "league": "WTA Bogota",
+      "sport": "tennis"
+    },
+    {
+      "home": "Emiliana Arango",
+      "away": "Varvara Lepchenko",
+      "p1": "1.5",
+      "x": null,
+      "p2": "2.6",
+      "link": "https://24-parik.club/en/events/emiliana-arango-varvara-lepchenko-16250871",
+      "league": "WTA Bogota",
+      "sport": "tennis"
+    },
+    {
+      "home": "Panna Udvardy",
+      "away": "Katarzyna Kawa",
+      "p1": "2.26",
+      "x": null,
+      "p2": "1.64",
+      "link": "https://24-parik.club/en/events/panna-udvardy-katarzyna-kawa-16238799",
+      "league": "WTA Bogota",
+      "sport": "tennis"
+    },
+    {
+      "home": "Jessica Pegula",
+      "away": "Diana Shnaider",
+      "p1": "1.35",
+      "x": null,
+      "p2": "3.19",
+      "link": "https://24-parik.club/en/events/jessica-pegula-diana-shnaider-16248733",
+      "league": "WTA Charleston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Madison Keys",
+      "away": "Belinda Bencic",
+      "p1": "2.02",
+      "x": null,
+      "p2": "1.79",
+      "link": "https://24-parik.club/en/events/madison-keys-belinda-bencic-16248558",
+      "league": "WTA Charleston",
+      "sport": "tennis"
+    },
+    {
+      "home": "Iva Jovic",
+      "away": "Anna Kalinskaya",
+      "p1": "2.01",
+      "x": null,
+      "p2": "1.8",
+      "link": "https://24-parik.club/en/events/iva-jovic-anna-kalinskaya-16249993",
+      "league": "WTA Charleston",
+      "sport": "tennis"
+    },
+    {
+      "home": "McCartney Kessler",
+      "away": "Yulia Starodubtseva",
+      "p1": "1.71",
+      "x": null,
+      "p2": "2.13",
+      "link": "https://24-parik.club/en/events/mccartney-kessler-yulia-starodubtseva-16248018",
+      "league": "WTA Charleston",
+      "sport": "tennis"
     }
   ]
 }

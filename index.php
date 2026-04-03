@@ -9,24 +9,23 @@ $matches = [];
 $updated = null;
 $error = null;
 
+// Sport tab filter
+$sportTab = in_array($_GET['sport'] ?? '', ['football', 'basketball', 'tennis']) ? $_GET['sport'] : 'football';
+
 if (file_exists($dataFile)) {
   $json = json_decode(file_get_contents($dataFile), true);
   if (is_array($json)) {
-    $matches = $json['matches'] ?? [];
+    $allMatches = $json['matches'] ?? [];
     $updated = $json['updated'] ?? null;
-    // Фильтрация: скрывать матчи, где не хватает хотя бы одного из коэффициентов (П1, Х, П2) для любого источника
-    $matches = array_values(array_filter($matches, function($m) {
-      $parik = $m['parik24'] ?? null;
-      $pinnacle = $m['pinnacle'] ?? null;
-      $hasAllParik = isset($parik['p1'], $parik['x'], $parik['p2']) && $parik['p1'] !== null && $parik['x'] !== null && $parik['p2'] !== null && $parik['p1'] !== '' && $parik['x'] !== '' && $parik['p2'] !== '';
-      $hasAllPinnacle = isset($pinnacle['p1'], $pinnacle['x'], $pinnacle['p2']) && $pinnacle['p1'] !== null && $pinnacle['x'] !== null && $pinnacle['p2'] !== null && $pinnacle['p1'] !== '' && $pinnacle['x'] !== '' && $pinnacle['p2'] !== '';
-      return $hasAllParik || $hasAllPinnacle;
+    // Filter by sport tab
+    $matches = array_values(array_filter($allMatches, static function($m) use ($sportTab) {
+      return ($m['sport'] ?? 'football') === $sportTab;
     }));
   }
 }
 
 if (empty($matches)) {
-    $error = 'Файл merged_matches.json поки порожній або не знайдений.';
+    $error = 'Файл merged_matches.json пока пустой или не найден.';
 }
 
 $search = trim($_GET['q'] ?? '');
@@ -43,20 +42,60 @@ if ($search !== '') {
     }));
 }
 
-// Сортировка по максимальному значению формулы (П1+П2 или X+X) по убыванию
+// Hide matches with incomplete odds (football: P1/X/P2 on both sides, basketball/tennis: P1/P2 on both sides)
+function hasRequiredOdds($m): bool {
+  $sport = $m['sport'] ?? 'football';
+  $parik = $m['parik24'] ?? null;
+  $pin = $m['pinnacle'] ?? null;
+  if (!is_array($parik) || !is_array($pin)) return false;
+
+  $isValid = static function($value): bool {
+    return is_numeric($value) && floatval($value) > 0;
+  };
+
+  if ($sport === 'basketball' || $sport === 'tennis') {
+    return $isValid($parik['p1'] ?? null)
+      && $isValid($parik['p2'] ?? null)
+      && $isValid($pin['p1'] ?? null)
+      && $isValid($pin['p2'] ?? null);
+  }
+
+  return $isValid($parik['p1'] ?? null)
+    && $isValid($parik['x'] ?? null)
+    && $isValid($parik['p2'] ?? null)
+    && $isValid($pin['p1'] ?? null)
+    && $isValid($pin['x'] ?? null)
+    && $isValid($pin['p2'] ?? null);
+}
+
+$matches = array_values(array_filter($matches, 'hasRequiredOdds'));
+
+// Сортировка по максимальному значению формулы по убыванию
 function maxFormula($m) {
+  $sport = $m['sport'] ?? 'football';
   $parik = $m['parik24'] ?? null;
   $pinnacle = $m['pinnacle'] ?? null;
 
   $parikP1 = is_numeric($parik['p1'] ?? null) ? floatval($parik['p1']) : null;
-  $parikX = is_numeric($parik['x'] ?? null) ? floatval($parik['x']) : null;
-  $pinP2 = is_numeric($pinnacle['p2'] ?? null) ? floatval($pinnacle['p2']) : null;
-  $pinX = is_numeric($pinnacle['x'] ?? null) ? floatval($pinnacle['x']) : null;
+  $parikX  = is_numeric($parik['x']  ?? null) ? floatval($parik['x'])  : null;
+  $parikP2 = is_numeric($parik['p2'] ?? null) ? floatval($parik['p2']) : null;
+  $pinP1   = is_numeric($pinnacle['p1'] ?? null) ? floatval($pinnacle['p1']) : null;
+  $pinP2   = is_numeric($pinnacle['p2'] ?? null) ? floatval($pinnacle['p2']) : null;
+  $pinX    = is_numeric($pinnacle['x']  ?? null) ? floatval($pinnacle['x'])  : null;
 
-  $zWin = ($parikP1 && $pinP2) ? (1/$parikP1 + 1/$pinP2) : null;
-  $zDraw = ($parikX && $pinX) ? (1/$parikX + 1/$pinX) : null;
+  if ($sport === 'basketball' || $sport === 'tennis') {
+    // Two-way sports: only P1/P2, no draw. Formula: 1/P1(parik)+1/P2(pinnacle) and 1/P2(parik)+1/P1(pinnacle)
+    $z1 = ($parikP1 && $pinP2) ? (1/$parikP1 + 1/$pinP2) : null;
+    $z2 = ($parikP2 && $pinP1) ? (1/$parikP2 + 1/$pinP1) : null;
+    $vals = array_filter([$z1, $z2], fn($v) => $v !== null);
+    return $vals ? max($vals) : 0;
+  }
 
-  return max(array_filter([$zWin, $zDraw], fn($v) => $v !== null), 0);
+  // Football: full 3-way formulas
+  $zWin  = ($parikP1 && $pinP2) ? (1/$parikP1 + 1/$pinP2) : null;
+  $zDraw = ($parikX  && $pinX)  ? (1/$parikX  + 1/$pinX)  : null;
+  $vals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+  return $vals ? max($vals) : 0;
 }
 
 usort($matches, static function ($a, $b) {
@@ -65,9 +104,9 @@ usort($matches, static function ($a, $b) {
 
 $grouped = [];
 foreach ($matches as $match) {
-    $league = trim((string)($match['league'] ?? 'Без ліги'));
+    $league = trim((string)($match['league'] ?? 'Без лиги'));
     if ($league === '') {
-        $league = 'Без ліги';
+        $league = 'Без лиги';
     }
     $grouped[$league][] = $match;
 }
@@ -110,32 +149,57 @@ function oddsValue($source, string $key): ?string {
     margin: 0;
   }
   .content {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 32px 16px 48px 16px;
+    padding: 18px 6px 24px 6px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
   }
   .matches-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 16px;
     justify-content: flex-start;
   }
   .match-block {
-    background: #00245f;
-    border-radius: 18px;
-    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
-    padding: 18px 22px 18px 22px;
-    min-width: 260px;
-    max-width: 340px;
-    flex: 1 1 120px;
+    background: linear-gradient(120deg, #1a2a4a 60%, #223a5f 100%);
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+    padding: 8px 8px 8px 8px;
+    min-width: 210px;
+    max-width: 90%;
+    width: 80%;
+    flex: 0 0 210px;
     display: flex;
     flex-direction: column;
     position: relative;
-    transition: box-shadow 0.18s, border 0.18s;
-    border: 2px solid transparent;
+    transition: box-shadow 0.18s, border 0.18s, background 0.18s;
+    border: 1.5px solid #223a5f;
+    cursor: pointer;
+    align-items: stretch;
+    justify-content: center;
+    min-height: 90px;
+  }
+  .match-block:hover {
+    box-shadow: 0 6px 24px rgba(56,189,248,0.13);
+    border: 1.5px solid #38bdf8;
+    background: linear-gradient(120deg, #223a5f 60%, #1a2a4a 100%);
+  }
+  @media (max-width: 700px) {
+    .matches-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .match-block {
+      width: 100%;
+      flex: 0 0 100px;
+      margin: 0 auto;
+      border-radius: 10px;
+      padding: 7px 2vw 7px 2vw;
+    }
   }
   .match-block:hover {
     box-shadow: 0 8px 40px rgba(0,0,0,0.28);
@@ -145,24 +209,25 @@ function oddsValue($source, string $key): ?string {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
+    gap: 4px;
   }
   .match-league {
     color: #7c8aa5;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
     background: #0f172a;
-    border-radius: 6px;
-    padding: 2px 10px;
-    margin-right: 8px;
+    border-radius: 4px;
+    padding: 1px 7px;
+    margin-right: 4px;
   }
   .match-formula {
-    font-size: 13px;
+    font-size: 11px;
     color: #38bdf8;
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 1px;
     align-items: flex-end;
     text-align: right;
   }
@@ -172,20 +237,32 @@ function oddsValue($source, string $key): ?string {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background: none;
+    background: rgba(255,255,255,0.07);
     border: none;
     color: #e5e7eb;
     cursor: pointer;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 8px;
     transition: background 0.15s;
-    margin-top: 8px;
+    margin-top: 0;
+    box-shadow: none;
   }
   .match-btn:hover .team {
     text-decoration: underline;
     color: #38bdf8;
+    background: rgba(56,189,248,0.07);
+  }
+  .match-btn .team {
+    background: rgba(255,255,255,0.13);
+    border-radius: 6px;
+    padding: 2px 7px;
+    margin: 0 2px;
+    transition: background 0.15s;
+  }
+  .match-btn:hover .team {
+    background: rgba(56,189,248,0.13);
   }
   .team {
     display: block;
@@ -450,130 +527,69 @@ function oddsValue($source, string $key): ?string {
   /* Модальное окно и адаптивность оставляем прежними */
   @media (max-width: 900px) {
     .content, .header, .toolbar, .stats { max-width: 100vw; padding-left: 2vw; padding-right: 2vw; }
-    table { min-width: 600px; font-size: 16px; }
-    .header h1 { font-size: 24px; }
-    .btn, .leagues-filter .btn { font-size: 18px; padding: 14px 16px; }
-    .search input { font-size: 18px; }
-    .odd { min-width: 60px; padding: 10px 8px; font-size: 16px; }
-    .team { font-size: 18px; }
+    .header h1 { font-size: 22px; }
+    .btn, .leagues-filter .btn { font-size: 15px; padding: 10px 12px; }
+    .search input { font-size: 16px; }
+    .odd { min-width: 40px; padding: 7px 4px; font-size: 13px; }
+    .team { font-size: 14px; }
     .modal { width: 99vw; min-width: unset; }
   }
   @media (max-width: 600px) {
     .content, .header, .toolbar, .stats { padding-left: 0; padding-right: 0; }
-    table { min-width: 420px; font-size: 15px; }
-    .header h1 { font-size: 18px; }
-    .btn, .leagues-filter .btn { font-size: 15px; padding: 10px 10px; }
-    .search input { font-size: 16px; }
-    .odd { min-width: 44px; padding: 7px 4px; font-size: 13px; }
-    .team { font-size: 15px; }
+    .header h1 { font-size: 16px; }
+    .btn, .leagues-filter .btn { font-size: 13px; padding: 8px 8px; }
+    .search input { font-size: 14px; }
+    .odd { min-width: 32px; padding: 5px 2px; font-size: 11px; }
+    .team { font-size: 12px; }
     .modal { width: 100vw; min-width: unset; }
     .matches-list {
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 8px;
     }
   }
   @media (max-width: 480px) {
-    body { font-size: 15px; }
-    .content, .header, .toolbar, .stats { padding: 0 14px; max-width: 100vw; }
-    .header { flex-direction: column; align-items: flex-start; gap: 10px; padding: 18px 0 12px 0; }
-    .header h1 { font-size: 18px; margin: 0 0 0 0; }
-    .pill { font-size: 12px; padding: 6px 12px; margin-right: 6px; }
-    .toolbar { flex-direction: column; gap: 10px; padding: 12px 0 8px 0; }
-    .search { min-width: 0; max-width: 100vw; padding: 10px 10px; font-size: 15px; }
-    .search input { font-size: 15px; }
-    .btn, .leagues-filter .btn { font-size: 15px; padding: 12px 12px; border-radius: 9px; }
-    .leagues-filter { gap: 6px; margin-bottom: 14px; }
-    .stats { font-size: 14px; gap: 12px; padding: 20px; }
-    .stats .num { font-size: 15px; }
-    .table-wrap { border-radius: 12px; padding: 8px 0; }
-    table { min-width: 480px; font-size: 15px; }
-    thead th { padding: 10px 6px; font-size: 13px; }
-    td { padding: 10px 6px; font-size: 15px; }
-    .col-num { width: 36px; font-size: 13px; }
-    .odd { min-width: 38px; padding: 7px 4px; font-size: 13px; border-radius: 8px; }
-    .odd .l { font-size: 10px; }
-    .odd .v { font-size: 15px; }
-    .match-btn { font-size: 14px; border-radius: 8px; background: #172d51; padding: 5px; }
-    .team { font-size: 14px; }
-    .vs { font-size: 11px; }
+    body { font-size: 13px; }
+    .content, .header, .toolbar, .stats { padding: 0 6px; max-width: 100vw; }
+    .header { flex-direction: column; align-items: flex-start; gap: 7px; padding: 10px 0 8px 0; }
+    .header h1 { font-size: 13px; margin: 0 0 0 0; }
+    .pill { font-size: 11px; padding: 5px 8px; margin-right: 4px; }
+    .toolbar { flex-direction: column; gap: 7px; padding: 8px 0 6px 0; }
+    .search { min-width: 0; max-width: 100vw; padding: 7px 7px; font-size: 13px; }
+    .search input { font-size: 13px; }
+    .btn, .leagues-filter .btn { font-size: 13px; padding: 8px 8px; border-radius: 7px; }
+    .leagues-filter { gap: 4px; margin-bottom: 8px; }
+    .stats { font-size: 12px; gap: 7px; padding: 10px; }
+    .stats .num { font-size: 13px; }
+    .table-wrap { border-radius: 8px; padding: 4px 0; }
+    .match-btn { font-size: 12px; border-radius: 7px; background: #172d51; padding: 3px; }
+    .team { font-size: 12px; }
+    .vs { font-size: 9px; }
     .modal { width: 99vw; min-width: unset; }
-    /* Скрыть неважные столбцы на очень маленьких экранах */
-    th.odds, td.odds { min-width: 0; }
-    th.odds:nth-child(4), th.odds:nth-child(5), th.odds:nth-child(6),
-    th.odds:nth-child(7), th.odds:nth-child(8), th.odds:nth-child(9) {
-      display: none;
-    }
-    td.odds:nth-child(4), td.odds:nth-child(5), td.odds:nth-child(6),
-    td.odds:nth-child(7), td.odds:nth-child(8), td.odds:nth-child(9) {
-      display: none;
-    }
-    /* Оставить только номер, лигу, матч и расчет формулы */
-  }
-  @media (max-width: 375px) {
-    table { min-width: 340px; font-size: 11px; }
-    .header h1 { font-size: 13px; }
-    .btn, .leagues-filter .btn { font-size: 11px; padding: 6px 6px; }
-    .team { font-size: 10px; }
-    .odd { min-width: 24px; font-size: 9px; }
-    .modal { width: 100vw; }
-  }
-    /* Скрыть коэффициенты на мобильных, оставить только формулу */
-    @media (max-width: 700px) {
-      .desktop-only { display: none !important; }
-      .formula-main { font-size: 15px; font-weight: 700; color: #fbbf24; text-align: right; }
-      .odds:not(.desktop-only) { text-align: right; }
-    }
-    @media (max-width: 480px) {
-      .formula-main { font-size: 13px; }
-    }
-  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  table { font-size: 18px; }
-    @media (max-width: 700px) {
-    .matches-list {
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-    }
-    .match-block {
-      min-width: unset;
-      max-width: unset;
-      width: 90vw;
-      box-sizing: border-box;
-      padding: 14px 6vw 14px 6vw;
-    }
-    .match-block-header {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 6px;
-    }
-    .match-btn {
-      flex-direction: column;
-      align-items: flex-start;
-      font-size: 16px;
-    }
-    .team {
-      font-size: 16px;
-    }
-    .vs {
-      margin: 4px 0;
-    }
   }
 </style>
 </head>
 <body>
   <header class="header">
-    <h1>⚽ Bet<span>parser</span></h1>
+    <h1><?= $sportTab === 'basketball' ? '🏀' : ($sportTab === 'tennis' ? '🎾' : '⚽') ?> Bet<span>parser</span></h1>
     <div style="flex:1"></div>
-    <!-- Источник и обновлено убраны по требованию -->
+    <div style="display:flex;gap:8px;align-items:center;">
+      <a href="?sport=football" class="btn<?= $sportTab === 'football' ? ' primary' : '' ?>" style="text-decoration:none;">⚽ Футбол</a>
+      <a href="?sport=basketball" class="btn<?= $sportTab === 'basketball' ? ' primary' : '' ?>" style="text-decoration:none;">🏀 Баскетбол</a>
+      <a href="?sport=tennis" class="btn<?= $sportTab === 'tennis' ? ' primary' : '' ?>" style="text-decoration:none;">🎾 Теннис</a>
+    </div>
   </header>
 
     <form class="toolbar" method="get" action="" onsubmit="return false;">
       <div class="search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-3.5-3.5"/></svg>
-        <input type="text" id="searchInput" autocomplete="off" placeholder="Пошук по лізі або командам" />
+        <input type="text" id="searchInput" autocomplete="off" placeholder="Поиск" />
       </div>
-      <a class="btn reset" href="?" id="resetBtn" style="display:none">Сбросить</a>
+      <label style="display:flex;align-items:center;gap:8px;color:#e5e7eb;font-size:14px;cursor:pointer;">
+        <input type="checkbox" id="lessThanOneFilter" style="width:16px;height:16px;"> <span>меньше 1</span>
+      </label>
+      <a class="btn reset" href="?" id="resetBtn" style="display:none">Сброс</a>
     </form>
 
   <div class="stats">
@@ -591,11 +607,7 @@ function oddsValue($source, string $key): ?string {
   <main class="content">
     <?php if (!empty($matches)): ?>
       <div class="leagues-filter" id="leaguesFilter" style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-      <div class="formula-filter-wrap" style="margin-bottom:20px;display:flex;align-items:center;gap:12px;">
-        <label for="formulaRange" style="font-size:15px;color:#7c8aa5;">Фильтр формулы (от 0 до 1):</label>
-        <input type="range" id="formulaRange" min="0" max="1" step="0.001" value="1" style="width:180px;">
-        <input type="number" id="formulaValue" min="0" max="1" step="0.001" value="1" style="width:70px;background:#151c2e;color:#e5e7eb;border:1px solid #22305a;border-radius:6px;padding:2px 6px;">
-      </div>
+
       <div class="matches-list" id="matchesList">
         <?php $globalIndex = 1; ?>
         <?php foreach ($matches as $match): ?>
@@ -608,11 +620,19 @@ function oddsValue($source, string $key): ?string {
             $pinP1 = oddsValue($pinnacle, 'p1');
             $pinX = oddsValue($pinnacle, 'x');
             $pinP2 = oddsValue($pinnacle, 'p2');
-            $league = trim((string)($match['league'] ?? 'Без ліги'));
-            if ($league === '') $league = 'Без ліги';
-            $zWin = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
-            $zDraw = (is_numeric($parikX) && is_numeric($pinX) && $parikX > 0 && $pinX > 0) ? (1/floatval($parikX) + 1/floatval($pinX)) : null;
-            $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+            $league = trim((string)($match['league'] ?? 'Без лиги'));
+            if ($league === '') $league = 'Без лиги';
+            $matchSport = $match['sport'] ?? 'football';
+            if ($matchSport === 'basketball' || $matchSport === 'tennis') {
+              // Two-way sports: 2 formulas with P1/P2 only
+              $z1 = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
+              $z2 = (is_numeric($parikP2) && is_numeric($pinP1) && $parikP2 > 0 && $pinP1 > 0) ? (1/floatval($parikP2) + 1/floatval($pinP1)) : null;
+              $zVals = array_filter([$z1, $z2], fn($v) => $v !== null);
+            } else {
+              $zWin = (is_numeric($parikP1) && is_numeric($pinP2) && $parikP1 > 0 && $pinP2 > 0) ? (1/floatval($parikP1) + 1/floatval($pinP2)) : null;
+              $zDraw = (is_numeric($parikX) && is_numeric($pinX) && $parikX > 0 && $pinX > 0) ? (1/floatval($parikX) + 1/floatval($pinX)) : null;
+              $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+            }
             $minZ = $zVals ? min($zVals) : null;
             $cellClass = '';
             if ($minZ !== null) {
@@ -621,42 +641,35 @@ function oddsValue($source, string $key): ?string {
               else $cellClass = 'cell-red';
             }
           ?>
-          <?php if ($minZ !== null): ?>
-          <div class="match-block <?= $cellClass ?>" data-minz="<?= number_format($minZ, 3, '.', '') ?>">
+          <div class="match-block <?= $cellClass ?> js-open-match"
+            data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
+            data-away="<?= htmlspecialchars($match['away'] ?? '') ?>"
+            data-league="<?= htmlspecialchars($league) ?>"
+            data-sport="<?= htmlspecialchars($matchSport) ?>"
+            data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
+            data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
+            data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
+            data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
+            data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
+            data-pin-p1="<?= htmlspecialchars((string)($pinP1 ?? '')) ?>"
+            data-pin-x="<?= htmlspecialchars((string)($pinX ?? '')) ?>"
+            data-pin-p2="<?= htmlspecialchars((string)($pinP2 ?? '')) ?>"
+            tabindex="0"
+            role="button"
+            aria-label="Открыть детали матча"
+          >
             <div class="match-block-header">
               <span class="match-league"><?= htmlspecialchars($league) ?></span>
-              <span class="match-formula">
-                <?php if ($zWin !== null): ?>
-                  <span title="1/П1 + 1/П2">1/П1+1/П2: <b><?= number_format($zWin, 3) ?></b></span>
-                <?php endif; ?>
-                <?php if ($zDraw !== null): ?>
-                  <span title="1/Х + 1/Х">1/Х+1/Х: <b><?= number_format($zDraw, 3) ?></b></span>
-                <?php endif; ?>
-              </span>
             </div>
-            <button
-              type="button"
-              class="match-btn js-open-match"
-              data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
-              data-away="<?= htmlspecialchars($match['away'] ?? '') ?>"
-              data-league="<?= htmlspecialchars($league) ?>"
-              data-parik-url="<?= htmlspecialchars((string)($match['parik24']['link'] ?? '')) ?>"
-              data-pinn-url="<?= htmlspecialchars((string)($match['pinnacle']['link'] ?? '')) ?>"
-              data-parik-p1="<?= htmlspecialchars((string)($parikP1 ?? '')) ?>"
-              data-parik-x="<?= htmlspecialchars((string)($parikX ?? '')) ?>"
-              data-parik-p2="<?= htmlspecialchars((string)($parikP2 ?? '')) ?>"
-              data-pin-p1="<?= htmlspecialchars((string)($pinP1 ?? '')) ?>"
-              data-pin-x="<?= htmlspecialchars((string)($pinX ?? '')) ?>"
-              data-pin-p2="<?= htmlspecialchars((string)($pinP2 ?? '')) ?>"
-            >
+            <div class="match-btn">
               <span class="team"><?= htmlspecialchars($match['home'] ?? '—') ?></span>
-              <div class="vs">vs</div>
+              <div class="vs">против</div>
               <span class="team"><?= htmlspecialchars($match['away'] ?? '—') ?></span>
-            </button>
+            </div>
           </div>
-          <?php endif; ?>
         <?php endforeach; ?>
       </div>
+      <div id="noMatchesMessage" style="display:none;padding:20px 15px;border-radius:12px;background:#1b2639;color:#cbd5e1;text-align:center;margin-top:14px;">Нет матча ниже 1</div>
     <?php else: ?>
       <div class="league-card empty">
         <div style="font-size:44px;margin-bottom:10px">⚽</div>
@@ -688,9 +701,9 @@ function oddsValue($source, string $key): ?string {
           </div>
         </div>
         <div id="totalsContainer" style="background:#0b1224;border:1px solid #1e293b;border-radius:10px;padding:12px;">
-          <div id="totalsTitle" style="font-weight:800;color:#bfdbfe;margin-bottom:10px;">Тотали</div>
+          <div id="totalsTitle" style="font-weight:800;color:#bfdbfe;margin-bottom:10px;">Тоталы</div>
           <div id="totalsContent" style="overflow:auto;">
-            <div style="color:#94a3b8;">Завантаження...</div>
+            <div style="color:#94a3b8;">Загрузка...</div>
           </div>
         </div>
       </div>
@@ -698,31 +711,40 @@ function oddsValue($source, string $key): ?string {
   </div>
 
   <script>
-    // --- Лиги-фильтры и фильтр формулы ---
+    // --- Фильтры лиг и фильтр формул ---
     document.addEventListener('DOMContentLoaded', function() {
-      const rows = Array.from(document.querySelectorAll('tbody tr'));
-      const leagues = <?php echo json_encode(array_keys($grouped), JSON_UNESCAPED_UNICODE); ?>;
+      // Новый фильтр по лигам для .match-block
+      const matchBlocks = Array.from(document.querySelectorAll('.match-block'));
+      // Собираем уникальные лиги из .match-league
+      const leaguesSet = new Set();
+      matchBlocks.forEach(block => {
+        const leagueSpan = block.querySelector('.match-league');
+        if (leagueSpan) leaguesSet.add(leagueSpan.textContent.trim());
+      });
+      const leagues = Array.from(leaguesSet);
       const filterWrap = document.getElementById('leaguesFilter');
       let selectedLeague = '';
       let searchValue = '';
 
       function renderButtons() {
+        if (!filterWrap) return;
         filterWrap.innerHTML = '';
         const allBtn = document.createElement('button');
         allBtn.textContent = 'Все';
         allBtn.className = 'btn' + (!selectedLeague ? ' primary' : '');
-        allBtn.onclick = () => { selectedLeague = ''; filterRows(); updateButtonStyles(); };
+        allBtn.onclick = () => { selectedLeague = ''; filterBlocks(); updateButtonStyles(); };
         filterWrap.appendChild(allBtn);
         leagues.forEach(league => {
           const btn = document.createElement('button');
           btn.textContent = league;
           btn.className = 'btn' + (selectedLeague === league ? ' primary' : '');
-          btn.onclick = () => { selectedLeague = league; filterRows(); updateButtonStyles(); };
+          btn.onclick = () => { selectedLeague = league; filterBlocks(); updateButtonStyles(); };
           filterWrap.appendChild(btn);
         });
       }
 
       function updateButtonStyles() {
+        if (!filterWrap) return;
         const btns = filterWrap.querySelectorAll('button');
         btns.forEach(btn => {
           if (btn.textContent === (selectedLeague || 'Все')) {
@@ -733,56 +755,139 @@ function oddsValue($source, string $key): ?string {
         });
       }
 
-      function filterRows() {
-        rows.forEach(row => {
-          const l = row.querySelector('.match-btn').dataset.league || 'Без лиги';
-          const text = row.textContent.toLowerCase();
-          const showLeague = !selectedLeague || l === selectedLeague;
+      function safeNum(val) {
+        const n = parseFloat((val || '').replace(',', '.'));
+        return (!isNaN(n) && n > 0) ? n : null;
+      }
+
+      function computeFormulas(block) {
+        const sport = block.dataset.sport || 'football';
+        const parikP1 = block.dataset.parikP1;
+        const parikX = block.dataset.parikX;
+        const parikP2 = block.dataset.parikP2;
+        const pinP1 = block.dataset.pinP1;
+        const pinX = block.dataset.pinX;
+        const pinP2 = block.dataset.pinP2;
+
+        if (sport === 'basketball' || sport === 'tennis') {
+          // Two-way sports: no draw, only 2 formulas
+          return [
+            {
+              name: '1/(П1 parik24) + 1/(П2 pinnacle)',
+              value: (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null
+            },
+            {
+              name: '1/(П2 parik24) + 1/(П1 pinnacle)',
+              value: (safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
+            }
+          ];
+        }
+
+        // Football: 6 formulas (3-way)
+        return [
+          {
+            name: '1/(П1 parik24) + 1/(X parik24) + 1/(П2 pinnacle)',
+            value: (safeNum(parikP1) && safeNum(parikX) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(parikX) + 1/safeNum(pinP2)) : null
+          },
+          {
+            name: '1/(X parik24) + 1/(П2 parik24) + 1/(П1 pinnacle)',
+            value: (safeNum(parikX) && safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikX) + 1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
+          },
+          {
+            name: '1/(П1 parik24) + 1/(П2 parik24) + 1/(X pinnacle)',
+            value: (safeNum(parikP1) && safeNum(parikP2) && safeNum(pinX)) ? (1/safeNum(parikP1) + 1/safeNum(parikP2) + 1/safeNum(pinX)) : null
+          },
+          {
+            name: '1/(П1 pinnacle) + 1/(X pinnacle) + 1/(П2 parik24)',
+            value: (safeNum(pinP1) && safeNum(pinX) && safeNum(parikP2)) ? (1/safeNum(pinP1) + 1/safeNum(pinX) + 1/safeNum(parikP2)) : null
+          },
+          {
+            name: '1/(X pinnacle) + 1/(П2 pinnacle) + 1/(П1 parik24)',
+            value: (safeNum(pinX) && safeNum(pinP2) && safeNum(parikP1)) ? (1/safeNum(pinX) + 1/safeNum(pinP2) + 1/safeNum(parikP1)) : null
+          },
+          {
+            name: '1/(П1 pinnacle) + 1/(П2 pinnacle) + 1/(X parik24)',
+            value: (safeNum(pinP1) && safeNum(pinP2) && safeNum(parikX)) ? (1/safeNum(pinP1) + 1/safeNum(pinP2) + 1/safeNum(parikX)) : null
+          }
+        ];
+      }
+
+      function hasAllOdds(block) {
+        const sport = block.dataset.sport || 'football';
+        if (sport === 'basketball' || sport === 'tennis') {
+          return [
+            block.dataset.parikP1,
+            block.dataset.parikP2,
+            block.dataset.pinP1,
+            block.dataset.pinP2
+          ].every(val => safeNum(val) !== null);
+        }
+        return [
+          block.dataset.parikP1,
+          block.dataset.parikX,
+          block.dataset.parikP2,
+          block.dataset.pinP1,
+          block.dataset.pinX,
+          block.dataset.pinP2
+        ].every(val => safeNum(val) !== null);
+      }
+
+      const lessThanOneCheckbox = document.getElementById('lessThanOneFilter');
+
+      function hasAnyFormulaBelowOne(block) {
+        if (!hasAllOdds(block)) return false;
+        const formulas = computeFormulas(block);
+        return formulas.some(f => f.value !== null && f.value < 1);
+      }
+
+      function filterBlocks() {
+        let visibleCount = 0;
+        matchBlocks.forEach(block => {
+          const league = block.querySelector('.match-league')?.textContent.trim() || 'Без лиги';
+          const text = block.textContent.toLowerCase();
+          const showLeague = !selectedLeague || league === selectedLeague;
           const showSearch = !searchValue || text.includes(searchValue);
-          row.style.display = (showLeague && showSearch) ? '' : 'none';
+          const showLessThanOne = !lessThanOneCheckbox || !lessThanOneCheckbox.checked || hasAnyFormulaBelowOne(block);
+          const visible = showLeague && showSearch && showLessThanOne;
+          block.style.display = visible ? '' : 'none';
+          if (visible) visibleCount += 1;
+        });
+        const noMatchesMessage = document.getElementById('noMatchesMessage');
+        if (noMatchesMessage) {
+          if (visibleCount === 0 && lessThanOneCheckbox && lessThanOneCheckbox.checked) {
+            noMatchesMessage.textContent = 'Нет матча ниже 1';
+            noMatchesMessage.style.display = '';
+          } else {
+            noMatchesMessage.style.display = 'none';
+          }
+        }
+      }
+
+      function logAllFormulas() {
+        matchBlocks.forEach(block => {
+          if (!hasAllOdds(block)) return;
+          const formulas = computeFormulas(block);
+          formulas.forEach((formula, index) => {
+            console.log(`${index + 1}: ${formula.value !== null ? formula.value.toFixed(3) : 'нет данных'}`);
+          });
         });
       }
 
       renderButtons();
-      filterRows();
+      filterBlocks();
+      logAllFormulas();
 
-      // --- Динамический поиск ---
+      // --- Динамический поиск и фильтр меньше 1 ---
       const searchInput = document.getElementById('searchInput');
       searchInput.addEventListener('input', function() {
         searchValue = (searchInput.value || '').toLowerCase();
-        filterRows();
+        filterBlocks();
       });
-
-      // Делегирование для модалки
-      document.querySelector('tbody').addEventListener('click', function(e) {
-        const btn = e.target.closest('.js-open-match');
-        if (btn) openMatchModal(btn);
-      });
-      // --- Фильтр по формуле ---
-      const formulaRange = document.getElementById('formulaRange');
-      const formulaValue = document.getElementById('formulaValue');
-      const matchesList = document.getElementById('matchesList');
-      function filterByFormula() {
-        const maxVal = parseFloat(formulaRange.value);
-        formulaValue.value = maxVal;
-        Array.from(matchesList.children).forEach(block => {
-          const z = parseFloat(block.getAttribute('data-minz'));
-          if (isNaN(z) || z > maxVal) {
-            block.style.display = 'none';
-          } else {
-            block.style.display = '';
-          }
+      if (lessThanOneCheckbox) {
+        lessThanOneCheckbox.addEventListener('change', function() {
+          filterBlocks();
         });
       }
-      formulaRange.addEventListener('input', filterByFormula);
-      formulaValue.addEventListener('input', function() {
-        let v = parseFloat(formulaValue.value);
-        if (isNaN(v) || v < 0) v = 0;
-        if (v > 1) v = 1;
-        formulaRange.value = v;
-        filterByFormula();
-      });
-      filterByFormula();
     });
     // Скрыть строки, где есть хотя бы один прочерк среди коэффициентов
     // Скрыть строки, где есть хотя бы один прочерк среди коэффициентов
@@ -818,6 +923,8 @@ function oddsValue($source, string $key): ?string {
       return `<div class="odd ${oddClass(val)}"><span class="l">${escapeHtml(label)}</span><span class="v">${escapeHtml(val)}</span></div>`;
     }
 
+
+
     function openMatchModal(button) {
       const backdrop = document.getElementById('matchModalBackdrop');
       const title = document.getElementById('matchModalTitle');
@@ -833,11 +940,12 @@ function oddsValue($source, string $key): ?string {
       const parikUrl = button.dataset.parikUrl || '';
       const pinnUrl = button.dataset.pinnUrl || '';
 
-      title.textContent = `${home} vs ${away}`;
+      title.textContent = `${home} против ${away}`;
       sub.textContent = league;
 
 
       // Коэффициенты Parik
+      const sport = button.dataset.sport || 'football';
       const parikP1 = button.dataset.parikP1;
       const parikX = button.dataset.parikX;
       const parikP2 = button.dataset.parikP2;
@@ -846,57 +954,102 @@ function oddsValue($source, string $key): ?string {
       const pinX = button.dataset.pinX;
       const pinP2 = button.dataset.pinP2;
 
-      parik.innerHTML = [
-        oddBox('П1', parikP1),
-        oddBox('Х', parikX),
-        oddBox('П2', parikP2)
-      ].join('');
+      if (sport === 'basketball' || sport === 'tennis') {
+        // Two-way sports: no draw column
+        parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
+        pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
+      } else {
+        parik.innerHTML = [oddBox('П1', parikP1), oddBox('Х', parikX), oddBox('П2', parikP2)].join('');
+        pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('Х', pinX), oddBox('П2', pinP2)].join('');
+      }
 
-      pinnacle.innerHTML = [
-        oddBox('П1', pinP1),
-        oddBox('Х', pinX),
-        oddBox('П2', pinP2)
-      ].join('');
-
-      // Формула расчета (1/П1+1/П2 и 1/Х+1/Х)
+      // --- Формулы (2 для two-way sports, 6 для футбола) ---
       function safeNum(val) {
         const n = parseFloat((val || '').replace(',', '.'));
         return (!isNaN(n) && n > 0) ? n : null;
       }
-      const zWin = (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null;
-      const zDraw = (safeNum(parikX) && safeNum(pinX)) ? (1/safeNum(parikX) + 1/safeNum(pinX)) : null;
-      let formulaHtml = '';
-      if (zWin !== null) {
-        formulaHtml += `<span title=\"1/П1 + 1/П2\">1/П1+1/П2: <b>${zWin.toFixed(3)}</b></span>`;
+
+      let formulas;
+      if (sport === 'basketball' || sport === 'tennis') {
+        formulas = [
+          {
+            label: '1/(П1 parik24) + 1/(П2 pinnacle)',
+            value: (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null
+          },
+          {
+            label: '1/(П2 parik24) + 1/(П1 pinnacle)',
+            value: (safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
+          }
+        ];
+      } else {
+        formulas = [
+          {
+            label: '1/(П1 parik24) + 1/(X parik24) + 1/(П2 pinnacle)',
+            value: (safeNum(parikP1) && safeNum(parikX) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(parikX) + 1/safeNum(pinP2)) : null
+          },
+          {
+            label: '1/(X parik24) + 1/(П2 parik24) + 1/(П1 pinnacle)',
+            value: (safeNum(parikX) && safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikX) + 1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
+          },
+          {
+            label: '1/(П1 parik24) + 1/(П2 parik24) + 1/(X pinnacle)',
+            value: (safeNum(parikP1) && safeNum(parikP2) && safeNum(pinX)) ? (1/safeNum(parikP1) + 1/safeNum(parikP2) + 1/safeNum(pinX)) : null
+          },
+          {
+            label: '1/(П1 pinnacle) + 1/(X pinnacle) + 1/(П2 parik24)',
+            value: (safeNum(pinP1) && safeNum(pinX) && safeNum(parikP2)) ? (1/safeNum(pinP1) + 1/safeNum(pinX) + 1/safeNum(parikP2)) : null
+          },
+          {
+            label: '1/(X pinnacle) + 1/(П2 pinnacle) + 1/(П1 parik24)',
+            value: (safeNum(pinX) && safeNum(pinP2) && safeNum(parikP1)) ? (1/safeNum(pinX) + 1/safeNum(pinP2) + 1/safeNum(parikP1)) : null
+          },
+          {
+            label: '1/(П1 pinnacle) + 1/(П2 pinnacle) + 1/(X parik24)',
+            value: (safeNum(pinP1) && safeNum(pinP2) && safeNum(parikX)) ? (1/safeNum(pinP1) + 1/safeNum(pinP2) + 1/safeNum(parikX)) : null
+          }
+        ];
       }
-      if (zDraw !== null) {
-        formulaHtml += `<span title=\"1/Х + 1/Х\">1/Х+1/Х: <b>${zDraw.toFixed(3)}</b></span>`;
-      }
+
+      formulas.map((f, idx) => {
+          console.log(`Формула ${idx+1}: ${f.label} = ${f.value !== null ? f.value.toFixed(3) : '—'}`);
+      });
+
       // Удалить предыдущий блок формулы, если есть
       const prevFormula = document.getElementById('modalFormulaBlock');
       if (prevFormula) prevFormula.remove();
-      // Вставить формулу под коэффициентами, перед тоталами
+      // Вставить формулы под коэффициентами, перед тоталами
       const formulaBlock = document.createElement('div');
       formulaBlock.id = 'modalFormulaBlock';
       formulaBlock.style = 'margin: 12px 0 12px 0; color: #bfdbfe; font-weight: 700; font-size: 15px; display: flex; flex-direction: column; gap: 2px; align-items: flex-end; text-align: right;';
-      formulaBlock.innerHTML = formulaHtml;
+      formulaBlock.innerHTML = formulas.map((f, idx) => {
+        if (f.value === null) return `<span style='color:#64748b;'>${idx+1}. ${f.label}: <b>—</b></span>`;
+        let color = f.value < 1 ? '#4ade80' : '#fecaca';
+        let bg = f.value < 1 ? '#083c1c' : 'transparent';
+        let status = f.value < 1 ? 'Подходит' : 'Не подходит';
+        return `<span style='background:${bg};color:${color};padding:2px 6px;border-radius:6px;'>${idx+1}. ${f.label}: <b>${f.value.toFixed(3)}</b> <span style='font-size:12px;font-weight:400;'>${status}</span></span>`;
+      }).join('');
       // Найти контейнер для тоталов и вставить формулу перед ним
       const totalsContainer = document.getElementById('totalsContainer');
-      if (totalsContainer && formulaHtml) {
+      if (totalsContainer) {
         totalsContainer.parentNode.insertBefore(formulaBlock, totalsContainer);
       }
 
-      // Reset totals UI
-      totalsTitle.textContent = 'Тотали';
-      totalsContent.innerHTML = `<div style="color:#94a3b8;">Завантаження...</div>`;
+      // Totals only for football
+      if (sport !== 'football') {
+        totalsContainer.style.display = 'none';
+      } else {
+        totalsContainer.style.display = '';
+        totalsTitle.textContent = 'Тоталы';
+        totalsContent.innerHTML = `<div style="color:#94a3b8;">Загрузка...</div>`;
+      }
 
       backdrop.classList.add('show');
       backdrop.style.display = 'flex';
       backdrop.setAttribute('aria-hidden', 'false');
 
       // Load totals (only overlapping lines across both sites)
-      if (parikUrl && pinnUrl) {
-        fetch('https://chupserso.pagekite.me/totals', {
+      if (sport === 'football' && parikUrl && pinnUrl) {
+        fetch('http://localhost:3031/totals', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ parikUrl, pinnUrl })
@@ -905,7 +1058,7 @@ function oddsValue($source, string $key): ?string {
           .then(json => {
             console.log('Тоталы обеих сайтов:', json);
             if (!json || !json.ok) {
-              const msg = (json && json.error) ? json.error : 'Помилка завантаження тоталів';
+              const msg = (json && json.error) ? json.error : 'Ошибка загрузки тоталов';
               totalsContent.innerHTML = `<div style=\"color:#fecaca;\">${escapeHtml(msg)}</div>`;
               return;
             }
@@ -952,7 +1105,7 @@ function oddsValue($source, string $key): ?string {
             rows.forEach(r => {
               let status = '', color = '';
               if (r.z !== null) {
-                if (r.z < 0) {
+                if (r.z < 1) {
                   status = 'Подходит';
                   color = 'background:#083c1c;color:#4ade80;font-weight:700;';
                 } else {
@@ -975,10 +1128,10 @@ function oddsValue($source, string $key): ?string {
             totalsContent.innerHTML = html.join('');
           })
           .catch(() => {
-            totalsContent.innerHTML = `<div style=\"color:#fecaca;\">Помилка мережі при завантаженні тоталів</div>`;
+            totalsContent.innerHTML = `<div style=\"color:#fecaca;\">Ошибка сети при загрузке тоталов</div>`;
           });
       } else {
-        totalsContent.innerHTML = `<div style=\"color:#94a3b8;\">Посилання на матчі відсутні</div>`;
+        totalsContent.innerHTML = `<div style=\"color:#94a3b8;\">Ссылка на матчи отсутствует</div>`;
       }
     }
 
@@ -986,8 +1139,13 @@ function oddsValue($source, string $key): ?string {
       const backdrop = document.getElementById('matchModalBackdrop');
       const closeBtn = document.getElementById('matchModalClose');
 
-      document.querySelectorAll('.js-open-match').forEach((button) => {
-        button.addEventListener('click', () => openMatchModal(button));
+      document.querySelectorAll('.js-open-match').forEach((block) => {
+        block.addEventListener('click', () => openMatchModal(block));
+        block.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            openMatchModal(block);
+          }
+        });
       });
 
       closeBtn.addEventListener('click', () => {
