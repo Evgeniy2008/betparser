@@ -17,6 +17,21 @@ const os = require('os');
 
 const EVENT_LINK_SELECTOR = 'a[href*="/events/"]';
 const PINNACLE_BASE = 'https://www.pinnacle.com';
+const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+
+const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
+const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
+const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
+const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+
+for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
+  fs.mkdirSync(dir, { recursive: true });
+}
+
+process.env.BETPARSER_CACHE_DIR = CACHE_ROOT;
+process.env.PUPPETEER_CACHE_DIR = PUPPETEER_CACHE_DIR;
+process.env.TEMP = TEMP_DIR;
+process.env.TMP = TEMP_DIR;
 
 const CONFIG = {
   urls: {
@@ -718,7 +733,8 @@ async function scrapeStream(browser, stream, cycleId) {
 async function runCycle() {
   const cycleId = new Date().toISOString();
   writeState({ status: 'running', cycleId, cycleStartedAt: cycleId, currentTask: 'launch-browser' });
-  const profileDir = path.join(os.tmpdir(), `betparser-puppeteer-${process.pid}-${Date.now()}`);
+  const profileDir = path.join(PROFILE_ROOT, `betparser-puppeteer-${process.pid}-${Date.now()}`);
+  fs.mkdirSync(profileDir, { recursive: true });
 
   const launchOptions = {
     headless: CONFIG.headless,

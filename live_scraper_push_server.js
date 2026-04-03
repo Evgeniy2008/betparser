@@ -2,7 +2,7 @@ const { spawn, spawnSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const DEFAULT_INTERVAL = 0; // by default restart immediately after finish
+const DEFAULT_INTERVAL = 0;
 
 const args = process.argv.slice(2);
 const getArg = (name, fallback) => {
@@ -44,7 +44,7 @@ function ensurePuppeteerChromeInstalled() {
 
   if (hasBrowser) return;
 
-  console.log('[scraper_push_server] Chrome not found in cache, installing...');
+  console.log('[live_scraper_push_server] Chrome not found in cache, installing...');
   const npxCmd = process.platform === 'win32' ? 'npx.cmd' : 'npx';
   const install = spawnSync(npxCmd, ['puppeteer', 'browsers', 'install', 'chrome'], {
     cwd: workingDir,
@@ -53,7 +53,7 @@ function ensurePuppeteerChromeInstalled() {
   });
 
   if (install.status !== 0) {
-    console.error('[scraper_push_server] Failed to install Puppeteer Chrome');
+    console.error('[live_scraper_push_server] Failed to install Puppeteer Chrome');
     process.exit(1);
   }
 }
@@ -67,7 +67,7 @@ function resolvePostUrl(value) {
   try {
     return new URL(input).toString();
   } catch (_) {
-    // Continue and try resolving as relative URL.
+    // Try resolve as relative URL.
   }
 
   const base = String(process.env.APP_BASE_URL || process.env.BASE_URL || 'http://localhost').trim();
@@ -85,7 +85,7 @@ if (!postUrl) {
   process.exit(1);
 }
 
-console.log('[scraper_push_server] Starting daemon');
+console.log('[live_scraper_push_server] Starting daemon');
 console.log(`  script: ${nodeScript}`);
 console.log(`  post-url: ${postUrl}`);
 console.log(`  cache-dir: ${cacheDir}`);
@@ -96,19 +96,20 @@ let runCount = 0;
 
 async function runScraper() {
   if (running) {
-    console.log('[scraper_push_server] Scraper already running, skipping iteration');
+    console.log('[live_scraper_push_server] Scraper already running, skipping iteration');
     return;
   }
 
   running = true;
   runCount += 1;
-  console.log(`\n[scraper_push_server] Run #${runCount} started at ${new Date().toISOString()}`);
+  console.log(`\n[live_scraper_push_server] Run #${runCount} started at ${new Date().toISOString()}`);
 
   const child = spawn(process.execPath, [path.join(workingDir, nodeScript)], {
     cwd: workingDir,
     env: {
       ...process.env,
       SCRAPER_MODE: 'http',
+      SCRAPER_SCOPE: 'live-only',
       BETPARSER_CACHE_DIR: cacheDir,
       PUPPETEER_CACHE_DIR: puppeteerCacheDir,
       TEMP: tempDir,
@@ -124,19 +125,18 @@ async function runScraper() {
   return new Promise((resolve, reject) => {
     child.on('close', (code) => {
       running = false;
-      console.log(`[scraper_push_server] Run #${runCount} finished with code ${code}`);
+      console.log(`[live_scraper_push_server] Run #${runCount} finished with code ${code}`);
       resolve(code);
     });
 
     child.on('error', (err) => {
       running = false;
-      console.error('[scraper_push_server] Child process error:', err);
+      console.error('[live_scraper_push_server] Child process error:', err);
       reject(err);
     });
   });
 }
 
-// Start immediately and then restart after each finish
 async function startLoop() {
   await runScraper();
   if (intervalMs === 0) {

@@ -5,6 +5,22 @@ const path = require('path');
 
 const SCRAPER_MODE = process.env.SCRAPER_MODE || 'file';
 const POST_URL = process.env.POST_URL || '';
+const SCRAPER_SCOPE = String(process.env.SCRAPER_SCOPE || 'full').toLowerCase();
+const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+
+const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
+const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
+const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
+const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+
+for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
+  fs.mkdirSync(dir, { recursive: true });
+}
+
+process.env.BETPARSER_CACHE_DIR = CACHE_ROOT;
+process.env.PUPPETEER_CACHE_DIR = PUPPETEER_CACHE_DIR;
+process.env.TEMP = TEMP_DIR;
+process.env.TMP = TEMP_DIR;
 
 // Parsing configuration
 const CONFIG = {
@@ -12,7 +28,17 @@ const CONFIG = {
   headless: true,
   timeout: 45000,
   browserRefreshEveryLeagues: 4,
+  profileRoot: PROFILE_ROOT,
 };
+
+function createBrowserProfileDir(prefix = 'browser') {
+  const dir = path.join(
+    CONFIG.profileRoot,
+    `${prefix}-${process.pid}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`
+  );
+  fs.mkdirSync(dir, { recursive: true });
+  return dir;
+}
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -108,13 +134,7 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
     await page.goto(url, { waitUntil: 'networkidle2', timeout: CONFIG.timeout });
     await sleep(1500);
 
-    // Scroll to load more
-    for (let i = 0; i < 3; i++) {
-      await page.evaluate(() => window.scrollBy(0, 500));
-      await sleep(600);
-    }
-
-    const matches = await page.evaluate((isTwoWay, sportName) => {
+    const extractMatches = async () => page.evaluate((isTwoWay) => {
       const results = [];
       const cards = document.querySelectorAll('a[href*="/events/"]');
 
@@ -191,7 +211,56 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
       }
 
       return results;
-    }, isTwoWay, sport);
+    }, isTwoWay);
+
+    // Deep scroll until the page stops growing to ensure all matches are loaded.
+    const dedup = new Map();
+    let stagnantRounds = 0;
+
+    for (let i = 0; i < 80; i++) {
+      const chunk = await extractMatches();
+      for (const match of chunk) {
+        if (!match?.link) continue;
+        if (!dedup.has(match.link)) {
+          dedup.set(match.link, match);
+        }
+      }
+
+      const scrollState = await page.evaluate(() => {
+        const root = document.scrollingElement || document.documentElement || document.body;
+        if (!root) return { reachedBottom: true, moved: false };
+        const beforeTop = root.scrollTop;
+        const maxTop = Math.max(0, root.scrollHeight - root.clientHeight);
+        const step = Math.max(700, Math.floor(root.clientHeight * 0.9));
+        const nextTop = Math.min(maxTop, beforeTop + step);
+        root.scrollTop = nextTop;
+        window.scrollBy(0, step);
+        return {
+          reachedBottom: nextTop >= maxTop,
+          moved: nextTop > beforeTop,
+        };
+      });
+
+      await sleep(550);
+
+      const beforeSize = dedup.size;
+      const afterChunk = await extractMatches();
+      for (const match of afterChunk) {
+        if (!match?.link) continue;
+        if (!dedup.has(match.link)) {
+          dedup.set(match.link, match);
+        }
+      }
+
+      if (dedup.size === beforeSize) stagnantRounds += 1;
+      else stagnantRounds = 0;
+
+      if (scrollState.reachedBottom && stagnantRounds >= 5) {
+        break;
+      }
+    }
+
+    const matches = Array.from(dedup.values());
 
     try { await page.close(); } catch {}
     return matches;
@@ -516,6 +585,7 @@ async function scrapeLeagues() {
   const launchBrowser = async () => {
     return puppeteer.launch({
       headless: CONFIG.headless,
+      userDataDir: createBrowserProfileDir('league'),
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
   };
@@ -681,8 +751,142 @@ async function scrapeLeagues() {
   console.log('[done]');
 }
 
-// Run
-scrapeLeagues().catch(err => {
+// ─── Live Football Scraper ────────────────────────────────────────────────────
+async function scrapeLiveMatches() {
+  console.log('\n[live] Scraping live football matches...');
+
+  const launchBrowser = async () => puppeteer.launch({
+    headless: CONFIG.headless,
+    userDataDir: createBrowserProfileDir('live'),
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+  });
+
+  let browserA = null;
+  let browserB = null;
+  try {
+    browserA = await launchBrowser();
+    browserB = await launchBrowser();
+
+    const [parikMatches, pinnacleMatches] = await Promise.all([
+      parseParik24WithPuppeteer(browserA, 'https://24-parik.club/en/football/live', 'football').catch((e) => { console.error('[live/parik24]', e.message); return []; }),
+      parsePinnacleWithPuppeteer(browserB, 'https://www.pinnacle.com/en/soccer/matchups/live/', 'football').catch((e) => { console.error('[live/pinnacle]', e.message); return []; }),
+    ]);
+
+    console.log(`  [live/parik24] Found ${parikMatches.length} matches`);
+    console.log(`  [live/pinnacle] Found ${pinnacleMatches.length} matches`);
+
+    // Merge live matches across the whole page (no league constraint)
+    const merged = [];
+    const matched = new Set();
+
+    for (const parik of parikMatches) {
+      let bestMatch = null;
+      let bestScore = 0.45; // slightly lower threshold — live team names vary more
+
+      for (let i = 0; i < pinnacleMatches.length; i++) {
+        if (matched.has(i)) continue;
+        const score = findMatchScore(parik.home, parik.away, pinnacleMatches[i].home, pinnacleMatches[i].away);
+        if (score > bestScore) {
+          bestScore = score;
+          bestMatch = { index: i, score };
+        }
+      }
+
+      if (bestMatch) {
+        matched.add(bestMatch.index);
+        const pin = pinnacleMatches[bestMatch.index];
+        merged.push({
+          league: 'Live Football',
+          sport: 'live',
+          home: parik.home,
+          away: parik.away,
+          time: parik.time || pin.time || null,
+          parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
+          pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null, time: pin.time || null },
+          matchScore: bestMatch.score,
+        });
+        console.log(`  ✓ [live] ${parik.home} vs ${parik.away} (score: ${bestMatch.score.toFixed(2)})`);
+      } else {
+        merged.push({
+          league: 'Live Football',
+          sport: 'live',
+          home: parik.home,
+          away: parik.away,
+          time: parik.time || null,
+          parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
+          pinnacle: null,
+          matchScore: 0,
+        });
+      }
+    }
+
+    const livePayload = {
+      updated: new Date().toISOString(),
+      matches: merged,
+    };
+
+    if (SCRAPER_MODE === 'http' && POST_URL) {
+      try {
+        console.log(`  [live/post] Sending live payload to ${POST_URL}`);
+        await axios.post(POST_URL, {
+          ...livePayload,
+          target: 'live',
+        }, {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          timeout: 60000,
+        });
+        console.log(`[live/post] Successfully posted ${merged.length} live matches`);
+      } catch (err) {
+        console.error('[live/post] Failed to send live payload:', err.message || err);
+      }
+    } else {
+      fs.writeFileSync(
+        path.join(CONFIG.dataDir, 'live_matches.json'),
+        JSON.stringify(livePayload, null, 2),
+        'utf-8'
+      );
+      console.log(`[live] Saved ${merged.length} live matches → live_matches.json`);
+    }
+  } finally {
+    try { if (browserA) await browserA.close(); } catch {}
+    try { if (browserB) await browserB.close(); } catch {}
+  }
+}
+
+// Run full scrape once, then keep live scraping continuously.
+async function runAll() {
+  const isLiveOnly = SCRAPER_SCOPE === 'live-only' || SCRAPER_SCOPE === 'live';
+
+  if (!isLiveOnly) {
+    await scrapeLeagues();
+  }
+
+  if (SCRAPER_MODE === 'http') {
+    while (true) {
+      try {
+        await scrapeLiveMatches();
+      } catch (err) {
+        console.error('[live-loop] iteration failed:', err?.message || err);
+      }
+      await sleep(2000);
+    }
+  } else if (isLiveOnly) {
+    while (true) {
+      try {
+        await scrapeLiveMatches();
+      } catch (err) {
+        console.error('[live-loop] iteration failed:', err?.message || err);
+      }
+      await sleep(3000);
+    }
+  } else {
+    await scrapeLiveMatches();
+  }
+}
+
+runAll().catch(err => {
   console.error('[ERROR]', err);
   process.exit(1);
 });

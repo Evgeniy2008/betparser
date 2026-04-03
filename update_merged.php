@@ -23,7 +23,14 @@ if ($data === null || !isset($data['matches'])) {
     exit;
 }
 
-$targetFile = __DIR__ . '/data/merged_matches.json';
+$target = strtolower(trim((string)($data['target'] ?? 'merged')));
+$targetFile = ($target === 'live')
+    ? (__DIR__ . '/data/live_matches.json')
+    : (__DIR__ . '/data/merged_matches.json');
+$targetName = ($target === 'live') ? 'live_matches.json' : 'merged_matches.json';
+
+unset($data['target']);
+
 $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 if ($json === false) {
     http_response_code(500);
@@ -34,8 +41,8 @@ if ($json === false) {
 $result = @file_put_contents($targetFile, $json);
 if ($result === false) {
     http_response_code(500);
-    echo json_encode(['ok' => false, 'error' => 'Unable to write merged_matches.json']);
+    echo json_encode(['ok' => false, 'error' => "Unable to write {$targetName}"]);
     exit;
 }
 
-echo json_encode(['ok' => true, 'message' => 'merged_matches.json updated', 'matches' => count($data['matches'])]);
+echo json_encode(['ok' => true, 'message' => "{$targetName} updated", 'matches' => count($data['matches'])]);

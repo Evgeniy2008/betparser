@@ -8,6 +8,7 @@
     "scrape:debug": "node scraper.js --debug",
     "scrape:daemon": "node scraper.js --daemon --interval=2",
     "scrape:daemon:debug": "node scraper.js --daemon --debug --interval=2",
+    "scrape:live:push": "node live_scraper_push_server.js",
     "telegram:webapp": "node telegram_webapp_server.js"
   },
   "dependencies": {

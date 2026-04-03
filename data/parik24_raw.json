@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T18:41:23.040Z",
+  "updated": "2026-04-03T19:09:23.289Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -70,9 +70,9 @@
     {
       "home": "Inter Milan",
       "away": "Roma",
-      "p1": "1.641",
-      "x": "3.92",
-      "p2": "5.302",
+      "p1": "1.661",
+      "x": "4",
+      "p2": "5.412",
       "link": "https://24-parik.club/en/events/inter-milan-roma-16071070",
       "time": "21:45",
       "league": "Italy. Serie A:",
@@ -453,17 +453,6 @@
       "sport": "football"
     },
     {
-      "home": "PSG",
-      "away": "Toulouse",
-      "p1": "1.291",
-      "x": "5.78",
-      "p2": "10.902",
-      "link": "https://24-parik.club/en/events/psg-toulouse-16065033",
-      "time": "21:45",
-      "league": "France Ligue 1:",
-      "sport": "football"
-    },
-    {
       "home": "Strasbourg",
       "away": "Nice",
       "p1": "1.861",
@@ -488,9 +477,9 @@
     {
       "home": "Lille",
       "away": "Lens",
-      "p1": "2.751",
+      "p1": "2.801",
       "x": "3.33",
-      "p2": "2.682",
+      "p2": "2.632",
       "link": "https://24-parik.club/en/events/lille-lens-16065059",
       "time": "22:05",
       "league": "France Ligue 1:",
@@ -543,9 +532,9 @@
     {
       "home": "AS Monaco",
       "away": "Marseille",
-      "p1": "2.151",
-      "x": "3.61",
-      "p2": "3.212",
+      "p1": "2.171",
+      "x": "3.68",
+      "p2": "3.272",
       "link": "https://24-parik.club/en/events/as-monaco-marseille-16065572",
       "time": "21:45",
       "league": "France Ligue 1:",
@@ -654,7 +643,7 @@
       "home": "Southampton",
       "away": "Arsenal FC",
       "p1": "10.901",
-      "x": "5.65",
+      "x": "5.66",
       "p2": "1.302",
       "link": "https://24-parik.club/en/events/southampton-arsenal-fc-16007387",
       "time": "22:00",
@@ -670,17 +659,6 @@
       "link": "https://24-parik.club/en/events/west-ham-leeds-16010306",
       "time": "18:30",
       "league": "England FA Cup:",
-      "sport": "football"
-    },
-    {
-      "home": "Rayo Vallecano",
-      "away": "Elche CF",
-      "p1": "1.731",
-      "x": "3.85",
-      "p2": "5.032",
-      "link": "https://24-parik.club/en/events/rayo-vallecano-elche-cf-16052761",
-      "time": "22:00",
-      "league": "Spain LaLiga:",
       "sport": "football"
     },
     {
@@ -763,9 +741,9 @@
     {
       "home": "Alaves",
       "away": "Osasuna",
-      "p1": "2.481",
-      "x": "3.1",
-      "p2": "3.052",
+      "p1": "2.521",
+      "x": "3.14",
+      "p2": "3.102",
       "link": "https://24-parik.club/en/events/alaves-osasuna-16054719",
       "time": "22:00",
       "league": "Spain LaLiga:",
@@ -1137,7 +1115,7 @@
     {
       "home": "Brooklyn Nets",
       "away": "Atlanta Hawks",
-      "p1": "11.06",
+      "p1": "10.89",
       "x": null,
       "p2": "1.08",
       "link": "https://24-parik.club/en/events/brooklyn-nets-atlanta-hawks-16242806",
@@ -1170,7 +1148,7 @@
     {
       "home": "Memphis Grizzlies",
       "away": "Toronto Raptors",
-      "p1": "7.28",
+      "p1": "7.39",
       "x": null,
       "p2": "1.13",
       "link": "https://24-parik.club/en/events/memphis-grizzlies-toronto-raptors-16242812",
@@ -1192,7 +1170,7 @@
     {
       "home": "Dallas Mavericks",
       "away": "Orlando Magic",
-      "p1": "3.26",
+      "p1": "3.3",
       "x": null,
       "p2": "1.44",
       "link": "https://24-parik.club/en/events/dallas-mavericks-orlando-magic-16242810",
@@ -1238,7 +1216,7 @@
       "away": "Illinois",
       "p1": "2.13",
       "x": null,
-      "p2": "1.81",
+      "p2": "1.83",
       "link": "https://24-parik.club/en/events/uconn-illinois-16203856",
       "time": "01:09",
       "league": "NCAA",
@@ -1304,7 +1282,7 @@
       "away": "Seoul Samsung Thunders",
       "p1": "1.31",
       "x": null,
-      "p2": "3.66",
+      "p2": "3.58",
       "link": "https://24-parik.club/en/events/wonju-dongbu-promy-seoul-samsung-thunders-16219225",
       "time": "08:00",
       "league": "Korea - WKBL",
@@ -1315,7 +1293,7 @@
       "away": "Daegu Korea Gas Corporation",
       "p1": "1.31",
       "x": null,
-      "p2": "3.65",
+      "p2": "3.59",
       "link": "https://24-parik.club/en/events/seoul-knights-daegu-korea-gas-corporation-16220177",
       "time": "10:30",
       "league": "Korea - WKBL",
@@ -1399,17 +1377,6 @@
       "sport": "basketball"
     },
     {
-      "home": "CA Santa Paula de Galvez",
-      "away": "Independiente BBC",
-      "p1": "1.17",
-      "x": null,
-      "p2": "4.44",
-      "link": "https://24-parik.club/en/events/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420",
-      "time": "03:00",
-      "league": "Argentina LaLiga",
-      "sport": "basketball"
-    },
-    {
       "home": "Comunicaciones Mercedes",
       "away": "Bochas Sport Club de Colonia Caroya",
       "p1": "1.22",
@@ -1443,13 +1410,13 @@
       "sport": "basketball"
     },
     {
-      "home": "Gimnasia y Esgrima La Plata",
-      "away": "Racing Club Avellaneda",
-      "p1": "1.33",
+      "home": "CA Quilmes",
+      "away": "Club Villa Mitre de Bahia Blanca",
+      "p1": "1.35",
       "x": null,
-      "p2": "3.17",
-      "link": "https://24-parik.club/en/events/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119",
-      "time": "02:30",
+      "p2": "3.09",
+      "link": "https://24-parik.club/en/events/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118",
+      "time": "03:00",
       "league": "Argentina LaLiga",
       "sport": "basketball"
     },
@@ -1487,17 +1454,6 @@
       "sport": "tennis"
     },
     {
-      "home": "Ben Shelton",
-      "away": "Thiago Agustin Tirante",
-      "p1": "1.44",
-      "x": null,
-      "p2": "2.8",
-      "link": "https://24-parik.club/en/events/ben-shelton-thiago-agustin-tirante-16240507",
-      "time": "22:03",
-      "league": "ATP Houston",
-      "sport": "tennis"
-    },
-    {
       "home": "Tomas Martin Etcheverry",
       "away": "Tommy Paul",
       "p1": "2.68",
@@ -1522,9 +1478,9 @@
     {
       "home": "Emiliana Arango",
       "away": "Varvara Lepchenko",
-      "p1": "1.46",
+      "p1": "1.47",
       "x": null,
-      "p2": "2.73",
+      "p2": "2.68",
       "link": "https://24-parik.club/en/events/emiliana-arango-varvara-lepchenko-16250871",
       "time": "23:03",
       "league": "WTA Bogota",
@@ -1548,7 +1504,7 @@
       "x": null,
       "p2": "1.74",
       "link": "https://24-parik.club/en/events/iva-jovic-anna-kalinskaya-16249993",
-      "time": "22:03",
+      "time": "22:18",
       "league": "WTA Charleston",
       "sport": "tennis"
     },

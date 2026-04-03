@@ -1,4 +1,21 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
+const path = require('path');
+
+const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
+const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
+const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
+const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+
+for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
+  fs.mkdirSync(dir, { recursive: true });
+}
+
+process.env.BETPARSER_CACHE_DIR = CACHE_ROOT;
+process.env.PUPPETEER_CACHE_DIR = PUPPETEER_CACHE_DIR;
+process.env.TEMP = TEMP_DIR;
+process.env.TMP = TEMP_DIR;
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -35,6 +52,7 @@ function isValidPinnacleEventUrl(url) {
 async function scrapePinnacleTeamTotals(url, proxy) {
   const launchOptions = {
     headless: true,
+    userDataDir: path.join(PROFILE_ROOT, `totals-pin-${process.pid}-${Date.now()}`),
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',

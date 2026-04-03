@@ -3,14 +3,16 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-$dataFile = __DIR__ . '/data/merged_matches.json';
+// Sport tab filter (declared early so $dataFile can depend on it)
+$sportTab = in_array($_GET['sport'] ?? '', ['football', 'basketball', 'tennis', 'live']) ? $_GET['sport'] : 'football';
+
+$dataFile = ($sportTab === 'live')
+  ? __DIR__ . '/data/live_matches.json'
+  : __DIR__ . '/data/merged_matches.json';
 
 $matches = [];
 $updated = null;
 $error = null;
-
-// Sport tab filter
-$sportTab = in_array($_GET['sport'] ?? '', ['football', 'basketball', 'tennis']) ? $_GET['sport'] : 'football';
 
 if (file_exists($dataFile)) {
   $json = json_decode(file_get_contents($dataFile), true);
@@ -25,7 +27,9 @@ if (file_exists($dataFile)) {
 }
 
 if (empty($matches)) {
-    $error = 'Файл merged_matches.json пока пустой или не найден.';
+    $error = ($sportTab === 'live')
+      ? 'Файл live_matches.json пока пустой или не найден. Запустите скрапер для сбора лайв матчей.'
+      : 'Файл merged_matches.json пока пустой или не найден.';
 }
 
 $search = trim($_GET['q'] ?? '');
@@ -424,6 +428,18 @@ function oddsValue($source, string $key): ?string {
     white-space: nowrap;
   }
 
+  .match-time-live {
+    color: #fecaca;
+    border-color: #ef4444;
+    background: rgba(127, 29, 29, .45);
+    animation: liveBlink 1s ease-in-out infinite;
+  }
+
+  @keyframes liveBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .35; }
+  }
+
   .match-league {
     display: inline-flex;
     align-items: center;
@@ -678,7 +694,7 @@ function oddsValue($source, string $key): ?string {
 <body>
   <header class="header">
     <div class="brand">
-      <h1><?= $sportTab === 'basketball' ? '🏀' : ($sportTab === 'tennis' ? '🎾' : '⚽') ?> Bet<span>parser</span></h1>
+      <h1><?= $sportTab === 'basketball' ? '🏀' : ($sportTab === 'tennis' ? '🎾' : ($sportTab === 'live' ? '🔴' : '⚽')) ?> Bet<span>parser</span></h1>
       <p class="brand-sub">Сканер линий и быстрый поиск валуйных ситуаций</p>
     </div>
     <div class="header-spacer"></div>
@@ -686,6 +702,7 @@ function oddsValue($source, string $key): ?string {
       <a href="?sport=football" class="btn<?= $sportTab === 'football' ? ' primary' : '' ?>" style="text-decoration:none;">⚽ Футбол</a>
       <a href="?sport=basketball" class="btn<?= $sportTab === 'basketball' ? ' primary' : '' ?>" style="text-decoration:none;">🏀 Баскетбол</a>
       <a href="?sport=tennis" class="btn<?= $sportTab === 'tennis' ? ' primary' : '' ?>" style="text-decoration:none;">🎾 Теннис</a>
+      <a href="?sport=live" class="btn<?= $sportTab === 'live' ? ' primary' : '' ?>" style="text-decoration:none;">🔴 Лайв</a>
     </nav>
   </header>
 
@@ -748,16 +765,22 @@ function oddsValue($source, string $key): ?string {
               elseif ($minZ < 1) $cellClass = 'cell-blue';
               else $cellClass = 'cell-red';
             }
-            $matchTime = trim((string)($match['time'] ?? ''));
-            if ($matchTime === '') {
-              $matchTime = trim((string)($match['parik24']['time'] ?? ''));
-            }
-            if ($matchTime === '') {
-              $matchTime = trim((string)($match['pinnacle']['time'] ?? ''));
+            $isLiveMatch = ($matchSport === 'live');
+            if ($isLiveMatch) {
+              $matchTime = 'LIVE';
+            } else {
+              $matchTime = trim((string)($match['time'] ?? ''));
+              if ($matchTime === '') {
+                $matchTime = trim((string)($match['parik24']['time'] ?? ''));
+              }
+              if ($matchTime === '') {
+                $matchTime = trim((string)($match['pinnacle']['time'] ?? ''));
+              }
             }
             if ($matchTime === '') {
               $matchTime = '—';
             }
+            $timeClass = ($isLiveMatch && $matchTime !== '—') ? 'match-time match-time-live' : 'match-time';
           ?>
           <div class="match-block <?= $cellClass ?> js-open-match"
             data-home="<?= htmlspecialchars($match['home'] ?? '') ?>"
@@ -781,7 +804,7 @@ function oddsValue($source, string $key): ?string {
           >
             <div class="match-block-header">
               <span class="match-league"><?= htmlspecialchars($league) ?></span>
-              <span class="match-time"><?= htmlspecialchars($matchTime) ?></span>
+              <span class="<?= $timeClass ?>"><?= htmlspecialchars($matchTime) ?></span>
             </div>
             <div class="match-btn">
               <span class="team"><?= htmlspecialchars($match['home'] ?? '—') ?></span>
@@ -1064,10 +1087,17 @@ function oddsValue($source, string $key): ?string {
       const league = button.dataset.league || '—';
       const parikUrl = button.dataset.parikUrl || '';
       const pinnUrl = button.dataset.pinnUrl || '';
-      const matchTime = button.dataset.time || button.dataset.parikTime || button.dataset.pinnTime || '—';
+      const sport = button.dataset.sport || 'football';
+      const matchTime = sport === 'live'
+        ? 'LIVE'
+        : (button.dataset.time || button.dataset.parikTime || button.dataset.pinnTime || '—');
 
       title.textContent = `${home} против ${away}`;
-      sub.textContent = `${league} • ${matchTime}`;
+      if (sport === 'live' && matchTime !== '—') {
+        sub.innerHTML = `${escapeHtml(league)} • <span class="match-time-live" style="padding:2px 8px;border-radius:999px;display:inline-block;">${escapeHtml(matchTime)}</span>`;
+      } else {
+        sub.textContent = `${league} • ${matchTime}`;
+      }
 
       const linksWrap = document.getElementById('modalBookmakerLinks');
       const parikLinkClass = parikUrl ? 'bookmaker-link' : 'bookmaker-link disabled';
@@ -1081,7 +1111,6 @@ function oddsValue($source, string $key): ?string {
 
 
       // Коэффициенты Parik
-      const sport = button.dataset.sport || 'football';
       const parikP1 = button.dataset.parikP1;
       const parikX = button.dataset.parikX;
       const parikP2 = button.dataset.parikP2;
