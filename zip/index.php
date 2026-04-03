@@ -84,7 +84,7 @@ function maxFormula($m) {
   $pinX    = is_numeric($pinnacle['x']  ?? null) ? floatval($pinnacle['x'])  : null;
 
   if ($sport === 'basketball' || $sport === 'tennis') {
-    // Two-way sports: only P1/P2, no draw.
+    // Two-way sports: only P1/P2, no draw. Formula: 1/P1(parik)+1/P2(pinnacle) and 1/P2(parik)+1/P1(pinnacle)
     $z1 = ($parikP1 && $pinP2) ? (1/$parikP1 + 1/$pinP2) : null;
     $z2 = ($parikP2 && $pinP1) ? (1/$parikP2 + 1/$pinP1) : null;
     $vals = array_filter([$z1, $z2], fn($v) => $v !== null);
@@ -891,19 +891,17 @@ function oddsValue($source, string $key): ?string {
         const pinP1 = block.dataset.pinP1;
         const pinX = block.dataset.pinX;
         const pinP2 = block.dataset.pinP2;
-        const p1o = pinP2;
-        const p2o = pinP1;
 
         if (sport === 'basketball' || sport === 'tennis') {
           // Two-way sports: no draw, only 2 formulas
           return [
             {
               name: '1/(П1 parik24) + 1/(П2 pinnacle)',
-              value: (safeNum(parikP1) && safeNum(p2o)) ? (1/safeNum(parikP1) + 1/safeNum(p2o)) : null
+              value: (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null
             },
             {
               name: '1/(П2 parik24) + 1/(П1 pinnacle)',
-              value: (safeNum(parikP2) && safeNum(p1o)) ? (1/safeNum(parikP2) + 1/safeNum(p1o)) : null
+              value: (safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
             }
           ];
         }
@@ -962,7 +960,7 @@ function oddsValue($source, string $key): ?string {
       function hasAnyFormulaBelowOne(block) {
         if (!hasAllOdds(block)) return false;
         const formulas = computeFormulas(block);
-        return formulas.some(f => f.value < 1);
+        return formulas.some(f => f.value !== null && f.value < 1);
       }
 
       function filterBlocks() {
@@ -1090,17 +1088,11 @@ function oddsValue($source, string $key): ?string {
       const pinX = button.dataset.pinX;
       const pinP2 = button.dataset.pinP2;
 
-      const p1o = pinP2;
-      const p2o = pinP1;
-
-      if (sport === 'basketball') {
+      if (sport === 'basketball' || sport === 'tennis') {
         // Two-way sports: no draw column
         parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
-        pinnacle.innerHTML = [oddBox('П1', p1o), oddBox('П2', p2o)].join('');
-      } else if (sport === 'tennis') {
-          parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
-          pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
-      }else {
+        pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
+      } else {
         parik.innerHTML = [oddBox('П1', parikP1), oddBox('Х', parikX), oddBox('П2', parikP2)].join('');
         pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('Х', pinX), oddBox('П2', pinP2)].join('');
       }
@@ -1112,18 +1104,7 @@ function oddsValue($source, string $key): ?string {
       }
 
       let formulas;
-      if (sport === 'basketball') {
-        formulas = [
-          {
-            label: '1/(П1 parik24) + 1/(П2 pinnacle)',
-            value: (safeNum(parikP1) && safeNum(p1o)) ? (1/safeNum(parikP1) + 1/safeNum(p2o)) : null
-          },
-          {
-            label: '1/(П2 parik24) + 1/(П1 pinnacle)',
-            value: (safeNum(parikP2) && safeNum(p2o)) ? (1/safeNum(parikP2) + 1/safeNum(p1o)) : null
-          }
-        ];
-      } else if (sport === 'tennis') {
+      if (sport === 'basketball' || sport === 'tennis') {
         formulas = [
           {
             label: '1/(П1 parik24) + 1/(П2 pinnacle)',

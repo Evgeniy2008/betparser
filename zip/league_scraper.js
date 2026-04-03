@@ -624,10 +624,9 @@ async function scrapeLeagues() {
     if (bestMatch) {
       matched.add(bestMatch.index);
       const pin = pinnacleAllMatches[bestMatch.index];
-      const sport = (parik.sport || 'football').toLowerCase();
       merged.push({
         league: parik.league,
-        sport,
+        sport: parik.sport || 'football',
         home: parik.home,
         away: parik.away,
         time: parik.time || pin.time || null,
@@ -637,10 +636,9 @@ async function scrapeLeagues() {
       });
       console.log(`  ✓ ${parik.league}: ${parik.home} vs ${parik.away} (score: ${bestMatch.score.toFixed(2)})`);
     } else {
-      const sport = (parik.sport || 'football').toLowerCase();
       merged.push({
         league: parik.league,
-        sport,
+        sport: parik.sport || 'football',
         home: parik.home,
         away: parik.away,
         time: parik.time || null,

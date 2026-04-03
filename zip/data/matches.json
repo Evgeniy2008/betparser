@@ -1,0 +1,609 @@
+{
+  "stream": "prematch",
+  "phase": "full",
+  "cycleId": "2026-03-28T13:14:24.622Z",
+  "updated": "2026-03-28T13:15:28.047Z",
+  "total": 25,
+  "matches": [
+    {
+      "href": "https://24-parik.club/en/events/korea-republic-ivory-coast-16149941",
+      "league": "",
+      "home": "Korea Republic",
+      "away": "Ivory Coast",
+      "date": "",
+      "time": "Today, 16:00",
+      "isLive": false,
+      "odds": {
+        "p1": "2.53",
+        "x": "3.42",
+        "p2": "2.60"
+      },
+      "_raw": {
+        "1": "2.53",
+        "2": "2.60",
+        "X": "3.42"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/san-marino-faroe-islands-16182664",
+      "league": "",
+      "home": "San Marino",
+      "away": "Faroe Islands",
+      "date": "",
+      "time": "Today, 16:00",
+      "isLive": false,
+      "odds": {
+        "p1": "11.50",
+        "x": "5.22",
+        "p2": "1.20"
+      },
+      "_raw": {
+        "1": "11.50",
+        "2": "1.20",
+        "X": "5.22"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/senegal-peru-16162699",
+      "league": "",
+      "home": "Senegal",
+      "away": "Peru",
+      "date": "",
+      "time": "Today, 18:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.44",
+        "x": "4.09",
+        "p2": "7.58"
+      },
+      "_raw": {
+        "1": "1.44",
+        "2": "7.58",
+        "X": "4.09"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/canada-iceland-16157542",
+      "league": "",
+      "home": "Canada",
+      "away": "Iceland",
+      "date": "",
+      "time": "Today, 19:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.55",
+        "x": "4.22",
+        "p2": "5.90"
+      },
+      "_raw": {
+        "1": "1.55",
+        "2": "5.90",
+        "X": "4.22"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/hungary-slovenia-16149988",
+      "league": "",
+      "home": "Hungary",
+      "away": "Slovenia",
+      "date": "",
+      "time": "Today, 19:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.78",
+        "x": "3.59",
+        "p2": "4.65"
+      },
+      "_raw": {
+        "1": "1.78",
+        "2": "4.65",
+        "X": "3.59"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/scotland-japan-16140873",
+      "league": "",
+      "home": "Scotland",
+      "away": "Japan",
+      "date": "",
+      "time": "Today, 19:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.26",
+        "x": "3.44",
+        "p2": "2.19"
+      },
+      "_raw": {
+        "1": "3.26",
+        "2": "2.19",
+        "X": "3.44"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/burkina-faso-guinea-bissau-16184923",
+      "league": "",
+      "home": "Burkina Faso",
+      "away": "Guinea-Bissau",
+      "date": "",
+      "time": "Today, 20:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.38",
+        "x": "4.04",
+        "p2": "7.16"
+      },
+      "_raw": {
+        "1": "1.38",
+        "2": "7.16",
+        "X": "4.04"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/usa-belgium-16113648",
+      "league": "",
+      "home": "USA",
+      "away": "Belgium",
+      "date": "",
+      "time": "Today, 21:30",
+      "isLive": false,
+      "odds": {
+        "p1": "2.82",
+        "x": "3.66",
+        "p2": "2.35"
+      },
+      "_raw": {
+        "1": "2.82",
+        "2": "2.35",
+        "X": "3.66"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/haiti-tunisia-16181870",
+      "league": "",
+      "home": "Haiti",
+      "away": "Tunisia",
+      "date": "",
+      "time": "Tomorrow, 02:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.61",
+        "x": "3.02",
+        "p2": "1.98"
+      },
+      "_raw": {
+        "1": "3.61",
+        "2": "1.98",
+        "X": "3.02"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/mexico-portugal-16117927",
+      "league": "",
+      "home": "Mexico",
+      "away": "Portugal",
+      "date": "",
+      "time": "Tomorrow, 04:00",
+      "isLive": false,
+      "odds": {
+        "p1": "4.10",
+        "x": "3.60",
+        "p2": "1.88"
+      },
+      "_raw": {
+        "1": "4.10",
+        "2": "1.88",
+        "X": "3.60"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/lithuania-georgia-16167812",
+      "league": "",
+      "home": "Lithuania",
+      "away": "Georgia",
+      "date": "",
+      "time": "Tomorrow, 16:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.36",
+        "x": "3.20",
+        "p2": "2.12"
+      },
+      "_raw": {
+        "1": "3.36",
+        "2": "2.12",
+        "X": "3.20"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/colombia-france-16123501",
+      "league": "",
+      "home": "Colombia",
+      "away": "France",
+      "date": "",
+      "time": "Tomorrow, 22:00",
+      "isLive": false,
+      "odds": {
+        "p1": "5.00",
+        "x": "3.60",
+        "p2": "1.74"
+      },
+      "_raw": {
+        "1": "5.00",
+        "2": "1.74",
+        "X": "3.60"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/cape-verde-finland-16190518",
+      "league": "",
+      "home": "Cape Verde",
+      "away": "Finland",
+      "date": "",
+      "time": "March 30, 06:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.19",
+        "x": "3.29",
+        "p2": "2.02"
+      },
+      "_raw": {
+        "1": "3.19",
+        "2": "2.02",
+        "X": "3.29"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/new-zealand-chile-16189200",
+      "league": "",
+      "home": "New Zealand",
+      "away": "Chile",
+      "date": "",
+      "time": "March 30, 09:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.72",
+        "x": "3.39",
+        "p2": "1.97"
+      },
+      "_raw": {
+        "1": "3.72",
+        "2": "1.97",
+        "X": "3.39"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/germany-ghana-16150035",
+      "league": "",
+      "home": "Germany",
+      "away": "Ghana",
+      "date": "",
+      "time": "March 30, 21:45",
+      "isLive": false,
+      "odds": {
+        "p1": "1.21",
+        "x": "6.62",
+        "p2": "10.50"
+      },
+      "_raw": {
+        "1": "1.21",
+        "2": "10.50",
+        "X": "6.62"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/australia-curacao-16189583",
+      "league": "",
+      "home": "Australia",
+      "away": "Curacao",
+      "date": "",
+      "time": "March 31, 12:10",
+      "isLive": false,
+      "odds": {
+        "p1": "1.29",
+        "x": "4.95",
+        "p2": "9.52"
+      },
+      "_raw": {
+        "1": "1.29",
+        "2": "9.52",
+        "X": "4.95"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/norway-switzerland-16189251",
+      "league": "",
+      "home": "Norway",
+      "away": "Switzerland",
+      "date": "",
+      "time": "March 31, 19:00",
+      "isLive": false,
+      "odds": {
+        "p1": "2.12",
+        "x": "3.78",
+        "p2": "3.00"
+      },
+      "_raw": {
+        "1": "2.12",
+        "2": "3.00",
+        "X": "3.78"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/hungary-greece-16150215",
+      "league": "",
+      "home": "Hungary",
+      "away": "Greece",
+      "date": "",
+      "time": "March 31, 20:00",
+      "isLive": false,
+      "odds": {
+        "p1": "2.46",
+        "x": "3.27",
+        "p2": "2.78"
+      },
+      "_raw": {
+        "1": "2.46",
+        "2": "2.78",
+        "X": "3.27"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/austria-korea-republic-16150217",
+      "league": "",
+      "home": "Austria",
+      "away": "Korea Republic",
+      "date": "",
+      "time": "March 31, 21:45",
+      "isLive": false,
+      "odds": {
+        "p1": "1.64",
+        "x": "3.82",
+        "p2": "5.07"
+      },
+      "_raw": {
+        "1": "1.64",
+        "2": "5.07",
+        "X": "3.82"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/england-japan-16160116",
+      "league": "",
+      "home": "England",
+      "away": "Japan",
+      "date": "",
+      "time": "March 31, 21:45",
+      "isLive": false,
+      "odds": {
+        "p1": "1.40",
+        "x": "4.82",
+        "p2": "6.76"
+      },
+      "_raw": {
+        "1": "1.40",
+        "2": "6.76",
+        "X": "4.82"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/netherlands-ecuador-16179034",
+      "league": "",
+      "home": "Netherlands",
+      "away": "Ecuador",
+      "date": "",
+      "time": "March 31, 21:45",
+      "isLive": false,
+      "odds": {
+        "p1": "1.58",
+        "x": "3.69",
+        "p2": "5.95"
+      },
+      "_raw": {
+        "1": "1.58",
+        "2": "5.95",
+        "X": "3.69"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/ukraine-albania-16178913",
+      "league": "",
+      "home": "Ukraine",
+      "away": "Albania",
+      "date": "",
+      "time": "March 31, 21:45",
+      "isLive": false,
+      "odds": {
+        "p1": "2.05",
+        "x": "3.61",
+        "p2": "3.27"
+      },
+      "_raw": {
+        "1": "2.05",
+        "2": "3.27",
+        "X": "3.61"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/spain-egypt-16125909",
+      "league": "",
+      "home": "Spain",
+      "away": "Egypt",
+      "date": "",
+      "time": "March 31, 22:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.18",
+        "x": "6.64",
+        "p2": "14.00"
+      },
+      "_raw": {
+        "1": "1.18",
+        "2": "14.00",
+        "X": "6.64"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/brazil-croatia-16123542",
+      "league": "",
+      "home": "Brazil",
+      "away": "Croatia",
+      "date": "",
+      "time": "April 1, 03:00",
+      "isLive": false,
+      "odds": {
+        "p1": "1.78",
+        "x": "3.79",
+        "p2": "4.08"
+      },
+      "_raw": {
+        "1": "1.78",
+        "2": "4.08",
+        "X": "3.79"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    },
+    {
+      "href": "https://24-parik.club/en/events/mexico-belgium-16190332",
+      "league": "",
+      "home": "Mexico",
+      "away": "Belgium",
+      "date": "",
+      "time": "April 1, 04:00",
+      "isLive": false,
+      "odds": {
+        "p1": "3.14",
+        "x": "3.31",
+        "p2": "2.22"
+      },
+      "_raw": {
+        "1": "3.14",
+        "2": "2.22",
+        "X": "3.31"
+      },
+      "oddsPinnacle": {
+        "p1": null,
+        "x": null,
+        "p2": null
+      }
+    }
+  ]
+}
