@@ -139,6 +139,52 @@ function oddsValue($source, string $key): ?string {
   $value = $source[$key] ?? null;
   return ($value === null || $value === '') ? null : (string)$value;
 }
+
+// JSON endpoint for live auto-refresh (fetched by JS every 20s)
+if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
+  header('Content-Type: application/json; charset=utf-8');
+  $processed = [];
+  foreach ($matches as $m) {
+    $parik    = $m['parik24']  ?? null;
+    $pinnacle = $m['pinnacle'] ?? null;
+    $sport    = $m['sport']    ?? 'football';
+    $p1  = oddsValue($parik,    'p1');
+    $x   = oddsValue($parik,    'x');
+    $p2  = oddsValue($parik,    'p2');
+    $pp1 = oddsValue($pinnacle, 'p1');
+    $px  = oddsValue($pinnacle, 'x');
+    $pp2 = oddsValue($pinnacle, 'p2');
+    $league = trim((string)($m['league'] ?? 'Без лиги'));
+    if ($league === '') $league = 'Без лиги';
+    $zWin  = ($p1 && $pp2) ? (1/(float)$p1 + 1/(float)$pp2) : null;
+    $zDraw = ($x  && $px)  ? (1/(float)$x  + 1/(float)$px)  : null;
+    $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+    $minZ  = $zVals ? min($zVals) : null;
+    $cellClass = '';
+    if ($minZ !== null) {
+      if ($minZ < 0.8) $cellClass = 'cell-green';
+      elseif ($minZ < 1) $cellClass = 'cell-blue';
+      else $cellClass = 'cell-red';
+    }
+    $processed[] = [
+      'home'     => (string)($m['home'] ?? ''),
+      'away'     => (string)($m['away'] ?? ''),
+      'league'   => $league,
+      'sport'    => $sport,
+      'parikUrl' => (string)($m['parik24']['link']  ?? ''),
+      'pinnUrl'  => (string)($m['pinnacle']['link'] ?? ''),
+      'parikP1'  => (string)($p1  ?? ''),
+      'parikX'   => (string)($x   ?? ''),
+      'parikP2'  => (string)($p2  ?? ''),
+      'pinP1'    => (string)($pp1 ?? ''),
+      'pinX'     => (string)($px  ?? ''),
+      'pinP2'    => (string)($pp2 ?? ''),
+      'cellClass'=> $cellClass,
+    ];
+  }
+  echo json_encode(['ok' => true, 'matches' => $processed, 'updated' => $updated], JSON_UNESCAPED_UNICODE);
+  exit;
+}
 ?>
 <head>
   <meta charset="UTF-8">
@@ -719,7 +765,7 @@ function oddsValue($source, string $key): ?string {
 
   <div class="stats">
     <div>Лиг: <span class="num"><?= count($grouped) ?></span></div>
-    <div>Матчей: <span class="num"><?= count($matches) ?></span></div>
+    <div>Матчей: <span class="num" id="matchCount"><?= count($matches) ?></span></div>
     <?php if ($search !== ''): ?>
       <div>Фильтр: <span class="num"><?= htmlspecialchars($search) ?></span></div>
     <?php endif; ?>
@@ -860,7 +906,7 @@ function oddsValue($source, string $key): ?string {
     // --- Фильтры лиг и фильтр формул ---
     document.addEventListener('DOMContentLoaded', function() {
       // Новый фильтр по лигам для .match-block
-      const matchBlocks = Array.from(document.querySelectorAll('.match-block'));
+      let matchBlocks = Array.from(document.querySelectorAll('.match-block'));
       // Собираем уникальные лиги из .match-league
       const leaguesSet = new Set();
       matchBlocks.forEach(block => {
@@ -1024,6 +1070,21 @@ function oddsValue($source, string $key): ?string {
       renderButtons();
       filterBlocks();
       logAllFormulas();
+
+      // Expose reinit so live polling can call it after re-render
+      window._reinitMatchList = function() {
+        matchBlocks = Array.from(document.querySelectorAll('.match-block'));
+        const newLeagues = [];
+        const seen = new Set();
+        matchBlocks.forEach(b => {
+          const t = b.querySelector('.match-league')?.textContent.trim();
+          if (t && !seen.has(t)) { seen.add(t); newLeagues.push(t); }
+        });
+        leagues.length = 0;
+        newLeagues.forEach(l => leagues.push(l));
+        renderButtons();
+        filterBlocks();
+      };
 
       // --- Динамический поиск и фильтр меньше 1 ---
       const searchInput = document.getElementById('searchInput');
@@ -1231,7 +1292,7 @@ function oddsValue($source, string $key): ?string {
 
       // Load totals (only overlapping lines across both sites)
       if (sport === 'football' && parikUrl && pinnUrl) {
-        fetch('http://localhost:3031/totals', {
+        fetch('https://snecked-lucio-unskinned.ngrok-free.dev/totals', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ parikUrl, pinnUrl })
@@ -1321,14 +1382,20 @@ function oddsValue($source, string $key): ?string {
       const backdrop = document.getElementById('matchModalBackdrop');
       const closeBtn = document.getElementById('matchModalClose');
 
-      document.querySelectorAll('.js-open-match').forEach((block) => {
-        block.addEventListener('click', () => openMatchModal(block));
-        block.addEventListener('keydown', (e) => {
+      // Use event delegation so live re-renders don't need re-binding
+      const matchesList = document.getElementById('matchesList');
+      if (matchesList) {
+        matchesList.addEventListener('click', (e) => {
+          const block = e.target.closest('.js-open-match');
+          if (block) openMatchModal(block);
+        });
+        matchesList.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
-            openMatchModal(block);
+            const block = e.target.closest('.js-open-match');
+            if (block) openMatchModal(block);
           }
         });
-      });
+      }
 
       closeBtn.addEventListener('click', () => {
         backdrop.classList.remove('show');
@@ -1351,6 +1418,74 @@ function oddsValue($source, string $key): ?string {
           backdrop.setAttribute('aria-hidden', 'true');
         }
       });
+    })();
+
+    // --- Live auto-refresh every 20 seconds ---
+    (function setupLivePolling() {
+      const IS_LIVE = <?= json_encode($sportTab === 'live') ?>;
+      if (!IS_LIVE) return;
+
+      const matchesList  = document.getElementById('matchesList');
+
+      function buildCardHtml(m) {
+        const timeClass = 'match-time match-time-live';
+        return [
+          `<div class="match-block ${escapeHtml(m.cellClass)} js-open-match"`,
+          ` data-home="${escapeHtml(m.home)}"`,
+          ` data-away="${escapeHtml(m.away)}"`,
+          ` data-league="${escapeHtml(m.league)}"`,
+          ` data-sport="${escapeHtml(m.sport)}"`,
+          ` data-parik-url="${escapeHtml(m.parikUrl)}"`,
+          ` data-pinn-url="${escapeHtml(m.pinnUrl)}"`,
+          ` data-time="LIVE"`,
+          ` data-parik-time="" data-pinn-time=""`,
+          ` data-parik-p1="${escapeHtml(m.parikP1)}"`,
+          ` data-parik-x="${escapeHtml(m.parikX)}"`,
+          ` data-parik-p2="${escapeHtml(m.parikP2)}"`,
+          ` data-pin-p1="${escapeHtml(m.pinP1)}"`,
+          ` data-pin-x="${escapeHtml(m.pinX)}"`,
+          ` data-pin-p2="${escapeHtml(m.pinP2)}"`,
+          ` tabindex="0" role="button" aria-label="Открыть детали матча">`,
+          `<div class="match-block-header">`,
+          `<span class="match-league">${escapeHtml(m.league)}</span>`,
+          `<span class="${timeClass}">LIVE</span>`,
+          `</div>`,
+          `<div class="match-btn">`,
+          `<span class="team">${escapeHtml(m.home)}</span>`,
+          `<div class="vs">против</div>`,
+          `<span class="team">${escapeHtml(m.away)}</span>`,
+          `</div>`,
+          `</div>`,
+        ].join('');
+      }
+
+      async function fetchAndUpdate() {
+        try {
+          const url = `?sport=live&format=json&_=${Date.now()}`;
+          const resp = await fetch(url);
+          if (!resp.ok) return;
+          const data = await resp.json();
+          if (!data.ok || !Array.isArray(data.matches)) return;
+
+          if (matchesList) {
+            matchesList.innerHTML = data.matches.map(buildCardHtml).join('');
+          }
+
+          // Update match count
+          const countEl = document.getElementById('matchCount');
+          if (countEl) countEl.textContent = data.matches.length;
+
+          // Reinit filters now that DOM changed
+          if (typeof window._reinitMatchList === 'function') {
+            window._reinitMatchList();
+          }
+        } catch (e) {
+          // Ignore network errors silently
+        }
+      }
+
+      fetchAndUpdate();
+      setInterval(fetchAndUpdate, 20000);
     })();
   </script>
 </body>

@@ -12,6 +12,14 @@ const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
 const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+const CHROME_NO_CACHE_ARGS = [
+  '--disable-cache',
+  '--disable-application-cache',
+  '--disk-cache-size=0',
+  '--media-cache-size=0',
+  '--aggressive-cache-discard',
+];
+const createdProfileDirs = new Set();
 
 for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
   fs.mkdirSync(dir, { recursive: true });
@@ -37,7 +45,17 @@ function createBrowserProfileDir(prefix = 'browser') {
     `${prefix}-${process.pid}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`
   );
   fs.mkdirSync(dir, { recursive: true });
+  createdProfileDirs.add(dir);
   return dir;
+}
+
+function cleanupProfileDirs() {
+  for (const dir of createdProfileDirs) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true });
+    } catch (_) {}
+  }
+  createdProfileDirs.clear();
 }
 
 function sleep(ms) {
@@ -213,11 +231,12 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
       return results;
     }, isTwoWay);
 
-    // Deep scroll until the page stops growing to ensure all matches are loaded.
+    // Deep scroll until lazy-loaded lists stop growing (window + nested scroll containers).
     const dedup = new Map();
     let stagnantRounds = 0;
+    let prevVisibleCards = 0;
 
-    for (let i = 0; i < 80; i++) {
+    for (let i = 0; i < 220; i++) {
       const chunk = await extractMatches();
       for (const match of chunk) {
         if (!match?.link) continue;
@@ -228,20 +247,54 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
 
       const scrollState = await page.evaluate(() => {
         const root = document.scrollingElement || document.documentElement || document.body;
-        if (!root) return { reachedBottom: true, moved: false };
-        const beforeTop = root.scrollTop;
-        const maxTop = Math.max(0, root.scrollHeight - root.clientHeight);
-        const step = Math.max(700, Math.floor(root.clientHeight * 0.9));
-        const nextTop = Math.min(maxTop, beforeTop + step);
-        root.scrollTop = nextTop;
-        window.scrollBy(0, step);
+        const rootBefore = root ? root.scrollTop : 0;
+        const rootMaxTop = root ? Math.max(0, root.scrollHeight - root.clientHeight) : 0;
+        const rootStep = root ? Math.max(800, Math.floor(root.clientHeight * 0.95)) : 0;
+
+        if (root) {
+          root.scrollTop = Math.min(rootMaxTop, rootBefore + rootStep);
+          window.scrollBy(0, rootStep);
+        }
+
+        const scrollCandidates = Array.from(document.querySelectorAll('div, main, section'))
+          .filter((el) => {
+            const styles = window.getComputedStyle(el);
+            const overflowY = styles.overflowY || '';
+            const canScrollByStyle = overflowY.includes('auto') || overflowY.includes('scroll');
+            const canScrollBySize = (el.scrollHeight - el.clientHeight) > 140;
+            if (!canScrollBySize) return false;
+            if (canScrollByStyle) return true;
+
+            const cls = `${el.className || ''}`.toLowerCase();
+            return cls.includes('scroll') || cls.includes('list') || cls.includes('event') || cls.includes('container');
+          })
+          .sort((a, b) => (b.scrollHeight - b.clientHeight) - (a.scrollHeight - a.clientHeight))
+          .slice(0, 4);
+
+        let movedInner = false;
+        let reachedBottomInner = true;
+        for (const scroller of scrollCandidates) {
+          const before = scroller.scrollTop;
+          const maxTop = Math.max(0, scroller.scrollHeight - scroller.clientHeight);
+          const step = Math.max(600, Math.floor(scroller.clientHeight * 0.9));
+          const nextTop = Math.min(maxTop, before + step);
+          scroller.scrollTop = nextTop;
+          scroller.dispatchEvent(new Event('scroll', { bubbles: true }));
+          if (nextTop > before) movedInner = true;
+          if (nextTop < maxTop) reachedBottomInner = false;
+        }
+
+        const visibleCards = document.querySelectorAll('a[href*="/events/"]').length;
+        const reachedBottomRoot = !root || root.scrollTop >= rootMaxTop;
+
         return {
-          reachedBottom: nextTop >= maxTop,
-          moved: nextTop > beforeTop,
+          visibleCards,
+          reachedBottom: reachedBottomRoot && reachedBottomInner,
+          moved: movedInner || (root && root.scrollTop > rootBefore),
         };
       });
 
-      await sleep(550);
+      await sleep(700);
 
       const beforeSize = dedup.size;
       const afterChunk = await extractMatches();
@@ -252,10 +305,12 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
         }
       }
 
-      if (dedup.size === beforeSize) stagnantRounds += 1;
+      const grew = dedup.size > beforeSize || scrollState.visibleCards > prevVisibleCards;
+      if (!grew) stagnantRounds += 1;
       else stagnantRounds = 0;
+      prevVisibleCards = Math.max(prevVisibleCards, scrollState.visibleCards || 0);
 
-      if (scrollState.reachedBottom && stagnantRounds >= 5) {
+      if (scrollState.reachedBottom && stagnantRounds >= 8) {
         break;
       }
     }
@@ -586,7 +641,12 @@ async function scrapeLeagues() {
     return puppeteer.launch({
       headless: CONFIG.headless,
       userDataDir: createBrowserProfileDir('league'),
-      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        ...CHROME_NO_CACHE_ARGS,
+      ],
     });
   };
 
@@ -652,6 +712,7 @@ async function scrapeLeagues() {
 
   try { if (slotA.browser) await slotA.browser.close(); } catch {}
   try { if (slotB.browser) await slotB.browser.close(); } catch {}
+  cleanupProfileDirs();
   
   // Save raw data
   fs.writeFileSync(
@@ -758,7 +819,12 @@ async function scrapeLiveMatches() {
   const launchBrowser = async () => puppeteer.launch({
     headless: CONFIG.headless,
     userDataDir: createBrowserProfileDir('live'),
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      ...CHROME_NO_CACHE_ARGS,
+    ],
   });
 
   let browserA = null;
@@ -852,6 +918,7 @@ async function scrapeLiveMatches() {
   } finally {
     try { if (browserA) await browserA.close(); } catch {}
     try { if (browserB) await browserB.close(); } catch {}
+    cleanupProfileDirs();
   }
 }
 
@@ -887,6 +954,9 @@ async function runAll() {
 }
 
 runAll().catch(err => {
+  cleanupProfileDirs();
   console.error('[ERROR]', err);
   process.exit(1);
 });
+
+process.on('exit', cleanupProfileDirs);

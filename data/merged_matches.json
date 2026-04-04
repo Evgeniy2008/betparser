@@ -1,5 +1,5 @@
 {
-    "updated": "2026-04-03T19:09:23.322Z",
+    "updated": "2026-04-03T19:39:10.361Z",
     "matches": [
         {
             "league": "Spain, Copa del Rey:",
@@ -436,9 +436,9 @@
             "away": "Augsburg",
             "time": "16:30",
             "parik24": {
-                "p1": "2.341",
-                "x": "3.59",
-                "p2": "3.022",
+                "p1": "2.301",
+                "x": "3.46",
+                "p2": "3.182",
                 "link": "https:\/\/24-parik.club\/en\/events\/hamburg-augsburg-16053247",
                 "time": "16:30"
             },
@@ -465,9 +465,9 @@
                 "time": "16:30"
             },
             "pinnacle": {
-                "p1": "6.7",
+                "p1": "6.69",
                 "x": "5.55",
-                "p2": "1.409",
+                "p2": "1.411",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/germany-bundesliga\/freiburg-vs-bayern-munich\/1626177383\/",
                 "time": "16:30"
             },
@@ -546,9 +546,9 @@
             "away": "St Pauli",
             "time": "16:30",
             "parik24": {
-                "p1": "2.121",
+                "p1": "2.111",
                 "x": "3.29",
-                "p2": "3.822",
+                "p2": "3.852",
                 "link": "https:\/\/24-parik.club\/en\/events\/union-berlin-st-pauli-16063611",
                 "time": "16:30"
             },
@@ -964,16 +964,16 @@
             "away": "Nantes",
             "time": "18:15",
             "parik24": {
-                "p1": "2.831",
-                "x": "3.25",
-                "p2": "2.652",
+                "p1": "2.871",
+                "x": "3.28",
+                "p2": "2.602",
                 "link": "https:\/\/24-parik.club\/en\/events\/metz-nantes-16065096",
                 "time": "18:15"
             },
             "pinnacle": {
-                "p1": "2.88",
+                "p1": "2.89",
                 "x": "3.29",
-                "p2": "2.62",
+                "p2": "2.61",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/france-ligue-1\/metz-vs-nantes\/1626180288\/",
                 "time": "18:15"
             },
@@ -1184,16 +1184,16 @@
             "away": "Port Vale",
             "time": "19:15",
             "parik24": {
-                "p1": "1.041",
-                "x": "21.3",
-                "p2": "32.002",
+                "p1": "1.051",
+                "x": "20.7",
+                "p2": "30.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/chelsea-port-vale-16007386",
                 "time": "19:15"
             },
             "pinnacle": {
-                "p1": "1.041",
-                "x": "21.54",
-                "p2": "33.24",
+                "p1": "1.043",
+                "x": "20.96",
+                "p2": "31.93",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/chelsea-vs-port-vale\/1625807093\/",
                 "time": "19:15"
             },
@@ -1206,15 +1206,15 @@
             "away": "Arsenal FC",
             "time": "22:00",
             "parik24": {
-                "p1": "10.901",
-                "x": "5.66",
+                "p1": "10.501",
+                "x": "5.8",
                 "p2": "1.302",
                 "link": "https:\/\/24-parik.club\/en\/events\/southampton-arsenal-fc-16007387",
                 "time": "22:00"
             },
             "pinnacle": {
-                "p1": "10.02",
-                "x": "5.82",
+                "p1": "10.03",
+                "x": "5.83",
                 "p2": "1.293",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-fa-cup\/southampton-vs-arsenal\/1625802159\/",
                 "time": "22:00"
@@ -1316,15 +1316,15 @@
             "away": "Barcelona",
             "time": "22:00",
             "parik24": {
-                "p1": "3.131",
-                "x": "3.86",
+                "p1": "3.151",
+                "x": "3.84",
                 "p2": "2.182",
                 "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-barcelona-16055794",
                 "time": "22:00"
             },
             "pinnacle": {
-                "p1": "3.15",
-                "x": "3.86",
+                "p1": "3.16",
+                "x": "3.84",
                 "p2": "2.19",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/atletico-madrid-vs-barcelona\/1626195025\/",
                 "time": "22:00"
@@ -2115,7 +2115,7 @@
                 "time": "02:00"
             },
             "pinnacle": {
-                "p1": "9.7",
+                "p1": "9.69",
                 "x": null,
                 "p2": "1.078",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/indiana-pacers-vs-charlotte-hornets\/1627350795\/",
@@ -2130,16 +2130,16 @@
             "away": "Minnesota Timberwolves",
             "time": "02:00",
             "parik24": {
-                "p1": "1.6",
+                "p1": "1.61",
                 "x": null,
-                "p2": "2.66",
+                "p2": "2.62",
                 "link": "https:\/\/24-parik.club\/en\/events\/philadelphia-76ers-minnesota-timberwolves-16242813",
                 "time": "02:00"
             },
             "pinnacle": {
-                "p1": "2.46",
+                "p1": "2.48",
                 "x": null,
-                "p2": "1.613",
+                "p2": "1.606",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/minnesota-timberwolves-vs-philadelphia-76ers\/1627349022\/",
                 "time": "02:10"
             },
@@ -2161,7 +2161,7 @@
             "pinnacle": {
                 "p1": "1.074",
                 "x": null,
-                "p2": "10.06",
+                "p2": "10.04",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/atlanta-hawks-vs-brooklyn-nets\/1627349020\/",
                 "time": "02:40"
             },
@@ -2181,7 +2181,7 @@
                 "time": "02:30"
             },
             "pinnacle": {
-                "p1": "8.33",
+                "p1": "8.32",
                 "x": null,
                 "p2": "1.097",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/chicago-bulls-vs-new-york-knicks\/1627350794\/",
@@ -2203,7 +2203,7 @@
                 "time": "03:00"
             },
             "pinnacle": {
-                "p1": "11.5",
+                "p1": "11.49",
                 "x": null,
                 "p2": "1.061",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/utah-jazz-vs-houston-rockets\/1627350796\/",
@@ -2225,9 +2225,9 @@
                 "time": "03:00"
             },
             "pinnacle": {
-                "p1": "1.107",
+                "p1": "1.109",
                 "x": null,
-                "p2": "7.77",
+                "p2": "7.69",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/toronto-raptors-vs-memphis-grizzlies\/1627349021\/",
                 "time": "03:10"
             },
@@ -2247,9 +2247,9 @@
                 "time": "03:00"
             },
             "pinnacle": {
-                "p1": "1.057",
+                "p1": "1.06",
                 "x": null,
-                "p2": "12.12",
+                "p2": "11.61",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/boston-celtics-vs-milwaukee-bucks\/1627349437\/",
                 "time": "03:10"
             },
@@ -2269,9 +2269,9 @@
                 "time": "03:30"
             },
             "pinnacle": {
-                "p1": "1.413",
+                "p1": "1.414",
                 "x": null,
-                "p2": "3.12",
+                "p2": "3.11",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/orlando-magic-vs-dallas-mavericks\/1627349438\/",
                 "time": "03:40"
             },
@@ -2284,16 +2284,16 @@
             "away": "New Orleans Pelicans",
             "time": "05:00",
             "parik24": {
-                "p1": "2.96",
+                "p1": "2.92",
                 "x": null,
                 "p2": "1.51",
                 "link": "https:\/\/24-parik.club\/en\/events\/sacramento-kings-new-orleans-pelicans-16242814",
                 "time": "05:00"
             },
             "pinnacle": {
-                "p1": "1.497",
+                "p1": "1.515",
                 "x": null,
-                "p2": "2.79",
+                "p2": "2.73",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/nba\/new-orleans-pelicans-vs-sacramento-kings\/1627349023\/",
                 "time": "05:10"
             },
@@ -2373,9 +2373,9 @@
                 "time": "03:49"
             },
             "pinnacle": {
-                "p1": "1.869",
+                "p1": "1.862",
                 "x": null,
-                "p2": "2.02",
+                "p2": "2.04",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/ncaa\/michigan-vs-arizona\/1627116762\/",
                 "time": "03:49"
             },
@@ -2438,7 +2438,7 @@
             "parik24": {
                 "p1": "1.29",
                 "x": null,
-                "p2": "3.67",
+                "p2": "3.78",
                 "link": "https:\/\/24-parik.club\/en\/events\/anyang-kgc-ulsan-mobis-phoebus-16219224",
                 "time": "08:00"
             },
@@ -2470,7 +2470,7 @@
             "parik24": {
                 "p1": "1.31",
                 "x": null,
-                "p2": "3.59",
+                "p2": "3.65",
                 "link": "https:\/\/24-parik.club\/en\/events\/seoul-knights-daegu-korea-gas-corporation-16220177",
                 "time": "10:30"
             },
@@ -2528,9 +2528,9 @@
             "away": "Crvena Zvezda",
             "time": "20:00",
             "parik24": {
-                "p1": "5.44",
+                "p1": "5.12",
                 "x": null,
-                "p2": "1.16",
+                "p2": "1.18",
                 "link": "https:\/\/24-parik.club\/en\/events\/igokea-crvena-zvezda-16237163",
                 "time": "20:00"
             },
@@ -2574,7 +2574,7 @@
             "parik24": {
                 "p1": "1.18",
                 "x": null,
-                "p2": "5.25",
+                "p2": "5.12",
                 "link": "https:\/\/24-parik.club\/en\/events\/u-bt-cluj-kk-bosna-sarajevo-16247737",
                 "time": "20:30"
             },
@@ -2634,13 +2634,35 @@
         {
             "league": "Argentina LaLiga",
             "sport": "basketball",
+            "home": "CA Santa Paula de Galvez",
+            "away": "Independiente BBC",
+            "time": "03:00",
+            "parik24": {
+                "p1": "1.17",
+                "x": null,
+                "p2": "4.61",
+                "link": "https:\/\/24-parik.club\/en\/events\/club-atletico-santa-paula-de-galvez-independiente-bbc-16239420",
+                "time": "03:00"
+            },
+            "pinnacle": {
+                "p1": "1.116",
+                "x": null,
+                "p2": "5.03",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/santa-paula-de-galvez-vs-independiente-santiago-del-estero\/1627116833\/",
+                "time": "03:00"
+            },
+            "matchScore": 0.6583333333333333
+        },
+        {
+            "league": "Argentina LaLiga",
+            "sport": "basketball",
             "home": "Comunicaciones Mercedes",
             "away": "Bochas Sport Club de Colonia Caroya",
             "time": "03:00",
             "parik24": {
                 "p1": "1.22",
                 "x": null,
-                "p2": "3.96",
+                "p2": "4.13",
                 "link": "https:\/\/24-parik.club\/en\/events\/comunicaciones-mercedes-bochas-sport-club-de-colonia-caroya-16239421",
                 "time": "03:00"
             },
@@ -2654,16 +2676,16 @@
             "away": "Villa San Martin",
             "time": "03:30",
             "parik24": {
-                "p1": "1.87",
+                "p1": "1.73",
                 "x": null,
-                "p2": "1.91",
+                "p2": "2.11",
                 "link": "https:\/\/24-parik.club\/en\/events\/jujuy-basquet-villa-san-martin-16240303",
                 "time": "03:30"
             },
             "pinnacle": {
-                "p1": "1.8",
+                "p1": "1.714",
                 "x": null,
-                "p2": "1.869",
+                "p2": "2.05",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/jujuy-basket-vs-villa-san-martin\/1627174782\/",
                 "time": "03:30"
             },
@@ -2676,18 +2698,40 @@
             "away": "CA Estudiantes de Tucuman",
             "time": "03:30",
             "parik24": {
-                "p1": "1.4",
+                "p1": "1.39",
                 "x": null,
-                "p2": "2.83",
+                "p2": "2.9",
                 "link": "https:\/\/24-parik.club\/en\/events\/salta-basket-ca-estudiantes-de-tucuman--16240302",
                 "time": "03:30"
             },
             "pinnacle": {
-                "p1": "1.325",
+                "p1": "1.353",
                 "x": null,
-                "p2": "2.84",
+                "p2": "2.92",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/salta-basket-vs-club-estudiantes-tucuman\/1627116087\/",
                 "time": "03:30"
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Argentina LaLiga",
+            "sport": "basketball",
+            "home": "Gimnasia y Esgrima La Plata",
+            "away": "Racing Club Avellaneda",
+            "time": "02:30",
+            "parik24": {
+                "p1": "1.33",
+                "x": null,
+                "p2": "3.28",
+                "link": "https:\/\/24-parik.club\/en\/events\/gimnasia-y-esgrima-la-plata-racing-club-avellaneda-16251119",
+                "time": "02:30"
+            },
+            "pinnacle": {
+                "p1": "1.247",
+                "x": null,
+                "p2": "3.22",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-la-liga\/gimnasia-y-esgrima-la-plata-vs-racing-club-de-avellaneda\/1627422891\/",
+                "time": "01:30"
             },
             "matchScore": 1
         },
@@ -2698,9 +2742,9 @@
             "away": "Club Villa Mitre de Bahia Blanca",
             "time": "03:00",
             "parik24": {
-                "p1": "1.35",
+                "p1": "1.32",
                 "x": null,
-                "p2": "3.09",
+                "p2": "3.23",
                 "link": "https:\/\/24-parik.club\/en\/events\/ca-quilmes-club-villa-mitre-de-bahia-blanca-16251118",
                 "time": "03:00"
             },
@@ -2742,9 +2786,9 @@
             "away": "El Talar",
             "time": "03:30",
             "parik24": {
-                "p1": "1.1",
+                "p1": "1.14",
                 "x": null,
-                "p2": "5.46",
+                "p2": "4.95",
                 "link": "https:\/\/24-parik.club\/en\/events\/pico-foot-ball-club-el-talar-16252062",
                 "time": "03:30"
             },
@@ -2780,16 +2824,16 @@
             "away": "Tommy Paul",
             "time": "23:33",
             "parik24": {
-                "p1": "2.68",
+                "p1": "2.65",
                 "x": null,
-                "p2": "1.47",
+                "p2": "1.48",
                 "link": "https:\/\/24-parik.club\/en\/events\/tomas-martin-etcheverry-tommy-paul-16240805",
                 "time": "23:33"
             },
             "pinnacle": {
-                "p1": "2.76",
+                "p1": "2.72",
                 "x": null,
-                "p2": "1.512",
+                "p2": "1.523",
                 "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/tomas-martin-etcheverry-vs-tommy-paul\/1627338530\/",
                 "time": "00:00"
             },
@@ -2809,9 +2853,9 @@
                 "time": "02:33"
             },
             "pinnacle": {
-                "p1": "2.4",
+                "p1": "2.41",
                 "x": null,
-                "p2": "1.636",
+                "p2": "1.645",
                 "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-houston-qf\/alexei-popyrin-vs-frances-tiafoe\/1627422920\/",
                 "time": "02:00"
             },
@@ -2831,9 +2875,9 @@
                 "time": "23:03"
             },
             "pinnacle": {
-                "p1": "1.485",
+                "p1": "1.48",
                 "x": null,
-                "p2": "2.81",
+                "p2": "2.83",
                 "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/emiliana-arango-vs-varvara-lepchenko\/1627425803\/",
                 "time": "23:00"
             },
@@ -2855,31 +2899,9 @@
             "pinnacle": {
                 "p1": "2.24",
                 "x": null,
-                "p2": "1.719",
+                "p2": "1.714",
                 "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-bogota-qf\/panna-udvardy-vs-katarzyna-kawa\/1627338449\/",
                 "time": "01:00"
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "WTA Charleston",
-            "sport": "tennis",
-            "home": "Iva Jovic",
-            "away": "Anna Kalinskaya",
-            "time": "22:18",
-            "parik24": {
-                "p1": "2.09",
-                "x": null,
-                "p2": "1.74",
-                "link": "https:\/\/24-parik.club\/en\/events\/iva-jovic-anna-kalinskaya-16249993",
-                "time": "22:18"
-            },
-            "pinnacle": {
-                "p1": "2.2",
-                "x": null,
-                "p2": "1.757",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/iva-jovic-vs-anna-kalinskaya\/1627422893\/",
-                "time": "23:00"
             },
             "matchScore": 1
         },
@@ -2904,6 +2926,28 @@
                 "time": "01:00"
             },
             "matchScore": 0.7222222222222222
+        },
+        {
+            "league": "WTA Charleston",
+            "sport": "tennis",
+            "home": "Iva Jovic",
+            "away": "Anna Kalinskaya",
+            "time": "22:48",
+            "parik24": {
+                "p1": "2.09",
+                "x": null,
+                "p2": "1.74",
+                "link": "https:\/\/24-parik.club\/en\/events\/iva-jovic-anna-kalinskaya-16249993",
+                "time": "22:48"
+            },
+            "pinnacle": {
+                "p1": "2.19",
+                "x": null,
+                "p2": "1.757",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-charleston-open-qf\/iva-jovic-vs-anna-kalinskaya\/1627422893\/",
+                "time": "23:00"
+            },
+            "matchScore": 1
         }
     ]
 }

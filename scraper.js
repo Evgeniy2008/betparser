@@ -23,6 +23,13 @@ const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
 const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+const CHROME_NO_CACHE_ARGS = [
+  '--disable-cache',
+  '--disable-application-cache',
+  '--disk-cache-size=0',
+  '--media-cache-size=0',
+  '--aggressive-cache-discard',
+];
 
 for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
   fs.mkdirSync(dir, { recursive: true });
@@ -747,6 +754,7 @@ async function runCycle() {
       '--disable-gpu',
       '--lang=uk-UA,uk',
       '--window-size=1440,900',
+      ...CHROME_NO_CACHE_ARGS,
     ],
   };
 

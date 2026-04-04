@@ -1,23 +1,23 @@
 {
-    "updated": "2026-04-03T19:38:12.789Z",
+    "updated": "2026-04-03T20:03:39.312Z",
     "matches": [
         {
             "league": "Live Football",
             "sport": "live",
             "home": "Rayo Vallecano",
             "away": "Elche CF",
-            "time": "37:33",
+            "time": null,
             "parik24": {
-                "p1": "1.921",
-                "x": "2.95",
-                "p2": "4.902",
+                "p1": "1.401",
+                "x": "3.6",
+                "p2": "12.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/rayo-vallecano-elche-cf-16052761",
-                "time": "37:33"
+                "time": null
             },
             "pinnacle": {
-                "p1": "1.952",
-                "x": "3.22",
-                "p2": "4.25",
+                "p1": "1.418",
+                "x": "3.61",
+                "p2": "12.26",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-la-liga\/rayo-vallecano-vs-elche\/1627429716\/",
                 "time": null
             },
@@ -28,13 +28,13 @@
             "sport": "live",
             "home": "PSG",
             "away": "Toulouse",
-            "time": null,
+            "time": "60:23",
             "parik24": {
-                "p1": "1.101",
-                "x": "9",
-                "p2": "34.002",
+                "p1": "1.081",
+                "x": "10",
+                "p2": "51.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/psg-toulouse-16065033",
-                "time": null
+                "time": "60:23"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -44,34 +44,40 @@
             "sport": "live",
             "home": "Sporting CP",
             "away": "Santa Clara",
-            "time": "04:39",
+            "time": "29:52",
             "parik24": {
-                "p1": "1.871",
-                "x": "4",
-                "p2": "3.552",
+                "p1": "1.441",
+                "x": "4.1",
+                "p2": "7.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/sporting-cp-santa-clara-16054574",
-                "time": "04:39"
+                "time": "29:52"
             },
-            "pinnacle": null,
-            "matchScore": 0
+            "pinnacle": {
+                "p1": "1.395",
+                "x": "4.16",
+                "p2": "9.99",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/portugal-primeira-liga\/sporting-cp-vs-santa-clara\/1627439935\/",
+                "time": null
+            },
+            "matchScore": 1
         },
         {
             "league": "Live Football",
             "sport": "live",
             "home": "Royal Antwerp",
             "away": "KRC Genk",
-            "time": null,
+            "time": "58:56",
             "parik24": {
-                "p1": "9.501",
-                "x": "3.9",
-                "p2": "1.402",
+                "p1": "48.001",
+                "x": "11",
+                "p2": "1.052",
                 "link": "https:\/\/24-parik.club\/en\/events\/royal-antwerp-krc-genk-16153150",
-                "time": null
+                "time": "58:56"
             },
             "pinnacle": {
-                "p1": "3.12",
-                "x": "2.54",
-                "p2": "2.9",
+                "p1": "10.65",
+                "x": "3.97",
+                "p2": "1.406",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/belgium-pro-league\/royal-antwerp-vs-genk\/1627442678\/",
                 "time": null
             },
@@ -80,36 +86,20 @@
         {
             "league": "Live Football",
             "sport": "live",
-            "home": "AC Carpi",
-            "away": "US Pontedera",
-            "time": "51:38",
-            "parik24": {
-                "p1": "1.021",
-                "x": "13",
-                "p2": "29.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/ac-carpi-us-pontedera-16183865",
-                "time": "51:38"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "live",
             "home": "Arzignano Valchiampo",
             "away": "AC Renate",
-            "time": "51:26",
+            "time": "76:39",
             "parik24": {
-                "p1": "3.501",
-                "x": "1.95",
-                "p2": "3.252",
+                "p1": "5.401",
+                "x": "1.38",
+                "p2": "5.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/arzignano-valchiampo-ac-renate-16183871",
-                "time": "51:26"
+                "time": "76:39"
             },
             "pinnacle": {
-                "p1": "3.65",
-                "x": "2.05",
-                "p2": "3.29",
+                "p1": "4.54",
+                "x": "1.571",
+                "p2": "4.76",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-c-group-a\/arzignano-valchiampo-vs-renate\/1627418740\/",
                 "time": null
             },
@@ -120,35 +110,13 @@
             "sport": "live",
             "home": "Calcio Lecco 1912",
             "away": "Vicenza",
-            "time": "46:23",
+            "time": "71:36",
             "parik24": {
-                "p1": "1.601",
-                "x": "3.2",
-                "p2": "5.702",
+                "p1": "1.031",
+                "x": "11",
+                "p2": "35.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/calcio-lecco-1912-vicenza-16183866",
-                "time": "46:23"
-            },
-            "pinnacle": {
-                "p1": "1.704",
-                "x": "3.25",
-                "p2": "5.8",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-c-group-a\/lecco-vs-vicenza\/1627418766\/",
-                "time": null
-            },
-            "matchScore": 0.7777777777777777
-        },
-        {
-            "league": "Live Football",
-            "sport": "live",
-            "home": "Novara",
-            "away": "Lumezzane",
-            "time": "50:31",
-            "parik24": {
-                "p1": "1.971",
-                "x": "2.6",
-                "p2": "4.602",
-                "link": "https:\/\/24-parik.club\/en\/events\/novara-lumezzane-16183868",
-                "time": "50:31"
+                "time": "71:36"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -156,15 +124,37 @@
         {
             "league": "Live Football",
             "sport": "live",
+            "home": "Novara",
+            "away": "Lumezzane",
+            "time": "75:44",
+            "parik24": {
+                "p1": "32.001",
+                "x": "11",
+                "p2": "1.032",
+                "link": "https:\/\/24-parik.club\/en\/events\/novara-lumezzane-16183868",
+                "time": "75:44"
+            },
+            "pinnacle": {
+                "p1": "7.39",
+                "x": "3.04",
+                "p2": "1.662",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-c-group-a\/novara-vs-lumezzane\/1627418709\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
             "home": "Union Brescia",
             "away": "Cittadella",
-            "time": "50:40",
+            "time": "75:53",
             "parik24": {
-                "p1": "1.021",
-                "x": "13",
-                "p2": "32.002",
+                "p1": "3.75",
+                "x": "1.7",
+                "p2": "4",
                 "link": "https:\/\/24-parik.club\/en\/events\/union-brescia-cittadella-16183867",
-                "time": "50:40"
+                "time": "75:53"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -174,13 +164,13 @@
             "sport": "live",
             "home": "US Livorno",
             "away": "AS Gubbio 1910",
-            "time": null,
+            "time": "68:42",
             "parik24": {
-                "p1": "1.041",
-                "x": "10",
-                "p2": "23.002",
+                "p1": "1.011",
+                "x": "15",
+                "p2": "32.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/us-livorno-as-gubbio-1910-16183869",
-                "time": null
+                "time": "68:42"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -188,59 +178,15 @@
         {
             "league": "Live Football",
             "sport": "live",
-            "home": "Brighton U-21",
-            "away": "Aston Villa U-21",
-            "time": "75:58",
+            "home": "Boston River",
+            "away": "Montevideo Wanderers",
+            "time": "02:14",
             "parik24": {
-                "p1": "3.331",
-                "x": "1.73",
-                "p2": "4.332",
-                "link": "https:\/\/24-parik.club\/en\/events\/brighton-u-21-aston-villa-u-21-16204860",
-                "time": "75:58"
-            },
-            "pinnacle": {
-                "p1": "2.59",
-                "x": "2.28",
-                "p2": "3.9",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league-2-u21\/brighton-vs-aston-villa\/1627415164\/",
-                "time": null
-            },
-            "matchScore": 0.7222222222222221
-        },
-        {
-            "league": "Live Football",
-            "sport": "live",
-            "home": "Derby U-21",
-            "away": "Man City U-21",
-            "time": "80:43",
-            "parik24": {
-                "p1": "1.671",
-                "x": "2.63",
-                "p2": "7.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/derby-u-21-man-city-u-21-16204861",
-                "time": "80:43"
-            },
-            "pinnacle": {
-                "p1": "2.35",
-                "x": "2.78",
-                "p2": "3.39",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-premier-league-2-u21\/derby-county-vs-manchester-city\/1627415083\/",
-                "time": null
-            },
-            "matchScore": 0.611111111111111
-        },
-        {
-            "league": "Live Football",
-            "sport": "live",
-            "home": "Gimnasia y Esgrima Mendoza",
-            "away": "Velez Sarsfield",
-            "time": "78:53",
-            "parik24": {
-                "p1": "34.001",
-                "x": "5",
-                "p2": "1.202",
-                "link": "https:\/\/24-parik.club\/en\/events\/gimnasia-y-esgrima-mendoza-velez-sarsfield-16067742",
-                "time": "78:53"
+                "p1": "2.601",
+                "x": "3",
+                "p2": "2.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/boston-river-montevideo-wanderers-16203924",
+                "time": "02:14"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -250,18 +196,18 @@
             "sport": "live",
             "home": "Coventry",
             "away": "Derby",
-            "time": "37:17",
+            "time": null,
             "parik24": {
-                "p1": "1.201",
-                "x": "6",
-                "p2": "15.002",
+                "p1": "2.101",
+                "x": "2.75",
+                "p2": "4.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/coventry-derby-16118296",
-                "time": "37:17"
+                "time": null
             },
             "pinnacle": {
-                "p1": "1.225",
-                "x": "5.68",
-                "p2": "15.09",
+                "p1": "2.13",
+                "x": "2.64",
+                "p2": "4.65",
                 "link": "https:\/\/www.pinnacle.com\/en\/soccer\/england-championship\/coventry-city-vs-derby-county\/1627436718\/",
                 "time": null
             },
@@ -272,13 +218,13 @@
             "sport": "live",
             "home": "Real Madrid Castilla",
             "away": "Celta II",
-            "time": "20:53",
+            "time": "46:05",
             "parik24": {
-                "p1": "3.491",
-                "x": "3.2",
-                "p2": "1.932",
+                "p1": "2.151",
+                "x": "2.49",
+                "p2": "3.932",
                 "link": "https:\/\/24-parik.club\/en\/events\/real-madrid-castilla-celta-ii-15865364",
-                "time": "20:53"
+                "time": "46:05"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -286,15 +232,869 @@
         {
             "league": "Live Football",
             "sport": "live",
-            "home": "SV Horn",
-            "away": "SC Retz",
-            "time": "81:15",
+            "home": "Victoriano Arenas",
+            "away": "CSR Espanol",
+            "time": "68:04",
             "parik24": {
-                "p1": "2.301",
-                "x": "1.83",
-                "p2": "8.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/sv-horn-sc-retz-16224761",
-                "time": "81:15"
+                "p1": "4.501",
+                "x": "1.53",
+                "p2": "4.302",
+                "link": "https:\/\/24-parik.club\/en\/events\/victoriano-arenas-csr-espanol-16224102",
+                "time": "68:04"
+            },
+            "pinnacle": {
+                "p1": "3.89",
+                "x": "1.68",
+                "p2": "3.76",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/argentina-primera-c-metropolitana\/victoriano-arenas-vs-centro-espanol\/1627492987\/",
+                "time": null
+            },
+            "matchScore": 0.7222222222222222
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "FC Fortaleza (w)",
+            "away": "America de Cali (w)",
+            "time": "03:11",
+            "parik24": {
+                "p1": "6.501",
+                "x": "3.6",
+                "p2": "1.442",
+                "link": "https:\/\/24-parik.club\/en\/events\/fc-fortaleza-w-america-de-cali-w-16236820",
+                "time": "03:11"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Mixto EC (w)",
+            "away": "SC Internacional (w)",
+            "time": null,
+            "parik24": {
+                "p1": "4.801",
+                "x": "2.3",
+                "p2": "2.152",
+                "link": "https:\/\/24-parik.club\/en\/events\/mixto-ec-w-sc-internacional-w-16200442",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "5.03",
+                "x": "2.35",
+                "p2": "2.2",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/brazil-brasileiro-women\/mixto-vs-internacional\/1627415172\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Barcelona (fantazer)",
+            "away": "Real Madrid (bucho55)",
+            "time": "01:01",
+            "parik24": {
+                "p1": "3.901",
+                "x": "1.6",
+                "p2": "4.602",
+                "link": "https:\/\/24-parik.club\/en\/events\/barcelona-fantazer-real-madrid-bucho55-16242536",
+                "time": "01:01"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Bayern Munchen (Xoma)",
+            "away": "Liverpool (Stasyan)",
+            "time": "00:43",
+            "parik24": {
+                "p1": "25.001",
+                "x": "5.25",
+                "p2": "1.152",
+                "link": "https:\/\/24-parik.club\/en\/events\/bayern-munchen-xoma-liverpool-stasyan-16242498",
+                "time": "00:43"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Borussia Dortmund (Bolec)",
+            "away": "Juventus (Terza)",
+            "time": "47:32",
+            "parik24": {
+                "p1": "11.001",
+                "x": "8.5",
+                "p2": "1.132",
+                "link": "https:\/\/24-parik.club\/en\/events\/borussia-dortmund-bolec-juventus-terza-16249074",
+                "time": "47:32"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Man City (malverz)",
+            "away": "Arsenal FC (smidzii)",
+            "time": "46:17",
+            "parik24": {
+                "p1": "9.201",
+                "x": "9.5",
+                "p2": "1.132",
+                "link": "https:\/\/24-parik.club\/en\/events\/man-city-malverz-arsenal-fc-smidzii-16249083",
+                "time": "46:17"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "England (Frantsuz)",
+            "away": "Argentina (nekishka)",
+            "time": "55:36",
+            "parik24": {
+                "p1": "6.501",
+                "x": "3.9",
+                "p2": "1.452",
+                "link": "https:\/\/24-parik.club\/en\/events\/england-frantsuz-argentina-nekishka-16249114",
+                "time": "55:36"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Spain (deroll)",
+            "away": "France (Grellz)",
+            "time": "22:55",
+            "parik24": {
+                "p1": "1.381",
+                "x": "7.2",
+                "p2": "4.202",
+                "link": "https:\/\/24-parik.club\/en\/events\/spain-deroll-france-grellz-16249159",
+                "time": "22:55"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Czech Republic (lzrn)",
+            "away": "Netherlands (Lukapaja)",
+            "time": "50:52",
+            "parik24": {
+                "p1": "4.701",
+                "x": "5.25",
+                "p2": "1.442",
+                "link": "https:\/\/24-parik.club\/en\/events\/czech-republic-lzrn-netherlands-lukapaja-16249082",
+                "time": "50:52"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Italy (chevare)",
+            "away": "Morocco (Cofardi)",
+            "time": "54:50",
+            "parik24": {
+                "p1": "1.121",
+                "x": "7.77",
+                "p2": "13.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/italy-chevare-morocco-cofardi-16249150",
+                "time": "54:50"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Bayern Munchen (virtual_10)",
+            "away": "Borussia Dortmund (virtual_12)",
+            "time": "48:25",
+            "parik24": {
+                "p1": "17.001",
+                "x": "8.5",
+                "p2": "1.082",
+                "link": "https:\/\/24-parik.club\/en\/events\/bayern-munchen-virtual-10-borussia-dortmund-virtual-12-16229273",
+                "time": "48:25"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Roma (virtual_5)",
+            "away": "Juventus (virtual_1)",
+            "time": "51:58",
+            "parik24": {
+                "p1": "2.701",
+                "x": "2.75",
+                "p2": "2.752",
+                "link": "https:\/\/24-parik.club\/en\/events\/roma-virtual-5-juventus-virtual-1-16229161",
+                "time": "51:58"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Coquimbo Unido (V)",
+            "away": "Universidad Catolica (V)",
+            "time": "23:05",
+            "parik24": {
+                "p1": "1.821",
+                "x": "3.75",
+                "p2": "3.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/coquimbo-unido-v-universidad-catolica-v-16258324",
+                "time": "23:05"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Newcastle (V)",
+            "away": "Man Utd (V)",
+            "time": "23:05",
+            "parik24": {
+                "p1": "2.101",
+                "x": "3.75",
+                "p2": "2.872",
+                "link": "https:\/\/24-parik.club\/en\/events\/newcastle-v-man-utd-v-16258322",
+                "time": "23:05"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Betis (V)",
+            "away": "Atletico Madrid (V)",
+            "time": "23:05",
+            "parik24": {
+                "p1": "3.101",
+                "x": "3.75",
+                "p2": "1.952",
+                "link": "https:\/\/24-parik.club\/en\/events\/betis-v-atletico-madrid-v-16258323",
+                "time": "23:05"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Alianza Atletico",
+            "away": "Atletico Grau",
+            "time": "01:10",
+            "parik24": {
+                "p1": "2.101",
+                "x": "3",
+                "p2": "3.752",
+                "link": "https:\/\/24-parik.club\/en\/events\/alianza-atletico-atletico-grau-16135929",
+                "time": "01:10"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Sol de Mayo",
+            "away": "CA Alvarado",
+            "time": "64:58",
+            "parik24": {
+                "p1": "3.901",
+                "x": "1.67",
+                "p2": "3.902",
+                "link": "https:\/\/24-parik.club\/en\/events\/sol-de-mayo-ca-alvarado-16247142",
+                "time": "64:58"
+            },
+            "pinnacle": {
+                "p1": "3.32",
+                "x": "1.869",
+                "p2": "3.6",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/argentina-torneo-federal-a\/sol-de-mayo-vs-alvarado\/1627472264\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Austria Lustenau",
+            "away": "Admira Wacker",
+            "time": "76:22",
+            "parik24": {
+                "p1": "5.301",
+                "x": "1.43",
+                "p2": "4.522",
+                "link": "https:\/\/24-parik.club\/en\/events\/austria-lustenau-admira-wacker-16184024",
+                "time": "76:22"
+            },
+            "pinnacle": {
+                "p1": "4.79",
+                "x": "1.632",
+                "p2": "4.06",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/austria-2-liga\/austria-lustenau-vs-admira-wacker\/1627422967\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Ammanford FC",
+            "away": "Newport City FC",
+            "time": "72:51",
+            "parik24": {
+                "p1": "2.75",
+                "x": "2",
+                "p2": "4",
+                "link": "https:\/\/24-parik.club\/en\/events\/ammanford-fc-newport-city-fc-16205391",
+                "time": "72:51"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Cambrian United",
+            "away": "Baglan Dragons",
+            "time": "56:11",
+            "parik24": {
+                "p1": "1.021",
+                "x": "13",
+                "p2": "29.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/cambrian-united-baglan-dragons-16205574",
+                "time": "56:11"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "FK Velez Mostar",
+            "away": "Zrinjski Mostar",
+            "time": "93:55",
+            "parik24": {
+                "p1": "15",
+                "x": "1.01",
+                "p2": "15",
+                "link": "https:\/\/24-parik.club\/en\/events\/fk-velez-mostar-zrinjski-mostar-16204027",
+                "time": "93:55"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "FK Rudar Prijedor",
+            "away": "FK Sloga Doboj",
+            "time": "74:39",
+            "parik24": {
+                "p1": "3.5",
+                "x": "1.6",
+                "p2": "4.75",
+                "link": "https:\/\/24-parik.club\/en\/events\/fk-rudar-prijedor-fk-sloga-doboj-16205390",
+                "time": "74:39"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Etoile Carouge",
+            "away": "Stade Nyonnais",
+            "time": "92:37",
+            "parik24": {
+                "p1": "10.341",
+                "x": "1.09",
+                "p2": "12.662",
+                "link": "https:\/\/24-parik.club\/en\/events\/etoile-carouge-stade-nyonnais-16115829",
+                "time": "92:37"
+            },
+            "pinnacle": {
+                "p1": "4.81",
+                "x": "1.352",
+                "p2": "8.49",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/switzerland-challenge-league\/etoile-carouge-vs-stade-nyonnais\/1627422221\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Neuchatel Xamax",
+            "away": "FC Vaduz",
+            "time": "88:52",
+            "parik24": {
+                "p1": "26.281",
+                "x": "6.89",
+                "p2": "1.112",
+                "link": "https:\/\/24-parik.club\/en\/events\/neuchatel-xamax-fc-vaduz-16115830",
+                "time": "88:52"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "FUS Rabat",
+            "away": "Wydad AC Casablanca",
+            "time": null,
+            "parik24": {
+                "p1": "3.001",
+                "x": "2.3",
+                "p2": "2.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/fus-rabat-wydad-ac-casablanca-16210231",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "3.21",
+                "x": "2.27",
+                "p2": "3.05",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/morocco-botola-pro\/fus-rabat-vs-wydad-ac\/1627415186\/",
+                "time": null
+            },
+            "matchScore": 0.8333333333333333
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Cliftonville",
+            "away": "Dungannon Swifts",
+            "time": "61:43",
+            "parik24": {
+                "p1": "3.091",
+                "x": "1.84",
+                "p2": "4.312",
+                "link": "https:\/\/24-parik.club\/en\/events\/cliftonville-dungannon-swifts-16244231",
+                "time": "61:43"
+            },
+            "pinnacle": {
+                "p1": "2.78",
+                "x": "2.15",
+                "p2": "3.89",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/northern-ireland-cup\/cliftonville-vs-dungannon-swifts\/1627475519\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Athlone Town FC",
+            "away": "UC Dublin",
+            "time": "61:36",
+            "parik24": {
+                "p1": "32.001",
+                "x": "13",
+                "p2": "1.022",
+                "link": "https:\/\/24-parik.club\/en\/events\/athlone-town-afc-uc-dublin-16116008",
+                "time": "61:36"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Finn Harps",
+            "away": "Cork City",
+            "time": "59:55",
+            "parik24": {
+                "p1": "7.771",
+                "x": "2.35",
+                "p2": "1.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/finn-harps-cork-city-16174456",
+                "time": "59:55"
+            },
+            "pinnacle": {
+                "p1": "8.61",
+                "x": "2.9",
+                "p2": "1.657",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-division-1\/finn-harps-vs-cork-city\/1627424393\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Kerry FC",
+            "away": "Cobh Ramblers",
+            "time": "59:41",
+            "parik24": {
+                "p1": "23.001",
+                "x": "8",
+                "p2": "1.072",
+                "link": "https:\/\/24-parik.club\/en\/events\/kerry-fc-cobh-ramblers-16116007",
+                "time": "59:41"
+            },
+            "pinnacle": {
+                "p1": "22.05",
+                "x": "7.55",
+                "p2": "1.137",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-division-1\/kerry-vs-cobh-ramblers\/1627424323\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Treaty United",
+            "away": "Longford Town",
+            "time": "58:30",
+            "parik24": {
+                "p1": "3.051",
+                "x": "2",
+                "p2": "3.552",
+                "link": "https:\/\/24-parik.club\/en\/events\/treaty-united-longford-town-16174452",
+                "time": "58:30"
+            },
+            "pinnacle": {
+                "p1": "2.83",
+                "x": "2.3",
+                "p2": "3.59",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-division-1\/treaty-united-vs-longford-town\/1627424419\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Wexford FC",
+            "away": "Bray Wanderers",
+            "time": "59:11",
+            "parik24": {
+                "p1": "2.901",
+                "x": "2.17",
+                "p2": "3.302",
+                "link": "https:\/\/24-parik.club\/en\/events\/wexford-fc-bray-wanderers-16174451",
+                "time": "59:11"
+            },
+            "pinnacle": {
+                "p1": "7.32",
+                "x": "3.61",
+                "p2": "1.534",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-division-1\/wexford-vs-bray-wanderers\/1627424324\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Atletico Madrid (replays)",
+            "away": "Athletic Bilbao (replays)",
+            "time": "23:00",
+            "parik24": {
+                "p1": "1.711",
+                "x": "6.52",
+                "p2": "2.612",
+                "link": "https:\/\/24-parik.club\/en\/events\/atletico-madrid-replays-athletic-bilbao-replays-16258243",
+                "time": "23:00"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Athletic Bilbao (replays)",
+            "away": "Real Sociedad (replays)",
+            "time": "23:04",
+            "parik24": {
+                "p1": "2.221",
+                "x": "4.55",
+                "p2": "2.222",
+                "link": "https:\/\/24-parik.club\/en\/events\/athletic-bilbao-replays-real-sociedad-replays-16258273",
+                "time": "23:04"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Tolka Rovers",
+            "away": "UC Dublin (res.)",
+            "time": "57:43",
+            "parik24": {
+                "p1": "15.001",
+                "x": "6",
+                "p2": "1.132",
+                "link": "https:\/\/24-parik.club\/en\/events\/tolka-rovers-uc-dublin-res--16225134",
+                "time": "57:43"
+            },
+            "pinnacle": {
+                "p1": "11.66",
+                "x": "6.12",
+                "p2": "1.149",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-leinster-senior-league\/tolka-rovers-vs-university-college-dublin-fc-ii\/1627475966\/",
+                "time": null
+            },
+            "matchScore": 0.6805555555555556
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Club Bolivar",
+            "away": "CDT Real Oruro",
+            "time": null,
+            "parik24": {
+                "p1": "1.3",
+                "x": "9",
+                "p2": "4.33",
+                "link": "https:\/\/24-parik.club\/en\/events\/club-bolivar-cdt-real-oruro-16214165",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "St Marys AFC",
+            "away": "Cobh Wanderers AFC",
+            "time": "61:04",
+            "parik24": {
+                "p1": "1.301",
+                "x": "3.6",
+                "p2": "13.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/st-marys-afc-cobh-wanderers-afc-16236020",
+                "time": "61:04"
+            },
+            "pinnacle": {
+                "p1": "1.344",
+                "x": "3.82",
+                "p2": "9.05",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-munster-senior-league\/st-marys-vs-cobh-wanderers\/1627475970\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Drogheda United",
+            "away": "Bohemian FC",
+            "time": "60:15",
+            "parik24": {
+                "p1": "5.001",
+                "x": "1.91",
+                "p2": "2.882",
+                "link": "https:\/\/24-parik.club\/en\/events\/drogheda-united-bohemian-fc-16116013",
+                "time": "60:15"
+            },
+            "pinnacle": {
+                "p1": "4.74",
+                "x": "2.04",
+                "p2": "2.73",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-premier\/drogheda-united-vs-bohemians\/1627447284\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Shelbourne",
+            "away": "Dundalk",
+            "time": "55:19",
+            "parik24": {
+                "p1": "19.001",
+                "x": "7",
+                "p2": "1.132",
+                "link": "https:\/\/24-parik.club\/en\/events\/shelbourne-dundalk-16116014",
+                "time": "55:19"
+            },
+            "pinnacle": {
+                "p1": "13.82",
+                "x": "5.69",
+                "p2": "1.228",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-premier\/shelbourne-vs-dundalk\/1627447210\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "St Patricks",
+            "away": "Sligo Rovers",
+            "time": "62:09",
+            "parik24": {
+                "p1": "1.011",
+                "x": "15",
+                "p2": "41.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/st-patricks-sligo-rovers-16116015",
+                "time": "62:09"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Waterford",
+            "away": "Shamrock Rovers",
+            "time": "59:06",
+            "parik24": {
+                "p1": "8.001",
+                "x": "2.2",
+                "p2": "2.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/waterford-shamrock-rovers-16116017",
+                "time": "59:06"
+            },
+            "pinnacle": {
+                "p1": "7.15",
+                "x": "2.6",
+                "p2": "1.854",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-premier\/waterford-vs-shamrock-rovers\/1627447297\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Galway United FC",
+            "away": "Derry City",
+            "time": null,
+            "parik24": {
+                "p1": "1.531",
+                "x": "3.5",
+                "p2": "7.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/galway-united-fc-derry-city-16116355",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "1.578",
+                "x": "3.42",
+                "p2": "7.2",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/ireland-premier\/galway-united-vs-derry-city\/1627450058\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Ballymacash Rangers",
+            "away": "Lisburn Distillery",
+            "time": null,
+            "parik24": {
+                "p1": "6.901",
+                "x": "4.27",
+                "p2": "1.382",
+                "link": "https:\/\/24-parik.club\/en\/events\/ballymacash-rangers-lisburn-distillery-16253825",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Derby Academie",
+            "away": "US Bougouba",
+            "time": "61:53",
+            "parik24": {
+                "p1": "3.351",
+                "x": "1.91",
+                "p2": "3.552",
+                "link": "https:\/\/24-parik.club\/en\/events\/derby-academie-us-bougouba-16236017",
+                "time": "61:53"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Al Nassr Riyadh",
+            "away": "Al Najma",
+            "time": "93:49",
+            "parik24": {
+                "p1": "4.4",
+                "x": "1.27",
+                "p2": "14",
+                "link": "https:\/\/24-parik.club\/en\/events\/al-nassr-riyadh-al-najma-16149728",
+                "time": "93:49"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Sporting West Harelbeke",
+            "away": "Vigor Wuitens Hamme",
+            "time": "78:40",
+            "parik24": {
+                "p1": "3.38",
+                "x": "1.73",
+                "p2": "4.33",
+                "link": "https:\/\/24-parik.club\/en\/events\/sporting-west-harelbeke-vigor-wuitens-hamme-16253836",
+                "time": "78:40"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Tijuana U-19",
+            "away": "Tigres UANL U-19",
+            "time": "15:01",
+            "parik24": {
+                "p1": "2.631",
+                "x": "2.8",
+                "p2": "2.632",
+                "link": "https:\/\/24-parik.club\/en\/events\/tijuana-u-19-tigres-uanl-u-19-16252114",
+                "time": "15:01"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "live",
+            "home": "Mid Ulster LFC (w)",
+            "away": "Saint James Swifts (w)",
+            "time": "76:49",
+            "parik24": {
+                "p1": "6",
+                "x": "2.01",
+                "p2": "2.26",
+                "link": "https:\/\/24-parik.club\/en\/events\/mid-ulster-lfc-w-saint-james-swifts-w-16253824",
+                "time": "76:49"
             },
             "pinnacle": null,
             "matchScore": 0

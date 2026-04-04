@@ -7,6 +7,13 @@ const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
 const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
+const CHROME_NO_CACHE_ARGS = [
+  '--disable-cache',
+  '--disable-application-cache',
+  '--disk-cache-size=0',
+  '--media-cache-size=0',
+  '--aggressive-cache-discard',
+];
 
 for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
   fs.mkdirSync(dir, { recursive: true });
@@ -50,15 +57,19 @@ function isValidPinnacleEventUrl(url) {
 }
 
 async function scrapePinnacleTeamTotals(url, proxy) {
+  const profileDir = path.join(PROFILE_ROOT, `totals-pin-${process.pid}-${Date.now()}`);
+  fs.mkdirSync(profileDir, { recursive: true });
+
   const launchOptions = {
     headless: true,
-    userDataDir: path.join(PROFILE_ROOT, `totals-pin-${process.pid}-${Date.now()}`),
+    userDataDir: profileDir,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-gpu',
       '--window-size=1366,900',
+      ...CHROME_NO_CACHE_ARGS,
     ],
   };
   if (proxy) {
@@ -147,6 +158,9 @@ async function scrapePinnacleTeamTotals(url, proxy) {
     return extracted;
   } finally {
     await browser.close();
+    try {
+      fs.rmSync(profileDir, { recursive: true, force: true });
+    } catch {}
   }
 }
 

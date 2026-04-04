@@ -1,9 +1,30 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
+const path = require('path');
+
+const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const PROFILE_ROOT = path.join(path.resolve(BETPARSER_CACHE_DIR), 'profiles');
+const profileDir = path.join(PROFILE_ROOT, `debug-live-${process.pid}-${Date.now()}`);
+fs.mkdirSync(profileDir, { recursive: true });
+
+const CHROME_NO_CACHE_ARGS = [
+  '--disable-cache',
+  '--disable-application-cache',
+  '--disk-cache-size=0',
+  '--media-cache-size=0',
+  '--aggressive-cache-discard',
+];
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    userDataDir: profileDir,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      ...CHROME_NO_CACHE_ARGS,
+    ],
   });
 
   const page = await browser.newPage();
@@ -32,7 +53,13 @@ const puppeteer = require('puppeteer');
 
   console.log(JSON.stringify(info, null, 2));
   await browser.close();
+  try {
+    fs.rmSync(profileDir, { recursive: true, force: true });
+  } catch {}
 })().catch((err) => {
   console.error(err);
+  try {
+    fs.rmSync(profileDir, { recursive: true, force: true });
+  } catch {}
   process.exit(1);
 });
