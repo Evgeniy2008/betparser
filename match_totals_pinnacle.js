@@ -5,22 +5,8 @@ const path = require('path');
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
-// Normalize proxy URL to handle special characters in credentials
-function normalizeProxyUrl(proxyUrl) {
-  if (!proxyUrl) return '';
-  try {
-    const url = new URL(proxyUrl);
-    if (url.username && url.password) {
-      // Encode username and password
-      const encodedUser = encodeURIComponent(url.username);
-      const encodedPass = encodeURIComponent(url.password);
-      return `${url.protocol}//${encodedUser}:${encodedPass}@${url.host}`;
-    }
-    return proxyUrl;
-  } catch (_) {
-    return proxyUrl;
-  }
-}
+// Ensure proxy is in correct format for Chrome
+const NORMALIZED_PROXY = HTTP_PROXY ? String(HTTP_PROXY).trim() : '';
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
@@ -41,8 +27,7 @@ function sleep(ms) {
 
 function parseArgs() {
   const [, , hrefArg, ...rest] = process.argv;
-  const normalizedProxy = normalizeProxyUrl(HTTP_PROXY);
-  const opts = { href: hrefArg || '', proxy: process.env.UA_PROXY || normalizedProxy };
+  const opts = { href: hrefArg || '', proxy: process.env.UA_PROXY || NORMALIZED_PROXY };
 
   for (let i = 0; i < rest.length; i += 1) {
     const arg = rest[i];

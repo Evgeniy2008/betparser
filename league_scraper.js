@@ -10,24 +10,24 @@ const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || path.join(__dirna
 const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
-// Normalize proxy URL to handle special characters in credentials
-function normalizeProxyUrl(proxyUrl) {
-  if (!proxyUrl) return '';
+// Parse proxy URL to extract components
+function parseProxyUrl(proxyUrl) {
+  if (!proxyUrl) return { full: '', host: '', user: '', pass: '' };
   try {
     const url = new URL(proxyUrl);
-    if (url.username && url.password) {
-      // Encode username and password
-      const encodedUser = encodeURIComponent(url.username);
-      const encodedPass = encodeURIComponent(url.password);
-      return `${url.protocol}//${encodedUser}:${encodedPass}@${url.host}`;
-    }
-    return proxyUrl;
+    return {
+      full: proxyUrl,
+      host: url.hostname && url.port ? `${url.hostname}:${url.port}` : url.host,
+      user: url.username || '',
+      pass: url.password || '',
+    };
   } catch (_) {
-    return proxyUrl;
+    // Fallback for malformed URLs
+    return { full: proxyUrl, host: proxyUrl, user: '', pass: '' };
   }
 }
 
-const NORMALIZED_PROXY = normalizeProxyUrl(HTTP_PROXY);
+const PROXY_CONFIG = parseProxyUrl(HTTP_PROXY);
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = process.env.PUPPETEER_CACHE_DIR
