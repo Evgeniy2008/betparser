@@ -96,6 +96,7 @@ console.log(`  script: ${nodeScript}`);
 console.log(`  post-url: ${postUrl}`);
 console.log(`  cache-dir: ${cacheDir}`);
 console.log(`  puppeteer-cache-dir: ${puppeteerCacheDir || 'default user cache'}`);
+console.log(`  proxy: ${process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'none'}`);
 console.log(`  interval: ${intervalMs} ms (${intervalMs === 0 ? 'instant restart' : 'delayed restart'})`);
 
 let running = false;

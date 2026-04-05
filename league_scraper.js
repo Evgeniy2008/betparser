@@ -8,6 +8,7 @@ const POST_URL = process.env.POST_URL || '';
 const SCRAPER_SCOPE = String(process.env.SCRAPER_SCOPE || 'full').toLowerCase();
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || path.join(__dirname, '.cache');
 const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
+const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = process.env.PUPPETEER_CACHE_DIR
@@ -763,10 +764,14 @@ async function scrapeLeagues() {
   console.log(`[league_scraper] Found ${footballLeagues.length} football + ${basketballLeagues.length} basketball + ${tennisLeagues.length} tennis = ${leagues.length} leagues`);
 
   const launchBrowser = async () => {
+    const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
+    if (HTTP_PROXY) {
+      args.push(`--proxy-server=${HTTP_PROXY}`);
+    }
     return puppeteer.launch({
       headless: CONFIG.headless,
       userDataDir: createBrowserProfileDir('league'),
-      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+      args,
     });
   };
 
@@ -951,11 +956,17 @@ async function scrapeLeagues() {
 async function scrapeLiveMatches() {
   console.log('\n[live] Scraping live matches (football + basketball + tennis)...');
 
-  const launchBrowser = async () => puppeteer.launch({
-    headless: CONFIG.headless,
-    userDataDir: createBrowserProfileDir('live'),
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-  });
+  const launchBrowser = async () => {
+    const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
+    if (HTTP_PROXY) {
+      args.push(`--proxy-server=${HTTP_PROXY}`);
+    }
+    return puppeteer.launch({
+      headless: CONFIG.headless,
+      userDataDir: createBrowserProfileDir('live'),
+      args,
+    });
+  };
 
   let browserA = null;
   let browserB = null;

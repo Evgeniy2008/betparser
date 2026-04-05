@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 const PROFILE_ROOT = path.join(path.resolve(BETPARSER_CACHE_DIR), 'profiles');
 const profileDir = path.join(PROFILE_ROOT, `debug-live-${process.pid}-${Date.now()}`);
 fs.mkdirSync(profileDir, { recursive: true });
@@ -23,6 +24,7 @@ const CHROME_NO_CACHE_ARGS = [
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
+      `--proxy-server=${HTTP_PROXY}`,
       ...CHROME_NO_CACHE_ARGS,
     ],
   });

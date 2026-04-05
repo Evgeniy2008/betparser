@@ -18,6 +18,7 @@ const os = require('os');
 const EVENT_LINK_SELECTOR = 'a[href*="/events/"]';
 const PINNACLE_BASE = 'https://www.pinnacle.com';
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
