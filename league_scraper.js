@@ -6,7 +6,7 @@ const path = require('path');
 const SCRAPER_MODE = process.env.SCRAPER_MODE || 'file';
 const POST_URL = process.env.POST_URL || '';
 const SCRAPER_SCOPE = String(process.env.SCRAPER_SCOPE || 'full').toLowerCase();
-const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const BETPARSER_CACHE_DIR = '/root/betparser/.cache';
 const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
