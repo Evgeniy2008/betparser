@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const DEFAULT_INTERVAL = 5000; // 5 seconds default for live updates
+const DEFAULT_POST_URL = 'https://websitebets.bionrgg.com/update_merged.php';
 
 const args = process.argv.slice(2);
 const getArg = (name, fallback) => {
@@ -13,7 +14,7 @@ const getArg = (name, fallback) => {
 
 const intervalRaw = Number(getArg('interval', DEFAULT_INTERVAL));
 const intervalMs = Number.isFinite(intervalRaw) && intervalRaw >= 0 ? intervalRaw : DEFAULT_INTERVAL;
-const rawPostUrl = getArg('post-url', process.env.POST_URL || '');
+const rawPostUrl = getArg('post-url', process.env.POST_URL || DEFAULT_POST_URL);
 const nodeScript = getArg('script', 'league_scraper.js');
 const workingDir = path.resolve(__dirname);
 const cacheDir = path.resolve(getArg('cache-dir', process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache'));

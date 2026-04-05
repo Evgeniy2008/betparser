@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05T09:41:38.883Z",
+  "updated": "2026-04-05T09:50:19.323Z",
   "matches": [
     {
       "home": "Atletico Madrid",
@@ -321,6 +321,28 @@
       "sport": "football"
     },
     {
+      "home": "Bayer Leverkusen",
+      "away": "Bayern Munchen",
+      "p1": "4.481",
+      "x": "4.61",
+      "p2": "1.632",
+      "link": "https://24-parik.club/en/events/bayer-leverkusen-bayern-munchen-15876555",
+      "time": "21:45",
+      "league": "Germany Cup:",
+      "sport": "football"
+    },
+    {
+      "home": "VfB Stuttgart",
+      "away": "SC Freiburg",
+      "p1": "1.621",
+      "x": "4.07",
+      "p2": "5.282",
+      "link": "https://24-parik.club/en/events/vfb-stuttgart-sc-freiburg-16059154",
+      "time": "21:45",
+      "league": "Germany Cup:",
+      "sport": "football"
+    },
+    {
       "home": "Angers",
       "away": "Lyon",
       "p1": "5.431",
@@ -453,33 +475,11 @@
       "sport": "football"
     },
     {
-      "home": "Bayer Leverkusen",
-      "away": "Bayern Munchen",
-      "p1": "4.481",
-      "x": "4.61",
-      "p2": "1.632",
-      "link": "https://24-parik.club/en/events/bayer-leverkusen-bayern-munchen-15876555",
-      "time": "21:45",
-      "league": "Germany Cup:",
-      "sport": "football"
-    },
-    {
-      "home": "VfB Stuttgart",
-      "away": "SC Freiburg",
-      "p1": "1.621",
-      "x": "4.07",
-      "p2": "5.282",
-      "link": "https://24-parik.club/en/events/vfb-stuttgart-sc-freiburg-16059154",
-      "time": "21:45",
-      "league": "Germany Cup:",
-      "sport": "football"
-    },
-    {
       "home": "West Ham",
       "away": "Leeds",
-      "p1": "2.751",
-      "x": "3.36",
-      "p2": "2.652",
+      "p1": "2.771",
+      "x": "3.43",
+      "p2": "2.602",
       "link": "https://24-parik.club/en/events/west-ham-leeds-16010306",
       "time": "18:30",
       "league": "England FA Cup:",
@@ -489,8 +489,8 @@
       "home": "Getafe",
       "away": "Athletic Bilbao",
       "p1": "3.131",
-      "x": "2.83",
-      "p2": "2.732",
+      "x": "2.82",
+      "p2": "2.752",
       "link": "https://24-parik.club/en/events/getafe-athletic-bilbao-16062844",
       "time": "15:00",
       "league": "Spain LaLiga:",
@@ -587,9 +587,9 @@
     {
       "home": "Sevilla",
       "away": "Atletico Madrid",
-      "p1": "3.501",
-      "x": "3.53",
-      "p2": "2.072",
+      "p1": "3.481",
+      "x": "3.56",
+      "p2": "2.062",
       "link": "https://24-parik.club/en/events/sevilla-atletico-madrid-16125977",
       "time": "22:00",
       "league": "Spain LaLiga:",
@@ -774,7 +774,7 @@
     {
       "home": "Atlanta Hawks",
       "away": "New York Knicks",
-      "p1": "2.03",
+      "p1": "2.01",
       "x": null,
       "p2": "1.99",
       "link": "https://24-parik.club/en/events/atlanta-hawks-new-york-knicks-16273179",
@@ -796,9 +796,9 @@
     {
       "home": "Denver Nuggets",
       "away": "Portland Trail Blazers",
-      "p1": "1.33",
+      "p1": "1.28",
       "x": null,
-      "p2": "3.88",
+      "p2": "4.31",
       "link": "https://24-parik.club/en/events/denver-nuggets-portland-trail-blazers-16273323",
       "time": "04:00",
       "league": "NBA",
@@ -1058,6 +1058,17 @@
       "sport": "football"
     },
     {
+      "home": "JL Bourg Basket",
+      "away": "Turk Telekom",
+      "p1": "1.78",
+      "x": null,
+      "p2": "2.18",
+      "link": "https://24-parik.club/en/events/jl-bourg-basket-turk-telekom-16263053",
+      "time": "20:30",
+      "league": "Eurocup",
+      "sport": "basketball"
+    },
+    {
       "home": "KK Buducnost",
       "away": "Partizan",
       "p1": "2.22",
@@ -1099,17 +1110,6 @@
       "link": "https://24-parik.club/en/events/mega-basket-krka-16246691",
       "time": "20:00",
       "league": "ABA - Adriatic League",
-      "sport": "basketball"
-    },
-    {
-      "home": "JL Bourg Basket",
-      "away": "Turk Telekom",
-      "p1": "1.78",
-      "x": null,
-      "p2": "2.18",
-      "link": "https://24-parik.club/en/events/jl-bourg-basket-turk-telekom-16263053",
-      "time": "20:30",
-      "league": "Eurocup",
       "sport": "basketball"
     },
     {

@@ -1,5 +1,5 @@
 {
-    "updated": "2026-04-05T09:42:25.790Z",
+    "updated": "2026-04-05T09:49:52.313Z",
     "matches": [
         {
             "league": "Live Football",
@@ -7,13 +7,13 @@
             "phase": "live",
             "home": "Carabanchel",
             "away": "Parla",
-            "time": "09:55",
+            "time": "17:21",
             "parik24": {
-                "p1": "1.351",
-                "x": "4.47",
-                "p2": "7.402",
+                "p1": "1.331",
+                "x": "4.54",
+                "p2": "7.802",
                 "link": "https:\/\/24-parik.club\/en\/events\/carabanchel-parla-16264797",
-                "time": "09:55"
+                "time": "17:21"
             },
             "pinnacle": {
                 "p1": "1.32",
@@ -30,13 +30,13 @@
             "phase": "live",
             "home": "Don Benito",
             "away": "CD Azuaga",
-            "time": "11:13",
+            "time": "18:40",
             "parik24": {
-                "p1": "1.181",
-                "x": "6.5",
-                "p2": "9.902",
+                "p1": "1.161",
+                "x": "6.6",
+                "p2": "10.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/cd-don-benito-cd-azuaga-16264592",
-                "time": "11:13"
+                "time": "18:40"
             },
             "pinnacle": {
                 "p1": "1.507",
@@ -53,13 +53,13 @@
             "phase": "live",
             "home": "Torino U-20",
             "away": "Cesena U-20",
-            "time": "40:32",
+            "time": null,
             "parik24": {
-                "p1": "4.001",
-                "x": "3.2",
-                "p2": "1.822",
+                "p1": "4.201",
+                "x": "3",
+                "p2": "1.802",
                 "link": "https:\/\/24-parik.club\/en\/events\/torino-u-20-cesena-u-20-16220687",
-                "time": "40:32"
+                "time": null
             },
             "pinnacle": {
                 "p1": "3.59",
@@ -76,13 +76,13 @@
             "phase": "live",
             "home": "FC Zbrojovka Brno II",
             "away": "Vitkovice",
-            "time": "66:54",
+            "time": "74:20",
             "parik24": {
-                "p1": "1.95",
-                "x": "2.75",
-                "p2": "4",
+                "p1": "2.3",
+                "x": "2.05",
+                "p2": "5",
                 "link": "https:\/\/24-parik.club\/en\/events\/fc-zbrojovka-brno-ii-vitkovice-16220440",
-                "time": "66:54"
+                "time": "74:20"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -93,13 +93,13 @@
             "phase": "live",
             "home": "Sigma Olomouc II",
             "away": "Polanka",
-            "time": "69:28",
+            "time": "76:54",
             "parik24": {
-                "p1": "1.7",
-                "x": "2.45",
-                "p2": "8",
+                "p1": "2.1",
+                "x": "1.82",
+                "p2": "11",
                 "link": "https:\/\/24-parik.club\/en\/events\/sigma-olomouc-ii-polanka-16220439",
-                "time": "69:28"
+                "time": "76:54"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -110,13 +110,13 @@
             "phase": "live",
             "home": "Fastav Zlin II",
             "away": "Slovacko II",
-            "time": "51:10",
+            "time": "58:35",
             "parik24": {
-                "p1": "19.001",
-                "x": "7.5",
-                "p2": "1.082",
+                "p1": "21.001",
+                "x": "8",
+                "p2": "1.072",
                 "link": "https:\/\/24-parik.club\/en\/events\/fastav-zlin-ii-slovacko-ii-16220517",
-                "time": "51:10"
+                "time": "58:35"
             },
             "pinnacle": {
                 "p1": "20.12",
@@ -133,13 +133,13 @@
             "phase": "live",
             "home": "Getafe II",
             "away": "CDC Colonia Moscardo",
-            "time": "10:22",
+            "time": "17:48",
             "parik24": {
-                "p1": "1.581",
-                "x": "3.51",
-                "p2": "5.302",
+                "p1": "1.591",
+                "x": "3.42",
+                "p2": "5.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/getafe-ii-cdc-colonia-moscardo-16061801",
-                "time": "10:22"
+                "time": "17:48"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -150,13 +150,13 @@
             "phase": "live",
             "home": "RSD Alcala",
             "away": "Las Palmas II",
-            "time": "11:39",
+            "time": "19:04",
             "parik24": {
-                "p1": "2.101",
-                "x": "2.88",
+                "p1": "2.201",
+                "x": "2.75",
                 "p2": "3.332",
                 "link": "https:\/\/24-parik.club\/en\/events\/rsd-alcala-las-palmas-ii-16061800",
-                "time": "11:39"
+                "time": "19:04"
             },
             "pinnacle": {
                 "p1": "2.26",
@@ -173,13 +173,13 @@
             "phase": "live",
             "home": "Persikad Depok",
             "away": "PSMS Medan",
-            "time": "48:56",
+            "time": "56:21",
             "parik24": {
-                "p1": "1.771",
+                "p1": "1.671",
                 "x": "2.8",
-                "p2": "5.002",
+                "p2": "6.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/persikad-depok-psms-medan-16252393",
-                "time": "48:56"
+                "time": "56:21"
             },
             "pinnacle": {
                 "p1": "1.862",
@@ -196,13 +196,13 @@
             "phase": "live",
             "home": "PSIS Semarang",
             "away": "Barito Putera",
-            "time": "51:15",
+            "time": "58:41",
             "parik24": {
-                "p1": "10.001",
-                "x": "3.8",
-                "p2": "1.322",
+                "p1": "13.001",
+                "x": "4",
+                "p2": "1.272",
                 "link": "https:\/\/24-parik.club\/en\/events\/psis-semarang-barito-putera-16252394",
-                "time": "51:15"
+                "time": "58:41"
             },
             "pinnacle": {
                 "p1": "10.05",
@@ -219,13 +219,13 @@
             "phase": "live",
             "home": "Samsunspor U-19",
             "away": "Konyaspor U-19",
-            "time": "78:58",
+            "time": "86:23",
             "parik24": {
-                "p1": "10.001",
-                "x": "3.48",
-                "p2": "1.392",
+                "p1": "21.001",
+                "x": "3.97",
+                "p2": "1.242",
                 "link": "https:\/\/24-parik.club\/en\/events\/samsunspor-u-19-konyaspor-u-19-16266233",
-                "time": "78:58"
+                "time": "86:23"
             },
             "pinnacle": {
                 "p1": "9.06",
@@ -242,13 +242,13 @@
             "phase": "live",
             "home": "Fatih Karagumruk SK U-19",
             "away": "Caykur Rizespor U-19",
-            "time": "37:41",
+            "time": "45:06",
             "parik24": {
-                "p1": "2.001",
-                "x": "2.8",
-                "p2": "3.752",
+                "p1": "1.041",
+                "x": "10",
+                "p2": "23.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/fatih-karagumruk-sk-u-19-caykur-rizespor-u-19-16252620",
-                "time": "37:41"
+                "time": "45:06"
             },
             "pinnacle": {
                 "p1": "1.961",
@@ -265,13 +265,13 @@
             "phase": "live",
             "home": "Bhayangkara FC",
             "away": "Persija Jakarta",
-            "time": "53:07",
+            "time": "60:34",
             "parik24": {
-                "p1": "2.301",
-                "x": "2.25",
-                "p2": "4.202",
+                "p1": "2.601",
+                "x": "1.91",
+                "p2": "4.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/bhayangkara-fc-persija-jakarta-16215048",
-                "time": "53:07"
+                "time": "60:34"
             },
             "pinnacle": {
                 "p1": "2.41",
@@ -288,13 +288,13 @@
             "phase": "live",
             "home": "Liverpool (bodyaoo)",
             "away": "Bayern Munchen (zoyir)",
-            "time": "43:02",
+            "time": "92:10",
             "parik24": {
-                "p1": "5.551",
-                "x": "4.6",
-                "p2": "1.422",
+                "p1": "23.001",
+                "x": "4.2",
+                "p2": "1.222",
                 "link": "https:\/\/24-parik.club\/en\/events\/liverpool-bodyaoo-bayern-munchen-zoyir-16267902",
-                "time": "43:02"
+                "time": "92:10"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -305,115 +305,13 @@
             "phase": "live",
             "home": "PSG (TikitakaMaster)",
             "away": "Barcelona (exhausted)",
-            "time": "40:54",
+            "time": "88:59",
             "parik24": {
-                "p1": "1.801",
-                "x": "5.25",
-                "p2": "2.852",
+                "p1": "3.901",
+                "x": "1.95",
+                "p2": "3.102",
                 "link": "https:\/\/24-parik.club\/en\/events\/psg-tikitakamaster-barcelona-exhausted-16266694",
-                "time": "40:54"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Czech Republic (Bomb1to)",
-            "away": "Morocco (v1nn)",
-            "time": "30:41",
-            "parik24": {
-                "p1": "2.131",
-                "x": "3.8",
-                "p2": "2.752",
-                "link": "https:\/\/24-parik.club\/en\/events\/czech-republic-bomb1to-morocco-v1nn-16266567",
-                "time": "30:41"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Portugal (Wboy)",
-            "away": "Italy (Uncle)",
-            "time": "30:43",
-            "parik24": {
-                "p1": "2.601",
-                "x": "4.7",
-                "p2": "2.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/portugal-wboy-italy-uncle-16266537",
-                "time": "30:43"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Argentina (Lumix)",
-            "away": "Spain (Sef)",
-            "time": "57:04",
-            "parik24": {
-                "p1": "2.551",
-                "x": "3",
-                "p2": "2.702",
-                "link": "https:\/\/24-parik.club\/en\/events\/argentina-lumix-spain-sef-16267374",
-                "time": "57:04"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "England (Hyper)",
-            "away": "France (borees)",
-            "time": "57:31",
-            "parik24": {
-                "p1": "1.041",
-                "x": "10",
-                "p2": "27.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/england-hyper-france-borees-16266643",
-                "time": "57:31"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Chelsea (virtual_3)",
-            "away": "Man City (virtual_4)",
-            "time": "01:59",
-            "parik24": {
-                "p1": "2.011",
-                "x": "3.4",
-                "p2": "3.252",
-                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-virtual-3-man-city-virtual-4-16250713",
-                "time": "01:59"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "CA River Plate (Virtual_10)",
-            "away": "Sao Paulo FC (virtual_14)",
-            "time": "01:56",
-            "parik24": {
-                "p1": "2.551",
-                "x": "3.6",
-                "p2": "2.312",
-                "link": "https:\/\/24-parik.club\/en\/events\/ca-river-plate-virtual-10-sao-paulo-fc-virtual-14-16250777",
-                "time": "01:56"
+                "time": "88:59"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -424,13 +322,13 @@
             "phase": "live",
             "home": "Crystal Palace (DaVa)",
             "away": "Fiorentina (labotryas)",
-            "time": "12:42",
+            "time": "73:17",
             "parik24": {
-                "p1": "2.401",
-                "x": "3.3",
-                "p2": "2.652",
+                "p1": "37.001",
+                "x": "9",
+                "p2": "1.042",
                 "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-dava-fiorentina-labotryas-16266431",
-                "time": "12:42"
+                "time": "73:17"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -441,13 +339,13 @@
             "phase": "live",
             "home": "Shakhtar Donetsk (sane4ek8)",
             "away": "Mainz 05 (RossFCDK)",
-            "time": "00:00",
+            "time": "76:27",
             "parik24": {
-                "p1": "1.471",
-                "x": "8.2",
-                "p2": "3.402",
+                "p1": "2.65",
+                "x": "2.55",
+                "p2": "2.9",
                 "link": "https:\/\/24-parik.club\/en\/events\/shakhtar-donetsk-sane4ek8-mainz-05-rossfcdk-16266432",
-                "time": "00:00"
+                "time": "76:27"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -456,66 +354,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Fenerbahce (vladl3n)",
-            "away": "Aston Villa (Radahn)",
-            "time": "02:52",
+            "home": "France (borees)",
+            "away": "Portugal (Qnko)",
+            "time": "11:38",
             "parik24": {
-                "p1": "1.231",
-                "x": "6.5",
-                "p2": "7.202",
-                "link": "https:\/\/24-parik.club\/en\/events\/fenerbahce-vladl3n-aston-villa-radahn-16265154",
-                "time": "02:52"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "CD Cobresal (V)",
-            "away": "CSD Colo-Colo (V)",
-            "time": null,
-            "parik24": {
-                "p1": "1.011",
-                "x": "15",
-                "p2": "126.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/cd-cobresal-v-csd-colo-colo-v-16274747",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Universidad Catolica (V)",
-            "away": "CSD Colo-Colo (V)",
-            "time": "12:45",
-            "parik24": {
-                "p1": "2.601",
-                "x": "3.75",
-                "p2": "2.302",
-                "link": "https:\/\/24-parik.club\/en\/events\/universidad-catolica-v-csd-colo-colo-v-16274748",
-                "time": "12:45"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Man Utd (V)",
-            "away": "Newcastle (V)",
-            "time": null,
-            "parik24": {
-                "p1": "3.751",
-                "x": "2.05",
+                "p1": "1.851",
+                "x": "4.5",
                 "p2": "3.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/man-utd-v-newcastle-v-16274742",
-                "time": null
+                "link": "https:\/\/24-parik.club\/en\/events\/france-borees-portugal-qnko-16266656",
+                "time": "11:38"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -524,15 +371,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Newcastle (V)",
-            "away": "Man City (V)",
-            "time": "12:45",
+            "home": "Spain (Sef)",
+            "away": "England (Hyper)",
+            "time": "14:58",
             "parik24": {
-                "p1": "3.501",
-                "x": "3.75",
-                "p2": "1.822",
-                "link": "https:\/\/24-parik.club\/en\/events\/newcastle-v-man-city-v-16274745",
-                "time": "12:45"
+                "p1": "5.301",
+                "x": "5.8",
+                "p2": "1.352",
+                "link": "https:\/\/24-parik.club\/en\/events\/spain-sef-england-hyper-16266671",
+                "time": "14:58"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -541,15 +388,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Celta (V)",
-            "away": "Atletico Madrid (V)",
-            "time": null,
+            "home": "Chelsea (virtual_3)",
+            "away": "Man City (virtual_4)",
+            "time": "70:49",
             "parik24": {
-                "p1": "4.351",
-                "x": "2.1",
-                "p2": "2.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/celta-v-atletico-madrid-v-16274746",
-                "time": null
+                "p1": "3.901",
+                "x": "1.5",
+                "p2": "5.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-virtual-3-man-city-virtual-4-16250713",
+                "time": "70:49"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -558,15 +405,32 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Athletic Bilbao (V)",
-            "away": "Atletico Madrid (V)",
-            "time": "12:45",
+            "home": "CA River Plate (Virtual_10)",
+            "away": "Sao Paulo FC (virtual_14)",
+            "time": "73:33",
             "parik24": {
-                "p1": "3.501",
-                "x": "3.75",
-                "p2": "1.822",
-                "link": "https:\/\/24-parik.club\/en\/events\/athletic-bilbao-v-atletico-madrid-v-16274744",
-                "time": "12:45"
+                "p1": "3.8",
+                "x": "1.72",
+                "p2": "3.7",
+                "link": "https:\/\/24-parik.club\/en\/events\/ca-river-plate-virtual-10-sao-paulo-fc-virtual-14-16250777",
+                "time": "73:33"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Aston Villa (Radahn)",
+            "away": "Roma (kirman)",
+            "time": "00:35",
+            "parik24": {
+                "p1": "5.001",
+                "x": "5",
+                "p2": "1.422",
+                "link": "https:\/\/24-parik.club\/en\/events\/aston-villa-radahn-roma-kirman-16265184",
+                "time": "00:35"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -577,13 +441,13 @@
             "phase": "live",
             "home": "Hubei Istar",
             "away": "Xiamen Feilu",
-            "time": "54:59",
+            "time": "62:26",
             "parik24": {
-                "p1": "3.751",
-                "x": "2",
-                "p2": "2.752",
+                "p1": "4.331",
+                "x": "1.8",
+                "p2": "3.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/hubei-istar-xiamen-feilu-16233040",
-                "time": "54:59"
+                "time": "62:26"
             },
             "pinnacle": {
                 "p1": "4.39",
@@ -600,13 +464,13 @@
             "phase": "live",
             "home": "Malaysia University",
             "away": "Johor Darul Ta'zim U-23",
-            "time": null,
+            "time": "47:12",
             "parik24": {
                 "p1": "29.001",
-                "x": "13",
-                "p2": "1.022",
+                "x": "15",
+                "p2": "1.012",
                 "link": "https:\/\/24-parik.club\/en\/events\/malaysia-university-johor-darul-tazim-u-23-16252507",
-                "time": null
+                "time": "47:12"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -617,13 +481,13 @@
             "phase": "live",
             "home": "Ferencvaros II",
             "away": "Nagykanizsai Ufc",
-            "time": "39:29",
+            "time": "46:55",
             "parik24": {
                 "p1": "2.981",
-                "x": "2.86",
-                "p2": "2.382",
+                "x": "2.73",
+                "p2": "2.482",
                 "link": "https:\/\/24-parik.club\/en\/events\/ferencvaros-ii-fc-nagykanizsai-16252616",
-                "time": "39:29"
+                "time": "46:55"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -634,13 +498,13 @@
             "phase": "live",
             "home": "Kisvarda II",
             "away": "Debreceni VSC II",
-            "time": "44:37",
+            "time": null,
             "parik24": {
-                "p1": "2.351",
-                "x": "2.84",
+                "p1": "2.461",
+                "x": "2.7",
                 "p2": "3.062",
                 "link": "https:\/\/24-parik.club\/en\/events\/kisvarda-ii-debreceni-vsc-ii-16252613",
-                "time": "44:37"
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -651,13 +515,13 @@
             "phase": "live",
             "home": "MTK Budapest II",
             "away": "Majosi SE",
-            "time": "43:49",
+            "time": null,
             "parik24": {
                 "p1": "2.851",
-                "x": "2.85",
-                "p2": "2.462",
+                "x": "2.73",
+                "p2": "2.582",
                 "link": "https:\/\/24-parik.club\/en\/events\/mtk-budapest-ii-majosi-se-16252615",
-                "time": "43:49"
+                "time": null
             },
             "pinnacle": {
                 "p1": "3.09",
@@ -674,13 +538,13 @@
             "phase": "live",
             "home": "Nyiregyhaza Spartacus FC II",
             "away": "Tarpa SC",
-            "time": "42:26",
+            "time": null,
             "parik24": {
-                "p1": "2.811",
-                "x": "2.81",
-                "p2": "2.542",
+                "p1": "2.851",
+                "x": "2.73",
+                "p2": "2.582",
                 "link": "https:\/\/24-parik.club\/en\/events\/nyiregyhaza-spartacus-fc-ii-tarpa-sc-16252612",
-                "time": "42:26"
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -691,13 +555,13 @@
             "phase": "live",
             "home": "Paksi SE II",
             "away": "PTE-PEAC",
-            "time": "41:01",
+            "time": null,
             "parik24": {
-                "p1": "1.701",
-                "x": "3.2",
-                "p2": "4.922",
+                "p1": "1.761",
+                "x": "2.96",
+                "p2": "4.932",
                 "link": "https:\/\/24-parik.club\/en\/events\/paksi-se-ii-pte-peac-16252614",
-                "time": "41:01"
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -708,13 +572,13 @@
             "phase": "live",
             "home": "Puskas Academy II",
             "away": "Budaorsi",
-            "time": "39:42",
+            "time": null,
             "parik24": {
-                "p1": "1.651",
-                "x": "3.37",
-                "p2": "4.962",
+                "p1": "1.141",
+                "x": "6.5",
+                "p2": "13.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/puskas-academy-ii-budaorsi-16252617",
-                "time": "39:42"
+                "time": null
             },
             "pinnacle": {
                 "p1": "1.574",
@@ -731,13 +595,13 @@
             "phase": "live",
             "home": "Ruzomberok II",
             "away": "SK Novohrad Lucenec",
-            "time": "49:37",
+            "time": "57:02",
             "parik24": {
-                "p1": "1.181",
-                "x": "6",
-                "p2": "12.002",
+                "p1": "1.161",
+                "x": "6.1",
+                "p2": "13.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/ruzomberok-ii-sk-novohrad-lucenec-16261849",
-                "time": "49:37"
+                "time": "57:02"
             },
             "pinnacle": {
                 "p1": "1.129",
@@ -754,13 +618,13 @@
             "phase": "live",
             "home": "FC Kosice II",
             "away": "MSK Spisske Podhradie",
-            "time": "42:43",
+            "time": null,
             "parik24": {
                 "p1": "1.641",
-                "x": "3.47",
-                "p2": "4.912",
+                "x": "3.2",
+                "p2": "5.402",
                 "link": "https:\/\/24-parik.club\/en\/events\/fc-kosice-ii-msk-spisske-podhradie-16241769",
-                "time": "42:43"
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -771,13 +635,13 @@
             "phase": "live",
             "home": "FC Petrzalka",
             "away": "FK Pohronie",
-            "time": "55:34",
+            "time": "62:59",
             "parik24": {
-                "p1": "1.031",
-                "x": "11",
-                "p2": "26.002",
+                "p1": "1.021",
+                "x": "13",
+                "p2": "29.002",
                 "link": "https:\/\/24-parik.club\/en\/events\/fc-petrzalka-fk-pohronie-16220524",
-                "time": "55:34"
+                "time": "62:59"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -788,13 +652,13 @@
             "phase": "live",
             "home": "Slavia Tu Kosice",
             "away": "FK Puchov",
-            "time": "41:06",
+            "time": null,
             "parik24": {
-                "p1": "2.451",
-                "x": "2.5",
-                "p2": "3.202",
+                "p1": "2.501",
+                "x": "2.3",
+                "p2": "3.502",
                 "link": "https:\/\/24-parik.club\/en\/events\/slavia-tu-kosice-fk-puchov-16220704",
-                "time": "41:06"
+                "time": null
             },
             "pinnacle": {
                 "p1": "2.42",
@@ -811,13 +675,13 @@
             "phase": "live",
             "home": "Slavia Prague II",
             "away": "Viktoria Zizkov",
-            "time": "68:36",
+            "time": "76:03",
             "parik24": {
-                "p1": "3.011",
-                "x": "1.94",
-                "p2": "3.882",
+                "p1": "3.441",
+                "x": "1.7",
+                "p2": "4.432",
                 "link": "https:\/\/24-parik.club\/en\/events\/slavia-prague-ii-viktoria-zizkov-16196063",
-                "time": "68:36"
+                "time": "76:03"
             },
             "pinnacle": {
                 "p1": "2.95",
@@ -834,13 +698,13 @@
             "phase": "live",
             "home": "Sparta Prague II",
             "away": "Dynamo Ceske Budejovice",
-            "time": "56:08",
+            "time": "63:34",
             "parik24": {
-                "p1": "8.701",
-                "x": "3.65",
-                "p2": "1.412",
+                "p1": "12.001",
+                "x": "3.89",
+                "p2": "1.322",
                 "link": "https:\/\/24-parik.club\/en\/events\/sparta-prague-ii-dynamo-ceske-budejovice-16207952",
-                "time": "56:08"
+                "time": "63:34"
             },
             "pinnacle": {
                 "p1": "8.13",
@@ -857,13 +721,13 @@
             "phase": "live",
             "home": "Jiskra Domazlice II",
             "away": "TJ Hluboka nad Vltavou",
-            "time": "54:20",
+            "time": "61:46",
             "parik24": {
-                "p1": "1.601",
-                "x": "3.72",
-                "p2": "4.912",
+                "p1": "1.281",
+                "x": "4.73",
+                "p2": "9.402",
                 "link": "https:\/\/24-parik.club\/en\/events\/jiskra-domazlice-ii-tj-hluboka-nad-vltavou-16273562",
-                "time": "54:20"
+                "time": "61:46"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -874,13 +738,13 @@
             "phase": "live",
             "home": "Ho Chi Minh City",
             "away": "Sanna Khanh Hoa",
-            "time": "42:11",
+            "time": null,
             "parik24": {
                 "p1": "1.371",
                 "x": "3.9",
-                "p2": "8.002",
+                "p2": "8.202",
                 "link": "https:\/\/24-parik.club\/en\/events\/ho-chi-minh-city-sanna-khanh-hoa-16220696",
-                "time": "42:11"
+                "time": null
             },
             "pinnacle": {
                 "p1": "1.467",
@@ -895,32 +759,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "City Club",
-            "away": "Khelaghar SKS",
-            "time": "05:38",
-            "parik24": {
-                "p1": "1.601",
-                "x": "3.72",
-                "p2": "4.712",
-                "link": "https:\/\/24-parik.club\/en\/events\/city-club-khelaghar-sks-16271075",
-                "time": "05:38"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
             "home": "Liverpool (replays)",
-            "away": "Brighton (replays)",
-            "time": "12:40",
+            "away": "Everton (replays)",
+            "time": "12:48",
             "parik24": {
-                "p1": "1.541",
-                "x": "3.49",
-                "p2": "5.452",
-                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-replays-brighton-replays-16274680",
-                "time": "12:40"
+                "p1": "1.741",
+                "x": "2.57",
+                "p2": "6.442",
+                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-replays-everton-replays-16274716",
+                "time": "12:48"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -930,14 +777,14 @@
             "sport": "football",
             "phase": "live",
             "home": "Everton (replays)",
-            "away": "Crystal Palace (replays)",
-            "time": "12:44",
+            "away": "Brighton (replays)",
+            "time": "12:52",
             "parik24": {
-                "p1": "1.401",
-                "x": "3.49",
-                "p2": "8.572",
-                "link": "https:\/\/24-parik.club\/en\/events\/everton-replays-crystal-palace-replays-16274691",
-                "time": "12:44"
+                "p1": "2.051",
+                "x": "3.7",
+                "p2": "2.762",
+                "link": "https:\/\/24-parik.club\/en\/events\/everton-replays-brighton-replays-16274753",
+                "time": "12:52"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -948,47 +795,13 @@
             "phase": "live",
             "home": "Jedinstvo Putevi",
             "away": "Metalac Gornji Milanovac",
-            "time": "44:18",
+            "time": null,
             "parik24": {
                 "p1": "4.041",
-                "x": "2.84",
-                "p2": "1.942",
+                "x": "2.69",
+                "p2": "2.022",
                 "link": "https:\/\/24-parik.club\/en\/events\/jedinstvo-putevi-metalac-gornji-milanovac-16273597",
-                "time": "44:18"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Vojvodina U-19",
-            "away": "FK Spartak Subotica U-19",
-            "time": "36:36",
-            "parik24": {
-                "p1": "7.901",
-                "x": "5.9",
-                "p2": "1.242",
-                "link": "https:\/\/24-parik.club\/en\/events\/vojvodina-u-19-fk-spartak-subotica-u-19-16273599",
-                "time": "36:36"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "CF Trival Valderas U-19",
-            "away": "Atletico Madrid U-19",
-            "time": "10:50",
-            "parik24": {
-                "p1": "7.901",
-                "x": "4.87",
-                "p2": "1.272",
-                "link": "https:\/\/24-parik.club\/en\/events\/cf-trival-valderas-u-19-atletico-madrid-u-19-16273639",
-                "time": "10:50"
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -999,13 +812,47 @@
             "phase": "live",
             "home": "Aris Thessaloniki U-19",
             "away": "Olympiacos Piraeus U-19",
-            "time": "43:18",
+            "time": null,
             "parik24": {
-                "p1": "3.781",
-                "x": "2.79",
-                "p2": "2.032",
+                "p1": "3.811",
+                "x": "2.59",
+                "p2": "2.142",
                 "link": "https:\/\/24-parik.club\/en\/events\/aris-thessaloniki-u-19-olympiacos-piraeus-u-19-16273590",
-                "time": "43:18"
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CF Trival Valderas U-19",
+            "away": "Atletico Madrid U-19",
+            "time": "18:17",
+            "parik24": {
+                "p1": "3.191",
+                "x": "3.68",
+                "p2": "1.892",
+                "link": "https:\/\/24-parik.club\/en\/events\/cf-trival-valderas-u-19-atletico-madrid-u-19-16273639",
+                "time": "18:17"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Vojvodina U-19",
+            "away": "FK Spartak Subotica U-19",
+            "time": "44:04",
+            "parik24": {
+                "p1": "3.911",
+                "x": "3.42",
+                "p2": "1.782",
+                "link": "https:\/\/24-parik.club\/en\/events\/vojvodina-u-19-fk-spartak-subotica-u-19-16273599",
+                "time": "44:04"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1016,13 +863,13 @@
             "phase": "live",
             "home": "Persib Bandung U-20",
             "away": "PSM Makassar U-20",
-            "time": "86:02",
+            "time": "93:27",
             "parik24": {
-                "p1": "5.001",
-                "x": "1.3",
-                "p2": "7.002",
+                "p1": "13",
+                "x": "1.02",
+                "p2": "15",
                 "link": "https:\/\/24-parik.club\/en\/events\/persib-bandung-u-20-psm-makassar-u-20-16272459",
-                "time": "86:02"
+                "time": "93:27"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1033,13 +880,13 @@
             "phase": "live",
             "home": "Persis Solo U-20",
             "away": "Madura United U-20",
-            "time": "84:07",
+            "time": "91:33",
             "parik24": {
-                "p1": "1.061",
-                "x": "8.5",
-                "p2": "41.002",
+                "p1": "7",
+                "x": "1.1",
+                "p2": "15",
                 "link": "https:\/\/24-parik.club\/en\/events\/persis-solo-u-20-madura-united-u-20-16272458",
-                "time": "84:07"
+                "time": "91:33"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1048,15 +895,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Petrolul Ploiesti (w)",
-            "away": "ACSM Politehnica Iasi (w)",
-            "time": "82:56",
+            "home": "Apollon Limassol (w)",
+            "away": "Aris Limassol (w)",
+            "time": "88:39",
             "parik24": {
-                "p1": "6.4",
-                "x": "1.6",
-                "p2": "3",
-                "link": "https:\/\/24-parik.club\/en\/events\/petrolul-ploiesti-w-acsm-politehnica-iasi-w-16272510",
-                "time": "82:56"
+                "p1": "4.75",
+                "x": "1.25",
+                "p2": "10",
+                "link": "https:\/\/24-parik.club\/en\/events\/apollon-limassol-w-aris-limassol-w-16272452",
+                "time": "88:39"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1067,13 +914,13 @@
             "phase": "live",
             "home": "FC Flora (w)",
             "away": "Saku Sporting (w)",
-            "time": "09:57",
+            "time": "17:56",
             "parik24": {
-                "p1": "2.541",
-                "x": "3.52",
-                "p2": "2.342",
+                "p1": "3.021",
+                "x": "3.51",
+                "p2": "2.052",
                 "link": "https:\/\/24-parik.club\/en\/events\/fc-flora-w-saku-sporting-w-16273638",
-                "time": "09:57"
+                "time": "17:56"
             },
             "pinnacle": {
                 "p1": "1.485",
@@ -1090,13 +937,13 @@
             "phase": "live",
             "home": "NLEX Road Warriors",
             "away": "Phoenix Fuel Masters",
-            "time": "00:26",
+            "time": "08:40",
             "parik24": {
-                "p1": "1.12",
+                "p1": "1.07",
                 "x": null,
-                "p2": "6",
+                "p2": "8.5",
                 "link": "https:\/\/24-parik.club\/en\/events\/nlex-road-warriors-phoenix-fuel-masters-16200825",
-                "time": "00:26"
+                "time": "08:40"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1107,18 +954,18 @@
             "phase": "live",
             "home": "Keelung Black Kites",
             "away": "Bank of Taiwan",
-            "time": "04:37",
+            "time": "01:30",
             "parik24": {
-                "p1": "2.17",
+                "p1": "1.98",
                 "x": null,
-                "p2": "1.64",
+                "p2": "1.77",
                 "link": "https:\/\/24-parik.club\/en\/events\/keelung-black-kites-bank-of-taiwan-16267018",
-                "time": "04:37"
+                "time": "01:30"
             },
             "pinnacle": {
-                "p1": "3.13",
+                "p1": "1.813",
                 "x": null,
-                "p2": "1.331",
+                "p2": "1.925",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/chinese-taipei-sbl\/keelung-black-kites-vs-bank-of-taiwan\/1627659555\/",
                 "time": "05:45"
             },
@@ -1128,122 +975,20 @@
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "Minnesota Timberwolves (Lionheart)",
-            "away": "Cleveland Cavaliers (Kremica)",
-            "time": "00:18",
-            "parik24": {
-                "p1": "1.15",
-                "x": null,
-                "p2": "5.55",
-                "link": "https:\/\/24-parik.club\/en\/events\/minnesota-timberwolves-lionheart-cleveland-cavaliers-kremica-16264996",
-                "time": "00:18"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "New Orleans Pelicans (The_Professor)",
-            "away": "Orlando Magic (panteraxball)",
-            "time": "04:15",
-            "parik24": {
-                "p1": "1.22",
-                "x": null,
-                "p2": "4",
-                "link": "https:\/\/24-parik.club\/en\/events\/new-orleans-pelicans-the-professor-orlando-magic-panteraxball-16264880",
-                "time": "04:15"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Italy (V)",
-            "away": "Germany (V)",
-            "time": "12:45",
-            "parik24": {
-                "p1": "2.2",
-                "x": null,
-                "p2": "1.66",
-                "link": "https:\/\/24-parik.club\/en\/events\/italy-v-germany-v-16274740",
-                "time": "12:45"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Oklahoma City Thunder (V)",
-            "away": "Golden State Warriors (V)",
-            "time": "12:45",
-            "parik24": {
-                "p1": "1.66",
-                "x": null,
-                "p2": "2.1",
-                "link": "https:\/\/24-parik.club\/en\/events\/oklahoma-city-thunder-v-golden-state-warriors-v-16274743",
-                "time": "12:45"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Estudiantes Madrid",
-            "away": "Cartagena",
-            "time": "03:10",
-            "parik24": {
-                "p1": "1.12",
-                "x": null,
-                "p2": "5.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/estudiantes-madrid-cartagena-16200939",
-                "time": "03:10"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Taoyuan Taiwan Beer Leopards",
-            "away": "Taipei Taishin Mars",
-            "time": "09:00",
-            "parik24": {
-                "p1": "1.71",
-                "x": null,
-                "p2": "2.07",
-                "link": "https:\/\/24-parik.club\/en\/events\/taoyuan-taiwan-beer-leopards-taipei-taishin-mars-16267007",
-                "time": "09:00"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
             "home": "Nagasaki Velca",
             "away": "Fighting Eagles Nagoya",
-            "time": "02:41",
+            "time": "03:52",
             "parik24": {
-                "p1": "1.03",
+                "p1": "1.14",
                 "x": null,
-                "p2": "11",
+                "p2": "6.5",
                 "link": "https:\/\/24-parik.club\/en\/events\/nagasaki-velca-fighting-eagles-nagoya-16265531",
-                "time": "02:41"
+                "time": null
             },
             "pinnacle": {
-                "p1": "1.028",
+                "p1": "1.145",
                 "x": null,
-                "p2": "12.88",
+                "p2": "5.1",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/japan-b-league\/nagasaki-velca-vs-fighting-eagles-nagoya\/1627660559\/",
                 "time": "03:52"
             },
@@ -1255,13 +1000,13 @@
             "phase": "live",
             "home": "Taoyuan Pilots",
             "away": "Fubon Braves",
-            "time": "03:12",
+            "time": "00:23",
             "parik24": {
-                "p1": "3.9",
+                "p1": "3.25",
                 "x": null,
-                "p2": "1.3",
+                "p2": "1.42",
                 "link": "https:\/\/24-parik.club\/en\/events\/taoyuan-pilots-fubon-braves-16220345",
-                "time": "03:12"
+                "time": "00:23"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1281,9 +1026,9 @@
                 "time": null
             },
             "pinnacle": {
-                "p1": "1.146",
+                "p1": "1.062",
                 "x": null,
-                "p2": "5.08",
+                "p2": "8.4",
                 "link": "https:\/\/www.pinnacle.com\/en\/basketball\/spain-lf-challenge-women\/nb-paterna-vs-cd-adareva\/1627668676\/",
                 "time": "10:00"
             },
@@ -1293,15 +1038,15 @@
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "Orlando Magic (replay)",
-            "away": "Atlanta Hawks (replay)",
-            "time": "12:42",
+            "home": "Minnesota Timberwolves (replay)",
+            "away": "Denver Nuggets (replay)",
+            "time": "12:48",
             "parik24": {
-                "p1": "1.85",
+                "p1": "1.59",
                 "x": null,
-                "p2": "1.85",
-                "link": "https:\/\/24-parik.club\/en\/events\/orlando-magic-replay-atlanta-hawks-replay-16274686",
-                "time": "12:42"
+                "p2": "2.21",
+                "link": "https:\/\/24-parik.club\/en\/events\/minnesota-timberwolves-replay-denver-nuggets-replay-16274717",
+                "time": "12:48"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1314,9 +1059,9 @@
             "away": "Emilio Nava",
             "time": null,
             "parik24": {
-                "p1": "5.25",
+                "p1": "4.25",
                 "x": null,
-                "p2": "1.13",
+                "p2": "1.18",
                 "link": "https:\/\/24-parik.club\/en\/events\/david-goffin-emilio-nava-16266996",
                 "time": null
             },
@@ -1337,9 +1082,9 @@
             "away": "Cristian Garin",
             "time": null,
             "parik24": {
-                "p1": "1.6",
+                "p1": "2.1",
                 "x": null,
-                "p2": "2.2",
+                "p2": "1.65",
                 "link": "https:\/\/24-parik.club\/en\/events\/nikoloz-basilashvili-cristian-garin-16267024",
                 "time": null
             },
@@ -1360,9 +1105,9 @@
             "away": "Pedro Martinez",
             "time": null,
             "parik24": {
-                "p1": "1.33",
+                "p1": "1.17",
                 "x": null,
-                "p2": "3",
+                "p2": "4.5",
                 "link": "https:\/\/24-parik.club\/en\/events\/juan-manuel-cerundolo-pedro-martinez-16265326",
                 "time": null
             },
@@ -1383,27 +1128,10 @@
             "away": "Tiago Torres",
             "time": null,
             "parik24": {
-                "p1": "1.17",
+                "p1": "1.3",
                 "x": null,
-                "p2": "4.5",
+                "p2": "3.2",
                 "link": "https:\/\/24-parik.club\/en\/events\/mert-alkaya-tiago-torres-16269037",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Yuliya Hatouka",
-            "away": "Mara Guth",
-            "time": null,
-            "parik24": {
-                "p1": "15",
-                "x": null,
-                "p2": "1.01",
-                "link": "https:\/\/24-parik.club\/en\/events\/yuliya-hatouka-mara-guth-16269036",
                 "time": null
             },
             "pinnacle": null,
@@ -1417,9 +1145,9 @@
             "away": "Kristina Kroitor",
             "time": null,
             "parik24": {
-                "p1": "1.01",
+                "p1": "1.12",
                 "x": null,
-                "p2": "15",
+                "p2": "5.5",
                 "link": "https:\/\/24-parik.club\/en\/events\/anna-siskova-kristina-kroitor-16266809",
                 "time": null
             },
@@ -1434,9 +1162,9 @@
             "away": "Robert Strombachs",
             "time": null,
             "parik24": {
-                "p1": "1.25",
+                "p1": "1.27",
                 "x": null,
-                "p2": "3.5",
+                "p2": "3.35",
                 "link": "https:\/\/24-parik.club\/en\/events\/marek-gengel-robert-strombachs-16266118",
                 "time": null
             },
@@ -1474,9 +1202,9 @@
             "away": "Casper Ruud\/Tomas Machac",
             "time": null,
             "parik24": {
-                "p1": "1.33",
+                "p1": "1.23",
                 "x": null,
-                "p2": "3",
+                "p2": "3.75",
                 "link": "https:\/\/24-parik.club\/en\/events\/zizou-bergsjannik-sinner-tomas-machaccasper-ruud-16265318",
                 "time": null
             },
@@ -1491,9 +1219,9 @@
             "away": "Carlo Alberto Caniato",
             "time": null,
             "parik24": {
-                "p1": "1.68",
+                "p1": "1.55",
                 "x": null,
-                "p2": "2.05",
+                "p2": "2.3",
                 "link": "https:\/\/24-parik.club\/en\/events\/rudolf-molleker-carlo-alberto-caniato-16269201",
                 "time": null
             },
@@ -1514,9 +1242,9 @@
             "away": "Denis Yevseyev",
             "time": null,
             "parik24": {
-                "p1": "1.6",
+                "p1": "1.5",
                 "x": null,
-                "p2": "2.2",
+                "p2": "2.4",
                 "link": "https:\/\/24-parik.club\/en\/events\/federico-bondioli-denis-yevseyev-16269174",
                 "time": null
             },
@@ -1537,9 +1265,9 @@
             "away": "Eero Vasa",
             "time": null,
             "parik24": {
-                "p1": "2.55",
+                "p1": "2.4",
                 "x": null,
-                "p2": "1.45",
+                "p2": "1.5",
                 "link": "https:\/\/24-parik.club\/en\/events\/norbert-gombos-eero-vasa-16269208",
                 "time": null
             },
@@ -1556,36 +1284,13 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "Franco Agamenone",
-            "away": "Michael Vrbensky",
-            "time": null,
-            "parik24": {
-                "p1": "1.12",
-                "x": null,
-                "p2": "5.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/franco-agamenone-michael-vrbensky-16269241",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.173",
-                "x": null,
-                "p2": "5.85",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-madrid-qualifiers\/franco-agamenone-vs-michael-vrbensky\/1627668085\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
             "home": "Maria Timofeeva",
             "away": "Alina Charaeva",
             "time": null,
             "parik24": {
-                "p1": "3.53",
+                "p1": "3.26",
                 "x": null,
-                "p2": "1.3",
+                "p2": "1.34",
                 "link": "https:\/\/24-parik.club\/en\/events\/maria-timofeeva-alina-charaeva-16273558",
                 "time": null
             },
@@ -1606,9 +1311,9 @@
             "away": "Oceane Dodin",
             "time": null,
             "parik24": {
-                "p1": "1.08",
+                "p1": "1.04",
                 "x": null,
-                "p2": "7.9",
+                "p2": "11",
                 "link": "https:\/\/24-parik.club\/en\/events\/katie-volynets-oceane-dodin-16267779",
                 "time": null
             },
@@ -1629,61 +1334,10 @@
             "away": "Liv Boulard",
             "time": null,
             "parik24": {
-                "p1": "4.5",
+                "p1": "15",
                 "x": null,
-                "p2": "1.17",
+                "p2": "1.01",
                 "link": "https:\/\/24-parik.club\/en\/events\/giulia-gabba-liv-boulard-16273559",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Sara Saito",
-            "away": "Carmen Lopez Martinez",
-            "time": null,
-            "parik24": {
-                "p1": "1.03",
-                "x": null,
-                "p2": "11",
-                "link": "https:\/\/24-parik.club\/en\/events\/sara-saito-carmen-lopez-martinez-16273589",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Andre Agassi (Smet13)",
-            "away": "Alexander Zverev (Kravinho)",
-            "time": null,
-            "parik24": {
-                "p1": "1.9",
-                "x": null,
-                "p2": "1.8",
-                "link": "https:\/\/24-parik.club\/en\/events\/andre-agassi-smet13-alexander-zverev-kravinho-16266050",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Maayan Laron",
-            "away": "Meisha Kendall-Woseley",
-            "time": null,
-            "parik24": {
-                "p1": "1.03",
-                "x": null,
-                "p2": "11",
-                "link": "https:\/\/24-parik.club\/en\/events\/maayan-laron-meisha-kendall-woseley-16269542",
                 "time": null
             },
             "pinnacle": null,
