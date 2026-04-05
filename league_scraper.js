@@ -54,7 +54,7 @@ const isLiveOnly = SCRAPER_SCOPE === 'live-only';
 const CONFIG = {
   dataDir: path.join(__dirname, 'data'),
   headless: true,
-  timeout: isLiveOnly ? 15000 : 45000,
+  timeout: isLiveOnly ? 30000 : 45000,
   browserRefreshEveryLeagues: isLiveOnly ? 1 : 4, // Live: refresh more often
   profileRoot: PROFILE_ROOT,
   maxScrolls: isLiveOnly ? 10 : 140,
