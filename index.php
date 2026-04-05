@@ -5,6 +5,7 @@ header('Expires: 0');
 
 // Sport tab filter (declared early so $dataFile can depend on it)
 $sportTab = in_array($_GET['sport'] ?? '', ['football', 'basketball', 'tennis', 'live']) ? $_GET['sport'] : 'football';
+$liveSportTab = in_array($_GET['live_sport'] ?? '', ['all', 'football', 'basketball', 'tennis']) ? $_GET['live_sport'] : 'all';
 
 $dataFile = ($sportTab === 'live')
   ? __DIR__ . '/data/live_matches.json'
@@ -20,9 +21,22 @@ if (file_exists($dataFile)) {
     $allMatches = $json['matches'] ?? [];
     $updated = $json['updated'] ?? null;
     // Filter by sport tab
-    $matches = array_values(array_filter($allMatches, static function($m) use ($sportTab) {
-      return ($m['sport'] ?? 'football') === $sportTab;
-    }));
+    if ($sportTab === 'live') {
+      $matches = array_values(array_filter($allMatches, static function($m) use ($liveSportTab) {
+        if (($m['phase'] ?? '') !== 'live' && ($m['sport'] ?? '') === 'live') {
+          return $liveSportTab === 'all';
+        }
+        if (($m['phase'] ?? '') !== 'live' && ($m['sport'] ?? '') !== 'live') {
+          return false;
+        }
+        if ($liveSportTab === 'all') return true;
+        return ($m['sport'] ?? 'football') === $liveSportTab;
+      }));
+    } else {
+      $matches = array_values(array_filter($allMatches, static function($m) use ($sportTab) {
+        return ($m['sport'] ?? 'football') === $sportTab;
+      }));
+    }
   }
 }
 
@@ -140,8 +154,8 @@ function oddsValue($source, string $key): ?string {
   return ($value === null || $value === '') ? null : (string)$value;
 }
 
-// JSON endpoint for live auto-refresh (fetched by JS every 20s)
-if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
+// JSON endpoint for auto-refresh of current sport tab
+if (($_GET['format'] ?? '') === 'json') {
   header('Content-Type: application/json; charset=utf-8');
   $processed = [];
   foreach ($matches as $m) {
@@ -156,9 +170,15 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
     $pp2 = oddsValue($pinnacle, 'p2');
     $league = trim((string)($m['league'] ?? 'Без лиги'));
     if ($league === '') $league = 'Без лиги';
-    $zWin  = ($p1 && $pp2) ? (1/(float)$p1 + 1/(float)$pp2) : null;
-    $zDraw = ($x  && $px)  ? (1/(float)$x  + 1/(float)$px)  : null;
-    $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+    if ($sport === 'basketball' || $sport === 'tennis') {
+      $z1 = ($p1 && $pp2) ? (1/(float)$p1 + 1/(float)$pp2) : null;
+      $z2 = ($p2 && $pp1) ? (1/(float)$p2 + 1/(float)$pp1) : null;
+      $zVals = array_filter([$z1, $z2], fn($v) => $v !== null);
+    } else {
+      $zWin  = ($p1 && $pp2) ? (1/(float)$p1 + 1/(float)$pp2) : null;
+      $zDraw = ($x  && $px)  ? (1/(float)$x  + 1/(float)$px)  : null;
+      $zVals = array_filter([$zWin, $zDraw], fn($v) => $v !== null);
+    }
     $minZ  = $zVals ? min($zVals) : null;
     $cellClass = '';
     if ($minZ !== null) {
@@ -166,11 +186,30 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       elseif ($minZ < 1) $cellClass = 'cell-blue';
       else $cellClass = 'cell-red';
     }
+
+    $isLiveMatch = ($sportTab === 'live') || (($m['phase'] ?? '') === 'live') || ($sport === 'live');
+    if ($isLiveMatch) {
+      $matchTime = 'LIVE';
+    } else {
+      $matchTime = trim((string)($m['time'] ?? ''));
+      if ($matchTime === '') {
+        $matchTime = trim((string)($m['parik24']['time'] ?? ''));
+      }
+      if ($matchTime === '') {
+        $matchTime = trim((string)($m['pinnacle']['time'] ?? ''));
+      }
+      if ($matchTime === '') {
+        $matchTime = '—';
+      }
+    }
+
     $processed[] = [
       'home'     => (string)($m['home'] ?? ''),
       'away'     => (string)($m['away'] ?? ''),
       'league'   => $league,
       'sport'    => $sport,
+      'time'     => $matchTime,
+      'isLive'   => $isLiveMatch,
       'parikUrl' => (string)($m['parik24']['link']  ?? ''),
       'pinnUrl'  => (string)($m['pinnacle']['link'] ?? ''),
       'parikP1'  => (string)($p1  ?? ''),
@@ -182,7 +221,7 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       'cellClass'=> $cellClass,
     ];
   }
-  echo json_encode(['ok' => true, 'matches' => $processed, 'updated' => $updated], JSON_UNESCAPED_UNICODE);
+  echo json_encode(['ok' => true, 'sport' => $sportTab, 'liveSport' => $liveSportTab, 'matches' => $processed, 'updated' => $updated], JSON_UNESCAPED_UNICODE);
   exit;
 }
 ?>
@@ -775,6 +814,15 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
     <div class="alert"><?= htmlspecialchars($error) ?></div>
   <?php endif; ?>
 
+  <?php if ($sportTab === 'live'): ?>
+    <div class="toolbar" style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;">
+      <a href="?sport=live&live_sport=all" class="btn<?= $liveSportTab === 'all' ? ' primary' : '' ?>" style="text-decoration:none;">Все live</a>
+      <a href="?sport=live&live_sport=football" class="btn<?= $liveSportTab === 'football' ? ' primary' : '' ?>" style="text-decoration:none;">⚽ Live футбол</a>
+      <a href="?sport=live&live_sport=basketball" class="btn<?= $liveSportTab === 'basketball' ? ' primary' : '' ?>" style="text-decoration:none;">🏀 Live баскетбол</a>
+      <a href="?sport=live&live_sport=tennis" class="btn<?= $liveSportTab === 'tennis' ? ' primary' : '' ?>" style="text-decoration:none;">🎾 Live теннис</a>
+    </div>
+  <?php endif; ?>
+
   <main class="content">
     <?php if (!empty($matches)): ?>
       <div class="leagues-filter" id="leaguesFilter" style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
@@ -917,6 +965,7 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       const filterWrap = document.getElementById('leaguesFilter');
       let selectedLeague = '';
       let searchValue = '';
+      let lessThanOneEnabled = false;
 
       function renderButtons() {
         if (!filterWrap) return;
@@ -960,19 +1009,17 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
         const pinP1 = block.dataset.pinP1;
         const pinX = block.dataset.pinX;
         const pinP2 = block.dataset.pinP2;
-        const p1o = pinP2;
-        const p2o = pinP1;
 
         if (sport === 'basketball' || sport === 'tennis') {
           // Two-way sports: no draw, only 2 formulas
           return [
             {
               name: '1/(П1 parik24) + 1/(П2 pinnacle)',
-              value: (safeNum(parikP1) && safeNum(p2o)) ? (1/safeNum(parikP1) + 1/safeNum(p2o)) : null
+              value: (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null
             },
             {
               name: '1/(П2 parik24) + 1/(П1 pinnacle)',
-              value: (safeNum(parikP2) && safeNum(p1o)) ? (1/safeNum(parikP2) + 1/safeNum(p1o)) : null
+              value: (safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
             }
           ];
         }
@@ -1027,6 +1074,9 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       }
 
       const lessThanOneCheckbox = document.getElementById('lessThanOneFilter');
+      if (lessThanOneCheckbox) {
+        lessThanOneEnabled = !!lessThanOneCheckbox.checked;
+      }
 
       function hasAnyFormulaBelowOne(block) {
         if (!hasAllOdds(block)) return false;
@@ -1041,20 +1091,28 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
           const text = block.textContent.toLowerCase();
           const showLeague = !selectedLeague || league === selectedLeague;
           const showSearch = !searchValue || text.includes(searchValue);
-          const showLessThanOne = !lessThanOneCheckbox || !lessThanOneCheckbox.checked || hasAnyFormulaBelowOne(block);
+          const showLessThanOne = !lessThanOneEnabled || hasAnyFormulaBelowOne(block);
           const visible = showLeague && showSearch && showLessThanOne;
           block.style.display = visible ? '' : 'none';
           if (visible) visibleCount += 1;
         });
         const noMatchesMessage = document.getElementById('noMatchesMessage');
         if (noMatchesMessage) {
-          if (visibleCount === 0 && lessThanOneCheckbox && lessThanOneCheckbox.checked) {
+          if (visibleCount === 0 && lessThanOneEnabled) {
             noMatchesMessage.textContent = 'Нет матча ниже 1';
             noMatchesMessage.style.display = '';
           } else {
             noMatchesMessage.style.display = 'none';
           }
         }
+        const countEl = document.getElementById('matchCount');
+        if (countEl) countEl.textContent = visibleCount;
+      }
+
+      function syncLessThanOneState() {
+        if (!lessThanOneCheckbox) return;
+        lessThanOneEnabled = !!lessThanOneCheckbox.checked;
+        filterBlocks();
       }
 
       function logAllFormulas() {
@@ -1083,6 +1141,9 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
         leagues.length = 0;
         newLeagues.forEach(l => leagues.push(l));
         renderButtons();
+        if (lessThanOneCheckbox) {
+          lessThanOneEnabled = !!lessThanOneCheckbox.checked;
+        }
         filterBlocks();
       };
 
@@ -1093,8 +1154,10 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
         filterBlocks();
       });
       if (lessThanOneCheckbox) {
-        lessThanOneCheckbox.addEventListener('change', function() {
-          filterBlocks();
+        ['change', 'input', 'click'].forEach((eventName) => {
+          lessThanOneCheckbox.addEventListener(eventName, function() {
+            requestAnimationFrame(syncLessThanOneState);
+          });
         });
       }
     });
@@ -1133,6 +1196,17 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
     }
 
 
+
+    let isModalOpen = false;
+
+    function closeMatchModal() {
+      const backdrop = document.getElementById('matchModalBackdrop');
+      if (!backdrop) return;
+      isModalOpen = false;
+      backdrop.classList.remove('show');
+      backdrop.style.display = 'none';
+      backdrop.setAttribute('aria-hidden', 'true');
+    }
 
     function openMatchModal(button) {
       const backdrop = document.getElementById('matchModalBackdrop');
@@ -1180,17 +1254,14 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       const pinX = button.dataset.pinX;
       const pinP2 = button.dataset.pinP2;
 
-      const p1o = pinP2;
-      const p2o = pinP1;
-
       if (sport === 'basketball') {
         // Two-way sports: no draw column
         parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
-        pinnacle.innerHTML = [oddBox('П1', p1o), oddBox('П2', p2o)].join('');
+        pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
       } else if (sport === 'tennis') {
-          parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
-          pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
-      }else {
+        parik.innerHTML = [oddBox('П1', parikP1), oddBox('П2', parikP2)].join('');
+        pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('П2', pinP2)].join('');
+      } else {
         parik.innerHTML = [oddBox('П1', parikP1), oddBox('Х', parikX), oddBox('П2', parikP2)].join('');
         pinnacle.innerHTML = [oddBox('П1', pinP1), oddBox('Х', pinX), oddBox('П2', pinP2)].join('');
       }
@@ -1206,11 +1277,11 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
         formulas = [
           {
             label: '1/(П1 parik24) + 1/(П2 pinnacle)',
-            value: (safeNum(parikP1) && safeNum(p1o)) ? (1/safeNum(parikP1) + 1/safeNum(p2o)) : null
+            value: (safeNum(parikP1) && safeNum(pinP2)) ? (1/safeNum(parikP1) + 1/safeNum(pinP2)) : null
           },
           {
             label: '1/(П2 parik24) + 1/(П1 pinnacle)',
-            value: (safeNum(parikP2) && safeNum(p2o)) ? (1/safeNum(parikP2) + 1/safeNum(p1o)) : null
+            value: (safeNum(parikP2) && safeNum(pinP1)) ? (1/safeNum(parikP2) + 1/safeNum(pinP1)) : null
           }
         ];
       } else if (sport === 'tennis') {
@@ -1286,6 +1357,7 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
         totalsContent.innerHTML = `<div style="color:#94a3b8;">Загрузка...</div>`;
       }
 
+      isModalOpen = true;
       backdrop.classList.add('show');
       backdrop.style.display = 'flex';
       backdrop.setAttribute('aria-hidden', 'false');
@@ -1385,50 +1457,70 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
       // Use event delegation so live re-renders don't need re-binding
       const matchesList = document.getElementById('matchesList');
       if (matchesList) {
-        matchesList.addEventListener('click', (e) => {
+        const openFromEvent = (e) => {
           const block = e.target.closest('.js-open-match');
-          if (block) openMatchModal(block);
-        });
+          if (!block) return;
+          e.preventDefault();
+          e.stopPropagation();
+          openMatchModal(block);
+        };
+
+        matchesList.addEventListener('click', openFromEvent);
+        matchesList.addEventListener('pointerup', openFromEvent);
+
         matchesList.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             const block = e.target.closest('.js-open-match');
-            if (block) openMatchModal(block);
+            if (block) {
+              e.preventDefault();
+              openMatchModal(block);
+            }
           }
         });
       }
 
-      closeBtn.addEventListener('click', () => {
-        backdrop.classList.remove('show');
-        backdrop.style.display = 'none';
-        backdrop.setAttribute('aria-hidden', 'true');
-      });
+      const closeHandler = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeMatchModal();
+      };
+
+      closeBtn.addEventListener('click', closeHandler);
+      closeBtn.addEventListener('pointerup', closeHandler);
 
       backdrop.addEventListener('click', (e) => {
         if (e.target === backdrop) {
-          backdrop.classList.remove('show');
-          backdrop.style.display = 'none';
-          backdrop.setAttribute('aria-hidden', 'true');
+          e.preventDefault();
+          closeMatchModal();
+        }
+      });
+
+      backdrop.addEventListener('pointerup', (e) => {
+        if (e.target === backdrop) {
+          e.preventDefault();
+          closeMatchModal();
         }
       });
 
       document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && backdrop.classList.contains('show')) {
-          backdrop.classList.remove('show');
-          backdrop.style.display = 'none';
-          backdrop.setAttribute('aria-hidden', 'true');
+        if (e.key === 'Escape' && isModalOpen) {
+          closeMatchModal();
         }
       });
     })();
 
-    // --- Live auto-refresh every 20 seconds ---
-    (function setupLivePolling() {
-      const IS_LIVE = <?= json_encode($sportTab === 'live') ?>;
-      if (!IS_LIVE) return;
+    // --- Auto-refresh for current sport tab ---
+    (function setupSportPolling() {
+      const CURRENT_SPORT = <?= json_encode($sportTab) ?>;
+      const CURRENT_LIVE_SPORT = <?= json_encode($liveSportTab) ?>;
+      if (!CURRENT_SPORT) return;
 
       const matchesList  = document.getElementById('matchesList');
 
       function buildCardHtml(m) {
-        const timeClass = 'match-time match-time-live';
+        const isLive = !!m.isLive;
+        const matchTime = (m.time && String(m.time).trim() !== '') ? String(m.time) : '—';
+        const timeClass = isLive && matchTime !== '—' ? 'match-time match-time-live' : 'match-time';
         return [
           `<div class="match-block ${escapeHtml(m.cellClass)} js-open-match"`,
           ` data-home="${escapeHtml(m.home)}"`,
@@ -1437,7 +1529,7 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
           ` data-sport="${escapeHtml(m.sport)}"`,
           ` data-parik-url="${escapeHtml(m.parikUrl)}"`,
           ` data-pinn-url="${escapeHtml(m.pinnUrl)}"`,
-          ` data-time="LIVE"`,
+          ` data-time="${escapeHtml(matchTime)}"`,
           ` data-parik-time="" data-pinn-time=""`,
           ` data-parik-p1="${escapeHtml(m.parikP1)}"`,
           ` data-parik-x="${escapeHtml(m.parikX)}"`,
@@ -1448,7 +1540,7 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
           ` tabindex="0" role="button" aria-label="Открыть детали матча">`,
           `<div class="match-block-header">`,
           `<span class="match-league">${escapeHtml(m.league)}</span>`,
-          `<span class="${timeClass}">LIVE</span>`,
+          `<span class="${timeClass}">${escapeHtml(matchTime)}</span>`,
           `</div>`,
           `<div class="match-btn">`,
           `<span class="team">${escapeHtml(m.home)}</span>`,
@@ -1461,11 +1553,18 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
 
       async function fetchAndUpdate() {
         try {
-          const url = `?sport=live&format=json&_=${Date.now()}`;
+          const liveSportPart = CURRENT_SPORT === 'live' ? `&live_sport=${encodeURIComponent(CURRENT_LIVE_SPORT || 'all')}` : '';
+          const url = `?sport=${encodeURIComponent(CURRENT_SPORT)}${liveSportPart}&format=json&_=${Date.now()}`;
           const resp = await fetch(url);
-          if (!resp.ok) return;
+          if (!resp.ok) {
+            console.warn(`[${CURRENT_SPORT}] Failed to fetch: HTTP ${resp.status}`);
+            return;
+          }
           const data = await resp.json();
-          if (!data.ok || !Array.isArray(data.matches)) return;
+          if (!data.ok || !Array.isArray(data.matches)) {
+            console.warn(`[${CURRENT_SPORT}] Invalid response format`);
+            return;
+          }
 
           if (matchesList) {
             matchesList.innerHTML = data.matches.map(buildCardHtml).join('');
@@ -1479,13 +1578,15 @@ if ($sportTab === 'live' && ($_GET['format'] ?? '') === 'json') {
           if (typeof window._reinitMatchList === 'function') {
             window._reinitMatchList();
           }
+          
+          console.log(`✓ [${new Date().toLocaleTimeString()}] ${CURRENT_SPORT} updated: ${data.matches.length} matches`);
         } catch (e) {
-          // Ignore network errors silently
+          console.error(`✗ [${CURRENT_SPORT}] Update error: ${e.message}`);
         }
       }
 
       fetchAndUpdate();
-      setInterval(fetchAndUpdate, 20000);
+      setInterval(fetchAndUpdate, 5000);
     })();
   </script>
 </body>

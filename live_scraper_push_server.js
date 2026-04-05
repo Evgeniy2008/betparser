@@ -2,7 +2,7 @@ const { spawn, spawnSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const DEFAULT_INTERVAL = 0;
+const DEFAULT_INTERVAL = 5000; // 5 seconds default for live updates
 
 const args = process.argv.slice(2);
 const getArg = (name, fallback) => {
@@ -85,11 +85,12 @@ if (!postUrl) {
   process.exit(1);
 }
 
-console.log('[live_scraper_push_server] Starting daemon');
+console.log('[live_scraper_push_server] Starting live match daemon');
 console.log(`  script: ${nodeScript}`);
 console.log(`  post-url: ${postUrl}`);
 console.log(`  cache-dir: ${cacheDir}`);
-console.log(`  interval: ${intervalMs} ms (${intervalMs === 0 ? 'instant restart' : 'delayed restart'})`);
+console.log(`  update interval: ${intervalMs}ms (${(intervalMs / 1000).toFixed(1)}s)`);;
+console.log('  mode: LIVE-ONLY with full match block rewrite every cycle');
 
 let running = false;
 let runCount = 0;
@@ -125,7 +126,11 @@ async function runScraper() {
   return new Promise((resolve, reject) => {
     child.on('close', (code) => {
       running = false;
-      console.log(`[live_scraper_push_server] Run #${runCount} finished with code ${code}`);
+      if (code === 0) {
+        console.log(`✓ [${new Date().toISOString().slice(11, 19)}] Live matches updated successfully (Run #${runCount})`);
+      } else {
+        console.log(`✗ [${new Date().toISOString().slice(11, 19)}] Live matches update failed with code ${code} (Run #${runCount})`);
+      }
       resolve(code);
     });
 

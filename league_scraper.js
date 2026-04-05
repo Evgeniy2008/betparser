@@ -7,19 +7,12 @@ const SCRAPER_MODE = process.env.SCRAPER_MODE || 'file';
 const POST_URL = process.env.POST_URL || '';
 const SCRAPER_SCOPE = String(process.env.SCRAPER_SCOPE || 'full').toLowerCase();
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
+const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
 const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
-const CHROME_NO_CACHE_ARGS = [
-  '--disable-cache',
-  '--disable-application-cache',
-  '--disk-cache-size=0',
-  '--media-cache-size=0',
-  '--aggressive-cache-discard',
-];
-const createdProfileDirs = new Set();
 
 for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
   fs.mkdirSync(dir, { recursive: true });
@@ -31,12 +24,15 @@ process.env.TEMP = TEMP_DIR;
 process.env.TMP = TEMP_DIR;
 
 // Parsing configuration
+const isLiveOnly = SCRAPER_SCOPE === 'live-only';
 const CONFIG = {
   dataDir: path.join(__dirname, 'data'),
   headless: true,
-  timeout: 45000,
-  browserRefreshEveryLeagues: 4,
+  timeout: isLiveOnly ? 15000 : 45000,
+  browserRefreshEveryLeagues: isLiveOnly ? 1 : 4, // Live: refresh more often
   profileRoot: PROFILE_ROOT,
+  maxScrolls: isLiveOnly ? 10 : 140,
+  scrollLevel: isLiveOnly ? 2 : 5,    // Live: less aggressive scroll
 };
 
 function createBrowserProfileDir(prefix = 'browser') {
@@ -45,17 +41,7 @@ function createBrowserProfileDir(prefix = 'browser') {
     `${prefix}-${process.pid}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`
   );
   fs.mkdirSync(dir, { recursive: true });
-  createdProfileDirs.add(dir);
   return dir;
-}
-
-function cleanupProfileDirs() {
-  for (const dir of createdProfileDirs) {
-    try {
-      fs.rmSync(dir, { recursive: true, force: true });
-    } catch (_) {}
-  }
-  createdProfileDirs.clear();
 }
 
 function sleep(ms) {
@@ -147,10 +133,13 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
   let page;
   try {
     page = await browser.newPage();
+    
     await page.setViewport({ width: 1280, height: 800 });
-
     await page.goto(url, { waitUntil: 'networkidle2', timeout: CONFIG.timeout });
-    await sleep(1500);
+    if (!isLiveOnly) {
+      await page.waitForSelector('a[href*="/events/"]', { timeout: 20000 }).catch(() => null);
+      await sleep(1200);
+    }
 
     const extractMatches = async () => page.evaluate((isTwoWay) => {
       const results = [];
@@ -229,14 +218,15 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
       }
 
       return results;
-    }, isTwoWay);
+    }, isTwoWay, isLiveOnly);
 
     // Deep scroll until lazy-loaded lists stop growing (window + nested scroll containers).
     const dedup = new Map();
     let stagnantRounds = 0;
     let prevVisibleCards = 0;
+    const maxScrollIterations = isLiveOnly ? CONFIG.maxScrolls : CONFIG.maxScrolls;
 
-    for (let i = 0; i < 220; i++) {
+    for (let i = 0; i < maxScrollIterations; i++) {
       const chunk = await extractMatches();
       for (const match of chunk) {
         if (!match?.link) continue;
@@ -245,11 +235,11 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
         }
       }
 
-      const scrollState = await page.evaluate(() => {
+      const scrollState = await page.evaluate((scrollLevel) => {
         const root = document.scrollingElement || document.documentElement || document.body;
         const rootBefore = root ? root.scrollTop : 0;
         const rootMaxTop = root ? Math.max(0, root.scrollHeight - root.clientHeight) : 0;
-        const rootStep = root ? Math.max(800, Math.floor(root.clientHeight * 0.95)) : 0;
+        const rootStep = root ? Math.max(scrollLevel === 2 ? 300 : 800, Math.floor(root.clientHeight * (scrollLevel === 2 ? 0.6 : 0.95))) : 0;
 
         if (root) {
           root.scrollTop = Math.min(rootMaxTop, rootBefore + rootStep);
@@ -292,9 +282,9 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
           reachedBottom: reachedBottomRoot && reachedBottomInner,
           moved: movedInner || (root && root.scrollTop > rootBefore),
         };
-      });
+      }, CONFIG.scrollLevel);
 
-      await sleep(700);
+      await sleep(isLiveOnly ? 200 : 500);
 
       const beforeSize = dedup.size;
       const afterChunk = await extractMatches();
@@ -310,7 +300,7 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
       else stagnantRounds = 0;
       prevVisibleCards = Math.max(prevVisibleCards, scrollState.visibleCards || 0);
 
-      if (scrollState.reachedBottom && stagnantRounds >= 8) {
+      if (scrollState.reachedBottom && stagnantRounds >= (isLiveOnly ? 2 : 7)) {
         break;
       }
     }
@@ -339,16 +329,30 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
     : sport === 'tennis'
       ? '/tennis/'
       : '/soccer/';
+  const tennisTournamentToken = sport === 'tennis'
+    ? (() => {
+        const m = String(url || '').match(/\/tennis\/([^/]+)\/matchups/i);
+        if (!m) return '';
+        let token = m[1].toLowerCase();
+        token = token
+          .replace(/-(r\d+|qf|sf|f|quarterfinals?|semifinals?|final)$/i, '')
+          .replace(/-(r\d+|qf|sf|f|quarterfinals?|semifinals?|final)$/i, '');
+        return token;
+      })()
+    : '';
   let page;
   try {
     page = await browser.newPage();
+    
     await page.setViewport({ width: 1280, height: 800 });
 
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: CONFIG.timeout });
-    await page.waitForSelector('div[data-test-id="moneyline"]', { timeout: 20000 }).catch(() => null);
+    await page.goto(url, { waitUntil: isLiveOnly ? 'networkidle2' : 'networkidle2', timeout: CONFIG.timeout });
+    const selectorTimeout = isLiveOnly ? 8000 : 20000;
+    await page.waitForSelector('div[data-test-id="moneyline"]', { timeout: selectorTimeout }).catch(() => null);
 
-    const extractRenderedRows = async () => page.evaluate((isTwoWay, sportPath, sportName, includeUnavailableForTennis) => {
+    const extractRenderedRows = async () => page.evaluate((isTwoWay, sportPath, sportName, includeUnavailableForTennis, tennisTournamentToken) => {
       const results = [];
+      const seenLinks = new Set();
 
       const toAbsolute = (href) => {
         if (!href) return '';
@@ -363,9 +367,20 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
           if (!row) continue;
 
           const eventHref = row
-            .querySelector(`a[href*="${sportPath}"]:not([href*="/matchups/"])`)
+            .querySelector(
+              sportName === 'tennis'
+                ? `a[href*="${sportPath}"]`
+                : `a[href*="${sportPath}"]:not([href*="/matchups/"])`
+            )
             ?.getAttribute('href') || '';
           if (!eventHref) continue;
+
+          if (sportName === 'tennis' && tennisTournamentToken) {
+            const hrefLower = eventHref.toLowerCase();
+            if (!hrefLower.includes(`/${tennisTournamentToken}`)) {
+              continue;
+            }
+          }
 
           const exactNameEls = row.querySelectorAll('[class*="matchupMetadata"] > div[class*="gameInfoLabel"] > span[class*="gameInfoLabel"]');
           let names = Array.from(exactNameEls).map(el => (el.textContent || '').trim()).filter(Boolean);
@@ -435,6 +450,8 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
           }
 
           const link = toAbsolute(eventHref);
+          if (seenLinks.has(link)) continue;
+          seenLinks.add(link);
           if (isTwoWay) {
             results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link, time: matchTime });
           } else {
@@ -445,8 +462,80 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
         }
       }
 
+      // Tennis fallback: some rows may miss moneyline test-id, extract directly from event rows.
+      if (sportName === 'tennis') {
+        const eventAnchors = Array.from(document.querySelectorAll(
+          sportName === 'tennis'
+            ? `a[href*="${sportPath}"]`
+            : `a[href*="${sportPath}"]:not([href*="/matchups/"])`
+        ));
+        for (const anchor of eventAnchors) {
+          try {
+            const href = anchor.getAttribute('href') || '';
+            if (!href) continue;
+            if (tennisTournamentToken) {
+              const hrefLower = href.toLowerCase();
+              if (!hrefLower.includes(`/${tennisTournamentToken}`)) continue;
+            }
+            const link = toAbsolute(href);
+            if (seenLinks.has(link)) continue;
+
+            const row = anchor.closest('div[class*="row-"]') || anchor.closest('article') || anchor.parentElement;
+            if (!row) continue;
+
+            const nameEls = row.querySelectorAll('[class*="matchupMetadata"] [class*="gameInfoLabel"], [class*="participant"], [class*="competitor"]');
+            const rawNames = Array.from(nameEls)
+              .map(el => (el.textContent || '').trim())
+              .filter(Boolean)
+              .filter(text => !/^\d{1,2}:\d{2}$/.test(text))
+              .filter(text => !/^(set|sets|match)$/i.test(text));
+            const compact = [];
+            for (const text of rawNames) {
+              if (!compact.length || compact[compact.length - 1] !== text) compact.push(text);
+            }
+            if (compact.length < 2) continue;
+
+            const home = compact[0]
+              .replace(/\s*\(match\)\s*$/i, '')
+              .replace(/\s*\(sets\)\s*$/i, '')
+              .replace(/\s*\(games\)\s*$/i, '')
+              .trim();
+            const away = compact[1]
+              .replace(/\s*\(match\)\s*$/i, '')
+              .replace(/\s*\(sets\)\s*$/i, '')
+              .replace(/\s*\(games\)\s*$/i, '')
+              .trim();
+            if (!home || !away || home.length < 2 || away.length < 2) continue;
+
+            const rowTimeRaw = [
+              row.querySelector('[class*="matchupDate"]')?.textContent || '',
+              row.querySelector('time')?.textContent || '',
+              row.querySelector('[class*="time-status"]')?.textContent || '',
+            ].join(' ');
+            const rowTimeMatch = rowTimeRaw.match(/\b\d{1,2}:\d{2}\b/);
+            const matchTime = rowTimeMatch ? rowTimeMatch[0] : null;
+
+            const priceEls = Array.from(row.querySelectorAll('span[class*="price-"]'));
+            const odds = priceEls
+              .map(el => parseFloat((el.textContent || '').trim()))
+              .filter(v => !isNaN(v) && v > 0)
+              .slice(0, 2)
+              .map(v => v.toString());
+
+            seenLinks.add(link);
+            if (odds.length >= 2) {
+              results.push({ home, away, p1: odds[0], x: null, p2: odds[1], link, time: matchTime });
+            } else if (includeUnavailableForTennis) {
+              results.push({ home, away, p1: null, x: null, p2: null, link, time: matchTime });
+            }
+          } catch (e) {
+            // Skip fallback row parse errors
+          }
+        }
+      }
+
       return results;
-    }, isTwoWay, sportPath, sport, false);
+    }, isTwoWay, sportPath, sport, sport === 'tennis', tennisTournamentToken);
 
     const dedup = new Map();
     const hasUsableOdds = (match) => {
@@ -479,7 +568,8 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
       });
 
       let stagnant = 0;
-      for (let i = 0; i < 220; i++) {
+      const maxTennisIter = isLiveOnly ? 3 : 140;
+      for (let i = 0; i < maxTennisIter; i++) {
         const beforeSize = dedup.size;
         const chunk = await extractRenderedRows();
         for (const match of chunk) {
@@ -503,12 +593,13 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
           return { done, top: nextTop, maxTop };
         });
 
-        await sleep(260);
+        await sleep(isLiveOnly ? 200 : 260);
 
         if (dedup.size === beforeSize) stagnant += 1;
         else stagnant = 0;
 
-        if (info.done && stagnant >= 8) {
+        const stagnantThreshold = isLiveOnly ? 1 : 8;
+        if (info.done && stagnant >= stagnantThreshold) {
           const finalChunk = await extractRenderedRows();
           for (const match of finalChunk) {
             upsertMatch(match);
@@ -516,13 +607,25 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
           break;
         }
       }
+
+      if (dedup.size === 0) {
+        const fallbackUrl = 'https://www.pinnacle.com/en/tennis/matchups/#period:0';
+        await page.goto(fallbackUrl, { waitUntil: 'networkidle2', timeout: CONFIG.timeout }).catch(() => null);
+        await sleep(400);
+
+        const fallbackChunk = await extractRenderedRows();
+        for (const match of fallbackChunk) {
+          upsertMatch(match);
+        }
+      }
     } else {
       // Non-tennis pages can use regular window scrolling.
       let prevRows = 0;
       let stagnant = 0;
-      for (let i = 0; i < 18; i++) {
+      const maxFootballIter = isLiveOnly ? 3 : 18;
+      for (let i = 0; i < maxFootballIter; i++) {
         await page.evaluate(() => window.scrollBy(0, Math.max(900, Math.floor(window.innerHeight * 0.9))));
-        await sleep(400);
+        await sleep(isLiveOnly ? 200 : 380);
 
         const chunk = await extractRenderedRows();
         for (const match of chunk) {
@@ -532,7 +635,8 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
         const rows = chunk.length;
         if (rows === prevRows) {
           stagnant += 1;
-          if (stagnant >= 4) break;
+          const stagnantThreshold = isLiveOnly ? 1 : 4; // Live: stop early
+          if (stagnant >= stagnantThreshold) break;
         } else {
           stagnant = 0;
         }
@@ -623,6 +727,24 @@ function findMatchScore(homeP, awayP, homePin, awayPin) {
   return Math.max(direct, reversed);
 }
 
+function findMatchAlignment(homeP, awayP, homePin, awayPin) {
+  const direct = (tokenSimilarity(homeP, homePin) + tokenSimilarity(awayP, awayPin)) / 2;
+  const reversed = (tokenSimilarity(homeP, awayPin) + tokenSimilarity(awayP, homePin)) / 2;
+  if (reversed > direct) {
+    return { score: reversed, reversed: true };
+  }
+  return { score: direct, reversed: false };
+}
+
+function alignPinnacleOdds(pin, reversed) {
+  if (!pin || !reversed) return pin;
+  return {
+    ...pin,
+    p1: pin.p2 ?? null,
+    p2: pin.p1 ?? null,
+  };
+}
+
 // Main scraping function
 async function scrapeLeagues() {
   console.log('[league_scraper] Starting...');
@@ -634,19 +756,11 @@ async function scrapeLeagues() {
   const leagues = [...footballLeagues, ...basketballLeagues, ...tennisLeagues];
   console.log(`[league_scraper] Found ${footballLeagues.length} football + ${basketballLeagues.length} basketball + ${tennisLeagues.length} tennis = ${leagues.length} leagues`);
 
-  let browserA = null; // used for Parik24
-  let browserB = null; // used for Pinnacle (parallel)
-
   const launchBrowser = async () => {
     return puppeteer.launch({
       headless: CONFIG.headless,
       userDataDir: createBrowserProfileDir('league'),
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        ...CHROME_NO_CACHE_ARGS,
-      ],
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
   };
 
@@ -667,52 +781,65 @@ async function scrapeLeagues() {
     }
   }, 2, label);
 
-  const slotA = { browser: null };
-  const slotB = { browser: null };
-  const runWithA = makeBrowserRunner(slotA);
-  const runWithB = makeBrowserRunner(slotB);
-
   const parikAllMatches = [];
   const pinnacleAllMatches = [];
-  let processedLeagues = 0;
+  const nonLiveConcurrency = Math.min(leagues.length, PREMATCH_CONCURRENCY);
+  console.log(`[league_scraper] Prematch workers: ${nonLiveConcurrency}`);
 
-  for (const league of leagues) {
-    console.log(`\n[${league.name}] (${league.sport}) Processing...`);
+  let nextLeagueIndex = 0;
+  const pickNextLeague = () => {
+    if (nextLeagueIndex >= leagues.length) return null;
+    const league = leagues[nextLeagueIndex];
+    nextLeagueIndex += 1;
+    return league;
+  };
 
-    // Fetch Parik24 and Pinnacle in parallel for speed
-    const [parikMatches, pinnacleMatches] = await Promise.all([
-      runWithA(
-        (b) => parseParik24WithPuppeteer(b, league.parik24, league.sport),
-        `parik24:${league.name}`
-      ).catch(() => []),
-      runWithB(
-        (b) => parsePinnacleWithPuppeteer(b, league.pinnacle, league.sport),
-        `pinnacle:${league.name}`
-      ).catch(() => []),
-    ]);
+  const runWorker = async (workerId) => {
+    const slotA = { browser: null };
+    const slotB = { browser: null };
+    const runWithA = makeBrowserRunner(slotA);
+    const runWithB = makeBrowserRunner(slotB);
+    let processedByWorker = 0;
 
-    console.log(`  [parik24] Found ${parikMatches.length} matches`);
-    console.log(`  [pinnacle] Found ${pinnacleMatches.length} matches`);
+    while (true) {
+      const league = pickNextLeague();
+      if (!league) break;
 
-    parikAllMatches.push(...parikMatches.map(m => ({ ...m, league: league.name, sport: league.sport })));
-    pinnacleAllMatches.push(...pinnacleMatches.map(m => ({ ...m, league: league.name, sport: league.sport })));
-    processedLeagues += 1;
+      console.log(`\n[W${workerId}] [${league.name}] (${league.sport}) Processing...`);
 
-    // Refresh browsers every few leagues (faster than full restart every league)
-    if (processedLeagues % CONFIG.browserRefreshEveryLeagues === 0) {
-      try { if (slotA.browser) await slotA.browser.close(); } catch {}
-      slotA.browser = null;
-      try { if (slotB.browser) await slotB.browser.close(); } catch {}
-      slotB.browser = null;
+      const [parikMatches, pinnacleMatches] = await Promise.all([
+        runWithA(
+          (b) => parseParik24WithPuppeteer(b, league.parik24, league.sport),
+          `parik24:${league.name}`
+        ).catch(() => []),
+        runWithB(
+          (b) => parsePinnacleWithPuppeteer(b, league.pinnacle, league.sport),
+          `pinnacle:${league.name}`
+        ).catch(() => []),
+      ]);
+
+      console.log(`  [W${workerId}] [parik24] Found ${parikMatches.length} matches`);
+      console.log(`  [W${workerId}] [pinnacle] Found ${pinnacleMatches.length} matches`);
+
+      parikAllMatches.push(...parikMatches.map(m => ({ ...m, league: league.name, sport: league.sport })));
+      pinnacleAllMatches.push(...pinnacleMatches.map(m => ({ ...m, league: league.name, sport: league.sport })));
+
+      processedByWorker += 1;
+      if (processedByWorker % CONFIG.browserRefreshEveryLeagues === 0) {
+        try { if (slotA.browser) await slotA.browser.close(); } catch {}
+        slotA.browser = null;
+        try { if (slotB.browser) await slotB.browser.close(); } catch {}
+        slotB.browser = null;
+      }
+
+      await sleep(120);
     }
 
-    // Minimal pause between leagues
-    await sleep(300);
-  }
+    try { if (slotA.browser) await slotA.browser.close(); } catch {}
+    try { if (slotB.browser) await slotB.browser.close(); } catch {}
+  };
 
-  try { if (slotA.browser) await slotA.browser.close(); } catch {}
-  try { if (slotB.browser) await slotB.browser.close(); } catch {}
-  cleanupProfileDirs();
+  await Promise.all(Array.from({ length: nonLiveConcurrency }, (_, index) => runWorker(index + 1)));
   
   // Save raw data
   fs.writeFileSync(
@@ -744,17 +871,19 @@ async function scrapeLeagues() {
       const pinnacle = pinnacleAllMatches[i];
       if (pinnacle.league !== parik.league) continue;
       
-      const score = findMatchScore(parik.home, parik.away, pinnacle.home, pinnacle.away);
+      const alignment = findMatchAlignment(parik.home, parik.away, pinnacle.home, pinnacle.away);
+      const score = alignment.score;
       
       if (score > bestScore) {
         bestScore = score;
-        bestMatch = { index: i, score };
+        bestMatch = { index: i, score, reversed: alignment.reversed };
       }
     }
     
     if (bestMatch) {
       matched.add(bestMatch.index);
-      const pin = pinnacleAllMatches[bestMatch.index];
+      const pinRaw = pinnacleAllMatches[bestMatch.index];
+      const pin = alignPinnacleOdds(pinRaw, !!bestMatch.reversed);
       const sport = (parik.sport || 'football').toLowerCase();
       merged.push({
         league: parik.league,
@@ -812,19 +941,14 @@ async function scrapeLeagues() {
   console.log('[done]');
 }
 
-// ─── Live Football Scraper ────────────────────────────────────────────────────
+// ─── Live Multi-Sport Scraper ────────────────────────────────────────────────
 async function scrapeLiveMatches() {
-  console.log('\n[live] Scraping live football matches...');
+  console.log('\n[live] Scraping live matches (football + basketball + tennis)...');
 
   const launchBrowser = async () => puppeteer.launch({
     headless: CONFIG.headless,
     userDataDir: createBrowserProfileDir('live'),
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      ...CHROME_NO_CACHE_ARGS,
-    ],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
   });
 
   let browserA = null;
@@ -833,56 +957,87 @@ async function scrapeLiveMatches() {
     browserA = await launchBrowser();
     browserB = await launchBrowser();
 
-    const [parikMatches, pinnacleMatches] = await Promise.all([
-      parseParik24WithPuppeteer(browserA, 'https://24-parik.club/en/football/live', 'football').catch((e) => { console.error('[live/parik24]', e.message); return []; }),
-      parsePinnacleWithPuppeteer(browserB, 'https://www.pinnacle.com/en/soccer/matchups/live/', 'football').catch((e) => { console.error('[live/pinnacle]', e.message); return []; }),
-    ]);
+    const liveSources = [
+      {
+        sport: 'football',
+        title: 'Live Football',
+        parikUrl: 'https://24-parik.club/en/football/live',
+        pinnacleUrl: 'https://www.pinnacle.com/en/soccer/matchups/live/',
+      },
+      {
+        sport: 'basketball',
+        title: 'Live Basketball',
+        parikUrl: 'https://24-parik.club/en/basketball/live',
+        pinnacleUrl: 'https://www.pinnacle.com/en/basketball/matchups/live/',
+      },
+      {
+        sport: 'tennis',
+        title: 'Live Tennis',
+        parikUrl: 'https://24-parik.club/en/tennis/live',
+        pinnacleUrl: 'https://www.pinnacle.com/en/tennis/matchups/live/',
+      },
+    ];
 
-    console.log(`  [live/parik24] Found ${parikMatches.length} matches`);
-    console.log(`  [live/pinnacle] Found ${pinnacleMatches.length} matches`);
-
-    // Merge live matches across the whole page (no league constraint)
     const merged = [];
-    const matched = new Set();
 
-    for (const parik of parikMatches) {
-      let bestMatch = null;
-      let bestScore = 0.45; // slightly lower threshold — live team names vary more
+    for (const source of liveSources) {
+      const [parikMatches, pinnacleMatches] = await Promise.all([
+        parseParik24WithPuppeteer(browserA, source.parikUrl, source.sport).catch((e) => {
+          console.error(`[live/parik24/${source.sport}]`, e.message);
+          return [];
+        }),
+        parsePinnacleWithPuppeteer(browserB, source.pinnacleUrl, source.sport).catch((e) => {
+          console.error(`[live/pinnacle/${source.sport}]`, e.message);
+          return [];
+        }),
+      ]);
 
-      for (let i = 0; i < pinnacleMatches.length; i++) {
-        if (matched.has(i)) continue;
-        const score = findMatchScore(parik.home, parik.away, pinnacleMatches[i].home, pinnacleMatches[i].away);
-        if (score > bestScore) {
-          bestScore = score;
-          bestMatch = { index: i, score };
+      console.log(`  [live/parik24/${source.sport}] Found ${parikMatches.length} matches`);
+      console.log(`  [live/pinnacle/${source.sport}] Found ${pinnacleMatches.length} matches`);
+
+      const matched = new Set();
+      for (const parik of parikMatches) {
+        let bestMatch = null;
+        let bestScore = 0.45;
+
+        for (let i = 0; i < pinnacleMatches.length; i++) {
+          if (matched.has(i)) continue;
+          const alignment = findMatchAlignment(parik.home, parik.away, pinnacleMatches[i].home, pinnacleMatches[i].away);
+          const score = alignment.score;
+          if (score > bestScore) {
+            bestScore = score;
+            bestMatch = { index: i, score, reversed: alignment.reversed };
+          }
         }
-      }
 
-      if (bestMatch) {
-        matched.add(bestMatch.index);
-        const pin = pinnacleMatches[bestMatch.index];
-        merged.push({
-          league: 'Live Football',
-          sport: 'live',
-          home: parik.home,
-          away: parik.away,
-          time: parik.time || pin.time || null,
-          parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
-          pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null, time: pin.time || null },
-          matchScore: bestMatch.score,
-        });
-        console.log(`  ✓ [live] ${parik.home} vs ${parik.away} (score: ${bestMatch.score.toFixed(2)})`);
-      } else {
-        merged.push({
-          league: 'Live Football',
-          sport: 'live',
-          home: parik.home,
-          away: parik.away,
-          time: parik.time || null,
-          parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
-          pinnacle: null,
-          matchScore: 0,
-        });
+        if (bestMatch) {
+          matched.add(bestMatch.index);
+          const pinRaw = pinnacleMatches[bestMatch.index];
+          const pin = alignPinnacleOdds(pinRaw, !!bestMatch.reversed);
+          merged.push({
+            league: source.title,
+            sport: source.sport,
+            phase: 'live',
+            home: parik.home,
+            away: parik.away,
+            time: parik.time || pin.time || null,
+            parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
+            pinnacle: { p1: pin.p1, x: pin.x, p2: pin.p2, link: pin.link || null, time: pin.time || null },
+            matchScore: bestMatch.score,
+          });
+        } else {
+          merged.push({
+            league: source.title,
+            sport: source.sport,
+            phase: 'live',
+            home: parik.home,
+            away: parik.away,
+            time: parik.time || null,
+            parik24: { p1: parik.p1, x: parik.x, p2: parik.p2, link: parik.link || null, time: parik.time || null },
+            pinnacle: null,
+            matchScore: 0,
+          });
+        }
       }
     }
 
@@ -918,7 +1073,6 @@ async function scrapeLiveMatches() {
   } finally {
     try { if (browserA) await browserA.close(); } catch {}
     try { if (browserB) await browserB.close(); } catch {}
-    cleanupProfileDirs();
   }
 }
 
@@ -928,6 +1082,7 @@ async function runAll() {
 
   if (!isLiveOnly) {
     await scrapeLeagues();
+    return;
   }
 
   if (SCRAPER_MODE === 'http') {
@@ -954,9 +1109,6 @@ async function runAll() {
 }
 
 runAll().catch(err => {
-  cleanupProfileDirs();
   console.error('[ERROR]', err);
   process.exit(1);
 });
-
-process.on('exit', cleanupProfileDirs);
