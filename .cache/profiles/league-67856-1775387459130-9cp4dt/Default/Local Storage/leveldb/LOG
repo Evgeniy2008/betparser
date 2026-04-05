@@ -1,0 +1,5 @@
+2026/04/05-14:10:59.994 1146c Creating DB D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\league-67856-1775387459130-9cp4dt\Default\Local Storage\leveldb since it was missing.
+2026/04/05-14:11:00.037 1146c Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\league-67856-1775387459130-9cp4dt\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/05-14:11:09.443 1146c Level-0 table #5: started
+2026/04/05-14:11:09.456 1146c Level-0 table #5: 836620 bytes OK
+2026/04/05-14:11:09.458 1146c Delete type=0 #3
