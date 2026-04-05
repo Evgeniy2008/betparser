@@ -10,6 +10,25 @@ const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || path.join(__dirna
 const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
+// Normalize proxy URL to handle special characters in credentials
+function normalizeProxyUrl(proxyUrl) {
+  if (!proxyUrl) return '';
+  try {
+    const url = new URL(proxyUrl);
+    if (url.username && url.password) {
+      // Encode username and password
+      const encodedUser = encodeURIComponent(url.username);
+      const encodedPass = encodeURIComponent(url.password);
+      return `${url.protocol}//${encodedUser}:${encodedPass}@${url.host}`;
+    }
+    return proxyUrl;
+  } catch (_) {
+    return proxyUrl;
+  }
+}
+
+const NORMALIZED_PROXY = normalizeProxyUrl(HTTP_PROXY);
+
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = process.env.PUPPETEER_CACHE_DIR
   ? path.resolve(process.env.PUPPETEER_CACHE_DIR)
@@ -765,8 +784,8 @@ async function scrapeLeagues() {
 
   const launchBrowser = async () => {
     const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
-    if (HTTP_PROXY) {
-      args.push(`--proxy-server=${HTTP_PROXY}`);
+    if (NORMALIZED_PROXY) {
+      args.push(`--proxy-server=${NORMALIZED_PROXY}`);
     }
     return puppeteer.launch({
       headless: CONFIG.headless,
@@ -958,8 +977,8 @@ async function scrapeLiveMatches() {
 
   const launchBrowser = async () => {
     const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
-    if (HTTP_PROXY) {
-      args.push(`--proxy-server=${HTTP_PROXY}`);
+    if (NORMALIZED_PROXY) {
+      args.push(`--proxy-server=${NORMALIZED_PROXY}`);
     }
     return puppeteer.launch({
       headless: CONFIG.headless,

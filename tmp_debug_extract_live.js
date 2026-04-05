@@ -4,6 +4,25 @@ const path = require('path');
 
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
+
+// Normalize proxy URL to handle special characters in credentials
+function normalizeProxyUrl(proxyUrl) {
+  if (!proxyUrl) return '';
+  try {
+    const url = new URL(proxyUrl);
+    if (url.username && url.password) {
+      // Encode username and password
+      const encodedUser = encodeURIComponent(url.username);
+      const encodedPass = encodeURIComponent(url.password);
+      return `${url.protocol}//${encodedUser}:${encodedPass}@${url.host}`;
+    }
+    return proxyUrl;
+  } catch (_) {
+    return proxyUrl;
+  }
+}
+
+const NORMALIZED_PROXY = normalizeProxyUrl(HTTP_PROXY);
 const PROFILE_ROOT = path.join(path.resolve(BETPARSER_CACHE_DIR), 'profiles');
 const profileDir = path.join(PROFILE_ROOT, `debug-extract-live-${process.pid}-${Date.now()}`);
 fs.mkdirSync(profileDir, { recursive: true });
@@ -135,7 +154,7 @@ async function inspectPinnacle(page) {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      `--proxy-server=${HTTP_PROXY}`,
+      `--proxy-server=${NORMALIZED_PROXY}`,
       ...CHROME_NO_CACHE_ARGS,
     ],
   });
