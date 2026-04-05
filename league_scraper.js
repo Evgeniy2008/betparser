@@ -6,20 +6,26 @@ const path = require('path');
 const SCRAPER_MODE = process.env.SCRAPER_MODE || 'file';
 const POST_URL = process.env.POST_URL || '';
 const SCRAPER_SCOPE = String(process.env.SCRAPER_SCOPE || 'full').toLowerCase();
-const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || '/root/betparser/.cache';
+const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || path.join(__dirname, '.cache');
 const PREMATCH_CONCURRENCY = Math.max(1, Number.parseInt(process.env.PREMATCH_CONCURRENCY || '3', 10) || 3);
 
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
-const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
+const PUPPETEER_CACHE_DIR = process.env.PUPPETEER_CACHE_DIR
+  ? path.resolve(process.env.PUPPETEER_CACHE_DIR)
+  : '';
 const TEMP_DIR = path.join(CACHE_ROOT, 'temp');
 const PROFILE_ROOT = path.join(CACHE_ROOT, 'profiles');
 
-for (const dir of [CACHE_ROOT, PUPPETEER_CACHE_DIR, TEMP_DIR, PROFILE_ROOT]) {
+for (const dir of [CACHE_ROOT, TEMP_DIR, PROFILE_ROOT, ...(PUPPETEER_CACHE_DIR ? [PUPPETEER_CACHE_DIR] : [])]) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
 process.env.BETPARSER_CACHE_DIR = CACHE_ROOT;
-process.env.PUPPETEER_CACHE_DIR = PUPPETEER_CACHE_DIR;
+if (PUPPETEER_CACHE_DIR) {
+  process.env.PUPPETEER_CACHE_DIR = PUPPETEER_CACHE_DIR;
+} else {
+  delete process.env.PUPPETEER_CACHE_DIR;
+}
 process.env.TEMP = TEMP_DIR;
 process.env.TMP = TEMP_DIR;
 

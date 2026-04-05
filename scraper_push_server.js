@@ -17,22 +17,27 @@ const intervalMs = Number.isFinite(intervalRaw) && intervalRaw >= 0 ? intervalRa
 const rawPostUrl = getArg('post-url', process.env.POST_URL || DEFAULT_POST_URL);
 const nodeScript = getArg('script', 'league_scraper.js');
 const workingDir = path.resolve(__dirname);
-const cacheDir = path.resolve(getArg('cache-dir', process.env.BETPARSER_CACHE_DIR || '/root/betparser/.cache'));
+const cacheDir = path.resolve(getArg('cache-dir', process.env.BETPARSER_CACHE_DIR || path.join(workingDir, '.cache')));
 const tempDir = path.join(cacheDir, 'temp');
-const puppeteerCacheDir = path.join(cacheDir, 'puppeteer');
+const puppeteerCacheDir = process.env.PUPPETEER_CACHE_DIR
+  ? path.resolve(process.env.PUPPETEER_CACHE_DIR)
+  : '';
 
-for (const dir of [cacheDir, tempDir, puppeteerCacheDir]) {
+for (const dir of [cacheDir, tempDir, ...(puppeteerCacheDir ? [puppeteerCacheDir] : [])]) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
+process.env.BETPARSER_CACHE_DIR = cacheDir;
+if (puppeteerCacheDir) {
+  process.env.PUPPETEER_CACHE_DIR = puppeteerCacheDir;
+} else {
+  delete process.env.PUPPETEER_CACHE_DIR;
+}
+process.env.TEMP = tempDir;
+process.env.TMP = tempDir;
+
 function ensurePuppeteerChromeInstalled() {
-  const envForCheck = {
-    ...process.env,
-    PUPPETEER_CACHE_DIR: puppeteerCacheDir,
-    BETPARSER_CACHE_DIR: cacheDir,
-    TEMP: tempDir,
-    TMP: tempDir,
-  };
+  const envForCheck = { ...process.env };
 
   let hasBrowser = false;
   try {
@@ -90,6 +95,7 @@ console.log('[scraper_push_server] Starting daemon');
 console.log(`  script: ${nodeScript}`);
 console.log(`  post-url: ${postUrl}`);
 console.log(`  cache-dir: ${cacheDir}`);
+console.log(`  puppeteer-cache-dir: ${puppeteerCacheDir || 'default user cache'}`);
 console.log(`  interval: ${intervalMs} ms (${intervalMs === 0 ? 'instant restart' : 'delayed restart'})`);
 
 let running = false;
@@ -111,10 +117,10 @@ async function runScraper() {
       ...process.env,
       SCRAPER_MODE: 'http',
       BETPARSER_CACHE_DIR: cacheDir,
-      PUPPETEER_CACHE_DIR: puppeteerCacheDir,
       TEMP: tempDir,
       TMP: tempDir,
       POST_URL: postUrl,
+      ...(puppeteerCacheDir ? { PUPPETEER_CACHE_DIR: puppeteerCacheDir } : {}),
     },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
