@@ -17,7 +17,7 @@ const intervalMs = Number.isFinite(intervalRaw) && intervalRaw >= 0 ? intervalRa
 const rawPostUrl = getArg('post-url', process.env.POST_URL || DEFAULT_POST_URL);
 const nodeScript = getArg('script', 'league_scraper.js');
 const workingDir = path.resolve(__dirname);
-const cacheDir = path.resolve(getArg('cache-dir', process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache'));
+const cacheDir = path.resolve(getArg('cache-dir', process.env.BETPARSER_CACHE_DIR || '/root/betparser/.cache'));
 const tempDir = path.join(cacheDir, 'temp');
 const puppeteerCacheDir = path.join(cacheDir, 'puppeteer');
 
