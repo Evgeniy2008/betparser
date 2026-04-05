@@ -5,7 +5,21 @@ const path = require('path');
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
-// Ensure proxy is in correct format for Chrome
+// Parse proxy URL — Chrome requires only host:port in --proxy-server, credentials via page.authenticate()
+function parseProxyParts(proxyUrl) {
+  if (!proxyUrl) return { host: '', user: '', pass: '' };
+  try {
+    const u = new URL(proxyUrl);
+    return {
+      host: u.host || '',
+      user: u.username || '',
+      pass: u.password || '',
+    };
+  } catch (_) {
+    return { host: proxyUrl, user: '', pass: '' };
+  }
+}
+
 const NORMALIZED_PROXY = HTTP_PROXY ? String(HTTP_PROXY).trim() : '';
 const CACHE_ROOT = path.resolve(BETPARSER_CACHE_DIR);
 const PUPPETEER_CACHE_DIR = path.join(CACHE_ROOT, 'puppeteer');
@@ -54,6 +68,7 @@ function isValidPinnacleEventUrl(url) {
 }
 
 async function scrapePinnacleTeamTotals(url, proxy) {
+  const proxyParts = parseProxyParts(proxy);
   const launchOptions = {
     headless: true,
     userDataDir: path.join(PROFILE_ROOT, `totals-pin-${process.pid}-${Date.now()}`),
@@ -65,13 +80,16 @@ async function scrapePinnacleTeamTotals(url, proxy) {
       '--window-size=1366,900',
     ],
   };
-  if (proxy) {
-    launchOptions.args.push(`--proxy-server=${proxy}`);
+  if (proxyParts.host) {
+    launchOptions.args.push(`--proxy-server=${proxyParts.host}`);
   }
 
   const browser = await puppeteer.launch(launchOptions);
   try {
     const page = await browser.newPage();
+    if (proxyParts.user && proxyParts.pass) {
+      await page.authenticate({ username: proxyParts.user, password: proxyParts.pass });
+    }
     await page.setUserAgent(
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
     );

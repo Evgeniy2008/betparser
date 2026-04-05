@@ -1,0 +1,8 @@
+2026/04/05-14:07:12.236 10acc Creating DB D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\live-69788-1775387231993-d54jl2\Default\Session Storage since it was missing.
+2026/04/05-14:07:12.249 10acc Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\live-69788-1775387231993-d54jl2\Default\Session Storage/MANIFEST-000001
+2026/04/05-14:07:21.058 10394 Level-0 table #5: started
+2026/04/05-14:07:21.062 10394 Level-0 table #5: 38427 bytes OK
+2026/04/05-14:07:21.064 10394 Delete type=0 #3
+2026/04/05-14:07:26.185 10394 Level-0 table #7: started
+2026/04/05-14:07:26.188 10394 Level-0 table #7: 38387 bytes OK
+2026/04/05-14:07:26.190 10394 Delete type=0 #4

@@ -5,9 +5,17 @@ const path = require('path');
 const BETPARSER_CACHE_DIR = process.env.BETPARSER_CACHE_DIR || 'D:\\BetparserCache';
 const HTTP_PROXY = process.env.HTTP_PROXY || process.env.BETPARSER_PROXY || 'http://pEStQExmT_0:Ze9TmZ656Eed@rsg-42385.sp1.ovh:11001';
 
-// Ensure proxy is in correct format for Chrome
-const NORMALIZED_PROXY = HTTP_PROXY ? String(HTTP_PROXY).trim() : '';
+function parseProxyParts(proxyUrl) {
+  if (!proxyUrl) return { host: '', user: '', pass: '' };
+  try {
+    const u = new URL(proxyUrl);
+    return { host: u.host || '', user: u.username || '', pass: u.password || '' };
+  } catch (_) {
+    return { host: proxyUrl, user: '', pass: '' };
+  }
+}
 
+const PROXY_PARTS = parseProxyParts(HTTP_PROXY);
 const PROFILE_ROOT = path.join(path.resolve(BETPARSER_CACHE_DIR), 'profiles');
 const profileDir = path.join(PROFILE_ROOT, `debug-extract-live-${process.pid}-${Date.now()}`);
 fs.mkdirSync(profileDir, { recursive: true });
@@ -139,10 +147,15 @@ async function inspectPinnacle(page) {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      `--proxy-server=${NORMALIZED_PROXY}`,
+      ...(PROXY_PARTS.host ? [`--proxy-server=${PROXY_PARTS.host}`] : []),
       ...CHROME_NO_CACHE_ARGS,
     ],
   });
+
+  if (PROXY_PARTS.user && PROXY_PARTS.pass) {
+    const pg = await browser.pages().then(pages => pages[0]).catch(() => null);
+    if (pg) await pg.authenticate({ username: PROXY_PARTS.user, password: PROXY_PARTS.pass }).catch(() => {});
+  }
 
   const parik = await browser.newPage();
   await parik.goto('https://24-parik.club/en/football/live', { waitUntil: 'networkidle2', timeout: 45000 });

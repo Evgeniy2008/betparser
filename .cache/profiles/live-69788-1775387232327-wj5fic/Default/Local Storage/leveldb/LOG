@@ -1,0 +1,5 @@
+2026/04/05-14:07:12.583 bda0 Creating DB D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\live-69788-1775387232327-wj5fic\Default\Local Storage\leveldb since it was missing.
+2026/04/05-14:07:12.598 bda0 Reusing MANIFEST D:\Сайты\OpenServer\domains\Betparser\.cache\profiles\live-69788-1775387232327-wj5fic\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/05-14:07:24.564 bda0 Level-0 table #5: started
+2026/04/05-14:07:24.572 bda0 Level-0 table #5: 836886 bytes OK
+2026/04/05-14:07:24.574 bda0 Delete type=0 #3

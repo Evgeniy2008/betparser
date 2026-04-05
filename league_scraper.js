@@ -159,6 +159,9 @@ async function parseParik24WithPuppeteer(browser, url, sport = 'football') {
   let page;
   try {
     page = await browser.newPage();
+    if (PROXY_CONFIG.user && PROXY_CONFIG.pass) {
+      await page.authenticate({ username: PROXY_CONFIG.user, password: PROXY_CONFIG.pass });
+    }
     
     await page.setViewport({ width: 1280, height: 800 });
     await page.goto(url, { waitUntil: 'networkidle2', timeout: CONFIG.timeout });
@@ -369,6 +372,9 @@ async function parsePinnacleWithPuppeteer(browser, url, sport = 'football') {
   let page;
   try {
     page = await browser.newPage();
+    if (PROXY_CONFIG.user && PROXY_CONFIG.pass) {
+      await page.authenticate({ username: PROXY_CONFIG.user, password: PROXY_CONFIG.pass });
+    }
     
     await page.setViewport({ width: 1280, height: 800 });
 
@@ -784,8 +790,8 @@ async function scrapeLeagues() {
 
   const launchBrowser = async () => {
     const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
-    if (NORMALIZED_PROXY) {
-      args.push(`--proxy-server=${NORMALIZED_PROXY}`);
+    if (PROXY_CONFIG.host) {
+      args.push(`--proxy-server=${PROXY_CONFIG.host}`);
     }
     return puppeteer.launch({
       headless: CONFIG.headless,
@@ -977,8 +983,8 @@ async function scrapeLiveMatches() {
 
   const launchBrowser = async () => {
     const args = ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'];
-    if (NORMALIZED_PROXY) {
-      args.push(`--proxy-server=${NORMALIZED_PROXY}`);
+    if (PROXY_CONFIG.host) {
+      args.push(`--proxy-server=${PROXY_CONFIG.host}`);
     }
     return puppeteer.launch({
       headless: CONFIG.headless,
