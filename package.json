@@ -13,7 +13,8 @@
     "parik24:tennis": "node tools/parik24_tennis_live_worker.js",
     "parik24:root": "node parik24_live_worker.js",
     "pinnacle": "node tools/pinnacle_live_worker.js",
-    "pinnacle:root": "node pinnacle_live_worker.js"
+    "pinnacle:root": "node pinnacle_live_worker.js",
+    "tg:webapp": "node tools/telegram_webapp_bot.js"
   },
   "repository": {
     "type": "git",
