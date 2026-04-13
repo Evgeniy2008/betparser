@@ -3,7 +3,7 @@
  *
  * Protocol facts captured from real browser session:
  *  - Type 4  (StreamInvocation) for all client→server calls
- *  - Hub context : 5-element array ['uk-PRJ4','MOBILE_WEB','PRJ4','','UAH']
+ *  - Hub context : 5-element array ['en-PRJ4','MOBILE_WEB','PRJ4','','USD']
  *  - Server responds with type 2 (StreamItem): [2, {}, invId, [isBatch, [items]]]
  *  - Odds stored as integer × 100  (195 → 1.95)
  *  - Outcome types: 0=P1, 1=X, 3=P2
@@ -26,13 +26,13 @@ const WS_URL =
   'wss://parik-24.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
 
 // Hub context – exact 5-element array the browser sends
-const HUB_CTX = ['uk-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'UAH'];
+const HUB_CTX = ['en-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'USD'];
 
 const OUT_FILE           = path.resolve(__dirname, '../data/parik24_raw.json');
 const RECONNECT_DELAY_MS = 4000;
 const PING_INTERVAL_MS   = 20000;
 const MARKETS_REFRESH_MS = 5000;
-const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'https://websitebets.bionrgg.com/push_live_data.php').trim();
+const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'http://betparser/push_live_data.php').trim();
 const PUSH_TOKEN         = String(process.env.BETPARSER_PUSH_TOKEN || '').trim();
 
 // ══════════════════════════════════════════════
@@ -248,7 +248,7 @@ function parseEventTuple(ev) {
     statusCode,
     elapsed,
     score:      scoreStr || existing.score || '',
-    link:       slug ? `/uk/events/${slug}` : '',
+    link:       slug ? `/en/events/${slug}` : '',
     time:       new Date().toISOString(),
     p1:         existing.p1 ?? null,
     x:          existing.x  ?? null,

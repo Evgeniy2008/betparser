@@ -15,18 +15,18 @@ const path      = require('path');
 const WS_URL =
   'wss://parik-24.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
 
-const HUB_CTX = ['uk-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'UAH'];
+const HUB_CTX = ['en-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'USD'];
 
 // Parik24 sport code for basketball
 const SPORT_CODE = 'B';
 const SPORT_NAME = 'basketball';
-const SPORT_LINK_PREFIX = '/uk/basketball/events/';
+const SPORT_LINK_PREFIX = '/en/basketball/events/';
 
 const OUT_FILE           = path.resolve(__dirname, '../data/parik24_basketball_raw.json');
 const RECONNECT_DELAY_MS = 4000;
 const PING_INTERVAL_MS   = 20000;
 const MARKETS_REFRESH_MS = 5000;
-const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'https://websitebets.bionrgg.com/push_live_data.php').trim();
+const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'http://betparser/push_live_data.php').trim();
 const PUSH_TOKEN         = String(process.env.BETPARSER_PUSH_TOKEN || '').trim();
 
 const eventsMap = new Map();
