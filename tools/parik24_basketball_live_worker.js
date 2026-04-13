@@ -26,7 +26,7 @@ const OUT_FILE           = path.resolve(__dirname, '../data/parik24_basketball_r
 const RECONNECT_DELAY_MS = 4000;
 const PING_INTERVAL_MS   = 20000;
 const MARKETS_REFRESH_MS = 5000;
-const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'http://betparser/push_live_data.php').trim();
+const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || 'https://websitebets.bionrgg.com/push_live_data.php').trim();
 const PUSH_TOKEN         = String(process.env.BETPARSER_PUSH_TOKEN || '').trim();
 
 const eventsMap = new Map();

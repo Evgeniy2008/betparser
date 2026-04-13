@@ -6,7 +6,7 @@ cd /d "%~dp0"
 rem ==================================================
 rem Remote push (for scripts running on separate VPS)
 rem Uncomment and set your real site URL/token:
-rem set "BETPARSER_PUSH_URL=http://betparser/push_live_data.php"
+rem set "BETPARSER_PUSH_URL=https://websitebets.bionrgg.com/push_live_data.php"
 rem set "BETPARSER_PUSH_TOKEN=change_me_secret_token"
 rem ==================================================
 

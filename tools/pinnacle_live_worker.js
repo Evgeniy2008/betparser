@@ -19,7 +19,7 @@ const path = require('path');
 
 const API_BASE = 'https://guest.api.arcadia.pinnacle.com/0.1';
 const API_KEY  = 'CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R';
-const PUSH_URL = String(process.env.BETPARSER_PUSH_URL || 'http://betparser/push_live_data.php').trim();
+const PUSH_URL = String(process.env.BETPARSER_PUSH_URL || 'https://websitebets.bionrgg.com/push_live_data.php').trim();
 const PUSH_TOKEN = String(process.env.BETPARSER_PUSH_TOKEN || '').trim();
 
 const POLL_MS        = 8000;
