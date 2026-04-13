@@ -1,0 +1,175 @@
+{
+  "name": "Pinnacle",
+  "shortDomain": "Pinnacle.com",
+  "url": "https://www.pinnacle.com",
+  "language": {
+    "default": "en-GB",
+    "licensesCanOverride": true,
+    "supported": [
+      "cs-CZ",
+      "de-DE",
+      "en-GB",
+      "es-ES",
+      "fi-FI",
+      "fr-FR",
+      "it-IT",
+      "ja-JP",
+      "ko-KR",
+      "pt-PT",
+      "ru-RU",
+      "sv-SE",
+      "zh-CN",
+      "zh-TW"
+    ]
+  },
+  "currency": {
+    "default": {
+      "curacao": "EUR",
+      "malta": "EUR",
+      "australia": "EUR",
+      "sweden": "SEK",
+      "ontario": "CAD",
+      "nolicense": "EUR",
+      "anjouan": "EUR",
+      "commercialanjouan": "EUR"
+    },
+    "overrides": {},
+    "intl": {
+      "nonStandard": ["VND", "MGA"]
+    }
+  },
+  "features": {
+    "casino": {
+      "enabled": true
+    },
+    "anjouanSeal": {
+      "enabled": true,
+      "id": "f49e0e95-cc2a-4abf-89de-609208c51cca"
+    },
+    "salesforceChatBot": {
+      "featureEnabled": false,
+      "supportedLocales": {
+        "default": {
+          "global": ["en-GB"],
+          "urlPrefix": ["en"]
+        },
+        "sweden": {
+          "global": ["en-GB"],
+          "urlPrefix": ["en"]
+        },
+        "malta": {
+          "global": ["en-GB", "ru-RU"],
+          "urlPrefix": ["en", "ru"]
+        },
+        "curacao": {
+          "global": ["en-GB", "ru-RU", "pt-PT"],
+          "urlPrefix": ["en", "ru", "pt"]
+        }
+      },
+      "configs": {
+        "sweden": {
+          "en": {
+            "brand": "Pinnacle.se",
+            "buttonId": "57309000000DaOt",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000TyEeEAK_17a4cd304a4",
+            "language": "English",
+            "widgetName": "Pinnacle_SE_English_Registration_LiveChat",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          }
+        },
+        "malta": {
+          "en": {
+            "brand": "Pinnacle.bet",
+            "buttonId": "57309000000DaOy",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000TyFSEA0_17a4d077365",
+            "language": "English",
+            "widgetName": "Pinnacle_bet_English_Registration_Bot",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          },
+          "ru": {
+            "brand": "Pinnacle.bet",
+            "buttonId": "57309000000Db5E",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000TyilEAC_17a7ae37703",
+            "language": "Russian",
+            "widgetName": "Pinnacle_bet_Russian_Help_LiveChat",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          },
+          "zh-cn": {
+            "brand": "Pinnacle.bet",
+            "buttonId": "57309000000DaP3",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000TyFmEAK_17a4d191082",
+            "language": "Chinese simplified",
+            "widgetName": "Pinnacle_bet_ChineseSimpli_Help_LiveChat",
+            "defaultMinimizedText": "Precisa de ajuda",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          }
+        },
+        "curacao": {
+          "en": {
+            "brand": "Pinnacle.com",
+            "buttonId": "57309000000DaOy",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000558LEAQ_17a2612274f",
+            "language": "English",
+            "widgetName": "Pinnacle_com_English_Registration_Bot",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          },
+          "ru": {
+            "brand": "Pinnacle.com",
+            "buttonId": "57309000000Db5E",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000TyFNEA0_17a4cf2cc0b",
+            "language": "Russian",
+            "widgetName": "Pinnacle_com_Russian_Registration_LiveChat",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          },
+          "zh-cn": {
+            "brand": "Pinnacle.com",
+            "buttonId": "57309000000DaOy",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000558LEAQ_17a2612274f",
+            "language": "Chinese simplified",
+            "widgetName": "Pinnacle_com_ChineseSimpli_Help_LiveChat",
+            "defaultMinimizedText": "",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          },
+          "pt": {
+            "brand": "Pinnacle.com",
+            "enabledInHomePage": false,
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I8E00000001c1UAA_189496da195",
+            "language": "Portuguese BR",
+            "widgetName": "Pinnacle_com_PortugeseBR_Bot",
+            "defaultMinimizedText": "Precisa de ajuda",
+            "disabledMinimizedText": "",
+            "loadingText": "Loading"
+          }
+        }
+      }
+    }
+  },
+  "registrationBlacklist": {
+    "cn": [
+      "moc.elcannip.aidacra.dorperp",
+      "teb.elcannip.aidacra.dorperp",
+      "moc.elcannip.aidacra.ic.2v",
+      "moc.elcannip.www",
+      "teb.elcnanip.www"
+    ]
+  }
+}

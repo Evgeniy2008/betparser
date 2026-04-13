@@ -1,0 +1,5048 @@
+{
+    "source": "the-odds-api-v4",
+    "updated": "2026-04-12T10:46:00+00:00",
+    "total": 144,
+    "sport": "football",
+    "matches": [
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/football\/poland\/poland-ekstraklasa?tab=liveAndUpcoming&eventId=f-M7JQ5rivLU-cL2XFdtdGcA&eti=0&fs=true",
+                "p1": 1.18,
+                "x": 5.35,
+                "p2": 12.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/football\/poland\/poland-ekstraklasa\/cracovia-krakow-arka-gdynia",
+                "p1": 1.18,
+                "x": 5.35,
+                "p2": 12.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betclic_fr",
+                "title": "Betclic (FR)",
+                "link": "https:\/\/www.betclic.fr\/football-sfootball\/pologne-ekstraklasa-c221\/ks-cracovia-arka-gdynia-m974560744796160",
+                "p1": 1.18,
+                "x": 4.8,
+                "p2": 12.25
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "pmu_fr",
+                "title": "PMU (FR)",
+                "link": "https:\/\/www.pmu.fr\/sport\/#event\/1023932620",
+                "p1": 1.2,
+                "x": 4.25,
+                "p2": 9.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "ladbrokes_uk",
+                "title": "Ladbrokes",
+                "link": "https:\/\/sports.ladbrokes.com\/event\/football\/polish\/polish-ekstraklasa\/mks-cracovia-krakow-v-mks-arka-gdynia\/255339297\/main-markets",
+                "p1": 1.2,
+                "x": 4.8,
+                "p2": 11
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "coral",
+                "title": "Coral",
+                "link": "https:\/\/sports.coral.co.uk\/event\/football\/football-poland\/polish-ekstraklasa\/cracovia-v-mks-arka-gdynia\/42746566\/main-markets",
+                "p1": 1.2,
+                "x": 4.8,
+                "p2": 11
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betvictor",
+                "title": "Bet Victor",
+                "link": "https:\/\/www.betvictor.com\/en-gb\/sports\/240\/meetings\/713526210\/events\/2750506900",
+                "p1": 1.2,
+                "x": 5.75,
+                "p2": 15
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "skybet",
+                "title": "Sky Bet",
+                "link": "https:\/\/skybet.com\/football\/polish-ekstraklasa\/cracovia-krakow-v-arka-gdynia\/e-35465522",
+                "p1": 1.2,
+                "x": 5,
+                "p2": 13
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/football\/polish-ekstraklasa\/cracovia-krakow-v-arka-gdynia-35465522",
+                "p1": 1.2,
+                "x": 5,
+                "p2": 13
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/mks-cracovia-krakow---mks-arka-gdynia-2%3A7783359",
+                "p1": 1.21,
+                "x": 5,
+                "p2": 12.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/soccer\/polish-ekstraklasa\/cracovia-krakow-v-arka-gdynia-35465522",
+                "p1": 1.21,
+                "x": 5.6,
+                "p2": 14
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16582191",
+                "p1": 1.22,
+                "x": 5,
+                "p2": 12
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5302273",
+                "p1": 1.22,
+                "x": 5.5,
+                "p2": 14
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 1.22,
+                "x": 5,
+                "p2": 13
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33952975",
+                "p1": 1.22,
+                "x": 5.5,
+                "p2": 15
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "boylesports",
+                "title": "BoyleSports",
+                "link": "https:\/\/www.boylesports.com\/sports\/football\/event\/poland-ekstraklasa\/cracovia-v-arka-gdynia",
+                "p1": 1.22,
+                "x": 4.75,
+                "p2": 11
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/61062239",
+                "p1": 1.24,
+                "x": 4.8,
+                "p2": 11
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1023932620",
+                "p1": 1.25,
+                "x": 4.5,
+                "p2": 10
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/football\/poland\/polish-ekstraklasa\/cracovia-vs-arka-gdynia-e-7433011\/",
+                "p1": 1.25,
+                "x": 4.8,
+                "p2": 11
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/football\/poland-ekstraklasa\/cracovia-krak%C3%B3w-arka-gdynia\/SBTE_2_1023932620",
+                "p1": 1.26,
+                "x": 4.5,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1023932620",
+                "p1": 1.26,
+                "x": 4.5,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/football\/poland-ekstraklasa\/cracovia-krak%C3%B3w-arka-gdynia\/SBTE_2_1023932620",
+                "p1": 1.26,
+                "x": 4.5,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "tabtouch",
+                "title": "TABtouch",
+                "link": "https:\/\/www.tabtouch.mobi\/tabtouch-sports\/event\/1023932620",
+                "p1": 1.27,
+                "x": 4.5,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44995233\/sport\/football\/poland-ekstraklasa\/2026\/04\/12\/10-15\/cracovia-krakow-vs-arka-gdynia",
+                "p1": 1.27,
+                "x": 5.6,
+                "p2": 17.99
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.27,
+                "x": 5.9,
+                "p2": 17.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1023932620",
+                "p1": 1.28,
+                "x": 4.6,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1023932620",
+                "p1": 1.28,
+                "x": 4.6,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 1.28,
+                "x": 4.6,
+                "p2": 10.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.28,
+                "x": 5.7,
+                "p2": 16.5
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.28,
+                "x": 5.9,
+                "p2": 18
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/soccer\/poland\/poland-ekstraklasa\/32962561193500081\/",
+                "p1": 1.28,
+                "x": 5.8,
+                "p2": 18
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "pmu_fr",
+                "title": "PMU (FR)",
+                "link": "https:\/\/www.pmu.fr\/sport\/#event\/1024944815",
+                "p1": 1.15,
+                "x": 3.85,
+                "p2": 20
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/63684721",
+                "p1": 1.21,
+                "x": 4.5,
+                "p2": 24
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1024944815",
+                "p1": 1.21,
+                "x": 4.1,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "tab",
+                "title": "TAB",
+                "link": "https:\/\/www.tab.com.au\/sports\/betting\/Soccer\/competitions\/A%20League%20Men\/matches\/Perth%20Glory%20v%20Macarthur%20FC",
+                "p1": 1.22,
+                "x": 4.75,
+                "p2": 26
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/football\/australia-a-league\/perth-glory-macarthur-fc\/SBTE_2_1024944815",
+                "p1": 1.22,
+                "x": 4.2,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1024944815",
+                "p1": 1.22,
+                "x": 4.2,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/football\/australia-a-league\/perth-glory-macarthur-fc\/SBTE_2_1024944815",
+                "p1": 1.22,
+                "x": 4.2,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 1.22,
+                "x": 4.3,
+                "p2": 26
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/63684721",
+                "p1": 1.23,
+                "x": 4.2,
+                "p2": 23
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/football\/australia\/australia-a-league\/perth-glory-fc-macarthur-fc",
+                "p1": 1.23,
+                "x": 4.2,
+                "p2": 24
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/football\/australia\/australia-a-league?tab=liveAndUpcoming&eventId=f-PiRFg0Vi3EuIe15H7qpzdA&eti=0&fs=true",
+                "p1": 1.23,
+                "x": 4.2,
+                "p2": 24
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "tabtouch",
+                "title": "TABtouch",
+                "link": "https:\/\/www.tabtouch.mobi\/tabtouch-sports\/event\/1024944815",
+                "p1": 1.23,
+                "x": 4.2,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1024944815",
+                "p1": 1.24,
+                "x": 4.25,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1024944815",
+                "p1": 1.24,
+                "x": 4.25,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1024944815",
+                "p1": 1.24,
+                "x": 4.25,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1024944815",
+                "p1": 1.24,
+                "x": 4.25,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 1.24,
+                "x": 4.25,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/football\/australia\/australian-a-league\/perth-glory-vs-macarthur-fc-e-7349427\/",
+                "p1": 1.25,
+                "x": 4.33,
+                "p2": 19
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/football\/australian-a-league-men\/perth-glory-v-macarthur-fc-35403970",
+                "p1": 1.25,
+                "x": 4.2,
+                "p2": 21
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33940629",
+                "p1": 1.25,
+                "x": 4.4,
+                "p2": 26
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "coral",
+                "title": "Coral",
+                "link": "https:\/\/sports.coral.co.uk\/event\/football\/football-australia\/australian-a-league\/perth-glory-v-macarthur-fc\/42722046\/main-markets",
+                "p1": 1.25,
+                "x": 4.4,
+                "p2": 19
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "ladbrokes_uk",
+                "title": "Ladbrokes",
+                "link": "https:\/\/sports.ladbrokes.com\/event\/football\/australian\/australian-a-league\/perth-glory-v-macarthur-fc\/255316716\/main-markets",
+                "p1": 1.25,
+                "x": 4.4,
+                "p2": 19
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44967073\/sport\/football\/australia-a-league\/2026\/04\/12\/09-00\/perth-glory-vs-macarthur-fc",
+                "p1": 1.27,
+                "x": 4.7,
+                "p2": 25
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/soccer\/australia\/australia-a-league\/32824160563400045\/",
+                "p1": 1.27,
+                "x": 4.9,
+                "p2": 30
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.28,
+                "x": 4.9,
+                "p2": 29
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5232246",
+                "p1": 1.29,
+                "x": 4.5,
+                "p2": 28
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/soccer\/Australian%20A-League%20Men\/2675499",
+                "p1": 1.31,
+                "x": 4.3,
+                "p2": 19
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.33,
+                "x": 4.4,
+                "p2": 20
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/football\/australia\/a_league\/perth-glory-vs-macarthur\/0e0e8399a0d6f3f766a32d5c38ce8846",
+                "p1": 1.33,
+                "x": 3.8,
+                "p2": 16
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1023932620",
+                "p1": 2.02,
+                "x": 2.63,
+                "p2": 3.85
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/61320205",
+                "p1": 2.95,
+                "x": 2.6,
+                "p2": 2.35
+            }
+        },
+        {
+            "id": "e26f51d1c23f34ce032e24ec1a0ba95d",
+            "sport_key": "soccer_australia_aleague",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "A-League",
+            "home": "Perth Glory",
+            "away": "Macarthur FC",
+            "time": "2026-04-12T09:01:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 31,
+                "validSecondsTotal": 30,
+                "pinnacleLastUpdate": "2026-04-12T10:38:55Z",
+                "apiLastUpdate": "2026-04-12T10:46:01+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/australia-a-league\/macarthur-fc-vs-perth-glory\/1628231224\/",
+                "p1": 1.52,
+                "x": 3.47,
+                "p2": 8.53
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.37,
+                "x": 4.2,
+                "p2": 18.5
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/61061575",
+                "p1": 2.25,
+                "x": 2.75,
+                "p2": 2.95
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betclic_fr",
+                "title": "Betclic (FR)",
+                "link": "https:\/\/www.betclic.fr\/football-sfootball\/italie-serie-a-c6\/genoa-sassuolo-m976259344740360",
+                "p1": 2.1,
+                "x": 3.15,
+                "p2": 3.35
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1023932620",
+                "p1": 2.1,
+                "x": 2.7,
+                "p2": 4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 2.2,
+                "x": 2.75,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "pmu_fr",
+                "title": "PMU (FR)",
+                "link": "https:\/\/www.pmu.fr\/sport\/#event\/1024051623",
+                "p1": 2.85,
+                "x": 2.75,
+                "p2": 2.35
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "sportsbet",
+                "title": "SportsBet",
+                "link": "https:\/\/www.sportsbet.com.au\/betting\/soccer\/italian-serie-a\/genoa-v-sassuolo-10289735",
+                "p1": 2.15,
+                "x": 3.25,
+                "p2": 3.6
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "williamhill",
+                "title": "William Hill",
+                "link": "https:\/\/sports.williamhill.com\/betting\/en-gb\/football\/OB_EV39159744\/genoa-vs-sassuolo",
+                "p1": 2.15,
+                "x": 3.2,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/fortuna-sittard---nac-breda-2%3A7773820",
+                "p1": 2.88,
+                "x": 2.75,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "codere_it",
+                "title": "Codere (IT)",
+                "link": "https:\/\/www.codere.it\/scommesse\/calcio\/italia-serie-a\/20260412\/genoa-vs-sassuolo-calcio",
+                "p1": 2.16,
+                "x": 3.3,
+                "p2": 3.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/61320205",
+                "p1": 3.05,
+                "x": 2.7,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/football\/netherlands\/dutch-eredivisie\/fortuna-sittard-vs-nac-breda-e-7348744\/",
+                "p1": 3.1,
+                "x": 2.7,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "ladbrokes_uk",
+                "title": "Ladbrokes",
+                "link": "https:\/\/sports.ladbrokes.com\/event\/football\/italian\/italian-serie-a\/genoa-cfc-v-us-sassuolo-calcio\/255305042\/main-markets",
+                "p1": 2.2,
+                "x": 2.9,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/genoa-cfc---us-sassuolo-calcio-2%3A7773863",
+                "p1": 2.2,
+                "x": 2.9,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "coral",
+                "title": "Coral",
+                "link": "https:\/\/sports.coral.co.uk\/event\/football\/football-italy\/italian-serie-a\/genoa-cfc-v-us-sassuolo-calcio\/42709271\/main-markets",
+                "p1": 2.2,
+                "x": 2.9,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "skybet",
+                "title": "Sky Bet",
+                "link": "https:\/\/skybet.com\/football\/italian-serie-a\/genoa-v-sassuolo\/e-35403775",
+                "p1": 2.2,
+                "x": 3,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/football\/italian-serie-a\/genoa-v-sassuolo-35403775",
+                "p1": 2.2,
+                "x": 3,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "coral",
+                "title": "Coral",
+                "link": "https:\/\/sports.coral.co.uk\/event\/football\/football-netherlands\/dutch-eredivisie\/fortuna-sittard-v-nac-breda\/42707738\/main-markets",
+                "p1": 2.9,
+                "x": 2.8,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "ladbrokes_uk",
+                "title": "Ladbrokes",
+                "link": "https:\/\/sports.ladbrokes.com\/event\/football\/dutch\/dutch-eredivisie\/fortuna-sittard-v-nac-breda\/255303667\/main-markets",
+                "p1": 2.9,
+                "x": 2.8,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/football\/italy\/serie_a\/genoa-vs-sassuolo\/72233da888b64d1100a56caab896d793",
+                "p1": 2.2,
+                "x": 3,
+                "p2": 3.5
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/football\/italy\/italy-serie-a\/genoa-sassuolo",
+                "p1": 2.2,
+                "x": 2.92,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "pmu_fr",
+                "title": "PMU (FR)",
+                "link": "https:\/\/www.pmu.fr\/sport\/#event\/1023932317",
+                "p1": 2.23,
+                "x": 2.95,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1023932317",
+                "p1": 2.23,
+                "x": 2.95,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/football\/netherlands\/netherlands-eredivisie\/fortuna-sittard-nac-breda",
+                "p1": 3.05,
+                "x": 2.7,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/football\/netherlands\/netherlands---eredivisie?tab=liveAndUpcoming&eventId=f-OJ8AEN49rUa8b3SD7ZgnAg&eti=0&fs=true",
+                "p1": 3.05,
+                "x": 2.75,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/football\/italy\/italian-serie-a\/genoa-vs-sassuolo-e-7349487\/",
+                "p1": 2.3,
+                "x": 2.9,
+                "p2": 3.1
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/61062239",
+                "p1": 1.92,
+                "x": 2.75,
+                "p2": 4.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "skybet",
+                "title": "Sky Bet",
+                "link": "https:\/\/skybet.com\/football\/dutch-eredivisie\/fortuna-sittard-v-nac-breda\/e-35402556",
+                "p1": 2.88,
+                "x": 2.88,
+                "p2": 2.38
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 3,
+                "x": 2.85,
+                "p2": 2.4
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betclic_fr",
+                "title": "Betclic (FR)",
+                "link": "https:\/\/www.betclic.fr\/football-sfootball\/pays-bas-eredivisie-c21\/fortuna-sittard-nac-breda-m975504319688704",
+                "p1": 3.2,
+                "x": 2.85,
+                "p2": 2.4
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/football\/dutch-eredivisie\/fortuna-sittard-v-nac-breda-35402556",
+                "p1": 3,
+                "x": 2.88,
+                "p2": 2.38
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "boylesports",
+                "title": "BoyleSports",
+                "link": "https:\/\/www.boylesports.com\/sports\/football\/event\/italy-serie-a\/genoa-v-sassuolo",
+                "p1": 2.38,
+                "x": 3.1,
+                "p2": 3
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33940859",
+                "p1": 3.15,
+                "x": 2.75,
+                "p2": 2.55
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/football\/italy-serie-a\/genoa-sassuolo\/SBTE_2_1023932317",
+                "p1": 2.25,
+                "x": 3,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1023932317",
+                "p1": 2.25,
+                "x": 3.1,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "boylesports",
+                "title": "BoyleSports",
+                "link": "https:\/\/www.boylesports.com\/sports\/football\/event\/netherlands-eredivisie\/fortuna-sittard-v-nac-breda",
+                "p1": 3.2,
+                "x": 2.9,
+                "p2": 2.38
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/soccer\/italian-serie-a\/genoa-v-sassuolo-35403775",
+                "p1": 2.25,
+                "x": 3.2,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "link": "https:\/\/sportsbook.caesars.com\/us\/{state}\/bet\/football\/b42c7b76-5f66-42b3-90f8-148ff6cbcbf4\/genoa-vs-sassuolo",
+                "p1": 2.25,
+                "x": 3.2,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "590d71050f2d75426f551665d8ce128c",
+            "sport_key": "soccer_poland_ekstraklasa",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Ekstraklasa - Poland",
+            "home": "Cracovia Kraków",
+            "away": "Arka Gdynia",
+            "time": "2026-04-12T10:17:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 36,
+                "validSecondsTotal": 35,
+                "pinnacleLastUpdate": "2026-04-12T10:45:49Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/poland-ekstraklasa\/arka-gdynia-vs-cracovia-krakow\/1628252598\/",
+                "p1": 1.98,
+                "x": 2.9,
+                "p2": 4.66
+            },
+            "second": {
+                "key": "tipico_de",
+                "title": "Tipico",
+                "link": "",
+                "p1": 2,
+                "x": 2.8,
+                "p2": 4.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/football\/italy-serie-a\/genoa-sassuolo\/SBTE_2_1023932317",
+                "p1": 2.28,
+                "x": 3,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1023932317",
+                "p1": 2.28,
+                "x": 3,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "tabtouch",
+                "title": "TABtouch",
+                "link": "https:\/\/www.tabtouch.mobi\/tabtouch-sports\/event\/1023932317",
+                "p1": 2.28,
+                "x": 3,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16516751",
+                "p1": 3,
+                "x": 2.8,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1024051623",
+                "p1": 2.95,
+                "x": 2.85,
+                "p2": 2.43
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1024051623",
+                "p1": 2.95,
+                "x": 2.85,
+                "p2": 2.43
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "tipico_de",
+                "title": "Tipico",
+                "link": "",
+                "p1": 2.9,
+                "x": 2.9,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "bovada",
+                "title": "Bovada",
+                "link": "https:\/\/www.bovada.lv\/sports\/soccer\/europe\/netherlands\/eredivisie\/fortuna-sittard-nac-breda-202604120615",
+                "p1": 2.75,
+                "x": 3.2,
+                "p2": 2.6
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/61061575",
+                "p1": 2.35,
+                "x": 2.95,
+                "p2": 3.1
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "tipico_de",
+                "title": "Tipico",
+                "link": "",
+                "p1": 2.3,
+                "x": 3,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "tab",
+                "title": "TAB",
+                "link": "https:\/\/www.tab.com.au\/sports\/betting\/Soccer\/competitions\/Italian%20Serie%20A\/matches\/Genoa%20v%20Sassuolo",
+                "p1": 2.3,
+                "x": 2.9,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/football\/netherlands\/eredivisie\/fortuna-sittard-vs-nac-breda\/8b0711f6a466ef88b77c3f859747b71d",
+                "p1": 3.2,
+                "x": 2.8,
+                "p2": 2.55
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 2.28,
+                "x": 3.05,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1023932317",
+                "p1": 2.28,
+                "x": 3.05,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1024051623",
+                "p1": 2.95,
+                "x": 2.9,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/football\/netherlands-eredivisie\/fortuna-sittard-nac-breda\/SBTE_2_1024051623",
+                "p1": 2.95,
+                "x": 2.9,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/football\/netherlands-eredivisie\/fortuna-sittard-nac-breda\/SBTE_2_1024051623",
+                "p1": 2.95,
+                "x": 2.9,
+                "p2": 2.45
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/football\/italy\/italy-serie-a?tab=liveAndUpcoming&eventId=f-rqnKrIL260apstrgBhQPHg&eti=0&fs=true",
+                "p1": 2.35,
+                "x": 2.92,
+                "p2": 3.15
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16518043",
+                "p1": 2.3,
+                "x": 2.9,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1023932317",
+                "p1": 2.3,
+                "x": 3,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1023932317",
+                "p1": 2.3,
+                "x": 3,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betvictor",
+                "title": "Bet Victor",
+                "link": "https:\/\/www.betvictor.com\/en-gb\/sports\/240\/meetings\/6317710\/events\/2738123600",
+                "p1": 2.38,
+                "x": 3,
+                "p2": 3.12
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5231214",
+                "p1": 3.25,
+                "x": 2.88,
+                "p2": 2.6
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betvictor",
+                "title": "Bet Victor",
+                "link": "https:\/\/www.betvictor.com\/en-gb\/sports\/240\/meetings\/695002510\/events\/2748747500",
+                "p1": 3.12,
+                "x": 2.88,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/soccer\/Dutch%20Eredivisie\/2658442",
+                "p1": 3.05,
+                "x": 2.9,
+                "p2": 2.55
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/soccer\/Italian%20Serie%20A\/2667498",
+                "p1": 2.35,
+                "x": 3.1,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/soccer\/dutch-eredivisie\/fortuna-sittard-v-nac-breda-35402556",
+                "p1": 3,
+                "x": 2.95,
+                "p2": 2.55
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 3,
+                "x": 2.95,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1024051623",
+                "p1": 3,
+                "x": 2.95,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1024051623",
+                "p1": 3,
+                "x": 2.95,
+                "p2": 2.48
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1024051623",
+                "p1": 3,
+                "x": 2.95,
+                "p2": 2.5
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33879140",
+                "p1": 2.4,
+                "x": 3,
+                "p2": 3.2
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44966771\/sport\/football\/netherlands-eredivisie\/2026\/04\/12\/10-15\/fortuna-sittard-vs-nac-breda",
+                "p1": 3.35,
+                "x": 2.98,
+                "p2": 2.52
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5232007",
+                "p1": 2.4,
+                "x": 3.14,
+                "p2": 3.25
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 3.45,
+                "x": 3.05,
+                "p2": 2.56
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/soccer\/netherlands\/netherlands-eredivisie\/32822650685100045\/",
+                "p1": 3.4,
+                "x": 3.05,
+                "p2": 2.6
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44967051\/sport\/football\/italy-serie-a\/2026\/04\/12\/10-30\/genoa-vs-sassuolo",
+                "p1": 2.46,
+                "x": 3.1,
+                "p2": 3.3
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.46,
+                "x": 3.25,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 3.25,
+                "x": 3.1,
+                "p2": 2.62
+            }
+        },
+        {
+            "id": "2a3322afd4b1ade87780683e85aad893",
+            "sport_key": "soccer_netherlands_eredivisie",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Dutch Eredivisie",
+            "home": "Fortuna Sittard",
+            "away": "NAC Breda",
+            "time": "2026-04-12T10:15:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-12T10:45:59Z",
+                "apiLastUpdate": "2026-04-12T10:45:59+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/netherlands-eredivisie\/nac-breda-vs-fortuna-sittard\/1628246372\/",
+                "p1": 3.03,
+                "x": 3.07,
+                "p2": 2.48
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 3.25,
+                "x": 3.1,
+                "p2": 2.62
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/soccer\/italy\/italy-serie-a\/32824008688600045\/",
+                "p1": 2.54,
+                "x": 3.15,
+                "p2": 3.35
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.52,
+                "x": 3.2,
+                "p2": 3.4
+            }
+        },
+        {
+            "id": "af7a080341b8f2e80963d09cb7b58ebf",
+            "sport_key": "soccer_italy_serie_a",
+            "sport_base": "football",
+            "sport": "football",
+            "phase": "live",
+            "league": "Serie A - Italy",
+            "home": "Genoa",
+            "away": "Sassuolo",
+            "time": "2026-04-12T10:31:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 43,
+                "validSecondsTotal": 42,
+                "pinnacleLastUpdate": "2026-04-12T10:46:00Z",
+                "apiLastUpdate": "2026-04-12T10:46:00+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-serie-a\/sassuolo-vs-genoa\/1628228996\/",
+                "p1": 2.44,
+                "x": 2.91,
+                "p2": 3.26
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.52,
+                "x": 3.2,
+                "p2": 3.4
+            }
+        }
+    ]
+}

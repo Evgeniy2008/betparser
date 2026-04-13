@@ -1,0 +1,511 @@
+{
+  "version": "8.3.43-rel",
+  "commitId": "dfc3b8c23f5afe543ec0013b427694630e0fecd1",
+  "environment": "PRODUCTION",
+  "originalDomain": "www.pinnacle.com",
+  "cookieDomainSetExplicitly": true,
+  "integration": {
+    "logoutRedirect": false,
+    "domains": {
+      "forceSsl": true,
+      "replaceLocal": true,
+      "guest": "www.pinnacle.com",
+      "classic": "www1.pinnacle.com",
+      "beta": "beta.pinnacle.com",
+      "members": "www1.pinnacle.com",
+      "everyMatrixCasino": "casino.pinnacle.com",
+      "everyMatrixCasinoOntario": "casino.pinnacle.ca",
+      "asian": "www1.pinnacle.com",
+      "cashier": "cashier.pinnacle.com",
+      "help": "help.pinnacle.com",
+      "zendeskHelpLink": "support.pinnacle.com",
+      "helpSalesforce": "help.pinnacle.com",
+      "replaceKey": ".pinnacle.com",
+      "senescenceRegistrationForm": "signup.pinnacle.com"
+    },
+    "routes": {
+      "asianView": "/Sportsbook/Asia",
+      "betaView": "/",
+      "classicView": "/members/canvas.asp",
+      "guestSite": "/"
+    }
+  },
+  "domainsByLicenses": [
+    {
+      "type": "malta",
+      "domains": [
+        ".pinnacle.bet"
+      ]
+    },
+    {
+      "type": "curacao",
+      "domains": [
+        ".pinnacle.com",
+        ".pinnaclesports.com"
+      ]
+    },
+    {
+      "type": "australia",
+      "domains": [
+        ".pinnacleoz.com.au"
+      ]
+    },
+    {
+      "type": "sweden",
+      "domains": [
+        ".pinnacle.se"
+      ]
+    },
+    {
+      "type": "ontario",
+      "domains": [
+        ".pinnacle.ca"
+      ]
+    },
+    {
+      "type": "commercialontario",
+      "domains": [
+        ".pinnacle.ca"
+      ]
+    },
+    {
+      "type": "nolicense",
+      "domains": [
+        ".pinnacle.com"
+      ]
+    },
+    {
+      "type": "anjouan",
+      "domains": [
+        ".pinnacle.com"
+      ]
+    },
+    {
+      "type": "commercialanjouan",
+      "domains": [
+        ".pinnacle.com"
+      ]
+    }
+  ],
+  "payments": {
+    "replaceLocal": true,
+    "baseUrl": "future",
+    "netellerSuccess": "/account/deposit/Neteller/completed/",
+    "moneyBookersSuccess": "/account/deposit/Skrill/success/",
+    "moneyBookersFail": "/account/deposit/Skrill/fail/",
+    "classicCashier": "/members/cashier.asp",
+    "creditCard3DSecureSuccess": "/account/deposit/CreditCard/success/"
+  },
+  "api": {
+    "haywire": {
+      "routes": {
+        "curacao": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "anjouan": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "commercialanjouan": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "malta": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "australia": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "sweden": {
+          "root": "https://api.arcadia.pinnacle.se",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.se",
+          "websockets": "wss://api.arcadia.pinnacle.se/ws"
+        },
+        "nolicense": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "ontario": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        },
+        "commercialontario": {
+          "root": "https://api.arcadia.pinnacle.com",
+          "guestRoot": "https://guest.api.arcadia.pinnacle.com",
+          "websockets": "wss://api.arcadia.pinnacle.com/ws"
+        }
+      },
+      "apiVersion": "0.1",
+      "apiKey": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R"
+    },
+    "betPollInterval": 1000,
+    "checkBalanceForMembers": true,
+    "enableWebsockets": true,
+    "ignoreInvalidMarketCounts": false,
+    "websocketOptions": {
+      "refreshTime": 2000,
+      "refreshOnUpdate": false,
+      "sportBlacklist": [],
+      "maxFailures": 3,
+      "failureThresholdInSeconds": 300
+    },
+    "features": {
+      "sessionTimeLimits": true,
+      "matchupLevelLeagueProps": true
+    }
+  },
+  "features": {
+    "themes": {
+      "enabled": true
+    },
+    "liveCentre": {
+      "guestMode": false,
+      "showPeriodMatchups": false,
+      "fixedSidebar": true
+    },
+    "showWinterOlympics": false,
+    "recaptcha": {
+      "v3SiteKey": "6LcssPcbAAAAABu-IURUmN4cgxGRtk3-2kDX8fHu",
+      "v2SiteKey": "6LdQsj0UAAAAAAuxOxGkO5EZdZIQDk_b8d6gK8e0",
+      "enabled": {
+        "global": true,
+        "versions": {
+          "v2": true,
+          "v3": true
+        },
+        "targetFeatures": {
+          "login": true,
+          "accountRecovery": true,
+          "signup": true
+        }
+      }
+    },
+    "openGraph": {
+      "useImage": true
+    },
+    "twitter": {
+      "useCard": true,
+      "useTitle": true
+    },
+    "legacyCashier": {
+      "useIframe": true
+    },
+    "fixtureTranslations": {
+      "enabled": true
+    },
+    "periodMarketFlags": {
+      "enabled": true
+    },
+    "betslip": {
+      "tabs": true,
+      "unified": true,
+      "insufficientFundsSubmissionCheck": true,
+      "quotePeriodically": true,
+      "requireQuoteForSubmission": false,
+      "quoteOnSubmissionFailure": true,
+      "allowTeamTotalsForParlay": true,
+      "secondaryBanner": true,
+      "quickBet": true,
+      "easyBet": true,
+      "liveParlay": true,
+      "useBetMarketId": true
+    },
+    "anonGeoLocationRedirect": {
+      "enabled": true
+    },
+    "nhlOverride": {
+      "enabled": false
+    },
+    "showNewMarketFilter": {
+      "enabled": true
+    },
+    "gamingPromptCumulativeProfit": {
+      "enabled": false
+    },
+    "esportsGamesPage": {
+      "enabled": true
+    },
+    "multiView": {
+      "primaryOnly": true
+    },
+    "eventRowLiveIndicator": {
+      "enabled": false
+    },
+    "productAccess": {
+      "enabled": true
+    },
+    "events": {
+      "debounceUpdates": true,
+      "excludeSpecials": true,
+      "showOtIncluded": true
+    },
+    "loginDateTimeValidation": {
+      "enabled": true,
+      "timeZoneOffsetInHours": -7
+    },
+    "depositLimitTriOptions": {
+      "enabled": true
+    },
+    "riskLimit": {
+      "enabled": true
+    },
+    "lossLimit": {
+      "enabled": true
+    },
+    "paginatedBettingHistory": {
+      "upstreamCumulativeAmounts": {
+        "enabled": false
+      },
+      "legacyFetching": {
+        "enabled": true
+      }
+    },
+    "liveScoreboards": {
+      "enabled": true,
+      "perSport": [
+        "soccer",
+        "baseball",
+        "basketball",
+        "hockey",
+        "tennis",
+        "football"
+      ],
+      "liveStatusTimeSupport": [
+        "soccer",
+        "baseball",
+        "basketball",
+        "hockey",
+        "football",
+        "tennis"
+      ],
+      "legacySoccerTime": true
+    },
+    "liveInlineScores": {
+      "enabled": true,
+      "perSport": [
+        "soccer",
+        "baseball",
+        "basketball",
+        "hockey",
+        "football"
+      ],
+      "disabledByFormFactor": {
+        "mobile": [
+          "tennis"
+        ],
+        "desktop": []
+      }
+    },
+    "pricedPeriodMarketVisibilityBySport": [
+      12,
+      33,
+      19,
+      3,
+      4
+    ],
+    "systemServiceManualOverride": {
+      "enabled": false,
+      "targetedLicenses": []
+    },
+    "useQuerySearch": {
+      "enabled": true
+    },
+    "faqDeepLinks": {
+      "enabled": false
+    },
+    "shutdownBetaView": {
+      "enabled": true
+    },
+    "ontarioLicense": {
+      "frontendMigrationPrompt": {
+        "enabled": true,
+        "v2": true
+      },
+      "signup": {
+        "enabled": true
+      }
+    },
+    "highlightsCarousel": {
+      "enabled": true
+    },
+    "tronTranslations": {
+      "enabled": true,
+      "publicPath": "/translations/tron/production"
+    },
+    "pepHioCheck": {
+      "enabled": true
+    },
+    "filterOfflineMatchups": {
+      "enabled": true
+    },
+    "encourageMfaEnable": {
+      "enabled": false
+    },
+    "senescenceRegistrationForm": {
+      "enabled": true,
+      "licenseAppToggle": [
+        "curacao",
+        "sweden",
+        "ontario",
+        "anjouan",
+        "malta"
+      ],
+      "languageSupport": {
+        "enabled": true
+      }
+    },
+    "euro2024Banner": {
+      "enabled": false
+    },
+    "matchupPropsSoccerSorter": {
+      "enabled": true
+    },
+    "quickBetNotification": {
+      "enabled": false
+    },
+    "hideTrinityFiltersForMobile": {
+      "enabled": true
+    },
+    "zenDeskChatWidget": {
+      "enabled": true
+    },
+    "superbowl": {
+      "playerPropsOrderModifier": {
+        "enabled": true
+      }
+    }
+  },
+  "polling": {
+    "guest_multiplier": 3,
+    "events": {
+      "matchups": 5000,
+      "markets": 3000
+    },
+    "matchup": 3000,
+    "teasers": 7500,
+    "betslip": {
+      "quotes": {
+        "singles": 2000,
+        "multiples": 2000,
+        "teasers": 10000
+      },
+      "event": 1500
+    }
+  },
+  "registration": {
+    "requireTimezoneUpdate": {
+      "enabled": true
+    },
+    "registeredBy": {
+      "desktop": "ArcadiaDesktop",
+      "mobile": "ArcadiaMobile"
+    }
+  },
+  "vendors": {
+    "adformPixels": {
+      "enabled": true
+    },
+    "navEgg": {
+      "enabled": false
+    },
+    "hotjar": {
+      "enabled": false,
+      "key": 1083293
+    },
+    "gtm": {
+      "enabled": true,
+      "auth": "RSYvLtUxCh8o0eYkz0CGig",
+      "env": "env-2"
+    },
+    "geoComply": {
+      "enabled": true,
+      "debug": false,
+      "env": "production",
+      "sdkSrc": "https://cdn.geocomply.com/195/gc-html5.js",
+      "features": {
+        "login": true,
+        "wager": true,
+        "background": true,
+        "ip_change": true
+      }
+    },
+    "racebook": {
+      "enabled": false,
+      "contextPath": "",
+      "features": {
+        "iframe": false,
+        "mirrorDomain": {
+          "enabled": true,
+          "baseUrl": "racebook"
+        }
+      },
+      "api": {
+        "root": "https://racebook.pinnacle.com"
+      }
+    },
+    "zendesk": {
+      "help": {
+        "enabled": true
+      }
+    },
+    "salesforce": {
+      "help": {
+        "enabled": true
+      },
+      "chat": {
+        "hostEnvironment": {
+          "default": {
+            "host": "https://pinnacle3.my.salesforce.com",
+            "chatSetupFlowSiteHost": "https://pinnacleguest.secure.force.com"
+          },
+          "curacaoPT": {
+            "host": "https://pinnacle3.my.salesforce.com",
+            "chatSetupFlowSiteHost": "https://pinnacleguest.secure.force.com",
+            "buttonId": "5730900000012Z4",
+            "widgetId": "00D09000005P59v",
+            "baseLiveAgentContentURL": "https://c.la3-c2-cdg.salesforceliveagent.com/content",
+            "baseLiveAgentURL": "https://d.la3-c2-cdg.salesforceliveagent.com/chat",
+            "eswLiveAgentDevName": "EmbeddedServiceLiveAgent_Parent04I09000000DKFHEA4_18a182e398f"
+          }
+        }
+      }
+    },
+    "adMasters": {
+      "enabled": true
+    },
+    "twitter": {
+      "enabled": true
+    },
+    "metaFacebook": {
+      "enabled": true
+    },
+    "sumsub": {
+      "domain": "https://api.sumsub.com",
+      "clientid": "pinnacle",
+      "debugMode": false
+    },
+    "sentry": {
+      "enabled": true,
+      "dsn": "https://80eedce15edb4644a5bac761265e091c@o417691.ingest.sentry.io/5339569",
+      "debug": false,
+      "environment": "production",
+      "sampleRate": 0.25,
+      "reduxEnabled": true,
+      "tracesSampleRate": 0.1
+    },
+    "XtremePush": {
+      "enabled": true,
+      "sdkKey": "UDibx1fPgfOASd94FYB-uRLN0mkteBwZ"
+    }
+  }
+}

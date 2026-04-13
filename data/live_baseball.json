@@ -1,0 +1,3333 @@
+{
+    "source": "the-odds-api-v4",
+    "updated": "2026-04-11T18:42:31+00:00",
+    "total": 95,
+    "sport": "baseball",
+    "matches": [
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "bovada",
+                "title": "Bovada",
+                "link": "https:\/\/www.bovada.lv\/sports\/baseball\/mlb\/pittsburgh-pirates-chicago-cubs-202604111420",
+                "p1": 2.3,
+                "x": null,
+                "p2": 1.59
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/63300399",
+                "p1": 2,
+                "x": null,
+                "p2": 1.64
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44920725\/sport\/baseball\/mlb\/2026\/04\/11\/18-20\/pittsburgh-pirates-at-chicago-cubs",
+                "p1": 2.04,
+                "x": null,
+                "p2": 1.65
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "link": "",
+                "p1": 2.2,
+                "x": null,
+                "p2": 1.65
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/63300399",
+                "p1": 2.15,
+                "x": null,
+                "p2": 1.66
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1024785827",
+                "p1": 2.08,
+                "x": null,
+                "p2": 1.66
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16594690",
+                "p1": 2.2,
+                "x": null,
+                "p2": 1.67
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.46,
+                "x": null,
+                "p2": 1.67
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.28,
+                "x": null,
+                "p2": 1.67
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/baseball\/mlb\/chicago-cubs-pittsburgh-pirates\/SBTE_2_1024785827",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.68
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1024785827",
+                "p1": 2.02,
+                "x": null,
+                "p2": 1.68
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/baseball\/mlb\/chicago-cubs-pittsburgh-pirates\/SBTE_2_1024785827",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.68
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "tabtouch",
+                "title": "TABtouch",
+                "link": "https:\/\/www.tabtouch.mobi\/tabtouch-sports\/event\/1024785827",
+                "p1": 2.12,
+                "x": null,
+                "p2": 1.68
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/baseball\/MLB\/2681377",
+                "p1": 2.15,
+                "x": null,
+                "p2": 1.69
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/baseball\/united-states-of-america\/major-league-baseball\/32988319767400081\/",
+                "p1": 1.88,
+                "x": null,
+                "p2": 1.69
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33966299",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.69
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/baseball\/mlb\/pittsburgh-pirates-%28b-ashcraft%29-%40-chicago-cubs-%28e-cabrera%29-35474996",
+                "p1": 2.12,
+                "x": null,
+                "p2": 1.7
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/baseball\/united-states-of-america\/major-league-baseball\/pittsburgh-pirates-chicago-cubs-e-7444203\/",
+                "p1": 2,
+                "x": null,
+                "p2": 1.7
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "link": "https:\/\/{state}.betrivers.com\/?page=sportsbook#event\/1024785827",
+                "p1": 2.04,
+                "x": null,
+                "p2": 1.7
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 2.14,
+                "x": null,
+                "p2": 1.7
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "tipico_de",
+                "title": "Tipico",
+                "link": "",
+                "p1": 2,
+                "x": null,
+                "p2": 1.7
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "link": "https:\/\/sportsbook.caesars.com\/us\/{state}\/bet\/baseball\/420c8c4f-9286-410a-b169-40d30e26810f\/pittsburgh-pirates-at-chicago-cubs",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.71
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/pittsburgh-pirates-at-chicago-cubs-19243998",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.71
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1024785827",
+                "p1": 2.05,
+                "x": null,
+                "p2": 1.71
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/baseball\/mlb\/mlb\/chicago-cubs-pittsburgh-pirates",
+                "p1": 2.04,
+                "x": null,
+                "p2": 1.71
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/baseball\/major-league-baseball\/pittsburgh-pirates-@-chicago-cubs-35474996",
+                "p1": 2.05,
+                "x": null,
+                "p2": 1.73
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1024785827",
+                "p1": 2.08,
+                "x": null,
+                "p2": 1.74
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1024785827",
+                "p1": 2.08,
+                "x": null,
+                "p2": 1.74
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1024785827",
+                "p1": 2.08,
+                "x": null,
+                "p2": 1.74
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/baseball\/mlb\/mlb?tab=liveAndUpcoming&eventId=f-W1TMcZSuRkmPvNVFs6eJmw&eti=0&fs=true",
+                "p1": 2,
+                "x": null,
+                "p2": 1.74
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5319653",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.75
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 2,
+                "x": null,
+                "p2": 1.77
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "tab",
+                "title": "TAB",
+                "link": "https:\/\/www.tab.com.au\/sports\/betting\/Baseball\/competitions\/Major%20League%20Baseball\/matches\/Chicago%20Cubs%20v%20Pittsburgh",
+                "p1": 2,
+                "x": null,
+                "p2": 1.8
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "matchbook",
+                "title": "Matchbook",
+                "link": "https:\/\/www.matchbook.com\/events\/baseball\/united-states-of-america\/major-league-baseball\/32988284267100081\/",
+                "p1": 1.05,
+                "x": null,
+                "p2": 6.6
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 2.1,
+                "x": null,
+                "p2": 1.82
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "gtbets",
+                "title": "GTbets",
+                "link": "",
+                "p1": 1.98,
+                "x": null,
+                "p2": 1.83
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/arizona-diamondbacks-at-philadelphia-phillies-19243996",
+                "p1": 1.08,
+                "x": null,
+                "p2": 8
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "virginbet",
+                "title": "Virgin Bet",
+                "link": "https:\/\/www.virginbet.com\/sports\/baseball\/mlb\/philadelphia-phillies-arizona-diamondbacks\/SBTE_2_1024785873",
+                "p1": 1.08,
+                "x": null,
+                "p2": 7
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "tipico_de",
+                "title": "Tipico",
+                "link": "",
+                "p1": 1.08,
+                "x": null,
+                "p2": 6.5
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/baseball\/mlb\/mlb?tab=liveAndUpcoming&eventId=f-fE1-ipC69k-fx2v8391n_w&eti=0&fs=true",
+                "p1": 1.08,
+                "x": null,
+                "p2": 6.55
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/baseball\/mlb\/mlb\/philadelphia-phillies-arizona-diamondbacks",
+                "p1": 1.08,
+                "x": null,
+                "p2": 6.55
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "link": "https:\/\/sportsbook.caesars.com\/us\/{state}\/bet\/baseball\/a5ef3175-8644-47b3-9328-27ed1eb6f46c\/arizona-diamondbacks-at-philadelphia-phillies",
+                "p1": 1.09,
+                "x": null,
+                "p2": 7.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "sport888",
+                "title": "888sport",
+                "link": "https:\/\/www.888sport.com\/baseball\/united-states-of-america\/major-league-baseball\/arizona-diamondbacks-philadelphia-phillies-e-7444060\/",
+                "p1": 1.1,
+                "x": null,
+                "p2": 5.75
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "leovegas_se",
+                "title": "LeoVegas (SE)",
+                "link": "https:\/\/www.leovegas.com\/sv-se\/betting#event\/1024785873",
+                "p1": 1.1,
+                "x": null,
+                "p2": 5.75
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "unibet",
+                "title": "Unibet",
+                "link": "https:\/\/www.unibet.com.au\/betting\/sports\/event\/1024785873",
+                "p1": 1.1,
+                "x": null,
+                "p2": 6.75
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "link": "https:\/\/{state}.betrivers.com\/?page=sportsbook#event\/1024785873",
+                "p1": 1.1,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "grosvenor",
+                "title": "Grosvenor",
+                "link": "https:\/\/www.grosvenorcasinos.com\/sport#event\/1024785873",
+                "p1": 1.1,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5319650",
+                "p1": 1.1,
+                "x": null,
+                "p2": 7
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/baseball\/major-league-baseball\/arizona-diamondbacks-@-philadelphia-phillies-35474998",
+                "p1": 1.11,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33966294",
+                "p1": 1.11,
+                "x": null,
+                "p2": 6.02
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "leovegas",
+                "title": "LeoVegas",
+                "link": "https:\/\/www.leovegas.co.uk\/betting#event\/1024785873",
+                "p1": 1.11,
+                "x": null,
+                "p2": 5.75
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/baseball\/usa\/mlb\/philadelphia-phillies-vs-arizona-diamondbacks\/29d10b62017263ef7f4c6575f7530a84",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6.5
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "link": "",
+                "p1": 1.12,
+                "x": null,
+                "p2": 5.75
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16594477",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "unibet_nl",
+                "title": "Unibet (NL)",
+                "link": "",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "casumo",
+                "title": "Casumo",
+                "link": "https:\/\/www.casumo.com\/en-gb\/sports\/#event\/1024785873",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "unibet_se",
+                "title": "Unibet (SE)",
+                "link": "https:\/\/www.unibet.se\/betting\/sports\/event\/1024785873",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "livescorebet",
+                "title": "LiveScore Bet",
+                "link": "https:\/\/www.livescorebet.com\/uk\/sports\/baseball\/mlb\/philadelphia-phillies-arizona-diamondbacks\/SBTE_2_1024785873",
+                "p1": 1.12,
+                "x": null,
+                "p2": 5.8
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "tab",
+                "title": "TAB",
+                "link": "https:\/\/www.tab.com.au\/sports\/betting\/Baseball\/competitions\/Major%20League%20Baseball\/matches\/Philadelphia%20v%20Arizona",
+                "p1": 1.12,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/baseball\/mlb\/arizona-diamondbacks-%28b-pfaadt%29-%40-philadelphia-phillies-%28t-walker%29-35474998",
+                "p1": 1.13,
+                "x": null,
+                "p2": 5.7
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/63299533",
+                "p1": 1.13,
+                "x": null,
+                "p2": 5.9
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "gtbets",
+                "title": "GTbets",
+                "link": "",
+                "p1": 1.13,
+                "x": null,
+                "p2": 6.03
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "bovada",
+                "title": "Bovada",
+                "link": "https:\/\/www.bovada.lv\/sports\/baseball\/mlb\/arizona-diamondbacks-philadelphia-phillies-202604111305",
+                "p1": 1.13,
+                "x": null,
+                "p2": 5.5
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 1.14,
+                "x": null,
+                "p2": 5.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/baseball\/MLB\/2681313",
+                "p1": 1.14,
+                "x": null,
+                "p2": 5.25
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44920717\/sport\/baseball\/mlb\/2026\/04\/11\/17-05\/arizona-diamondbacks-at-philadelphia-phillies",
+                "p1": 1.14,
+                "x": null,
+                "p2": 6.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/63299533",
+                "p1": 1.14,
+                "x": null,
+                "p2": 5.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.14,
+                "x": null,
+                "p2": 6.4
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.15,
+                "x": null,
+                "p2": 7
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.15,
+                "x": null,
+                "p2": 6
+            }
+        },
+        {
+            "id": "82cf57a7eb3eb607b4974df6f4e91d9a",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Philadelphia Phillies",
+            "away": "Arizona Diamondbacks",
+            "time": "2026-04-11T17:06:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 37,
+                "validSecondsTotal": 36,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/arizona-diamondbacks-vs-philadelphia-phillies\/1628198874\/",
+                "p1": 1.18,
+                "x": null,
+                "p2": 4.95
+            },
+            "second": {
+                "key": "tabtouch",
+                "title": "TABtouch",
+                "link": "https:\/\/www.tabtouch.mobi\/tabtouch-sports\/event\/1024785873",
+                "p1": 1.16,
+                "x": null,
+                "p2": 5
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/baseball\/usa\/mlb\/chicago-cubs-vs-pittsburgh-pirates\/5e6e1d95b5086eadd2d6de1a45f80f7b",
+                "p1": 1.7,
+                "x": null,
+                "p2": 2.17
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "link": "https:\/\/sportsbook.fanduel.com\/baseball\/mlb\/miami-marlins-%28j-junk%29-%40-detroit-tigers-%28c-mize%29-35474995",
+                "p1": 1.01,
+                "x": null,
+                "p2": 16
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "paddypower",
+                "title": "Paddy Power",
+                "link": "https:\/\/www.paddypower.com\/baseball\/major-league-baseball\/miami-marlins-@-detroit-tigers-35474995",
+                "p1": 1.01,
+                "x": null,
+                "p2": 13
+            }
+        },
+        {
+            "id": "52944578139d1cc9d53affce8af65768",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates",
+            "time": "2026-04-11T18:21:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 38,
+                "validSecondsTotal": 37,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/pittsburgh-pirates-vs-chicago-cubs\/1628205137\/",
+                "p1": 1.66,
+                "x": null,
+                "p2": 2.24
+            },
+            "second": {
+                "key": "williamhill",
+                "title": "William Hill",
+                "link": "https:\/\/sports.williamhill.com\/betting\/en-gb\/baseball\/OB_EV38647121\/pittsburgh-pirates-at-chicago-cubs",
+                "p1": 1.67,
+                "x": null,
+                "p2": 2.2
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "fanatics",
+                "title": "Fanatics",
+                "link": "",
+                "p1": 1.02,
+                "x": null,
+                "p2": 16
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "pointsbetau",
+                "title": "PointsBet (AU)",
+                "link": "https:\/\/pointsbet.com.au\/sports\/baseball\/MLB\/2681314",
+                "p1": 1.02,
+                "x": null,
+                "p2": 16
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betway",
+                "title": "Betway",
+                "link": "https:\/\/betway.com\/en\/sports\/evt\/16594509",
+                "p1": 1.02,
+                "x": null,
+                "p2": 12
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "link": "https:\/\/sportsbook.draftkings.com\/event\/33966298",
+                "p1": 1.02,
+                "x": null,
+                "p2": 12.6
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "link": "https:\/\/sportsbook.caesars.com\/us\/{state}\/bet\/baseball\/0c699a91-495e-479c-a83f-247c20e37e9d\/miami-marlins-at-detroit-tigers",
+                "p1": 1.02,
+                "x": null,
+                "p2": 15
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "link": "https:\/\/sports.{state}.betmgm.com\/en\/sports\/events\/miami-marlins-at-detroit-tigers-19243997",
+                "p1": 1.02,
+                "x": null,
+                "p2": 13
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "tab",
+                "title": "TAB",
+                "link": "https:\/\/www.tab.com.au\/sports\/betting\/Baseball\/competitions\/Major%20League%20Baseball\/matches\/Detroit%20v%20Miami",
+                "p1": 1.02,
+                "x": null,
+                "p2": 21
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "coolbet",
+                "title": "Coolbet",
+                "link": "https:\/\/www.coolbet.com\/en\/sports\/match\/5319651",
+                "p1": 1.02,
+                "x": null,
+                "p2": 13.5
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "link": "",
+                "p1": 1.03,
+                "x": null,
+                "p2": 11.5
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "bovada",
+                "title": "Bovada",
+                "link": "https:\/\/www.bovada.lv\/sports\/baseball\/mlb\/miami-marlins-detroit-tigers-202604111310",
+                "p1": 1.04,
+                "x": null,
+                "p2": 12
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "gtbets",
+                "title": "GTbets",
+                "link": "",
+                "p1": 1.03,
+                "x": null,
+                "p2": 12.06
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "unibet_uk",
+                "title": "Unibet (UK)",
+                "link": "https:\/\/www.unibet.co.uk\/betting\/odds\/baseball\/usa\/mlb\/detroit-tigers-vs-miami-marlins\/e5ecfb37020fdc8bcab2e46e5233c074",
+                "p1": 1.03,
+                "x": null,
+                "p2": 13
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "smarkets",
+                "title": "Smarkets",
+                "link": "https:\/\/smarkets.com\/event\/44920719\/sport\/baseball\/mlb\/2026\/04\/11\/17-10\/miami-marlins-at-detroit-tigers",
+                "p1": 1.03,
+                "x": null,
+                "p2": 21.01
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "winamax_fr",
+                "title": "Winamax (FR)",
+                "link": "https:\/\/www.winamax.fr\/en\/sports-betting\/match\/63299949",
+                "p1": 1.03,
+                "x": null,
+                "p2": 16
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "winamax_de",
+                "title": "Winamax (DE)",
+                "link": "https:\/\/www.winamax.de\/en\/sports-betting\/match\/63299949",
+                "p1": 1.03,
+                "x": null,
+                "p2": 18
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betsson",
+                "title": "Betsson",
+                "link": "https:\/\/www.betsson.com\/en\/sportsbook\/baseball\/mlb\/mlb?tab=liveAndUpcoming&eventId=f-4vr9IwU8NEmRS6MNUFkF0A&eti=0&fs=true",
+                "p1": 1.03,
+                "x": null,
+                "p2": 22
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "nordicbet",
+                "title": "Nordic Bet",
+                "link": "https:\/\/www.nordicbet.com\/en\/sportsbook\/baseball\/mlb\/mlb\/detroit-tigers-miami-marlins",
+                "p1": 1.03,
+                "x": null,
+                "p2": 22
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betfair_ex_au",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.03,
+                "x": null,
+                "p2": 21
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betfair_ex_uk",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.04,
+                "x": null,
+                "p2": 16.5
+            }
+        },
+        {
+            "id": "a23f07d17eae739724cce22627234e9d",
+            "sport_key": "baseball_mlb",
+            "sport_base": "baseball",
+            "sport": "baseball",
+            "phase": "live",
+            "league": "MLB",
+            "home": "Detroit Tigers",
+            "away": "Miami Marlins",
+            "time": "2026-04-11T17:11:00Z",
+            "isLive": true,
+            "stats": {
+                "bookmakersTotal": 23,
+                "validSecondsTotal": 22,
+                "pinnacleLastUpdate": "2026-04-11T18:42:16Z",
+                "apiLastUpdate": "2026-04-11T18:42:27+00:00"
+            },
+            "has_pinnacle": true,
+            "pinnacle": {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "link": "https:\/\/www.pinnacle.com\/en\/baseball\/mlb\/miami-marlins-vs-detroit-tigers\/1628199000\/",
+                "p1": 1.04,
+                "x": null,
+                "p2": 14.08
+            },
+            "second": {
+                "key": "betfair_ex_eu",
+                "title": "Betfair",
+                "link": "",
+                "p1": 1.04,
+                "x": null,
+                "p2": 17.5
+            }
+        }
+    ]
+}

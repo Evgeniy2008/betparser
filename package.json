@@ -1,19 +1,34 @@
 {
   "name": "betparser",
   "version": "1.0.0",
-  "description": "Football odds scraper for 24-parik.club",
-  "main": "scraper.js",
-  "scripts": {
-    "scrape": "node scraper.js",
-    "scrape:debug": "node scraper.js --debug",
-    "scrape:daemon": "node scraper.js --daemon --interval=2",
-    "scrape:daemon:debug": "node scraper.js --daemon --debug --interval=2",
-    "scrape:live:push": "node live_scraper_push_server.js",
-    "telegram:webapp": "node telegram_webapp_server.js"
+  "description": "Проект полностью переведён на **PHP** и использует **The Odds API v4**.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parik24": "node tools/parik24_live_worker.js",
+    "parik24:basketball": "node tools/parik24_basketball_live_worker.js",
+    "parik24:tennis": "node tools/parik24_tennis_live_worker.js",
+    "parik24:root": "node parik24_live_worker.js",
+    "pinnacle": "node tools/pinnacle_live_worker.js",
+    "pinnacle:root": "node pinnacle_live_worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy2008/betparser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Evgeniy2008/betparser/issues"
+  },
+  "homepage": "https://github.com/Evgeniy2008/betparser#readme",
   "dependencies": {
-    "axios": "^1.14.0",
-    "jsdom": "^29.0.1",
-    "puppeteer": "^24.40.0"
+    "@msgpack/msgpack": "^3.1.3",
+    "ws": "^8.20.0"
   }
 }

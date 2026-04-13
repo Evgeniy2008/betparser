@@ -1,88 +1,36 @@
 {
-    "updated": "2026-04-05T09:49:52.313Z",
+    "updated": "2026-04-05T16:20:07.105Z",
     "matches": [
         {
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Carabanchel",
-            "away": "Parla",
-            "time": "17:21",
+            "home": "Pisa",
+            "away": "Torino",
+            "time": "18:37",
             "parik24": {
-                "p1": "1.331",
-                "x": "4.54",
-                "p2": "7.802",
-                "link": "https:\/\/24-parik.club\/en\/events\/carabanchel-parla-16264797",
-                "time": "17:21"
+                "p1": "2.951",
+                "x": "2.7",
+                "p2": "2.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/pisa-torino-16071069",
+                "time": "18:37"
             },
-            "pinnacle": {
-                "p1": "1.32",
-                "x": "4.43",
-                "p2": "8.97",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-tercera-division\/carabanchel-vs-ad-parla\/1627685427\/",
-                "time": null
-            },
-            "matchScore": 1
+            "pinnacle": null,
+            "matchScore": 0
         },
         {
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Don Benito",
-            "away": "CD Azuaga",
-            "time": "18:40",
-            "parik24": {
-                "p1": "1.161",
-                "x": "6.6",
-                "p2": "10.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/cd-don-benito-cd-azuaga-16264592",
-                "time": "18:40"
-            },
-            "pinnacle": {
-                "p1": "1.507",
-                "x": "3.51",
-                "p2": "6.79",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-tercera-division\/don-benito-vs-azuaga\/1627685421\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Torino U-20",
-            "away": "Cesena U-20",
+            "home": "Le Havre",
+            "away": "Auxerre",
             "time": null,
             "parik24": {
-                "p1": "4.201",
-                "x": "3",
-                "p2": "1.802",
-                "link": "https:\/\/24-parik.club\/en\/events\/torino-u-20-cesena-u-20-16220687",
+                "p1": "2.881",
+                "x": "2.3",
+                "p2": "3.402",
+                "link": "https:\/\/24-parik.club\/en\/events\/le-havre-auxerre-16065090",
                 "time": null
-            },
-            "pinnacle": {
-                "p1": "3.59",
-                "x": "3.33",
-                "p2": "2.05",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/italy-primavera-u20\/torino-vs-cesena\/1627603815\/",
-                "time": null
-            },
-            "matchScore": 0.6666666666666666
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "FC Zbrojovka Brno II",
-            "away": "Vitkovice",
-            "time": "74:20",
-            "parik24": {
-                "p1": "2.3",
-                "x": "2.05",
-                "p2": "5",
-                "link": "https:\/\/24-parik.club\/en\/events\/fc-zbrojovka-brno-ii-vitkovice-16220440",
-                "time": "74:20"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -91,15 +39,15 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Sigma Olomouc II",
-            "away": "Polanka",
-            "time": "76:54",
+            "home": "Lorient",
+            "away": "Paris FC",
+            "time": null,
             "parik24": {
-                "p1": "2.1",
-                "x": "1.82",
-                "p2": "11",
-                "link": "https:\/\/24-parik.club\/en\/events\/sigma-olomouc-ii-polanka-16220439",
-                "time": "76:54"
+                "p1": "2.751",
+                "x": "2.38",
+                "p2": "3.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/lorient-paris-fc-16065092",
+                "time": null
             },
             "pinnacle": null,
             "matchScore": 0
@@ -108,842 +56,962 @@
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Fastav Zlin II",
-            "away": "Slovacko II",
-            "time": "58:35",
+            "home": "Metz",
+            "away": "Nantes",
+            "time": "45:07",
             "parik24": {
-                "p1": "21.001",
-                "x": "8",
-                "p2": "1.072",
-                "link": "https:\/\/24-parik.club\/en\/events\/fastav-zlin-ii-slovacko-ii-16220517",
-                "time": "58:35"
-            },
-            "pinnacle": {
-                "p1": "20.12",
-                "x": "9",
-                "p2": "1.088",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/czech-republic-3-liga-msfl\/zlin-ii-vs-slovacko-ii\/1627614701\/",
-                "time": null
-            },
-            "matchScore": 0.8333333333333333
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Getafe II",
-            "away": "CDC Colonia Moscardo",
-            "time": "17:48",
-            "parik24": {
-                "p1": "1.591",
-                "x": "3.42",
-                "p2": "5.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/getafe-ii-cdc-colonia-moscardo-16061801",
-                "time": "17:48"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "RSD Alcala",
-            "away": "Las Palmas II",
-            "time": "19:04",
-            "parik24": {
-                "p1": "2.201",
-                "x": "2.75",
-                "p2": "3.332",
-                "link": "https:\/\/24-parik.club\/en\/events\/rsd-alcala-las-palmas-ii-16061800",
-                "time": "19:04"
-            },
-            "pinnacle": {
-                "p1": "2.26",
-                "x": "2.93",
-                "p2": "3.37",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/spain-segunda-rfef-group-5\/rsd-alcala-sad-vs-las-palmas-atletico\/1627603605\/",
-                "time": null
-            },
-            "matchScore": 0.7777777777777777
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Persikad Depok",
-            "away": "PSMS Medan",
-            "time": "56:21",
-            "parik24": {
-                "p1": "1.671",
+                "p1": "1.831",
                 "x": "2.8",
                 "p2": "6.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/persikad-depok-psms-medan-16252393",
-                "time": "56:21"
+                "link": "https:\/\/24-parik.club\/en\/events\/metz-nantes-16065096",
+                "time": "45:07"
             },
-            "pinnacle": {
-                "p1": "1.862",
-                "x": "2.84",
-                "p2": "4.34",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/indonesia-championship\/persikad-depok-vs-psms-medan\/1627672866\/",
-                "time": null
-            },
-            "matchScore": 1
+            "pinnacle": null,
+            "matchScore": 0
         },
         {
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "PSIS Semarang",
-            "away": "Barito Putera",
-            "time": "58:41",
+            "home": "Polissya Zhytomyr",
+            "away": "Veres",
+            "time": "61:39",
             "parik24": {
-                "p1": "13.001",
-                "x": "4",
-                "p2": "1.272",
-                "link": "https:\/\/24-parik.club\/en\/events\/psis-semarang-barito-putera-16252394",
-                "time": "58:41"
+                "p1": "1.921",
+                "x": "2.1",
+                "p2": "8.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/polissya-zhytomyr-veres-16149506",
+                "time": "61:39"
             },
-            "pinnacle": {
-                "p1": "10.05",
-                "x": "4",
-                "p2": "1.305",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/indonesia-championship\/psis-semarang-vs-barito-putera\/1627672865\/",
-                "time": null
-            },
-            "matchScore": 1
+            "pinnacle": null,
+            "matchScore": 0
         },
         {
             "league": "Live Football",
             "sport": "football",
             "phase": "live",
-            "home": "Samsunspor U-19",
-            "away": "Konyaspor U-19",
-            "time": "86:23",
+            "home": "Al Akhdoud",
+            "away": "Al-Fateh",
+            "time": "21:26",
             "parik24": {
-                "p1": "21.001",
-                "x": "3.97",
-                "p2": "1.242",
-                "link": "https:\/\/24-parik.club\/en\/events\/samsunspor-u-19-konyaspor-u-19-16266233",
-                "time": "86:23"
+                "p1": "4.331",
+                "x": "3.25",
+                "p2": "1.832",
+                "link": "https:\/\/24-parik.club\/en\/events\/al-akhdoud-al-fateh-16149732",
+                "time": "21:26"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Farul Constanta",
+            "away": "Unirea Slobozia",
+            "time": "86:32",
+            "parik24": {
+                "p1": "35.001",
+                "x": "4.13",
+                "p2": "1.202",
+                "link": "https:\/\/24-parik.club\/en\/events\/farul-constanta-unirea-slobozia-16086948",
+                "time": "86:32"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "San Sebastian de los Reyes II",
+            "away": "CF Trival Valderas",
+            "time": "86:09",
+            "parik24": {
+                "p1": "7.001",
+                "x": "1.23",
+                "p2": "7.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/san-sebastian-de-los-reyes-ii-cf-trival-valderas-16264855",
+                "time": "86:09"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Bala Azul",
+            "away": "Real Murcia II",
+            "time": "64:42",
+            "parik24": {
+                "p1": "1.251",
+                "x": "4.62",
+                "p2": "11.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/bala-azul-real-murcia-ii-16264754",
+                "time": "64:42"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Calahorra",
+            "away": "CDFC La Calzada",
+            "time": "61:04",
+            "parik24": {
+                "p1": "1.71",
+                "x": "2.67",
+                "p2": "6.9",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-calahorra-cdfc-la-calzada-16264979",
+                "time": "61:04"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Colegios Diocesanos",
+            "away": "Cultural Leonesa II",
+            "time": "58:08",
+            "parik24": {
+                "p1": "2.9",
+                "x": "2.62",
+                "p2": "2.67",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-colegios-diocesanos-cultural-leonesa-ii-16262625",
+                "time": "58:08"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Gimnastica Torrelavega",
+            "away": "UM Escobedo",
+            "time": "57:56",
+            "parik24": {
+                "p1": "1.891",
+                "x": "2.33",
+                "p2": "6.802",
+                "link": "https:\/\/24-parik.club\/en\/events\/gimnastica-torrelavega-um-escobedo-16264938",
+                "time": "57:56"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Barco",
+            "away": "CF Noia",
+            "time": null,
+            "parik24": {
+                "p1": "1.831",
+                "x": "2.48",
+                "p2": "6.402",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-barco-cf-noia-16262032",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Atletico Saguntino",
+            "away": "Jove Espanol",
+            "time": "19:27",
+            "parik24": {
+                "p1": "1.701",
+                "x": "2.97",
+                "p2": "5.402",
+                "link": "https:\/\/24-parik.club\/en\/events\/atletico-saguntino-jove-espanol-san-vicente-16264558",
+                "time": "19:27"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Boiro",
+            "away": "Racing Villalbes",
+            "time": "19:32",
+            "parik24": {
+                "p1": "2.161",
+                "x": "2.87",
+                "p2": "3.362",
+                "link": "https:\/\/24-parik.club\/en\/events\/boiro-racing-villalbes-16262036",
+                "time": "19:32"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Cardassar",
+            "away": "CD Manacor",
+            "time": "16:58",
+            "parik24": {
+                "p1": "2.331",
+                "x": "3.32",
+                "p2": "2.672",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-cardassar-cd-manacor-16262030",
+                "time": "16:58"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Ciudad de Lucena",
+            "away": "Real Balompedica Linense",
+            "time": "21:09",
+            "parik24": {
+                "p1": "1.831",
+                "x": "2.98",
+                "p2": "4.462",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-ciudad-de-lucena-real-balompedica-linense-16262308",
+                "time": "21:09"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Mostoles URJC",
+            "away": "AD Torrejon CF",
+            "time": "19:02",
+            "parik24": {
+                "p1": "1.931",
+                "x": "3.16",
+                "p2": "3.712",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-mostoles-urjc-ad-torrejon-cf-16262029",
+                "time": "19:02"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Celtiga CF",
+            "away": "Alondras",
+            "time": "21:20",
+            "parik24": {
+                "p1": "2.431",
+                "x": "2.83",
+                "p2": "2.932",
+                "link": "https:\/\/24-parik.club\/en\/events\/celtiga-cf-alondras-16262035",
+                "time": "21:20"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Deportivo Maritimo",
+            "away": "Mazarron",
+            "time": "20:06",
+            "parik24": {
+                "p1": "3.031",
+                "x": "2.92",
+                "p2": "2.322",
+                "link": "https:\/\/24-parik.club\/en\/events\/deportivo-maritimo-mazarron-16262375",
+                "time": "20:06"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Motril",
+            "away": "Mijas Las Lagunas",
+            "time": "19:04",
+            "parik24": {
+                "p1": "1.881",
+                "x": "2.97",
+                "p2": "4.252",
+                "link": "https:\/\/24-parik.club\/en\/events\/motril-mijas-las-lagunas-16262624",
+                "time": "19:04"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Oberena",
+            "away": "CD Subiza",
+            "time": "19:02",
+            "parik24": {
+                "p1": "3.951",
+                "x": "3.36",
+                "p2": "1.812",
+                "link": "https:\/\/24-parik.club\/en\/events\/oberena-cd-subiza-16265069",
+                "time": "19:02"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "USM Khenchela",
+            "away": "Paradou AC",
+            "time": "59:24",
+            "parik24": {
+                "p1": "1.111",
+                "x": "7",
+                "p2": "34.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/usm-khenchela-paradou-ac-16223530",
+                "time": "59:24"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "PAOK",
+            "away": "Panathinaikos",
+            "time": "20:04",
+            "parik24": {
+                "p1": "1.701",
+                "x": "3.06",
+                "p2": "5.902",
+                "link": "https:\/\/24-parik.club\/en\/events\/paok-panathinaikos-16152613",
+                "time": "20:04"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Lugo",
+            "away": "Osasuna II",
+            "time": "05:00",
+            "parik24": {
+                "p1": "1.721",
+                "x": "3.21",
+                "p2": "4.602",
+                "link": "https:\/\/24-parik.club\/en\/events\/lugo-osasuna-ii-15865360",
+                "time": "05:00"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Real Murcia",
+            "away": "Atletico Madrid II",
+            "time": "19:15",
+            "parik24": {
+                "p1": "2.421",
+                "x": "2.96",
+                "p2": "2.782",
+                "link": "https:\/\/24-parik.club\/en\/events\/real-murcia-atletico-madrid-ii-16224447",
+                "time": "19:15"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Sabadell",
+            "away": "Betis II",
+            "time": "04:27",
+            "parik24": {
+                "p1": "1.401",
+                "x": "3.76",
+                "p2": "7.212",
+                "link": "https:\/\/24-parik.club\/en\/events\/sabadell-betis-ii-15865371",
+                "time": "04:27"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Frosinone",
+            "away": "Padova",
+            "time": null,
+            "parik24": {
+                "p1": "1.031",
+                "x": "17",
+                "p2": "81.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/frosinone-padova-16196081",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Radnik Surdulica",
+            "away": "Crvena Zvezda",
+            "time": "60:41",
+            "parik24": {
+                "p1": "26.001",
+                "x": "10",
+                "p2": "1.042",
+                "link": "https:\/\/24-parik.club\/en\/events\/radnik-surdulica-crvena-zvezda-16124330",
+                "time": "60:41"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Amed SK",
+            "away": "Boluspor",
+            "time": "19:32",
+            "parik24": {
+                "p1": "1.101",
+                "x": "9",
+                "p2": "23.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/amed-sk-boluspor-16196101",
+                "time": "19:32"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Burgos Promesas",
+            "away": "Deportivo Fabril",
+            "time": "56:38",
+            "parik24": {
+                "p1": "4.91",
+                "x": "2.76",
+                "p2": "1.87",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-burgos-promesas-deportivo-fabril-16064937",
+                "time": "56:38"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Real Avila",
+            "away": "Union Popular de Langreo",
+            "time": "57:03",
+            "parik24": {
+                "p1": "2.591",
+                "x": "2.06",
+                "p2": "4.292",
+                "link": "https:\/\/24-parik.club\/en\/events\/real-avila-union-popular-de-langreo-16064938",
+                "time": "57:03"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Salamanca CF UDS",
+            "away": "SD Rayo Cantabria",
+            "time": "60:45",
+            "parik24": {
+                "p1": "5.501",
+                "x": "3.22",
+                "p2": "1.622",
+                "link": "https:\/\/24-parik.club\/en\/events\/salamanca-cf-uds-sd-rayo-cantabria-16064962",
+                "time": "60:45"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "SD Logrones",
+            "away": "CD Baskonia",
+            "time": "59:51",
+            "parik24": {
+                "p1": "23.001",
+                "x": "11",
+                "p2": "1.042",
+                "link": "https:\/\/24-parik.club\/en\/events\/sd-logrones-cd-baskonia-16064954",
+                "time": "59:51"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "UE Olot",
+            "away": "UD Barbastro",
+            "time": "62:29",
+            "parik24": {
+                "p1": "1.201",
+                "x": "5.2",
+                "p2": "14.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/ue-olot-ud-barbastro-16064935",
+                "time": "62:29"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "CD Quintanar del Rey",
+            "away": "Fuenlabrada",
+            "time": null,
+            "parik24": {
+                "p1": "2.571",
+                "x": "2.27",
+                "p2": "3.652",
+                "link": "https:\/\/24-parik.club\/en\/events\/cd-quintanar-del-rey-fuenlabrada-16064934",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Real Union Irun",
+            "away": "Naxara CD",
+            "time": "21:07",
+            "parik24": {
+                "p1": "1.111",
+                "x": "7.8",
+                "p2": "14.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/real-union-irun-naxara-cd-16064946",
+                "time": "21:07"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "UD Ourense",
+            "away": "Gimnastica Segoviana",
+            "time": "18:45",
+            "parik24": {
+                "p1": "2.281",
+                "x": "2.82",
+                "p2": "3.222",
+                "link": "https:\/\/24-parik.club\/en\/events\/ud-ourense-gimnastica-segoviana-16064951",
+                "time": "18:45"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Xerez CD",
+            "away": "Puente Genil CF",
+            "time": "19:44",
+            "parik24": {
+                "p1": "1.591",
+                "x": "2.97",
+                "p2": "6.902",
+                "link": "https:\/\/24-parik.club\/en\/events\/xerez-cd-puente-genil-cf-16064952",
+                "time": "19:44"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Coruxo CF",
+            "away": "Marino Luanko",
+            "time": "05:53",
+            "parik24": {
+                "p1": "2.171",
+                "x": "2.97",
+                "p2": "3.212",
+                "link": "https:\/\/24-parik.club\/en\/events\/coruxo-cf-marino-luanko-16064960",
+                "time": "05:53"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Stjarnan",
+            "away": "Selfoss",
+            "time": "60:24",
+            "parik24": {
+                "p1": "1.061",
+                "x": "8.5",
+                "p2": "34.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/stjarnan-selfoss-16261555",
+                "time": "60:24"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Debreceni VSC",
+            "away": "Ferencvaros",
+            "time": "59:32",
+            "parik24": {
+                "p1": "29.001",
+                "x": "13",
+                "p2": "1.022",
+                "link": "https:\/\/24-parik.club\/en\/events\/debreceni-vsc-ferencvaros-16134082",
+                "time": "59:32"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Eintracht Frankfurt",
+            "away": "Koln",
+            "time": null,
+            "parik24": {
+                "p1": "2.101",
+                "x": "2.75",
+                "p2": "4.302",
+                "link": "https:\/\/24-parik.club\/en\/events\/eintracht-frankfurt-koln-16064751",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Apollon Limassol",
+            "away": "AEK Larnaca",
+            "time": "19:34",
+            "parik24": {
+                "p1": "2.051",
+                "x": "3",
+                "p2": "3.332",
+                "link": "https:\/\/24-parik.club\/en\/events\/apollon-limassol-aek-larnaca-16159175",
+                "time": "19:34"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Sparta Kolin",
+            "away": "Jablonec II",
+            "time": "87:50",
+            "parik24": {
+                "p1": "1.071",
+                "x": "6.8",
+                "p2": "40.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/sparta-kolin-jablonec-ii-16223156",
+                "time": "87:50"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Zalgiris Vilnius",
+            "away": "FK Kauno Zalgiris",
+            "time": "33:55",
+            "parik24": {
+                "p1": "3.001",
+                "x": "2.5",
+                "p2": "2.602",
+                "link": "https:\/\/24-parik.club\/en\/events\/zalgiris-vilnius-fk-kauno-zalgiris-16223875",
+                "time": "33:55"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Orgryte",
+            "away": "Malmo FF",
+            "time": "65:07",
+            "parik24": {
+                "p1": "1.831",
+                "x": "2.88",
+                "p2": "5.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/orgryte-malmo-ff-15875256",
+                "time": "65:07"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Rapid Wien",
+            "away": "Sturm Graz",
+            "time": "60:28",
+            "parik24": {
+                "p1": "41.001",
+                "x": "11",
+                "p2": "1.062",
+                "link": "https:\/\/24-parik.club\/en\/events\/rapid-wien-sturm-graz-16135030",
+                "time": "60:28"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Raith Rovers",
+            "away": "Inverness CT",
+            "time": "50:13",
+            "parik24": {
+                "p1": "2.631",
+                "x": "2.25",
+                "p2": "3.402",
+                "link": "https:\/\/24-parik.club\/en\/events\/raith-rovers-inverness-ct-16193521",
+                "time": "50:13"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "True Democracy",
+            "away": "Great Ambitions",
+            "time": "58:31",
+            "parik24": {
+                "p1": "1.57",
+                "x": "3.46",
+                "p2": "5.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/true-democracy-great-ambitions-16255885",
+                "time": "58:31"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "UCC Youngsters",
+            "away": "Ashanti Gold",
+            "time": "58:37",
+            "parik24": {
+                "p1": "1.681",
+                "x": "2.81",
+                "p2": "6.502",
+                "link": "https:\/\/24-parik.club\/en\/events\/ucc-youngsters-ashanti-gold-16255900",
+                "time": "58:37"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Stade Renard",
+            "away": "AS Fortuna Mfou",
+            "time": "87:45",
+            "parik24": {
+                "p1": "1.041",
+                "x": "8.7",
+                "p2": "40.002",
+                "link": "https:\/\/24-parik.club\/en\/events\/stade-renard-as-fortuna-mfou-16266356",
+                "time": "87:45"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Dynamo Douala",
+            "away": "Unisport de Bafang",
+            "time": "90:08",
+            "parik24": {
+                "p1": "33.001",
+                "x": "5.9",
+                "p2": "1.102",
+                "link": "https:\/\/24-parik.club\/en\/events\/dynamo-douala-unisport-fc-du-haut-nkam-16266858",
+                "time": "90:08"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Fauve Azur de Yaounde",
+            "away": "Colombe Sportive Du Dja et Lobo",
+            "time": "88:10",
+            "parik24": {
+                "p1": "8",
+                "x": "1.2",
+                "p2": "7",
+                "link": "https:\/\/24-parik.club\/en\/events\/fauve-azur-de-yaounde-colombe-sportive-du-dja-et-lobo-16267057",
+                "time": "88:10"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "NAC Breda",
+            "away": "Sparta Rotterdam",
+            "time": "72:48",
+            "parik24": {
+                "p1": "3.551",
+                "x": "1.72",
+                "p2": "4.902",
+                "link": "https:\/\/24-parik.club\/en\/events\/nac-breda-sparta-rotterdam-16064336",
+                "time": "72:48"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Football",
+            "sport": "football",
+            "phase": "live",
+            "home": "Tallinna JK Legion",
+            "away": "JK Tammeka Tartu II",
+            "time": "64:35",
+            "parik24": {
+                "p1": "3.371",
+                "x": "2.48",
+                "p2": "2.462",
+                "link": "https:\/\/24-parik.club\/en\/events\/tallinna-jk-legion-jk-tammeka-tartu-ii-16255899",
+                "time": "64:35"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Valencia Basket",
+            "away": "CB Breogan Lugo",
+            "time": "09:49",
+            "parik24": {
+                "p1": "1.1",
+                "x": null,
+                "p2": "7.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/valencia-basket-cb-breogan-lugo-16204339",
+                "time": "09:49"
             },
             "pinnacle": {
-                "p1": "9.06",
-                "x": "3.3",
-                "p2": "1.469",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/turkey-super-lig-u19\/samsunspor-vs-konyaspor\/1627672423\/",
-                "time": null
+                "p1": "1.073",
+                "x": null,
+                "p2": "7.62",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/spain-acb\/valencia-bc-vs-breogan\/1627660840\/",
+                "time": "02:24"
             },
             "matchScore": 0.6666666666666666
         },
         {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Fatih Karagumruk SK U-19",
-            "away": "Caykur Rizespor U-19",
-            "time": "45:06",
-            "parik24": {
-                "p1": "1.041",
-                "x": "10",
-                "p2": "23.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/fatih-karagumruk-sk-u-19-caykur-rizespor-u-19-16252620",
-                "time": "45:06"
-            },
-            "pinnacle": {
-                "p1": "1.961",
-                "x": "3.02",
-                "p2": "3.95",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/turkey-super-lig-u19\/fatih-karagumruk-vs-caykur-rizespor\/1627674367\/",
-                "time": null
-            },
-            "matchScore": 0.7777777777777777
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Bhayangkara FC",
-            "away": "Persija Jakarta",
-            "time": "60:34",
-            "parik24": {
-                "p1": "2.601",
-                "x": "1.91",
-                "p2": "4.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/bhayangkara-fc-persija-jakarta-16215048",
-                "time": "60:34"
-            },
-            "pinnacle": {
-                "p1": "2.41",
-                "x": "2.28",
-                "p2": "4.53",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/indonesia-super-league\/bhayangkara-vs-persija-jakarta\/1627605060\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Liverpool (bodyaoo)",
-            "away": "Bayern Munchen (zoyir)",
-            "time": "92:10",
-            "parik24": {
-                "p1": "23.001",
-                "x": "4.2",
-                "p2": "1.222",
-                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-bodyaoo-bayern-munchen-zoyir-16267902",
-                "time": "92:10"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "PSG (TikitakaMaster)",
-            "away": "Barcelona (exhausted)",
-            "time": "88:59",
-            "parik24": {
-                "p1": "3.901",
-                "x": "1.95",
-                "p2": "3.102",
-                "link": "https:\/\/24-parik.club\/en\/events\/psg-tikitakamaster-barcelona-exhausted-16266694",
-                "time": "88:59"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Crystal Palace (DaVa)",
-            "away": "Fiorentina (labotryas)",
-            "time": "73:17",
-            "parik24": {
-                "p1": "37.001",
-                "x": "9",
-                "p2": "1.042",
-                "link": "https:\/\/24-parik.club\/en\/events\/crystal-palace-dava-fiorentina-labotryas-16266431",
-                "time": "73:17"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Shakhtar Donetsk (sane4ek8)",
-            "away": "Mainz 05 (RossFCDK)",
-            "time": "76:27",
-            "parik24": {
-                "p1": "2.65",
-                "x": "2.55",
-                "p2": "2.9",
-                "link": "https:\/\/24-parik.club\/en\/events\/shakhtar-donetsk-sane4ek8-mainz-05-rossfcdk-16266432",
-                "time": "76:27"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "France (borees)",
-            "away": "Portugal (Qnko)",
-            "time": "11:38",
-            "parik24": {
-                "p1": "1.851",
-                "x": "4.5",
-                "p2": "3.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/france-borees-portugal-qnko-16266656",
-                "time": "11:38"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Spain (Sef)",
-            "away": "England (Hyper)",
-            "time": "14:58",
-            "parik24": {
-                "p1": "5.301",
-                "x": "5.8",
-                "p2": "1.352",
-                "link": "https:\/\/24-parik.club\/en\/events\/spain-sef-england-hyper-16266671",
-                "time": "14:58"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Chelsea (virtual_3)",
-            "away": "Man City (virtual_4)",
-            "time": "70:49",
-            "parik24": {
-                "p1": "3.901",
-                "x": "1.5",
-                "p2": "5.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/chelsea-virtual-3-man-city-virtual-4-16250713",
-                "time": "70:49"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "CA River Plate (Virtual_10)",
-            "away": "Sao Paulo FC (virtual_14)",
-            "time": "73:33",
-            "parik24": {
-                "p1": "3.8",
-                "x": "1.72",
-                "p2": "3.7",
-                "link": "https:\/\/24-parik.club\/en\/events\/ca-river-plate-virtual-10-sao-paulo-fc-virtual-14-16250777",
-                "time": "73:33"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Aston Villa (Radahn)",
-            "away": "Roma (kirman)",
-            "time": "00:35",
-            "parik24": {
-                "p1": "5.001",
-                "x": "5",
-                "p2": "1.422",
-                "link": "https:\/\/24-parik.club\/en\/events\/aston-villa-radahn-roma-kirman-16265184",
-                "time": "00:35"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Hubei Istar",
-            "away": "Xiamen Feilu",
-            "time": "62:26",
-            "parik24": {
-                "p1": "4.331",
-                "x": "1.8",
-                "p2": "3.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/hubei-istar-xiamen-feilu-16233040",
-                "time": "62:26"
-            },
-            "pinnacle": {
-                "p1": "4.39",
-                "x": "1.98",
-                "p2": "2.76",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/china-league-two\/hubei-istar-vs-xiamen-feilu\/1627678391\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Malaysia University",
-            "away": "Johor Darul Ta'zim U-23",
-            "time": "47:12",
-            "parik24": {
-                "p1": "29.001",
-                "x": "15",
-                "p2": "1.012",
-                "link": "https:\/\/24-parik.club\/en\/events\/malaysia-university-johor-darul-tazim-u-23-16252507",
-                "time": "47:12"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Ferencvaros II",
-            "away": "Nagykanizsai Ufc",
-            "time": "46:55",
-            "parik24": {
-                "p1": "2.981",
-                "x": "2.73",
-                "p2": "2.482",
-                "link": "https:\/\/24-parik.club\/en\/events\/ferencvaros-ii-fc-nagykanizsai-16252616",
-                "time": "46:55"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Kisvarda II",
-            "away": "Debreceni VSC II",
-            "time": null,
-            "parik24": {
-                "p1": "2.461",
-                "x": "2.7",
-                "p2": "3.062",
-                "link": "https:\/\/24-parik.club\/en\/events\/kisvarda-ii-debreceni-vsc-ii-16252613",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "MTK Budapest II",
-            "away": "Majosi SE",
-            "time": null,
-            "parik24": {
-                "p1": "2.851",
-                "x": "2.73",
-                "p2": "2.582",
-                "link": "https:\/\/24-parik.club\/en\/events\/mtk-budapest-ii-majosi-se-16252615",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "3.09",
-                "x": "2.57",
-                "p2": "2.48",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/hungary-nb-3\/mtk-budapest-ii-vs-majosi-se\/1627688379\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Nyiregyhaza Spartacus FC II",
-            "away": "Tarpa SC",
-            "time": null,
-            "parik24": {
-                "p1": "2.851",
-                "x": "2.73",
-                "p2": "2.582",
-                "link": "https:\/\/24-parik.club\/en\/events\/nyiregyhaza-spartacus-fc-ii-tarpa-sc-16252612",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Paksi SE II",
-            "away": "PTE-PEAC",
-            "time": null,
-            "parik24": {
-                "p1": "1.761",
-                "x": "2.96",
-                "p2": "4.932",
-                "link": "https:\/\/24-parik.club\/en\/events\/paksi-se-ii-pte-peac-16252614",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Puskas Academy II",
-            "away": "Budaorsi",
-            "time": null,
-            "parik24": {
-                "p1": "1.141",
-                "x": "6.5",
-                "p2": "13.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/puskas-academy-ii-budaorsi-16252617",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.574",
-                "x": "3.35",
-                "p2": "5.44",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/hungary-nb-3\/puskas-akademia-ii-vs-budaorsi\/1627688382\/",
-                "time": null
-            },
-            "matchScore": 0.7222222222222222
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Ruzomberok II",
-            "away": "SK Novohrad Lucenec",
-            "time": "57:02",
-            "parik24": {
-                "p1": "1.161",
-                "x": "6.1",
-                "p2": "13.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/ruzomberok-ii-sk-novohrad-lucenec-16261849",
-                "time": "57:02"
-            },
-            "pinnacle": {
-                "p1": "1.129",
-                "x": "6.16",
-                "p2": "17.13",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/slovakia-3-liga\/mfk-ruzomberok-ii-vs-novohrad-lucenec\/1627672867\/",
-                "time": null
-            },
-            "matchScore": 0.8333333333333333
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "FC Kosice II",
-            "away": "MSK Spisske Podhradie",
-            "time": null,
-            "parik24": {
-                "p1": "1.641",
-                "x": "3.2",
-                "p2": "5.402",
-                "link": "https:\/\/24-parik.club\/en\/events\/fc-kosice-ii-msk-spisske-podhradie-16241769",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "FC Petrzalka",
-            "away": "FK Pohronie",
-            "time": "62:59",
-            "parik24": {
-                "p1": "1.021",
-                "x": "13",
-                "p2": "29.002",
-                "link": "https:\/\/24-parik.club\/en\/events\/fc-petrzalka-fk-pohronie-16220524",
-                "time": "62:59"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Slavia Tu Kosice",
-            "away": "FK Puchov",
-            "time": null,
-            "parik24": {
-                "p1": "2.501",
-                "x": "2.3",
-                "p2": "3.502",
-                "link": "https:\/\/24-parik.club\/en\/events\/slavia-tu-kosice-fk-puchov-16220704",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "2.42",
-                "x": "2.74",
-                "p2": "3.31",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/slovakia-2-liga\/slavia-tu-kosice-vs-puchov\/1627617258\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Slavia Prague II",
-            "away": "Viktoria Zizkov",
-            "time": "76:03",
-            "parik24": {
-                "p1": "3.441",
-                "x": "1.7",
-                "p2": "4.432",
-                "link": "https:\/\/24-parik.club\/en\/events\/slavia-prague-ii-viktoria-zizkov-16196063",
-                "time": "76:03"
-            },
-            "pinnacle": {
-                "p1": "2.95",
-                "x": "2.12",
-                "p2": "3.92",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/czech-republic-fnl\/slavia-prague-ii-vs-viktoria-zizkov\/1627602594\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Sparta Prague II",
-            "away": "Dynamo Ceske Budejovice",
-            "time": "63:34",
-            "parik24": {
-                "p1": "12.001",
-                "x": "3.89",
-                "p2": "1.322",
-                "link": "https:\/\/24-parik.club\/en\/events\/sparta-prague-ii-dynamo-ceske-budejovice-16207952",
-                "time": "63:34"
-            },
-            "pinnacle": {
-                "p1": "8.13",
-                "x": "3.87",
-                "p2": "1.46",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/czech-republic-fnl\/sparta-prague-ii-vs-ceske-budejovice\/1627603598\/",
-                "time": null
-            },
-            "matchScore": 0.8888888888888888
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Jiskra Domazlice II",
-            "away": "TJ Hluboka nad Vltavou",
-            "time": "61:46",
-            "parik24": {
-                "p1": "1.281",
-                "x": "4.73",
-                "p2": "9.402",
-                "link": "https:\/\/24-parik.club\/en\/events\/jiskra-domazlice-ii-tj-hluboka-nad-vltavou-16273562",
-                "time": "61:46"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Ho Chi Minh City",
-            "away": "Sanna Khanh Hoa",
-            "time": null,
-            "parik24": {
-                "p1": "1.371",
-                "x": "3.9",
-                "p2": "8.202",
-                "link": "https:\/\/24-parik.club\/en\/events\/ho-chi-minh-city-sanna-khanh-hoa-16220696",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.467",
-                "x": "3.46",
-                "p2": "6.79",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/vietnam-v-league-2\/ho-chi-minh-city-vs-khanh-hoa\/1627685419\/",
-                "time": null
-            },
-            "matchScore": 0.8888888888888888
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Liverpool (replays)",
-            "away": "Everton (replays)",
-            "time": "12:48",
-            "parik24": {
-                "p1": "1.741",
-                "x": "2.57",
-                "p2": "6.442",
-                "link": "https:\/\/24-parik.club\/en\/events\/liverpool-replays-everton-replays-16274716",
-                "time": "12:48"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Everton (replays)",
-            "away": "Brighton (replays)",
-            "time": "12:52",
-            "parik24": {
-                "p1": "2.051",
-                "x": "3.7",
-                "p2": "2.762",
-                "link": "https:\/\/24-parik.club\/en\/events\/everton-replays-brighton-replays-16274753",
-                "time": "12:52"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Jedinstvo Putevi",
-            "away": "Metalac Gornji Milanovac",
-            "time": null,
-            "parik24": {
-                "p1": "4.041",
-                "x": "2.69",
-                "p2": "2.022",
-                "link": "https:\/\/24-parik.club\/en\/events\/jedinstvo-putevi-metalac-gornji-milanovac-16273597",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Aris Thessaloniki U-19",
-            "away": "Olympiacos Piraeus U-19",
-            "time": null,
-            "parik24": {
-                "p1": "3.811",
-                "x": "2.59",
-                "p2": "2.142",
-                "link": "https:\/\/24-parik.club\/en\/events\/aris-thessaloniki-u-19-olympiacos-piraeus-u-19-16273590",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "CF Trival Valderas U-19",
-            "away": "Atletico Madrid U-19",
-            "time": "18:17",
-            "parik24": {
-                "p1": "3.191",
-                "x": "3.68",
-                "p2": "1.892",
-                "link": "https:\/\/24-parik.club\/en\/events\/cf-trival-valderas-u-19-atletico-madrid-u-19-16273639",
-                "time": "18:17"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Vojvodina U-19",
-            "away": "FK Spartak Subotica U-19",
-            "time": "44:04",
-            "parik24": {
-                "p1": "3.911",
-                "x": "3.42",
-                "p2": "1.782",
-                "link": "https:\/\/24-parik.club\/en\/events\/vojvodina-u-19-fk-spartak-subotica-u-19-16273599",
-                "time": "44:04"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Persib Bandung U-20",
-            "away": "PSM Makassar U-20",
-            "time": "93:27",
-            "parik24": {
-                "p1": "13",
-                "x": "1.02",
-                "p2": "15",
-                "link": "https:\/\/24-parik.club\/en\/events\/persib-bandung-u-20-psm-makassar-u-20-16272459",
-                "time": "93:27"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Persis Solo U-20",
-            "away": "Madura United U-20",
-            "time": "91:33",
-            "parik24": {
-                "p1": "7",
-                "x": "1.1",
-                "p2": "15",
-                "link": "https:\/\/24-parik.club\/en\/events\/persis-solo-u-20-madura-united-u-20-16272458",
-                "time": "91:33"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "Apollon Limassol (w)",
-            "away": "Aris Limassol (w)",
-            "time": "88:39",
-            "parik24": {
-                "p1": "4.75",
-                "x": "1.25",
-                "p2": "10",
-                "link": "https:\/\/24-parik.club\/en\/events\/apollon-limassol-w-aris-limassol-w-16272452",
-                "time": "88:39"
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Football",
-            "sport": "football",
-            "phase": "live",
-            "home": "FC Flora (w)",
-            "away": "Saku Sporting (w)",
-            "time": "17:56",
-            "parik24": {
-                "p1": "3.021",
-                "x": "3.51",
-                "p2": "2.052",
-                "link": "https:\/\/24-parik.club\/en\/events\/fc-flora-w-saku-sporting-w-16273638",
-                "time": "17:56"
-            },
-            "pinnacle": {
-                "p1": "1.485",
-                "x": "4.14",
-                "p2": "4.91",
-                "link": "https:\/\/www.pinnacle.com\/en\/soccer\/estonia-meistriliiga-women\/flora-tallinn-vs-saku-sporting\/1627592345\/",
-                "time": null
-            },
-            "matchScore": 0.8333333333333333
-        },
-        {
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "NLEX Road Warriors",
-            "away": "Phoenix Fuel Masters",
-            "time": "08:40",
+            "home": "KK Buducnost",
+            "away": "Partizan",
+            "time": "00:05",
             "parik24": {
-                "p1": "1.07",
+                "p1": "3.15",
                 "x": null,
-                "p2": "8.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/nlex-road-warriors-phoenix-fuel-masters-16200825",
-                "time": "08:40"
+                "p2": "1.38",
+                "link": "https:\/\/24-parik.club\/en\/events\/kk-buducnost-partizan-16246622",
+                "time": "00:05"
+            },
+            "pinnacle": {
+                "p1": "2.69",
+                "x": null,
+                "p2": "1.432",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/aba-adriatic-league\/kk-buducnost-voli-vs-kk-partizan-belgrade\/1627658497\/",
+                "time": "03:44"
+            },
+            "matchScore": 0.6666666666666666
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Denver Nuggets (Ugren)",
+            "away": "Miami Heat (Pakapaka)",
+            "time": "19:20",
+            "parik24": {
+                "p1": "1.53",
+                "x": null,
+                "p2": "2.4",
+                "link": "https:\/\/24-parik.club\/en\/events\/denver-nuggets-ugren-miami-heat-pakapaka-16265058",
+                "time": "19:20"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -952,61 +1020,106 @@
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "Keelung Black Kites",
-            "away": "Bank of Taiwan",
-            "time": "01:30",
+            "home": "Phoenix Suns (Dzojo)",
+            "away": "Minnesota Timberwolves (Bazuka)",
+            "time": "19:20",
+            "parik24": {
+                "p1": "1.48",
+                "x": null,
+                "p2": "2.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/phoenix-suns-dzojo-minnesota-timberwolves-bazuka-16265049",
+                "time": "19:20"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Slovenia (V)",
+            "away": "Greece (V)",
+            "time": null,
+            "parik24": {
+                "p1": "2",
+                "x": null,
+                "p2": "1.77",
+                "link": "https:\/\/24-parik.club\/en\/events\/slovenia-v-greece-v-16278058",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "San Antonio Spurs (V)",
+            "away": "Los Angeles Lakers (V)",
+            "time": null,
+            "parik24": {
+                "p1": "1.9",
+                "x": null,
+                "p2": "1.9",
+                "link": "https:\/\/24-parik.club\/en\/events\/san-antonio-spurs-v-los-angeles-lakers-v-16278059",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "AD Atenas Cordoba",
+            "away": "CA Platense",
+            "time": "02:25",
+            "parik24": {
+                "p1": "1.3",
+                "x": null,
+                "p2": "5.7",
+                "link": "https:\/\/24-parik.club\/en\/events\/ad-atenas-cordoba-ca-platense-16261771",
+                "time": "02:25"
+            },
+            "pinnacle": {
+                "p1": "1.099",
+                "x": null,
+                "p2": "6.39",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/argentina-liga-nacional\/asociacion-deportiva-atenas-vs-platense\/1627649934\/",
+                "time": "05:31"
+            },
+            "matchScore": 0.6805555555555556
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Amman United",
+            "away": "Al Jubeiha",
+            "time": "02:28",
+            "parik24": {
+                "p1": "1.13",
+                "x": null,
+                "p2": "6.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/amman-united-al-jubeiha-16275420",
+                "time": "02:28"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Melilla Baloncesto",
+            "away": "Gipuzkoa BC",
+            "time": "10:00",
             "parik24": {
                 "p1": "1.98",
                 "x": null,
                 "p2": "1.77",
-                "link": "https:\/\/24-parik.club\/en\/events\/keelung-black-kites-bank-of-taiwan-16267018",
-                "time": "01:30"
-            },
-            "pinnacle": {
-                "p1": "1.813",
-                "x": null,
-                "p2": "1.925",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/chinese-taipei-sbl\/keelung-black-kites-vs-bank-of-taiwan\/1627659555\/",
-                "time": "05:45"
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Nagasaki Velca",
-            "away": "Fighting Eagles Nagoya",
-            "time": "03:52",
-            "parik24": {
-                "p1": "1.14",
-                "x": null,
-                "p2": "6.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/nagasaki-velca-fighting-eagles-nagoya-16265531",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.145",
-                "x": null,
-                "p2": "5.1",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/japan-b-league\/nagasaki-velca-vs-fighting-eagles-nagoya\/1627660559\/",
-                "time": "03:52"
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Basketball",
-            "sport": "basketball",
-            "phase": "live",
-            "home": "Taoyuan Pilots",
-            "away": "Fubon Braves",
-            "time": "00:23",
-            "parik24": {
-                "p1": "3.25",
-                "x": null,
-                "p2": "1.42",
-                "link": "https:\/\/24-parik.club\/en\/events\/taoyuan-pilots-fubon-braves-16220345",
-                "time": "00:23"
+                "link": "https:\/\/24-parik.club\/en\/events\/melilla-baloncesto-gipuzkoa-bc-16204084",
+                "time": "10:00"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1015,22 +1128,228 @@
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "Paterna (w)",
-            "away": "CD Adareva Tenerife (w)",
+            "home": "Palmer Basket Mallorca",
+            "away": "Ourense Baloncesto",
+            "time": "00:00",
+            "parik24": {
+                "p1": "2.7",
+                "x": null,
+                "p2": "1.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/palmer-basket-mallorca-ourense-baloncesto-16204083",
+                "time": "00:00"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "CB Benicarlo",
+            "away": "CB Getafe",
             "time": "10:00",
+            "parik24": {
+                "p1": "2.88",
+                "x": null,
+                "p2": "1.38",
+                "link": "https:\/\/24-parik.club\/en\/events\/cb-benicarlo-cb-getafe-16266749",
+                "time": "10:00"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "CS Agronomia Bucharest",
+            "away": "Leii Bucharest",
+            "time": "00:45",
+            "parik24": {
+                "p1": "1.77",
+                "x": null,
+                "p2": "1.98",
+                "link": "https:\/\/24-parik.club\/en\/events\/cs-agronomia-bucharest-leii-bucharest-16255896",
+                "time": "00:45"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "CSO Voluntari II",
+            "away": "CS Rapid Bucharest II",
+            "time": "01:35",
+            "parik24": {
+                "p1": "12",
+                "x": null,
+                "p2": "1.02",
+                "link": "https:\/\/24-parik.club\/en\/events\/cso-voluntari-ii-cs-rapid-bucharest-ii-16255894",
+                "time": "01:35"
+            },
+            "pinnacle": {
+                "p1": "8.62",
+                "x": null,
+                "p2": "1.059",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/romania-liga-1\/cso-2-voluntari-vs-cs-rapid-bucuresti-2\/1627671501\/",
+                "time": "04:25"
+            },
+            "matchScore": 0.5694444444444444
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "CSU ASE Bucharest",
+            "away": "CSU Stiinta Bucharest",
+            "time": "01:58",
+            "parik24": {
+                "p1": "12",
+                "x": null,
+                "p2": "1.02",
+                "link": "https:\/\/24-parik.club\/en\/events\/csu-ase-bucharest-csu-stiinta-bucharest-16255895",
+                "time": "01:58"
+            },
+            "pinnacle": {
+                "p1": "15.58",
+                "x": null,
+                "p2": "1.019",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/romania-liga-1\/csu-ase-bucuresti-vs-csu-stiinta-bucuresti\/1627671503\/",
+                "time": "05:31"
+            },
+            "matchScore": 0.611111111111111
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Levharti Chomutov (w)",
+            "away": "SBS Ostrava (w)",
+            "time": "02:09",
+            "parik24": {
+                "p1": "7.77",
+                "x": null,
+                "p2": "1.08",
+                "link": "https:\/\/24-parik.club\/en\/events\/levharti-chomutov-w-sbs-ostrava-w-16273993",
+                "time": "02:09"
+            },
+            "pinnacle": {
+                "p1": "2.55",
+                "x": null,
+                "p2": "1.476",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/czech-republic-zbl-women\/levharti-chomutov-vs-sbs-ostrava\/1627671499\/",
+                "time": "05:01"
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Rinascita Basket Rimini",
+            "away": "Basket Mestre",
+            "time": "01:55",
             "parik24": {
                 "p1": "1.04",
                 "x": null,
-                "p2": "8.8",
-                "link": "https:\/\/24-parik.club\/en\/events\/nb-paterna-w-cd-adareva-tenerife-w-16273696",
+                "p2": "9.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/rinascita-basket-rimini-basket-mestre-16233704",
+                "time": "01:55"
+            },
+            "pinnacle": {
+                "p1": "1.142",
+                "x": null,
+                "p2": "5.16",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/italy-serie-a2\/rinascita-basket-rimini-vs-basket-mestre-1958\/1627658495\/",
+                "time": "04:34"
+            },
+            "matchScore": 0.8888888888888888
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Rigas Zelli",
+            "away": "CSO Voluntari",
+            "time": "04:54",
+            "parik24": {
+                "p1": "1.28",
+                "x": null,
+                "p2": "4",
+                "link": "https:\/\/24-parik.club\/en\/events\/rigas-zelli-cso-voluntari-16244971",
+                "time": "04:54"
+            },
+            "pinnacle": {
+                "p1": "1.543",
+                "x": null,
+                "p2": "2.37",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/europe-enbl\/rigas-zelli-vs-cso-voluntari\/1627650891\/",
+                "time": "07:39"
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Sluneta Usti nad Labem",
+            "away": "BK Opava",
+            "time": "03:11",
+            "parik24": {
+                "p1": "2.25",
+                "x": null,
+                "p2": "1.7",
+                "link": "https:\/\/24-parik.club\/en\/events\/sluneta-usti-nad-labem-bk-opava-16256433",
                 "time": null
             },
             "pinnacle": {
-                "p1": "1.062",
+                "p1": "1.724",
                 "x": null,
-                "p2": "8.4",
-                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/spain-lf-challenge-women\/nb-paterna-vs-cd-adareva\/1627668676\/",
-                "time": "10:00"
+                "p2": "2.05",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/czech-republic-nbl\/sluneta-usti-nad-labem-vs-bk-opava\/1627658510\/",
+                "time": "03:11"
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Azomco Global",
+            "away": "Inspired Generation",
+            "time": "00:26",
+            "parik24": {
+                "p1": "1.05",
+                "x": null,
+                "p2": "8.5",
+                "link": "https:\/\/24-parik.club\/en\/events\/azomco-global-inspired-generation-16258779",
+                "time": "00:26"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Charnay Basket (w)",
+            "away": "Bourges Basket (w)",
+            "time": "01:28",
+            "parik24": {
+                "p1": "4",
+                "x": null,
+                "p2": "1.25",
+                "link": "https:\/\/24-parik.club\/en\/events\/charnay-basket-w-bourges-basket-w-16203844",
+                "time": "01:28"
+            },
+            "pinnacle": {
+                "p1": "3.16",
+                "x": null,
+                "p2": "1.326",
+                "link": "https:\/\/www.pinnacle.com\/en\/basketball\/france-ligue-fminine-de-basketball\/charnay-basket-bourgogne-sud-vs-bourges-basket\/1627656813\/",
+                "time": "03:14"
             },
             "matchScore": 0.8333333333333333
         },
@@ -1038,15 +1357,49 @@
             "league": "Live Basketball",
             "sport": "basketball",
             "phase": "live",
-            "home": "Minnesota Timberwolves (replay)",
-            "away": "Denver Nuggets (replay)",
-            "time": "12:48",
+            "home": "Akhisargucu",
+            "away": "Demir Amiraller",
+            "time": "09:26",
             "parik24": {
-                "p1": "1.59",
+                "p1": "5.5",
                 "x": null,
-                "p2": "2.21",
-                "link": "https:\/\/24-parik.club\/en\/events\/minnesota-timberwolves-replay-denver-nuggets-replay-16274717",
-                "time": "12:48"
+                "p2": "1.13",
+                "link": "https:\/\/24-parik.club\/en\/events\/akhisargucu-demir-amiraller-16274422",
+                "time": "09:26"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "ANU",
+            "away": "Umoja",
+            "time": "09:03",
+            "parik24": {
+                "p1": "5.2",
+                "x": null,
+                "p2": "1.15",
+                "link": "https:\/\/24-parik.club\/en\/events\/anu-umoja-16277706",
+                "time": "09:03"
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Basketball",
+            "sport": "basketball",
+            "phase": "live",
+            "home": "Mitteldeutscher SYNTAINICS MBC (w)",
+            "away": "TK Hannover (w)",
+            "time": "01:09",
+            "parik24": {
+                "p1": "2.63",
+                "x": null,
+                "p2": "1.45",
+                "link": "https:\/\/24-parik.club\/en\/events\/mitteldeutscher-syntainics-mbc-w-tk-hannover-w-16266993",
+                "time": "01:09"
             },
             "pinnacle": null,
             "matchScore": 0
@@ -1055,181 +1408,21 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "David Goffin",
-            "away": "Emilio Nava",
+            "home": "Gael Monfils",
+            "away": "Tallon Griekspoor",
             "time": null,
             "parik24": {
-                "p1": "4.25",
-                "x": null,
-                "p2": "1.18",
-                "link": "https:\/\/24-parik.club\/en\/events\/david-goffin-emilio-nava-16266996",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "6.42",
-                "x": null,
-                "p2": "1.158",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-monte-carlo-qualifiers\/david-goffin-vs-emilio-nava\/1627639620\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Nikoloz Basilashvili",
-            "away": "Cristian Garin",
-            "time": null,
-            "parik24": {
-                "p1": "2.1",
-                "x": null,
-                "p2": "1.65",
-                "link": "https:\/\/24-parik.club\/en\/events\/nikoloz-basilashvili-cristian-garin-16267024",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.657",
-                "x": null,
-                "p2": "2.31",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-monte-carlo-qualifiers\/nikoloz-basilashvili-vs-cristian-garin\/1627638725\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Juan Manuel Cerundolo",
-            "away": "Pedro Martinez",
-            "time": null,
-            "parik24": {
-                "p1": "1.17",
-                "x": null,
-                "p2": "4.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/juan-manuel-cerundolo-pedro-martinez-16265326",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.591",
-                "x": null,
-                "p2": "2.45",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-monte-carlo-qualifiers\/juan-manuel-cerundolo-vs-pedro-martinez\/1627630665\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Mert Alkaya",
-            "away": "Tiago Torres",
-            "time": null,
-            "parik24": {
-                "p1": "1.3",
-                "x": null,
-                "p2": "3.2",
-                "link": "https:\/\/24-parik.club\/en\/events\/mert-alkaya-tiago-torres-16269037",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Anna Siskova",
-            "away": "Kristina Kroitor",
-            "time": null,
-            "parik24": {
-                "p1": "1.12",
-                "x": null,
-                "p2": "5.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/anna-siskova-kristina-kroitor-16266809",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Marek Gengel",
-            "away": "Robert Strombachs",
-            "time": null,
-            "parik24": {
-                "p1": "1.27",
-                "x": null,
-                "p2": "3.35",
-                "link": "https:\/\/24-parik.club\/en\/events\/marek-gengel-robert-strombachs-16266118",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Alex Marti Pujolras",
-            "away": "Max Alcala Gurri",
-            "time": null,
-            "parik24": {
-                "p1": "5",
-                "x": null,
-                "p2": "1.14",
-                "link": "https:\/\/24-parik.club\/en\/events\/alex-marti-pujolras-max-alcala-gurri-16267603",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "5.16",
-                "x": null,
-                "p2": "1.198",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/itf-men-reus-final\/alex-marti-pujolras-vs-max-alcala-gurri\/1627650807\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Zizou Bergs\/Jannik Sinner",
-            "away": "Casper Ruud\/Tomas Machac",
-            "time": null,
-            "parik24": {
-                "p1": "1.23",
-                "x": null,
-                "p2": "3.75",
-                "link": "https:\/\/24-parik.club\/en\/events\/zizou-bergsjannik-sinner-tomas-machaccasper-ruud-16265318",
-                "time": null
-            },
-            "pinnacle": null,
-            "matchScore": 0
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Rudolf Molleker",
-            "away": "Carlo Alberto Caniato",
-            "time": null,
-            "parik24": {
-                "p1": "1.55",
+                "p1": "1.6",
                 "x": null,
                 "p2": "2.3",
-                "link": "https:\/\/24-parik.club\/en\/events\/rudolf-molleker-carlo-alberto-caniato-16269201",
+                "link": "https:\/\/24-parik.club\/en\/events\/gael-monfils-tallon-griekspoor-16258364",
                 "time": null
             },
             "pinnacle": {
-                "p1": "1.735",
+                "p1": "1.729",
                 "x": null,
-                "p2": "2.15",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-monza-qualifiers\/rudolf-molleker-vs-carlo-alberto-caniato\/1627662423\/",
+                "p2": "2.17",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-monte-carlo-r1\/gael-monfils-vs-tallon-griekspoor\/1627541096\/",
                 "time": null
             },
             "matchScore": 1
@@ -1238,21 +1431,21 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "Federico Bondioli",
-            "away": "Denis Yevseyev",
+            "home": "Facundo Diaz Acosta",
+            "away": "Hugo Dellien",
             "time": null,
             "parik24": {
-                "p1": "1.5",
+                "p1": "1.4",
                 "x": null,
-                "p2": "2.4",
-                "link": "https:\/\/24-parik.club\/en\/events\/federico-bondioli-denis-yevseyev-16269174",
+                "p2": "3",
+                "link": "https:\/\/24-parik.club\/en\/events\/facundo-diaz-acosta-hugo-dellien-16268425",
                 "time": null
             },
             "pinnacle": {
-                "p1": "1.671",
+                "p1": "1.606",
                 "x": null,
-                "p2": "2.25",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-monza-qualifiers\/federico-bondioli-vs-denis-yevseyev\/1627662288\/",
+                "p2": "2.39",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-sao-leopoldo-final\/facundo-diaz-acosta-vs-hugo-dellien\/1627660823\/",
                 "time": null
             },
             "matchScore": 1
@@ -1261,21 +1454,38 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "Norbert Gombos",
-            "away": "Eero Vasa",
+            "home": "Arthur Rinderknech\/Valentin Vacherot",
+            "away": "Mate Pavic\/Marcelo Arevalo",
+            "time": null,
+            "parik24": {
+                "p1": "1.68",
+                "x": null,
+                "p2": "2.05",
+                "link": "https:\/\/24-parik.club\/en\/events\/arthur-rinderknechvalentin-vacherot-marcelo-arevalomate-pavic-16264853",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Jacopo Vasami",
+            "away": "Martin Krumich",
             "time": null,
             "parik24": {
                 "p1": "2.4",
                 "x": null,
                 "p2": "1.5",
-                "link": "https:\/\/24-parik.club\/en\/events\/norbert-gombos-eero-vasa-16269208",
+                "link": "https:\/\/24-parik.club\/en\/events\/jacopo-vasami-martin-krumich-16269200",
                 "time": null
             },
             "pinnacle": {
-                "p1": "2.82",
+                "p1": "3.39",
                 "x": null,
-                "p2": "1.462",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-monza-qualifiers\/norbert-gombos-vs-eero-vasa\/1627662374\/",
+                "p2": "1.352",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-monza-qualifiers\/jacopo-vasami-vs-martin-krumich\/1627662356\/",
                 "time": null
             },
             "matchScore": 1
@@ -1284,21 +1494,21 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "Maria Timofeeva",
-            "away": "Alina Charaeva",
+            "home": "Sumit Nagal",
+            "away": "Enrico Dalla Valle",
             "time": null,
             "parik24": {
-                "p1": "3.26",
+                "p1": "1.23",
                 "x": null,
-                "p2": "1.34",
-                "link": "https:\/\/24-parik.club\/en\/events\/maria-timofeeva-alina-charaeva-16273558",
+                "p2": "3.75",
+                "link": "https:\/\/24-parik.club\/en\/events\/sumit-nagal-enrico-dalla-valle-16269207",
                 "time": null
             },
             "pinnacle": {
-                "p1": "4.22",
+                "p1": "1.245",
                 "x": null,
-                "p2": "1.261",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-linz-qualifiers\/maria-timofeeva-vs-alina-charaeva\/1627656000\/",
+                "p2": "4.43",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-monza-qualifiers\/sumit-nagal-vs-enrico-dalla-valle\/1627662310\/",
                 "time": null
             },
             "matchScore": 1
@@ -1307,41 +1517,219 @@
             "league": "Live Tennis",
             "sport": "tennis",
             "phase": "live",
-            "home": "Katie Volynets",
-            "away": "Oceane Dodin",
+            "home": "Alana Smith",
+            "away": "Franziska Sziedat",
             "time": null,
             "parik24": {
-                "p1": "1.04",
+                "p1": "1.08",
                 "x": null,
-                "p2": "11",
-                "link": "https:\/\/24-parik.club\/en\/events\/katie-volynets-oceane-dodin-16267779",
-                "time": null
-            },
-            "pinnacle": {
-                "p1": "1.113",
-                "x": null,
-                "p2": "8.4",
-                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/wta-linz-qualifiers\/katie-volynets-vs-oceane-dodin\/1627656038\/",
-                "time": null
-            },
-            "matchScore": 1
-        },
-        {
-            "league": "Live Tennis",
-            "sport": "tennis",
-            "phase": "live",
-            "home": "Giulia Gabba",
-            "away": "Liv Boulard",
-            "time": null,
-            "parik24": {
-                "p1": "15",
-                "x": null,
-                "p2": "1.01",
-                "link": "https:\/\/24-parik.club\/en\/events\/giulia-gabba-liv-boulard-16273559",
+                "p2": "7",
+                "link": "https:\/\/24-parik.club\/en\/events\/alana-smith-franziska-sziedat-16272060",
                 "time": null
             },
             "pinnacle": null,
             "matchScore": 0
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Garrett Johns",
+            "away": "Ronald Hohmann",
+            "time": null,
+            "parik24": {
+                "p1": "1.45",
+                "x": null,
+                "p2": "2.55",
+                "link": "https:\/\/24-parik.club\/en\/events\/garrett-johns-ronald-hohmann-16273759",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "1.184",
+                "x": null,
+                "p2": "5.57",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-sarasota-qualifiers\/garrett-johns-vs-ronald-hohmann\/1627686121\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Bruno Kuzuhara",
+            "away": "Justin Roberts",
+            "time": null,
+            "parik24": {
+                "p1": "1.15",
+                "x": null,
+                "p2": "4.75",
+                "link": "https:\/\/24-parik.club\/en\/events\/bruno-kuzuhara-justin-roberts-16273766",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "1.085",
+                "x": null,
+                "p2": "10.79",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-sarasota-qualifiers\/bruno-kuzuhara-vs-justin-roberts\/1627686130\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Ronit Karki",
+            "away": "Felix Corwin",
+            "time": null,
+            "parik24": {
+                "p1": "4.5",
+                "x": null,
+                "p2": "1.17",
+                "link": "https:\/\/24-parik.club\/en\/events\/ronit-karki-felix-corwin-16273764",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "5.84",
+                "x": null,
+                "p2": "1.173",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-sarasota-qualifiers\/ronit-karki-vs-felix-corwin\/1627686118\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Alafia Ayeni",
+            "away": "Samuel Heredia",
+            "time": null,
+            "parik24": {
+                "p1": "1.5",
+                "x": null,
+                "p2": "2.4",
+                "link": "https:\/\/24-parik.club\/en\/events\/alafia-ayeni-samuel-heredia-16273857",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "1.641",
+                "x": null,
+                "p2": "2.31",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-mexico-city-qualifiers\/alafia-ayeni-vs-samuel-heredia\/1627687981\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Alan Fernando Rubio Fierros",
+            "away": "Tibo Colson",
+            "time": null,
+            "parik24": {
+                "p1": "3.75",
+                "x": null,
+                "p2": "1.23",
+                "link": "https:\/\/24-parik.club\/en\/events\/alan-fernando-rubio-fierros-tibo-colson-16273854",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "3.97",
+                "x": null,
+                "p2": "1.283",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-mexico-city-qualifiers\/alan-fernando-rubio-fierros-vs-tibo-colson\/1627687997\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Guillaume Dalmasso",
+            "away": "Bor Artnak",
+            "time": null,
+            "parik24": {
+                "p1": "3",
+                "x": null,
+                "p2": "1.33",
+                "link": "https:\/\/24-parik.club\/en\/events\/guillaume-dalmasso-bor-artnak-16273856",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "4.04",
+                "x": null,
+                "p2": "1.277",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-mexico-city-qualifiers\/guillaume-dalmasso-vs-bor-artnak\/1627687998\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Andrej Nedic",
+            "away": "Milos Karol",
+            "time": null,
+            "parik24": {
+                "p1": "1.02",
+                "x": null,
+                "p2": "13",
+                "link": "https:\/\/24-parik.club\/en\/events\/andrej-nedic-milos-karol-16269240",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": null,
+                "x": null,
+                "p2": null,
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-madrid-qualifiers\/andrej-nedic-vs-milos-karol\/1627667155\/",
+                "time": null
+            },
+            "matchScore": 1
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Andre Agassi (Smet13)",
+            "away": "Alexander Zverev (Kravinho)",
+            "time": null,
+            "parik24": {
+                "p1": "2.55",
+                "x": null,
+                "p2": "1.45",
+                "link": "https:\/\/24-parik.club\/en\/events\/andre-agassi-smet13-alexander-zverev-kravinho-16266062",
+                "time": null
+            },
+            "pinnacle": null,
+            "matchScore": 0
+        },
+        {
+            "league": "Live Tennis",
+            "sport": "tennis",
+            "phase": "live",
+            "home": "Eric Vanshelboim",
+            "away": "Nicolas Zanellato",
+            "time": null,
+            "parik24": {
+                "p1": "4.25",
+                "x": null,
+                "p2": "1.18",
+                "link": "https:\/\/24-parik.club\/en\/events\/eric-vanshelboim-nicolas-zanellato-16273699",
+                "time": null
+            },
+            "pinnacle": {
+                "p1": "4.79",
+                "x": null,
+                "p2": "1.221",
+                "link": "https:\/\/www.pinnacle.com\/en\/tennis\/atp-challenger-campinas-qualifiers\/eric-vanshelboim-vs-nicolas-zanellato\/1627684588\/",
+                "time": null
+            },
+            "matchScore": 1
         }
     ]
 }
