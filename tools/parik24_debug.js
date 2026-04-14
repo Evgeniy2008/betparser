@@ -1,12 +1,12 @@
 'use strict';
 const WebSocket = require('ws');
 
-const WS_URL = 'wss://parik-24.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
+const WS_URL = 'wss://24-parik.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
 const RECORD_SEPARATOR = '\x1e';
 
 const ws = new WebSocket(WS_URL, {
   headers: {
-    'Origin': 'https://parik-24.one',
+    'Origin': 'https://24-parik.one',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
   },
 });

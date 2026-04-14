@@ -4,7 +4,7 @@ const msgpack   = require('@msgpack/msgpack');
 const fs        = require('fs');
 const path      = require('path');
 
-const WS_URL  = 'wss://parik-24.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
+const WS_URL  = 'wss://24-parik.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
 const HUB_CTX = ['uk-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'UAH'];
 
 let invId = 0;
@@ -42,7 +42,7 @@ function encodeStreamInv(target, args) {
   return Buffer.concat([writeVarInt(payload.length), payload]);
 }
 
-const ws = new WebSocket(WS_URL, { headers: { 'Origin': 'https://parik-24.one' } });
+const ws = new WebSocket(WS_URL, { headers: { 'Origin': 'https://24-parik.one' } });
 
 // known event IDs from parik24_raw.json - grab first 3 so we get market data quickly
 let testEventIds = null;
