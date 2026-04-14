@@ -4,8 +4,8 @@ setlocal
 cd /d "%~dp0"
 
 rem ==================================================
-rem Remote push (for scripts running on separate VPS)
-rem Uncomment and set your real site URL/token:
+rem Pull architecture: workers write only local JSON.
+rem Optional: if you still need remote push, uncomment below:
 rem set "BETPARSER_PUSH_URL=https://websitebets.bionrgg.com/push_live_data.php"
 rem set "BETPARSER_PUSH_TOKEN=change_me_secret_token"
 rem ==================================================
@@ -32,8 +32,11 @@ start "Parik24 Basketball" cmd /k "cd /d "%~dp0" && node tools\parik24_basketbal
 echo [3/4] Parik24 Tennis...
 start "Parik24 Tennis" cmd /k "cd /d "%~dp0" && node tools\parik24_tennis_live_worker.js"
 
-echo [4/4] Pinnacle Multi-Sport...
+echo [4/5] Pinnacle Multi-Sport...
 start "Pinnacle Multi-Sport" cmd /k "cd /d "%~dp0" && node tools\pinnacle_live_worker.js"
+
+echo [5/5] Live Bridge API (for ngrok pull)...
+start "Live Bridge API" cmd /k "cd /d "%~dp0" && node tools\live_bridge_server.js"
 
 echo.
 echo Все процессы запущены в отдельных окнах.

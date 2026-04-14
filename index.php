@@ -174,6 +174,12 @@ $search = trim((string)($_GET['q'] ?? ''));
         <label for="searchInput">Поиск</label>
         <input id="searchInput" class="search" type="text" value="<?= htmlspecialchars($search) ?>" placeholder="Лига, команды или букмекер">
       </div>
+      <div class="field">
+        <label for="leagueFilterSelect">Лига</label>
+        <select id="leagueFilterSelect" class="select">
+          <option value="__all__">Все лиги</option>
+        </select>
+      </div>
       <button id="underOneBtn" class="btn" type="button">Фильтр &lt; 1</button>
       <button id="refreshBtn" class="btn" type="button">Обновить</button>
     </div>
@@ -243,15 +249,19 @@ let EVENTS = [];
 let EVENTS_MAP = {};
 let currentSportTab = <?= json_encode($sportTab, JSON_UNESCAPED_UNICODE) ?>;
 const VALID_SPORT_TABS = ['football', 'basketball', 'tennis'];
+const LEAGUE_FILTER_SPORTS = ['football', 'basketball'];
 const PREFERRED_SECOND_KEY = 'betfair';
 const BEST_OPTION_KEY = '__best__';
 const AUTO_REFRESH_INTERVAL_MS = 2000;
+const LIVE_PULL_INTERVAL_MS = 5000;
 let tableRows = [];
 let dataRefreshInFlight = false;
 let currentRequestController = null;
 let refreshRequestSeq = 0;
 let nextAllowedRefreshAt = 0;
 let autoRefreshTimer = null;
+let livePullTimer = null;
+let livePullInFlight = false;
 let currentModalEventId = null;
 let currentModalSecondKey = null;
 let currentDefaultSecondKey = PREFERRED_SECOND_KEY;
@@ -259,9 +269,11 @@ let currentDefaultSecondTitle = 'Betfair';
 let currentDefaultSecondMode = 'preferred';
 let allEventsHavePinnacle = true;
 let selectedSecondBkKey = PREFERRED_SECOND_KEY;
+let selectedLeague = '__all__';
 let showOnlyUnderOne = false;
 
 const searchInput = document.getElementById('searchInput');
+const leagueFilterSelect = document.getElementById('leagueFilterSelect');
 const secondBkSelect = document.getElementById('secondBkSelect');
 const refreshBtn = document.getElementById('refreshBtn');
 const sportTabs = Array.from(document.querySelectorAll('[data-sport-tab]'));
@@ -486,6 +498,42 @@ function rebuildSecondBkDropdown(){
   secondBkSelect.value = selectedSecondBkKey;
 }
 
+function rebuildLeagueFilter(){
+  if (!leagueFilterSelect) return;
+
+  if (!LEAGUE_FILTER_SPORTS.includes(currentSportTab)) {
+    selectedLeague = '__all__';
+    leagueFilterSelect.innerHTML = '<option value="__all__">Все лиги</option>';
+    leagueFilterSelect.value = '__all__';
+    leagueFilterSelect.disabled = true;
+    return;
+  }
+
+  const leagues = Array.from(new Set(
+    EVENTS
+      .map((event) => String(event?.league || '').trim())
+      .filter((league) => league !== '')
+  )).sort((a, b) => a.localeCompare(b, 'ru'));
+
+  leagueFilterSelect.innerHTML = '';
+  const allOption = document.createElement('option');
+  allOption.value = '__all__';
+  allOption.textContent = 'Все лиги';
+  leagueFilterSelect.appendChild(allOption);
+
+  leagues.forEach((league) => {
+    const option = document.createElement('option');
+    option.value = league;
+    option.textContent = league;
+    leagueFilterSelect.appendChild(option);
+  });
+
+  const hasSelected = selectedLeague === '__all__' || leagues.includes(selectedLeague);
+  selectedLeague = hasSelected ? selectedLeague : '__all__';
+  leagueFilterSelect.value = selectedLeague;
+  leagueFilterSelect.disabled = false;
+}
+
 function renderEventsTable(){
   const tbody = document.getElementById('eventsTableBody');
   if (!tbody) return;
@@ -503,6 +551,10 @@ function renderEventsTable(){
       const value = getMinFormulaForEvent(event);
       return value !== null && value < formulaThresholdForSport(event.sport || 'football');
     });
+  }
+
+  if (LEAGUE_FILTER_SPORTS.includes(currentSportTab) && selectedLeague !== '__all__') {
+    displayEvents = displayEvents.filter((event) => String(event?.league || '').trim() === selectedLeague);
   }
 
   if (!displayEvents.length) {
@@ -769,6 +821,28 @@ function updateOpenModalIfNeeded(){
   renderModal(currentModalEventId, currentModalSecondKey);
 }
 
+async function syncLiveFeedsOnServer(){
+  if (livePullInFlight) return;
+  livePullInFlight = true;
+  try {
+    await fetch(`pull_live_data.php?_=${Date.now()}`, {
+      method: 'GET',
+      cache: 'no-store',
+      headers: {'Accept': 'application/json'},
+    });
+  } catch (_) {
+    // silent: UI update cycle continues independently via api.php
+  } finally {
+    livePullInFlight = false;
+  }
+}
+
+function startLivePullLoop(){
+  if (livePullTimer) clearInterval(livePullTimer);
+  syncLiveFeedsOnServer();
+  livePullTimer = setInterval(syncLiveFeedsOnServer, LIVE_PULL_INTERVAL_MS);
+}
+
 async function refreshCurrentSportData(showLoader = false){
   if (getRemainingRefreshMs() > 0) {
     queueRefreshAfterCooldown(showLoader);
@@ -816,6 +890,7 @@ async function refreshCurrentSportData(showLoader = false){
     }
 
     rebuildSecondBkDropdown();
+    rebuildLeagueFilter();
     renderEventsTable();
     updateStatus(data);
     updateOpenModalIfNeeded();
@@ -875,6 +950,12 @@ secondBkSelect?.addEventListener('change', (event) => {
   updateOpenModalIfNeeded();
 });
 
+leagueFilterSelect?.addEventListener('change', (event) => {
+  selectedLeague = event.target.value || '__all__';
+  closeModal();
+  renderEventsTable();
+});
+
 searchInput?.addEventListener('input', applyDynamicSearch);
 
 document.getElementById('underOneBtn')?.addEventListener('click', (event) => {
@@ -896,7 +977,9 @@ document.addEventListener('keydown', (event) => {
 });
 
 rebuildSecondBkDropdown();
+rebuildLeagueFilter();
 syncSportTabsUi();
+startLivePullLoop();
 refreshCurrentSportData(true);
 </script>
 </body>

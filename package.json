@@ -14,7 +14,9 @@
     "parik24:root": "node parik24_live_worker.js",
     "pinnacle": "node tools/pinnacle_live_worker.js",
     "pinnacle:root": "node pinnacle_live_worker.js",
-    "tg:webapp": "node tools/telegram_webapp_bot.js"
+    "tg:webapp": "node tools/telegram_webapp_bot.js",
+    "live:bridge": "node tools/live_bridge_server.js",
+    "live:pull": "node tools/live_pull_worker.js"
   },
   "repository": {
     "type": "git",

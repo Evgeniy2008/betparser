@@ -1,7 +1,7 @@
 'use strict';
 
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8568196793:AAHrD1X0NxS8LOBdFu1xhkyVteGitHRBgeg';
-const WEBAPP_URL = process.env.TELEGRAM_WEBAPP_URL || 'https://websitebets.bionrgg.com/';
+const WEBAPP_URL = process.env.TELEGRAM_WEBAPP_URL || 'https://websitebets.bionrgg.com';
 
 if (!BOT_TOKEN) {
   console.error('TELEGRAM_BOT_TOKEN is required');
