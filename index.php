@@ -271,6 +271,7 @@ let allEventsHavePinnacle = true;
 let selectedSecondBkKey = PREFERRED_SECOND_KEY;
 let selectedLeague = '__all__';
 let showOnlyUnderOne = false;
+let leagueFilterSignature = '';
 
 const searchInput = document.getElementById('searchInput');
 const leagueFilterSelect = document.getElementById('leagueFilterSelect');
@@ -502,10 +503,17 @@ function rebuildLeagueFilter(){
   if (!leagueFilterSelect) return;
 
   if (!LEAGUE_FILTER_SPORTS.includes(currentSportTab)) {
+    const disabledSignature = `disabled:${currentSportTab}`;
+    if (leagueFilterSignature === disabledSignature && leagueFilterSelect.disabled && leagueFilterSelect.value === '__all__') {
+      selectedLeague = '__all__';
+      return;
+    }
+
     selectedLeague = '__all__';
     leagueFilterSelect.innerHTML = '<option value="__all__">Все лиги</option>';
     leagueFilterSelect.value = '__all__';
     leagueFilterSelect.disabled = true;
+    leagueFilterSignature = disabledSignature;
     return;
   }
 
@@ -514,6 +522,19 @@ function rebuildLeagueFilter(){
       .map((event) => String(event?.league || '').trim())
       .filter((league) => league !== '')
   )).sort((a, b) => a.localeCompare(b, 'ru'));
+
+  const signature = `${currentSportTab}|${leagues.join('\u0001')}`;
+  const hasSelected = selectedLeague === '__all__' || leagues.includes(selectedLeague);
+  selectedLeague = hasSelected ? selectedLeague : '__all__';
+
+  if (leagueFilterSignature === signature && !leagueFilterSelect.disabled) {
+    if (leagueFilterSelect.value !== selectedLeague) {
+      leagueFilterSelect.value = selectedLeague;
+    }
+    return;
+  }
+
+  const prevScrollTop = leagueFilterSelect.scrollTop;
 
   leagueFilterSelect.innerHTML = '';
   const allOption = document.createElement('option');
@@ -528,10 +549,10 @@ function rebuildLeagueFilter(){
     leagueFilterSelect.appendChild(option);
   });
 
-  const hasSelected = selectedLeague === '__all__' || leagues.includes(selectedLeague);
-  selectedLeague = hasSelected ? selectedLeague : '__all__';
   leagueFilterSelect.value = selectedLeague;
   leagueFilterSelect.disabled = false;
+  leagueFilterSelect.scrollTop = prevScrollTop;
+  leagueFilterSignature = signature;
 }
 
 function renderEventsTable(){

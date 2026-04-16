@@ -196,7 +196,7 @@ function fetch_parik24_live_events(): array
 
         $home = trim((string)($row['home'] ?? ''));
         $away = trim((string)($row['away'] ?? ''));
-        if ($home === '' || $away === '') {
+        if ($home === '' || $away === '' || is_suspicious_live_matchup($home, $away)) {
             continue;
         }
 
@@ -425,7 +425,7 @@ function build_live_feed_descriptor(array $row, string $source): ?array
 {
     $home = trim((string)($row['home'] ?? ''));
     $away = trim((string)($row['away'] ?? ''));
-    if ($home === '' || $away === '') {
+    if ($home === '' || $away === '' || is_suspicious_live_matchup($home, $away)) {
         return null;
     }
 
@@ -642,6 +642,33 @@ function parse_live_score_pair(string $scoreRaw): array
         $score['away'] = (int)$m[2];
     }
     return $score;
+}
+
+function is_suspicious_live_matchup(string $home, string $away): bool
+{
+    return is_suspicious_live_team_name($home) || is_suspicious_live_team_name($away);
+}
+
+function is_suspicious_live_team_name(string $name): bool
+{
+    $name = trim($name);
+    if ($name === '') {
+        return true;
+    }
+
+    if (preg_match('/\b(home|away)\s*cl\b/iu', $name)) {
+        return true;
+    }
+
+    if (preg_match('/[\p{L}\p{N})\]]\s*\+\s*[\p{L}\p{N}(\[]/u', $name)) {
+        return true;
+    }
+
+    if (preg_match('/\(\s*\d+\s*[:\-]\s*\d+\s*\)\s*$/u', $name)) {
+        return true;
+    }
+
+    return false;
 }
 
 function extract_live_feed_slug(string $link): string

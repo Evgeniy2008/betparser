@@ -4,7 +4,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-$defaultSource = 'https://snecked-lucio-unskinned.ngrok-free.dev';
+$defaultSource = 'http://173.242.59.200:8787';
 $sourceBaseUrl = trim((string)($_GET['source'] ?? getenv('BETPARSER_SOURCE_URL') ?: $defaultSource));
 $pullToken = trim((string)($_GET['token'] ?? getenv('BETPARSER_PULL_TOKEN') ?: ''));
 

@@ -30,6 +30,8 @@ const PUSH_URL           = String(process.env.BETPARSER_PUSH_URL || '').trim();
 const PUSH_TOKEN         = String(process.env.BETPARSER_PUSH_TOKEN || '').trim();
 
 const eventsMap = new Map();
+const seenEventIds = new Set();
+const pendingRecoveryEventIds = new Set();
 
 let ws            = null;
 let invIdCounter  = 0;
@@ -102,6 +104,14 @@ function requestMarkets(batchEventIds) {
   }
 }
 
+function requestRichEvents(batchEventIds) {
+  if (!batchEventIds.length) return;
+  for (let i = 0; i < batchEventIds.length; i += 20) {
+    const batch = batchEventIds.slice(i, i + 20);
+    ws.send(encodeStreamInv('GetRichEventsByIds', [batch, HUB_CTX]));
+  }
+}
+
 // ══ Message handler ══════════════════════════
 function handleMessage(raw) {
   const buf = Buffer.isBuffer(raw) ? raw : Buffer.from(raw);
@@ -146,7 +156,7 @@ function processStreamItem(target, item, invId) {
   if (target === 'GetLiveEventsBySport') {
     let changed = false;
     for (const ev of data) {
-      if (parseEventTuple(ev)) changed = true;
+      if (parseEventTuple(ev, target)) changed = true;
     }
     if (changed) flushFile();
     return;
@@ -161,13 +171,52 @@ function processStreamItem(target, item, invId) {
     return;
   }
 
+  if (target === 'GetRichEventsByIds') {
+    let changed = false;
+    for (const ev of data) {
+      if (parseEventTuple(ev, target)) changed = true;
+    }
+    if (changed) flushFile();
+    return;
+  }
+
   log(`[stream invId=${invId} target=${target}] items=${data.length}`);
 }
 
-function parseEventTuple(ev) {
+function normalizeTeamName(value) {
+  return String(value ?? '').trim();
+}
+
+function isSuspiciousTeamName(value) {
+  const name = normalizeTeamName(value);
+  if (!name) return true;
+  if (/\b(home|away)\s*cl\b/i.test(name)) return true;
+  if (/[\p{L}\p{N})\]]\s*\+\s*[\p{L}\p{N}(\[]/u.test(name)) return true;
+  if (/\(\s*\d+\s*[:\-]\s*\d+\s*\)\s*$/u.test(name)) return true;
+  return false;
+}
+
+function isValidMatchTeams(home, away) {
+  const homeName = normalizeTeamName(home);
+  const awayName = normalizeTeamName(away);
+  if (!homeName || !awayName) return false;
+  if (isSuspiciousTeamName(homeName) || isSuspiciousTeamName(awayName)) return false;
+  return true;
+}
+
+function extractLeagueName(data, fallback = '') {
+  if (!Array.isArray(data)) return fallback;
+  const country = String(data[19] ?? '').trim();
+  const league = String(data[20] ?? '').trim();
+  const value = [country, league].filter(Boolean).join(' - ');
+  return value || fallback;
+}
+
+function parseEventTuple(ev, sourceTarget = '') {
   if (!Array.isArray(ev) || ev.length < 3) return false;
   const eventId = String(ev[1]);
   const d       = ev[2];
+  seenEventIds.add(eventId);
   if (!Array.isArray(d)) return false;
 
   const teams = d[10];
@@ -177,6 +226,18 @@ function parseEventTuple(ev) {
   const home = teams[0][1];
   const away = teams[1][1];
   if (typeof home !== 'string' || typeof away !== 'string') return false;
+  if (!isValidMatchTeams(home, away)) {
+    if (sourceTarget === 'GetLiveEventsBySport' && !pendingRecoveryEventIds.has(eventId)) {
+      pendingRecoveryEventIds.add(eventId);
+      log(`⚠ suspicious live card queued for rich recovery: eventId=${eventId}`);
+    }
+    return false;
+  }
+
+  if (pendingRecoveryEventIds.has(eventId)) {
+    pendingRecoveryEventIds.delete(eventId);
+    log(`✓ recovered event via rich details: eventId=${eventId} ${home} vs ${away}`);
+  }
 
   const statusCode = d[5];
   const elapsed    = d[15] != null ? String(d[15]) : '';
@@ -189,7 +250,7 @@ function parseEventTuple(ev) {
     eventId,
     home,
     away,
-    league:     existing.league ?? '',
+    league:     extractLeagueName(d, existing.league ?? ''),
     sport:      SPORT_NAME,
     statusCode,
     elapsed,
@@ -333,10 +394,11 @@ function connect() {
 
     marketsTimer = setInterval(() => {
       if (ws.readyState !== WebSocket.OPEN) return;
-      const ids = [...eventsMap.keys()];
+      const ids = [...seenEventIds];
       if (ids.length) {
+        requestRichEvents(ids);
         requestMarkets(ids);
-        log(`→ Markets refresh for ${ids.length} events`);
+        log(`→ Refresh details/markets for ${ids.length} events`);
       }
     }, MARKETS_REFRESH_MS);
   });

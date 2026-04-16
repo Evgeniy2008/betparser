@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-14T17:25:47.681Z",
+  "updated": "2026-04-14T17:29:14.293Z",
   "source": "parik24-live-ws",
-  "total": 64,
+  "total": 73,
   "matches": [
     {
       "eventId": "16204061",
@@ -13,8 +13,8 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/real-madrid-iii-cdc-colonia-moscardo",
-      "p1": 1.64,
-      "x": 3.52,
+      "p1": 1.66,
+      "x": 3.46,
       "p2": 4.68,
       "time": "2026-04-14T17:24:29.399Z"
     },
@@ -43,9 +43,9 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/zeleziarne-podbrezova-msk-zilina",
-      "p1": 2.65,
-      "x": 2.16,
-      "p2": 3.7,
+      "p1": 2.75,
+      "x": 2.03,
+      "p2": 3.9,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -58,9 +58,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/sevilla-v-celta-v",
-      "p1": 7.5,
-      "x": 4.35,
-      "p2": 1.35,
+      "p1": 81,
+      "x": 5.5,
+      "p2": 1.11,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -73,9 +73,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/ferencvaros-puskas-academy",
-      "p1": 2.25,
-      "x": 3.05,
-      "p2": 3,
+      "p1": 1.38,
+      "x": 3.6,
+      "p2": 9.2,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -88,9 +88,9 @@
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/germany-xoma-france-profik",
-      "p1": 3.2,
-      "x": 2.9,
-      "p2": 2.25,
+      "p1": 6.5,
+      "x": 1.35,
+      "p2": 5,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -118,9 +118,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/israel-w-luxembourg-w",
-      "p1": 1.45,
-      "x": 4.05,
-      "p2": 5.8,
+      "p1": 1.02,
+      "x": 13,
+      "p2": 26,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -149,8 +149,8 @@
       "statusCode": 2,
       "link": "/en/events/politecnico-jic-arco-zaragoza",
       "p1": 1.18,
-      "x": 5.5,
-      "p2": 11,
+      "x": 6,
+      "p2": 10,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -180,7 +180,7 @@
       "link": "/en/events/sliema-wanderers-birkirkara",
       "p1": 1.15,
       "x": 5,
-      "p2": 21,
+      "p2": 23,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -193,9 +193,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/sc-esv-parndorf-1919-sv-oberwart",
-      "p1": 2.44,
-      "x": 3.32,
-      "p2": 2.56,
+      "p1": 2.46,
+      "x": 3.2,
+      "p2": 2.59,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -208,9 +208,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/man-city-v-chelsea-v",
-      "p1": 2.1,
-      "x": 3.25,
-      "p2": 3.25,
+      "p1": 1.01,
+      "x": 41,
+      "p2": 151,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -223,9 +223,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/fc-1980-wien-gersthofer-sv",
-      "p1": 1.4,
-      "x": 4.49,
-      "p2": 6,
+      "p1": 1.34,
+      "x": 4.67,
+      "p2": 6.9,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -238,9 +238,9 @@
       "score": "1-3",
       "statusCode": 2,
       "link": "/en/events/poland-w-ireland-w",
-      "p1": 32,
-      "x": 11,
-      "p2": 1.03,
+      "p1": 35,
+      "x": 13,
+      "p2": 1.02,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -253,9 +253,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/al-wakrah-sc-u-23-al-gharafa-sc-u-23",
-      "p1": 7,
+      "p1": 9,
       "x": 3.2,
-      "p2": 1.5,
+      "p2": 1.44,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -268,9 +268,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/pachuca-iii-tuzos-pachuca",
-      "p1": 2.06,
-      "x": 3.74,
-      "p2": 2.74,
+      "p1": 2.1,
+      "x": 2.95,
+      "p2": 3.4,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -298,9 +298,9 @@
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/catanzaro-modena",
-      "p1": 1.65,
-      "x": 3.75,
-      "p2": 5.1,
+      "p1": 2.85,
+      "x": 3.05,
+      "p2": 2.55,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -313,9 +313,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/central-ballester-res-ca-lugano-res-",
-      "p1": 6.5,
+      "p1": 7,
       "x": 4.33,
-      "p2": 1.36,
+      "p2": 1.35,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -328,9 +328,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/arsenal-fc-virtual-1-tottenham-virtual-6",
-      "p1": 2.11,
-      "x": 4.7,
-      "p2": 2.45,
+      "p1": 2.25,
+      "x": 3.8,
+      "p2": 2.55,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -373,8 +373,8 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/switzerland-w-turkey-w",
-      "p1": 1.27,
-      "x": 4.5,
+      "p1": 1.28,
+      "x": 4.3,
       "p2": 10,
       "time": "2026-04-14T17:24:29.399Z"
     },
@@ -388,9 +388,9 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/al-shahaniya-u-23-al-shamal-u-23",
-      "p1": 3.44,
-      "x": 2.06,
-      "p2": 3.07,
+      "p1": 3.74,
+      "x": 1.95,
+      "p2": 3.06,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -418,9 +418,9 @@
       "score": "3-1",
       "statusCode": 2,
       "link": "/en/events/england-fantazer-spain-senya",
-      "p1": 1.07,
-      "x": 9,
-      "p2": 18,
+      "p1": 1.05,
+      "x": 10,
+      "p2": 23,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -433,9 +433,9 @@
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/bayern-munchen-kivu17-real-madrid-pikalicaaa",
-      "p1": 1.04,
-      "x": 13,
-      "p2": 17,
+      "p1": 1.9,
+      "x": 3.6,
+      "p2": 3.4,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -448,9 +448,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/aek-larnaca-omonia-nicosia",
-      "p1": 8.5,
-      "x": 3.75,
-      "p2": 1.38,
+      "p1": 20,
+      "x": 10,
+      "p2": 1.04,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -493,9 +493,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/cd-ohiggins-v-cd-cobresal-v",
-      "p1": 2.6,
-      "x": 3.1,
-      "p2": 2.6,
+      "p1": 1.13,
+      "x": 5,
+      "p2": 66,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -553,7 +553,7 @@
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/faroe-islands-w-greece-w",
-      "p1": 38,
+      "p1": 41,
       "x": 13,
       "p2": 1.02,
       "time": "2026-04-14T17:24:29.399Z"
@@ -568,9 +568,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/sao-paulo-fc-virtual-14-botafogo-rj-virtual-12",
-      "p1": 2.4,
-      "x": 3.1,
-      "p2": 2.75,
+      "p1": 1.33,
+      "x": 4.1,
+      "p2": 9.5,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -598,8 +598,8 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/kmc-tanzania-prisons",
-      "p1": 2.75,
-      "x": 1.67,
+      "p1": 3,
+      "x": 1.57,
       "p2": 6.5,
       "time": "2026-04-14T17:24:29.399Z"
     },
@@ -613,9 +613,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/gibraltar-w-croatia-w",
-      "p1": 23,
-      "x": 16,
-      "p2": null,
+      "p1": 20,
+      "x": 14,
+      "p2": 1.01,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -644,8 +644,8 @@
       "statusCode": 2,
       "link": "/en/events/ifk-varnamo-gif-sundsvall",
       "p1": 1.3,
-      "x": 4.3,
-      "p2": 9.6,
+      "x": 4.37,
+      "p2": 9.7,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -658,9 +658,9 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/shaita-pags",
-      "p1": 2.26,
-      "x": 2.34,
-      "p2": 4.26,
+      "p1": 2.37,
+      "x": 2.18,
+      "p2": 4.43,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -690,7 +690,7 @@
       "link": "/en/events/csr-espanol-res-puerto-nuevo-res-",
       "p1": 1.27,
       "x": 4.5,
-      "p2": 8.5,
+      "p2": 9,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -778,9 +778,9 @@
       "score": "",
       "statusCode": 2,
       "link": "/en/events/argentina-v-england-v",
-      "p1": 2.73,
-      "x": 3.65,
-      "p2": 2.09,
+      "p1": 1.5,
+      "x": 3.35,
+      "p2": 6.37,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -793,9 +793,9 @@
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/umm-al-hassam-fc-al-ittifaq-maqaba",
-      "p1": 34,
-      "x": 9,
-      "p2": 1.05,
+      "p1": 41,
+      "x": 10,
+      "p2": 1.04,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -838,9 +838,9 @@
       "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/karkonosze-jelenia-gora-mkp-carina-gubin",
-      "p1": 3.51,
-      "x": 1.86,
-      "p2": 3.44,
+      "p1": 3.63,
+      "x": 1.77,
+      "p2": 3.63,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -868,9 +868,9 @@
       "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/manama-club-isa-town",
-      "p1": 1.91,
-      "x": 2.3,
-      "p2": 6.5,
+      "p1": 1.08,
+      "x": 7.5,
+      "p2": 26,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -883,9 +883,9 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/andorra-w-azerbaijan-w",
-      "p1": 10,
-      "x": 4,
-      "p2": 1.32,
+      "p1": 12,
+      "x": 3.9,
+      "p2": 1.3,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -898,9 +898,9 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/liverpool-hit-psg-cira",
-      "p1": 1.47,
-      "x": 5.9,
-      "p2": 4.05,
+      "p1": 1.17,
+      "x": 6.5,
+      "p2": 11,
       "time": "2026-04-14T17:24:29.399Z"
     },
     {
@@ -962,6 +962,141 @@
       "x": 2.83,
       "p2": 3.16,
       "time": "2026-04-14T17:24:52.535Z"
+    },
+    {
+      "eventId": "16370777",
+      "home": "Trabzonspor (Kot)",
+      "away": "Galatasaray (gelennzz)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "82",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/trabzonspor-kot-galatasaray-gelennzz",
+      "p1": 2.37,
+      "x": 4.2,
+      "p2": 2.28,
+      "time": "2026-04-14T17:25:52.724Z"
+    },
+    {
+      "eventId": "16370778",
+      "home": "Fenerbahce (noeN)",
+      "away": "Istanbul Basaksehir (Asura)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "81",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/fenerbahce-noen-istanbul-basaksehir-asura",
+      "p1": 3.35,
+      "x": 4.2,
+      "p2": 1.77,
+      "time": "2026-04-14T17:25:53.646Z"
+    },
+    {
+      "eventId": "16378040",
+      "home": "England (V)",
+      "away": "Germany (V)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "26",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/england-v-germany-v",
+      "p1": null,
+      "x": null,
+      "p2": null,
+      "time": "2026-04-14T17:26:02.746Z"
+    },
+    {
+      "eventId": "16378101",
+      "home": "France (V)",
+      "away": "Spain (V)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "63",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/france-v-spain-v",
+      "p1": 2.11,
+      "x": 3.55,
+      "p2": 2.74,
+      "time": "2026-04-14T17:26:53.426Z"
+    },
+    {
+      "eventId": "16378140",
+      "home": "Chelsea (V)",
+      "away": "Arsenal FC (V)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "39",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/chelsea-v-arsenal-fc-v",
+      "p1": 3.75,
+      "x": 4,
+      "p2": 1.73,
+      "time": "2026-04-14T17:26:57.055Z"
+    },
+    {
+      "eventId": "16378141",
+      "home": "Barcelona (V)",
+      "away": "Celta (V)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "39",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/barcelona-v-celta-v",
+      "p1": 1.55,
+      "x": 4.35,
+      "p2": 4.75,
+      "time": "2026-04-14T17:26:57.546Z"
+    },
+    {
+      "eventId": "16378142",
+      "home": "CD O'Higgins (V)",
+      "away": "Coquimbo Unido (V)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "39",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/cd-ohiggins-v-coquimbo-unido-v",
+      "p1": 4.35,
+      "x": 4,
+      "p2": 1.6,
+      "time": "2026-04-14T17:26:57.546Z"
+    },
+    {
+      "eventId": "16378118",
+      "home": "Arsenal FC (replays)",
+      "away": "Everton (replays)",
+      "league": "",
+      "sport": "football",
+      "elapsed": "34",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/arsenal-fc-replays-everton-replays",
+      "p1": 1.73,
+      "x": 5.09,
+      "p2": 2.91,
+      "time": "2026-04-14T17:28:53.616Z"
+    },
+    {
+      "eventId": "16300010",
+      "home": "FC Kafr Qasim",
+      "away": "Hapoel Ramat Gan",
+      "league": "",
+      "sport": "football",
+      "elapsed": "153",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/fc-kafr-qasim-hapoel-ramat-gan",
+      "p1": 2.5,
+      "x": 3.1,
+      "p2": 2.62,
+      "time": "2026-04-14T17:28:53.616Z"
     }
   ]
 }
