@@ -463,6 +463,7 @@ function build_merged_live_event(?array $parik, ?array $pin, string $parikUpdate
     $displayAway = trim((string)(($parik['away'] ?? '') !== '' ? $parik['away'] : ($pin['away'] ?? '')));
     $score = ($parik['scoreRaw'] ?? '') !== '' ? (string)$parik['scoreRaw'] : (string)($pin['scoreRaw'] ?? '');
     $scorePair = parse_live_score_pair($score);
+    $scoreDetail = trim($score);
     $elapsed = $parik['elapsed'] ?? $pin['elapsed'] ?? null;
     $parikAvailable = $parik !== null && (($parik['p1'] ?? null) !== null || ($parik['x'] ?? null) !== null || ($parik['p2'] ?? null) !== null);
     $pinAvailable = $pin !== null && (($pin['p1'] ?? null) !== null || ($pin['x'] ?? null) !== null || ($pin['p2'] ?? null) !== null);
@@ -500,6 +501,7 @@ function build_merged_live_event(?array $parik, ?array $pin, string $parikUpdate
             'home' => $scorePair['home'],
             'away' => $scorePair['away'],
         ],
+        'scoreDetail' => $scoreDetail !== '' ? $scoreDetail : null,
         'stats' => [
             'bookmakersTotal' => ($pin !== null ? 1 : 0) + ($parik !== null ? 1 : 0),
             'validSecondsTotal' => $parik !== null ? 1 : 0,
@@ -606,10 +608,15 @@ function score_live_match_pair(array $parik, array $pin): float
     $scoreParik = (string)($parik['scoreRaw'] ?? '');
     $scorePin   = (string)($pin['scoreRaw']   ?? '');
     if ($scoreParik !== '' && $scorePin !== '') {
-        if ($scoreParik === $scorePin) {
-            $score += 35;
-        } else {
-            $score -= 15;
+        // Compare parsed score pairs (ignores format differences like "(4-3)")
+        $pairParik = parse_live_score_pair($scoreParik);
+        $pairPin   = parse_live_score_pair($scorePin);
+        if ($pairParik['home'] !== null && $pairPin['home'] !== null) {
+            if ($pairParik['home'] === $pairPin['home'] && $pairParik['away'] === $pairPin['away']) {
+                $score += 35;
+            } else {
+                $score -= 15;
+            }
         }
     }
 
@@ -637,7 +644,8 @@ function score_live_match_pair(array $parik, array $pin): float
 function parse_live_score_pair(string $scoreRaw): array
 {
     $score = ['home' => null, 'away' => null];
-    if ($scoreRaw !== '' && preg_match('/^(\d+)\s*[:-]\s*(\d+)$/', $scoreRaw, $m)) {
+    // Match "X-Y" or "X-Y (details)" — extract first pair of digits
+    if ($scoreRaw !== '' && preg_match('/^(\d+)\s*[:-]\s*(\d+)/', $scoreRaw, $m)) {
         $score['home'] = (int)$m[1];
         $score['away'] = (int)$m[2];
     }

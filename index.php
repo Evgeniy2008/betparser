@@ -364,6 +364,8 @@ function hasComparableSeconds(event){
 }
 
 function formatScore(event){
+  // If a detailed score string exists (e.g. tennis "0-0 (4-3)"), use it
+  if (event?.scoreDetail) return event.scoreDetail;
   const home = event?.score?.home;
   const away = event?.score?.away;
   if (home === null || home === undefined || away === null || away === undefined) return null;
@@ -372,11 +374,7 @@ function formatScore(event){
 
 function formatStatusLabel(event){
   if (!event?.isLive) return event?.time || 'PREMATCH';
-  const elapsed = event?.elapsed;
-  const seconds = event?.liveSeconds || '';
-  if (seconds) return `${event?.statusShort || 'LIVE'} ${seconds}`;
-  if (elapsed !== null && elapsed !== undefined && elapsed !== '') return `${event?.statusShort || 'LIVE'} ${elapsed}'`;
-  return event?.statusLong || 'LIVE';
+  return 'LIVE';
 }
 
 function minFormulaJs(sport, second, pin){
@@ -566,6 +564,12 @@ function renderEventsTable(){
   }
 
   let displayEvents = sortEvents(EVENTS);
+
+  // Скрыть вилки меньше 0.85
+  displayEvents = displayEvents.filter((event) => {
+    const value = getMinFormulaForEvent(event);
+    return value === null || value >= 0.85;
+  });
 
   if (showOnlyUnderOne) {
     displayEvents = displayEvents.filter((event) => {

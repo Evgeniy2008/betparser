@@ -23,7 +23,7 @@ async function tgApi(method, payload = {}) {
     throw new Error(`Telegram API ${method} failed: ${JSON.stringify(data).slice(0, 300)}`);
   }
   return data.result;
-}
+} 
 
 function webAppKeyboard() {
   return {
