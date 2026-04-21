@@ -23,7 +23,7 @@ const path      = require('path');
 //  CONFIG
 // ══════════════════════════════════════════════
 const WS_URL =
-  'wss://24-parik.one/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
+  'wss://prj4fa-146.xyz/direct-feed/feed?brand=PRJ4&X-Api-Key=507aa81f-4c27-4e37-9410-21dfb81e9efe';
 
 // Hub context – exact 5-element array the browser sends
 const HUB_CTX = ['en-PRJ4', 'MOBILE_WEB', 'PRJ4', '', 'USD'];
@@ -250,10 +250,15 @@ function isValidMatchTeams(home, away) {
 
 function extractLeagueName(data, fallback = '') {
   if (!Array.isArray(data)) return fallback;
-  const country = String(data[19] ?? '').trim();
-  const league = String(data[20] ?? '').trim();
-  const value = [country, league].filter(Boolean).join(' - ');
-  return value || fallback;
+  // New API (GetRichEventsByIds): country at d[13], league at d[14]
+  const country = typeof data[13] === 'string' ? data[13].trim() : '';
+  const league  = typeof data[14] === 'string' ? data[14].trim() : '';
+  const value   = [country, league].filter(Boolean).join(' - ');
+  if (value) return value;
+  // Old API fallback: country at d[19], league at d[20]
+  const countryOld = typeof data[19] === 'string' ? data[19].trim() : '';
+  const leagueOld  = typeof data[20] === 'string' ? data[20].trim() : '';
+  return [countryOld, leagueOld].filter(Boolean).join(' - ') || fallback;
 }
 
 /**
@@ -296,10 +301,12 @@ function parseEventTuple(ev, sourceTarget = '') {
     log(`✓ recovered event via rich details: eventId=${eventId} ${home} vs ${away}`);
   }
 
+  // New API has different indices for GetRich vs GetLive responses
+  const isRich = sourceTarget === 'GetRichEventsByIds';
   const statusCode = d[5];
-  const elapsed    = d[15] != null ? String(d[15]) : '';
+  const elapsed    = d[isRich ? 18 : 15] != null ? String(d[isRich ? 18 : 15]) : '';
   const scoreStr   = extractScore(d[11]);
-  const slug       = d[17] ?? '';
+  const slug       = String(d[isRich ? 20 : 17] ?? '');
 
   const existing = eventsMap.get(eventId) ?? {};
   eventsMap.set(eventId, {
@@ -461,7 +468,7 @@ function connect() {
 
   ws = new WebSocket(WS_URL, {
     headers: {
-      'Origin':     'https://24-parik.one',
+      'Origin':     'https://prj4fa-146.xyz',
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     },
   });

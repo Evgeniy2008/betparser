@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:prj4fa-146.xyz)",
+      "Bash(curl -s -L --max-time 15 -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36\" -H \"Accept: application/json, text/plain, */*\" -H \"Accept-Language: uk-UA,uk;q=0.9\" \"https://prj4fa-146.xyz/uk/football/live\")"
+    ]
+  }
+}
