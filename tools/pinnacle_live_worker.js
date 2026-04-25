@@ -242,6 +242,29 @@ function buildRow(sport, game, liveEntry) {
   };
 }
 
+// ── Merge two raw feeds (pinnacle /realtime + /ps3838-realtime) by event id.
+// Same event can appear on both feeds (top-tier games sometimes do). Prefer
+// the variant that has an h2h market on its bookmaker; otherwise keep the
+// first occurrence.
+function mergeOddsFeeds(primary, secondary) {
+  const byId = new Map();
+  const keyOf = (g) => String(g?.id ?? g?.gameId ?? g?.uuid ?? `${g?.home_team || ''}|${g?.away_team || ''}|${g?.commence_time || ''}`);
+  const hasH2h = (g) => {
+    if (!g || !Array.isArray(g.bookmakers)) return false;
+    const bm = g.bookmakers.find((b) => b?.key === 'pinnacle' || b?.key === 'ps3838') || g.bookmakers[0];
+    if (!bm || !Array.isArray(bm.markets)) return false;
+    return bm.markets.some((m) => m?.key === 'h2h' && Array.isArray(m.outcomes) && m.outcomes.length);
+  };
+  for (const g of [...(primary || []), ...(secondary || [])]) {
+    if (!g) continue;
+    const k = keyOf(g);
+    const prev = byId.get(k);
+    if (!prev) { byId.set(k, g); continue; }
+    if (!hasH2h(prev) && hasH2h(g)) byId.set(k, g);
+  }
+  return [...byId.values()];
+}
+
 // ── Dedup: prefer row that actually has odds ──────────────────────────────
 function dedupeRows(rows) {
   const byKey = new Map();
@@ -289,16 +312,31 @@ async function cycleSport(sport) {
   try {
     const t0 = Date.now();
 
-    // Fetch odds + live scores in parallel
-    const [oddsJson, scoresJson] = await Promise.all([
-      fetchJson(`${API_BASE}/api/v1/${sport.key}/ps3838-realtime`),
+    // Fetch BOTH Pinnacle feeds:
+    //   /realtime         – top-tier coverage (EPL, La Liga, Bundesliga, Serie A,
+    //                       Ligue 1, MLS, Champions League…). Source = "pinnacle".
+    //   /ps3838-realtime  – wider second/third-tier coverage (women, U-19, lower
+    //                       divisions). Source = "ps3838".
+    // Same payload shape; we merge by event id and prefer a row that carries an
+    // h2h market.
+    const [pinJson, psJson, scoresJson] = await Promise.all([
+      fetchJson(`${API_BASE}/api/v1/${sport.key}/realtime`).catch((err) => {
+        log(`[${sport.name}] realtime warn: ${err.message}`);
+        return { data: [] };
+      }),
+      fetchJson(`${API_BASE}/api/v1/${sport.key}/ps3838-realtime`).catch((err) => {
+        log(`[${sport.name}] ps3838-realtime warn: ${err.message}`);
+        return { data: [] };
+      }),
       fetchJson(`${API_BASE}/api/v1/${sport.key}/scores/live`).catch((err) => {
         log(`[${sport.name}] scores/live warn: ${err.message}`);
         return { events: [] };
       }),
     ]);
 
-    const games = Array.isArray(oddsJson?.data) ? oddsJson.data : [];
+    const pinGames = Array.isArray(pinJson?.data) ? pinJson.data : [];
+    const psGames  = Array.isArray(psJson?.data)  ? psJson.data  : [];
+    const games    = mergeOddsFeeds(pinGames, psGames);
     const liveEvents = Array.isArray(scoresJson?.events) ? scoresJson.events : [];
     const liveIdx = buildLiveIndex(liveEvents);
 

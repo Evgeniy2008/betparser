@@ -199,6 +199,9 @@ function fetch_parik24_live_events(): array
         if ($home === '' || $away === '' || is_suspicious_live_matchup($home, $away)) {
             continue;
         }
+        if (is_suspicious_live_league((string)($row['league'] ?? ''))) {
+            continue;
+        }
 
         $scoreRaw = trim((string)($row['score'] ?? ''));
         $score = ['home' => null, 'away' => null];
@@ -333,7 +336,7 @@ function fetch_combined_live_sport_events(string $parikFile, string $pinFile, st
     foreach ($pinnacleDescriptors as $pinIndex => $pin) {
         foreach ($parikDescriptors as $parikIndex => $parik) {
             $score = score_live_match_pair($parik, $pin);
-            if ($score >= 35) {
+            if ($score >= 30) {
                 $pairs[] = [
                     'score' => $score,
                     'pin' => $pinIndex,
@@ -363,7 +366,14 @@ function fetch_combined_live_sport_events(string $parikFile, string $pinFile, st
         $mergedEvents[] = build_merged_live_event($parikDescriptors[$parikIndex], $pinnacleDescriptors[$pinIndex], $parikLoad['updated'], $pinnacleLoad['updated'], $sport, $sportTitle);
     }
 
-    // Only show matches that appear in BOTH bookmakers — unmatched rows are excluded.
+    // Include every Pinnacle live match — even ones without a Parik24 counterpart —
+    // so the UI never silently drops Pinnacle odds that the API returned.
+    foreach ($pinnacleDescriptors as $pinIndex => $pin) {
+        if (isset($usedPin[$pinIndex])) {
+            continue;
+        }
+        $mergedEvents[] = build_merged_live_event(null, $pin, $parikLoad['updated'], $pinnacleLoad['updated'], $sport, $sportTitle);
+    }
 
     usort($mergedEvents, static function (array $a, array $b): int {
         $elapsedA = (int)($a['elapsed'] ?? 0);
@@ -430,6 +440,9 @@ function build_live_feed_descriptor(array $row, string $source): ?array
     }
 
     $league = trim((string)($row['league'] ?? ''));
+    if (is_suspicious_live_league($league)) {
+        return null;
+    }
     $link = trim((string)($row['link'] ?? ''));
     $slug = extract_live_feed_slug($link);
     $scoreRaw = trim((string)($row['score'] ?? ''));
@@ -453,6 +466,8 @@ function build_live_feed_descriptor(array $row, string $source): ?array
         'x' => $row['x'] ?? null,
         'p2' => $row['p2'] ?? null,
         'tokens' => tokenize_live_match_text(implode(' ', [$home, $away, $league, $slug])),
+        'homeTokens' => tokenize_live_match_text($home),
+        'awayTokens' => tokenize_live_match_text($away),
         'leagueTokens' => tokenize_live_match_text($league),
     ];
 }
@@ -531,76 +546,28 @@ function build_merged_live_event(?array $parik, ?array $pin, string $parikUpdate
 
 function score_live_match_pair(array $parik, array $pin): float
 {
-    $tokensParik = $parik['tokens'] ?? [];
-    $tokensPin   = $pin['tokens']   ?? [];
-    if (!$tokensParik || !$tokensPin) {
+    $parikHome = $parik['homeTokens'] ?? [];
+    $parikAway = $parik['awayTokens'] ?? [];
+    $pinHome   = $pin['homeTokens']   ?? [];
+    $pinAway   = $pin['awayTokens']   ?? [];
+    if (!$parikHome || !$parikAway || !$pinHome || !$pinAway) {
         return 0.0;
     }
 
-    // ── Exact token intersection ──────────────────────────────────────────
-    $exactCommon = array_values(array_unique(array_intersect($tokensParik, $tokensPin)));
-    $exactCount  = count($exactCommon);
-
-    // ── Fuzzy token matching (substring OR relative Levenshtein) ─────────
-    // We skip pairs already covered by the exact intersection.
-    $fuzzyScore   = 0.0;
-    $fuzzyMatched = false;
-    foreach ($tokensParik as $tp) {
-        if (strlen($tp) < 4) {
-            continue;
-        }
-        foreach ($tokensPin as $tq) {
-            if (strlen($tq) < 4) {
-                continue;
-            }
-            if (in_array($tp, $exactCommon, true) && in_array($tq, $exactCommon, true)) {
-                continue; // already counted
-            }
-            // Substring check
-            if (str_contains($tq, $tp) || str_contains($tp, $tq)) {
-                $bonus = min(strlen($tp), strlen($tq)) >= 6 ? 30 : 18;
-                $fuzzyScore += $bonus;
-                $fuzzyMatched = true;
-                continue 2;
-            }
-            // Relative Levenshtein: allow ~35 % edit distance
-            $shorter = min(strlen($tp), strlen($tq));
-            $maxDist = max(2, (int)floor($shorter * 0.38));
-            if (abs(strlen($tp) - strlen($tq)) <= $maxDist) {
-                $dist = levenshtein($tp, $tq);
-                if ($dist <= $maxDist) {
-                    // weight by how similar they are
-                    $bonus = (int)(($shorter - $dist) * 4);
-                    $fuzzyScore += max(0, $bonus);
-                    $fuzzyMatched = true;
-                    continue 2;
-                }
-            }
-        }
-    }
-
-    $totalMatchSignals = $exactCount + ($fuzzyMatched ? 1 : 0);
-    if ($totalMatchSignals === 0 && !$fuzzyMatched) {
+    // Require BOTH home and away to overlap. Try direct (parikHome↔pinHome,
+    // parikAway↔pinAway) and reversed (in case feeds disagree on which side
+    // is "home"). Without this guard a single shared word like "division"
+    // pulled from the league name could pair completely unrelated matches.
+    $direct  = team_pair_match_score($parikHome, $pinHome, $parikAway, $pinAway);
+    $reverse = team_pair_match_score($parikHome, $pinAway, $parikAway, $pinHome);
+    $teamScore = max($direct, $reverse);
+    if ($teamScore <= 0) {
         return 0.0;
     }
 
-    $score = 0.0;
+    $score = $teamScore;
 
-    // Exact token score
-    if ($exactCount > 0) {
-        $ratio  = $exactCount / max(1, min(count($tokensParik), count($tokensPin)));
-        $score += $ratio * 100 + min(25, $exactCount * 6);
-        // Bonus for a single long significant token (strong identity signal)
-        $sigExact = array_filter($exactCommon, static fn(string $t): bool => strlen($t) >= 6);
-        if (!empty($sigExact)) {
-            $score += 20;
-        }
-    }
-
-    // Fuzzy token contribution
-    $score += min(50, $fuzzyScore);
-
-    // ── League bonus ──────────────────────────────────────────────────────
+    // ── League bonus (small — leagues across feeds often differ) ─────────
     $leagueCommon = count(array_unique(array_intersect($parik['leagueTokens'] ?? [], $pin['leagueTokens'] ?? [])));
     $score += min(12, $leagueCommon * 4);
 
@@ -608,7 +575,6 @@ function score_live_match_pair(array $parik, array $pin): float
     $scoreParik = (string)($parik['scoreRaw'] ?? '');
     $scorePin   = (string)($pin['scoreRaw']   ?? '');
     if ($scoreParik !== '' && $scorePin !== '') {
-        // Compare parsed score pairs (ignores format differences like "(4-3)")
         $pairParik = parse_live_score_pair($scoreParik);
         $pairPin   = parse_live_score_pair($scorePin);
         if ($pairParik['home'] !== null && $pairPin['home'] !== null) {
@@ -639,6 +605,72 @@ function score_live_match_pair(array $parik, array $pin): float
     }
 
     return $score;
+}
+
+/**
+ * Score how well a pair of (home, away) token sets matches another pair.
+ * Returns 0 unless both sides have at least one shared token (exact or
+ * close fuzzy match). The score reflects the strength of those overlaps.
+ */
+function team_pair_match_score(array $aHome, array $bHome, array $aAway, array $bAway): float
+{
+    $homeMatch = team_token_overlap($aHome, $bHome);
+    $awayMatch = team_token_overlap($aAway, $bAway);
+    if ($homeMatch['score'] <= 0 || $awayMatch['score'] <= 0) {
+        return 0.0;
+    }
+    return $homeMatch['score'] + $awayMatch['score'];
+}
+
+/**
+ * Compute overlap between two single-team token sets.
+ * Returns ['score' => float] — 0 if no signal, otherwise a positive number
+ * weighted by exact matches (preferring long, identity-bearing tokens) and
+ * a small fuzzy-match contribution.
+ */
+function team_token_overlap(array $a, array $b): array
+{
+    if (!$a || !$b) {
+        return ['score' => 0.0];
+    }
+
+    $exact = array_values(array_intersect(array_unique($a), array_unique($b)));
+    $score = 0.0;
+    $sigCount = 0;
+    foreach ($exact as $t) {
+        $len = strlen($t);
+        if ($len >= 6) { $score += 22; $sigCount++; }
+        elseif ($len >= 4) { $score += 14; $sigCount++; }
+        else { $score += 6; }
+    }
+
+    // Fuzzy fallback only if we have NO good exact match yet — substring or
+    // close Levenshtein on long tokens. Capped low so it cannot dominate.
+    if ($sigCount === 0) {
+        $bestFuzzy = 0.0;
+        foreach ($a as $tp) {
+            if (strlen($tp) < 5) continue;
+            foreach ($b as $tq) {
+                if (strlen($tq) < 5) continue;
+                if (in_array($tp, $exact, true)) continue;
+                if (str_contains($tq, $tp) || str_contains($tp, $tq)) {
+                    $bestFuzzy = max($bestFuzzy, min(strlen($tp), strlen($tq)) >= 6 ? 18 : 10);
+                    continue;
+                }
+                $shorter = min(strlen($tp), strlen($tq));
+                $maxDist = max(1, (int)floor($shorter * 0.30));
+                if (abs(strlen($tp) - strlen($tq)) <= $maxDist) {
+                    $dist = levenshtein($tp, $tq);
+                    if ($dist <= $maxDist) {
+                        $bestFuzzy = max($bestFuzzy, ($shorter - $dist) * 3);
+                    }
+                }
+            }
+        }
+        $score += min(15, $bestFuzzy);
+    }
+
+    return ['score' => $score];
 }
 
 function parse_live_score_pair(string $scoreRaw): array
@@ -676,7 +708,22 @@ function is_suspicious_live_team_name(string $name): bool
         return true;
     }
 
+    // Virtual / replays / eSports marker suffix, e.g. "(V)", "(replays)",
+    // "(Stasyan)", "(Bob)", "(llulle)", "(Cira)" — these are NOT real live
+    // matches and must not be paired with real Pinnacle events.
+    if (preg_match('/\((?:V|replays|stasyan|bob|llulle|cira|virtual|esports)\)\s*$/iu', $name)) {
+        return true;
+    }
+
     return false;
+}
+
+function is_suspicious_live_league(string $league): bool
+{
+    if ($league === '') {
+        return false;
+    }
+    return (bool)preg_match('/\b(virtual|replays|e[\s-]?football|e[\s-]?sports|esportsbattle|cyber|fifa\s*\d|vsl)\b/iu', $league);
 }
 
 function extract_live_feed_slug(string $link): string
