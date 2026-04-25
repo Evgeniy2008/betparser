@@ -361,19 +361,26 @@ function fetch_combined_live_sport_events(string $parikFile, string $pinFile, st
             continue;
         }
 
-        $usedParik[$parikIndex] = true;
-        $usedPin[$pinIndex] = true;
-        $mergedEvents[] = build_merged_live_event($parikDescriptors[$parikIndex], $pinnacleDescriptors[$pinIndex], $parikLoad['updated'], $pinnacleLoad['updated'], $sport, $sportTitle);
-    }
+        $parik = $parikDescriptors[$parikIndex];
+        $pin   = $pinnacleDescriptors[$pinIndex];
 
-    // Include every Pinnacle live match — even ones without a Parik24 counterpart —
-    // so the UI never silently drops Pinnacle odds that the API returned.
-    foreach ($pinnacleDescriptors as $pinIndex => $pin) {
-        if (isset($usedPin[$pinIndex])) {
+        // Only emit events where BOTH bookmakers actually carry odds. The
+        // matching score can crown a "best" pair where Parik24's row is
+        // momentarily null (feed flicker) — without this guard such pairs
+        // would surface as pinnacle-only rows in the UI.
+        $pinHasOdds   = (($pin['p1']   ?? null) !== null) || (($pin['p2']   ?? null) !== null);
+        $parikHasOdds = (($parik['p1'] ?? null) !== null) || (($parik['p2'] ?? null) !== null);
+        if (!$pinHasOdds || !$parikHasOdds) {
             continue;
         }
-        $mergedEvents[] = build_merged_live_event(null, $pin, $parikLoad['updated'], $pinnacleLoad['updated'], $sport, $sportTitle);
+
+        $usedParik[$parikIndex] = true;
+        $usedPin[$pinIndex] = true;
+        $mergedEvents[] = build_merged_live_event($parik, $pin, $parikLoad['updated'], $pinnacleLoad['updated'], $sport, $sportTitle);
     }
+
+    // Only matches that exist in BOTH bookmakers (with real odds on both
+    // sides) reach the UI — unmatched Pinnacle/Parik24 rows are excluded.
 
     usort($mergedEvents, static function (array $a, array $b): int {
         $elapsedA = (int)($a['elapsed'] ?? 0);
@@ -554,6 +561,13 @@ function score_live_match_pair(array $parik, array $pin): float
         return 0.0;
     }
 
+    // Reject senior↔youth and men↔women cross-pairs. If one feed labels the
+    // match as U-19 / women / reserves and the other doesn't, they are not
+    // the same fixture even when team names are identical.
+    if (live_pair_category_mismatch($parik, $pin)) {
+        return 0.0;
+    }
+
     // Require BOTH home and away to overlap. Try direct (parikHome↔pinHome,
     // parikAway↔pinAway) and reversed (in case feeds disagree on which side
     // is "home"). Without this guard a single shared word like "division"
@@ -605,6 +619,27 @@ function score_live_match_pair(array $parik, array $pin): float
     }
 
     return $score;
+}
+
+/**
+ * True when one descriptor is tagged with a category token (U-19, U-21,
+ * women, reserves…) and the other is not — i.e. one feed has the senior
+ * Eyupspor and the other has Eyupspor U-19. Such pairs share team names
+ * but are different fixtures.
+ */
+function live_pair_category_mismatch(array $a, array $b): bool
+{
+    $cats = ['u15','u16','u17','u18','u19','u20','u21','u22','u23','women','reserves'];
+    $tokensA = array_merge($a['homeTokens'] ?? [], $a['awayTokens'] ?? [], $a['leagueTokens'] ?? []);
+    $tokensB = array_merge($b['homeTokens'] ?? [], $b['awayTokens'] ?? [], $b['leagueTokens'] ?? []);
+    foreach ($cats as $c) {
+        $inA = in_array($c, $tokensA, true);
+        $inB = in_array($c, $tokensB, true);
+        if ($inA !== $inB) {
+            return true;
+        }
+    }
+    return false;
 }
 
 /**
