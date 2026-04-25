@@ -1,6 +1,22 @@
 {
-  "updated": "2026-04-25T17:28:08.207Z",
+  "updated": "2026-04-25T17:29:59.304Z",
   "source": "pinnacle-basketball-live-owlsinsight",
-  "total": 0,
-  "matches": []
+  "total": 1,
+  "matches": [
+    {
+      "eventId": "1628922112",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "league": "NBA",
+      "sport": "basketball",
+      "elapsed": "9:00",
+      "status": "live",
+      "score": "20-18",
+      "link": "",
+      "p1": 2.12,
+      "x": null,
+      "p2": 1.813,
+      "time": "2026-04-25T17:08:00.000Z"
+    }
+  ]
 }
