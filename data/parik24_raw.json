@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-25T17:42:50.605Z",
+  "updated": "2026-04-25T17:46:15.353Z",
   "source": "parik24-live-ws",
-  "total": 722,
+  "total": 726,
   "matches": [
     {
       "eventId": "16494342",
@@ -6751,7 +6751,7 @@
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.618Z"
+      "time": "2026-04-25T17:46:10.854Z"
     },
     {
       "eventId": "16478857",
@@ -7426,7 +7426,7 @@
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.623Z"
+      "time": "2026-04-25T17:46:10.858Z"
     },
     {
       "eventId": "16478882",
@@ -7959,14 +7959,14 @@
       "away": "Al Bidda SC",
       "league": "Qatar - Second Division",
       "sport": "football",
-      "elapsed": "29",
+      "elapsed": "21",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/al-khor-al-bidda-sc",
-      "p1": 1.18,
-      "x": 4.5,
-      "p2": 23,
-      "time": "2026-04-25T17:42:49.628Z"
+      "p1": 1.13,
+      "x": 5.5,
+      "p2": 29,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16467947",
@@ -7974,14 +7974,14 @@
       "away": "Al Kharitiyath",
       "league": "Qatar - Second Division",
       "sport": "football",
-      "elapsed": "21",
+      "elapsed": "19",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/muaither-sc-al-kharitiyath",
-      "p1": 34,
-      "x": 6,
-      "p2": 1.11,
-      "time": "2026-04-25T17:42:49.628Z"
+      "p1": 41,
+      "x": 7.5,
+      "p2": 1.08,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16267449",
@@ -7989,14 +7989,14 @@
       "away": "Zeleziarne Podbrezova",
       "league": "Slovakia - Super Liga",
       "sport": "football",
-      "elapsed": "18",
+      "elapsed": "6",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/zemplin-michalovce-zeleziarne-podbrezova",
       "p1": 33,
-      "x": 5.4,
-      "p2": 1.12,
-      "time": "2026-04-25T17:42:49.628Z"
+      "x": 5.8,
+      "p2": 1.07,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16497132",
@@ -8004,14 +8004,14 @@
       "away": "Zks Kluczevia Stargard",
       "league": "Poland - Liga 3",
       "sport": "football",
-      "elapsed": "37",
+      "elapsed": "32",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/elana-torun-zks-kluczevia-stargard",
-      "p1": 6.21,
-      "x": 1.42,
-      "p2": 4.91,
-      "time": "2026-04-25T17:42:49.628Z"
+      "p1": 7.42,
+      "x": 1.27,
+      "p2": 6.6,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16487261",
@@ -8019,14 +8019,14 @@
       "away": "Arucas CF",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "19",
+      "elapsed": "17",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/tenerife-iii-arucas-cf",
-      "p1": 4.53,
-      "x": 1.34,
-      "p2": 7,
-      "time": "2026-04-25T17:42:49.628Z"
+      "p1": 6.1,
+      "x": 1.22,
+      "p2": 8.4,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16487507",
@@ -8049,14 +8049,14 @@
       "away": "IF Grotta",
       "league": "Iceland - 1 Deild",
       "sport": "football",
-      "elapsed": "53",
+      "elapsed": "13",
       "score": "4-1",
       "statusCode": 2,
       "link": "/en/events/hk-kopavogur-if-grotta",
       "p1": 1.44,
       "x": 4,
       "p2": 5.5,
-      "time": "2026-04-25T17:42:49.628Z"
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16467945",
@@ -8064,14 +8064,14 @@
       "away": "Lusail",
       "league": "Qatar - Second Division",
       "sport": "football",
-      "elapsed": "18",
+      "elapsed": "16",
       "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/al-markhiya-lusail",
       "p1": 6.5,
       "x": 4.33,
       "p2": 1.36,
-      "time": "2026-04-25T17:42:49.628Z"
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16355464",
@@ -8079,14 +8079,14 @@
       "away": "Roma",
       "league": "Italy - Serie A",
       "sport": "football",
-      "elapsed": "422",
+      "elapsed": "112",
       "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/bologna-roma",
-      "p1": 200,
+      "p1": 300,
       "x": 15,
       "p2": 1.01,
-      "time": "2026-04-25T17:42:49.628Z"
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16267450",
@@ -8094,14 +8094,14 @@
       "away": "MFK Skalica",
       "league": "Slovakia - Super Liga",
       "sport": "football",
-      "elapsed": "26",
+      "elapsed": "24",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/kfc-komarno-mfk-skalica",
-      "p1": 19,
-      "x": 3.92,
-      "p2": 1.26,
-      "time": "2026-04-25T17:42:49.628Z"
+      "p1": 26,
+      "x": 4.3,
+      "p2": 1.2,
+      "time": "2026-04-25T17:46:10.861Z"
     },
     {
       "eventId": "16503550",
@@ -8139,14 +8139,14 @@
       "away": "Sokol Bozepole Wielkie",
       "league": "Poland - Liga 4",
       "sport": "football",
-      "elapsed": "35",
+      "elapsed": "17",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/wierzyca-pelplin-sokol-bozepole-wielkie",
-      "p1": 8.5,
-      "x": 1.18,
-      "p2": 7,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 12,
+      "x": 1.08,
+      "p2": 10,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16503661",
@@ -8154,14 +8154,14 @@
       "away": "CD Guadalajara SAD II",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "6",
+      "elapsed": "2",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/cd-tarancon-cd-guadalajara-sad-ii",
       "p1": 1.45,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.633Z"
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16495493",
@@ -8184,14 +8184,14 @@
       "away": "Sligo Rovers (w)",
       "league": "Ireland - Women. Premier Division",
       "sport": "football",
-      "elapsed": "28",
+      "elapsed": "27",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/peamount-united-w-sligo-rovers-w",
-      "p1": 2.43,
-      "x": 1.85,
-      "p2": 8.08,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 2.77,
+      "x": 1.67,
+      "p2": 8.48,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16502198",
@@ -8199,14 +8199,14 @@
       "away": "Oissel",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "17",
+      "elapsed": "10",
       "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/le-havre-caucriauville-oissel",
-      "p1": 5.07,
-      "x": 1.33,
-      "p2": 8.6,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 6.99,
+      "x": 1.22,
+      "p2": 9.28,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16422726",
@@ -8214,14 +8214,14 @@
       "away": "Sporting Covilha",
       "league": "Portugal - Liga 3",
       "sport": "football",
-      "elapsed": "44",
+      "elapsed": "40",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/caldas-sc-sporting-covilha",
-      "p1": 5.2,
-      "x": 1.37,
-      "p2": 6.44,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 6.2,
+      "x": 1.28,
+      "p2": 7.38,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16495655",
@@ -8244,14 +8244,14 @@
       "away": "Al Hala Muharraq",
       "league": "Bahrain - Second Division",
       "sport": "football",
-      "elapsed": "28",
+      "elapsed": "18",
       "score": "1-3",
       "statusCode": 2,
       "link": "/en/events/al-tadamun-al-hala-muharraq",
       "p1": 56,
       "x": 8.25,
       "p2": 1.09,
-      "time": "2026-04-25T17:42:49.633Z"
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16490704",
@@ -8259,14 +8259,14 @@
       "away": "Dinamo Tbilisi",
       "league": "Georgia - Erovnuli Liga",
       "sport": "football",
-      "elapsed": "28",
+      "elapsed": "24",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/samgurali-dinamo-tbilisi",
-      "p1": 16.19,
-      "x": 4.34,
-      "p2": 1.29,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 20.41,
+      "x": 5.28,
+      "p2": 1.2,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16487509",
@@ -8289,14 +8289,14 @@
       "away": "Estrella Grana El Palmar CF",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "15",
+      "elapsed": "13",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/aguilas-ii-estrella-grana-el-palmar-cf",
-      "p1": 1.05,
-      "x": 7.4,
-      "p2": 57,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 1.03,
+      "x": 7.8,
+      "p2": 97,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16503426",
@@ -8394,14 +8394,14 @@
       "away": "Chateauroux II",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "19",
+      "elapsed": "17",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/ussa-vertou-chateauroux-ii",
-      "p1": 4.21,
-      "x": 1.46,
-      "p2": 6.45,
-      "time": "2026-04-25T17:42:49.633Z"
+      "p1": 4.92,
+      "x": 1.35,
+      "p2": 7.33,
+      "time": "2026-04-25T17:46:10.864Z"
     },
     {
       "eventId": "16502197",
@@ -8413,10 +8413,10 @@
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/fc-mulhouse-asm-belfort",
-      "p1": 13.78,
-      "x": 4.08,
-      "p2": 1.32,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 19.35,
+      "x": 4.75,
+      "p2": 1.23,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16503519",
@@ -8439,14 +8439,14 @@
       "away": "UMF Grindavik/Njardvik (w)",
       "league": "Iceland - Women. Urvalsdeild",
       "sport": "football",
-      "elapsed": "59",
+      "elapsed": "29",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/valur-w-umf-grindaviknjardvik-w",
-      "p1": 1.11,
-      "x": 6,
-      "p2": 34,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 1.08,
+      "x": 7.5,
+      "p2": 41,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16503619",
@@ -8454,14 +8454,14 @@
       "away": "CD Marchamalo",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "14",
+      "elapsed": "12",
       "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/villarrubia-cd-marchamalo",
-      "p1": 4.59,
-      "x": 1.41,
-      "p2": 5.9,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 6.5,
+      "x": 1.23,
+      "p2": 7.7,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16344804",
@@ -8469,14 +8469,14 @@
       "away": "Aris Limassol",
       "league": "Cyprus - Division 1",
       "sport": "football",
-      "elapsed": "60",
+      "elapsed": "56",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/aek-larnaca-aris-limassol",
       "p1": 1.01,
       "x": 19.84,
       "p2": 82.89,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16502193",
@@ -8484,14 +8484,14 @@
       "away": "SU Dives-Cabourg",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "12",
+      "elapsed": "5",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/caen-sm-ii-su-dives-cabourg",
-      "p1": 1.04,
+      "p1": 1.02,
       "x": 7.48,
       "p2": 21.71,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16478876",
@@ -8514,14 +8514,14 @@
       "away": "Leiknir Reykjavik",
       "league": "Iceland - 1 Deild",
       "sport": "football",
-      "elapsed": "32",
+      "elapsed": "22",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/volsungur-leiknir-reykjavik",
-      "p1": 8,
-      "x": 1.3,
-      "p2": 4.5,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 10,
+      "x": 1.17,
+      "p2": 6,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16503666",
@@ -8536,7 +8536,7 @@
       "p1": 1.03,
       "x": 4.43,
       "p2": 6.3,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16502194",
@@ -8544,14 +8544,14 @@
       "away": "FC Chalon",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "16",
+      "elapsed": "6",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/ivry-us-fc-chalon",
-      "p1": 1.13,
+      "p1": 1.04,
       "x": 7.14,
       "p2": 22.43,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16502202",
@@ -8563,10 +8563,10 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/blagnac-canet-roussillon",
-      "p1": 8.54,
-      "x": 1.29,
-      "p2": 5.38,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 9.63,
+      "x": 1.2,
+      "p2": 6.77,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16422797",
@@ -8574,14 +8574,14 @@
       "away": "Brann",
       "league": "Norway - Eliteserien",
       "sport": "football",
-      "elapsed": "44",
+      "elapsed": "39",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/rosenborg-brann",
-      "p1": 5.9,
-      "x": 1.38,
-      "p2": 4.89,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 8.2,
+      "x": 1.18,
+      "p2": 7.3,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16467944",
@@ -8589,14 +8589,14 @@
       "away": "Riga Mariners",
       "league": "Latvia - Liga 1",
       "sport": "football",
-      "elapsed": "35",
-      "score": "1-1",
+      "elapsed": "29",
+      "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/fk-rfs-ii-riga-mariners",
-      "p1": 26,
-      "x": 4.32,
+      "p1": 49,
+      "x": 12,
       "p2": 1.2,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16478878",
@@ -8619,14 +8619,14 @@
       "away": "FC Zurich",
       "league": "Switzerland - Super League",
       "sport": "football",
-      "elapsed": "43",
+      "elapsed": "39",
       "score": "3-0",
       "statusCode": 2,
       "link": "/en/events/lausanne-sport-fc-zurich",
       "p1": 1.27,
       "x": 4.89,
       "p2": 9.2,
-      "time": "2026-04-25T17:42:49.637Z"
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16436270",
@@ -8634,14 +8634,14 @@
       "away": "Dynamo Ceske Budejovice",
       "league": "Czech Republic - 2. Liga",
       "sport": "football",
-      "elapsed": "40",
+      "elapsed": "28",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/sk-artis-brno-dynamo-ceske-budejovice",
       "p1": 1.09,
-      "x": 8.7,
-      "p2": 44.99,
-      "time": "2026-04-25T17:42:49.637Z"
+      "x": 12,
+      "p2": 120,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16503548",
@@ -8679,14 +8679,14 @@
       "away": "FH Hafnarfjordur (w)",
       "league": "Iceland - Women. Urvalsdeild",
       "sport": "football",
-      "elapsed": "69",
+      "elapsed": "38",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/thor-akureyri-w-fh-hafnarfjordur-w",
-      "p1": 26,
-      "x": 4.5,
-      "p2": 1.18,
-      "time": "2026-04-25T17:42:49.637Z"
+      "p1": 34,
+      "x": 5.5,
+      "p2": 1.13,
+      "time": "2026-04-25T17:46:10.867Z"
     },
     {
       "eventId": "16473944",
@@ -8709,14 +8709,14 @@
       "away": "Thaon",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "13",
-      "score": "0-1",
+      "elapsed": "1",
+      "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/besancon-football-thaon",
       "p1": 32.54,
       "x": 9.56,
-      "p2": 1.04,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p2": 1.02,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16467948",
@@ -8724,14 +8724,14 @@
       "away": "AL Waab SC",
       "league": "Qatar - Second Division",
       "sport": "football",
-      "elapsed": "21",
+      "elapsed": "16",
       "score": "3-0",
       "statusCode": 2,
       "link": "/en/events/al-mesaimeer-sc-al-waab-sc",
       "p1": 1.03,
       "x": 11,
       "p2": 29,
-      "time": "2026-04-25T17:42:49.641Z"
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16503454",
@@ -8754,14 +8754,14 @@
       "away": "Kongsvinger IL",
       "league": "Norway - Division 1",
       "sport": "football",
-      "elapsed": "42",
+      "elapsed": "37",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/strommen-kongsvinger",
-      "p1": 26.3,
-      "x": 5.41,
-      "p2": 1.15,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 39.48,
+      "x": 6.91,
+      "p2": 1.12,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16267451",
@@ -8769,14 +8769,14 @@
       "away": "Ruzomberok",
       "league": "Slovakia - Super Liga",
       "sport": "football",
-      "elapsed": "13",
+      "elapsed": "4",
       "score": "3-1",
       "statusCode": 2,
       "link": "/en/events/fc-kosice-ruzomberok",
       "p1": 1.03,
       "x": 12,
       "p2": 21,
-      "time": "2026-04-25T17:42:49.641Z"
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16478892",
@@ -8799,14 +8799,14 @@
       "away": "SK Pama",
       "league": "Austria - Landesliga",
       "sport": "football",
-      "elapsed": "37",
+      "elapsed": "29",
       "score": "0-3",
       "statusCode": 2,
       "link": "/en/events/sc-oberpullendorf-sk-pama",
       "p1": 63,
       "x": 48,
       "p2": 3.13,
-      "time": "2026-04-25T17:42:49.641Z"
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16503602",
@@ -8829,14 +8829,14 @@
       "away": "Quintero Unido FC",
       "league": "Chile - Tercera Division",
       "sport": "football",
-      "elapsed": "39",
+      "elapsed": "31",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/lautaro-de-buin-quintero-unido-fc",
-      "p1": 1.25,
-      "x": 3.8,
-      "p2": 17,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 1.2,
+      "x": 4.2,
+      "p2": 21,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16495315",
@@ -8859,14 +8859,14 @@
       "away": "FC Aarau",
       "league": "Switzerland - Challenge League",
       "sport": "football",
-      "elapsed": "54",
+      "elapsed": "48",
       "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/fc-wil-fc-aarau",
-      "p1": 5.35,
-      "x": 1.49,
-      "p2": 4,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 6.54,
+      "x": 1.33,
+      "p2": 5.02,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16473897",
@@ -8889,14 +8889,14 @@
       "away": "Inter Milan (w)",
       "league": "Italy - Women. Serie A",
       "sport": "football",
-      "elapsed": "112",
+      "elapsed": "48",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/genoa-w-inter-milan-w",
-      "p1": 44,
-      "x": 11,
-      "p2": 1.03,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 50,
+      "x": 13,
+      "p2": 1.02,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16495616",
@@ -8919,14 +8919,14 @@
       "away": "Carnoux FC",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "16",
+      "elapsed": "6",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/seyssinet-pariset-carnoux-fc",
-      "p1": 1.13,
+      "p1": 1.04,
       "x": 7.14,
       "p2": 22.43,
-      "time": "2026-04-25T17:42:49.641Z"
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16487259",
@@ -8934,14 +8934,14 @@
       "away": "Juventud Cambados",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "18",
+      "elapsed": "16",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/atletico-arteixo-juventud-cambados",
       "p1": 1.08,
-      "x": 6.8,
-      "p2": 30,
-      "time": "2026-04-25T17:42:49.641Z"
+      "x": 6.7,
+      "p2": 33,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16482726",
@@ -8949,14 +8949,14 @@
       "away": "Isa Town",
       "league": "Bahrain - Second Division",
       "sport": "football",
-      "elapsed": "24",
+      "elapsed": "22",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/etehad-al-reef-isa-town",
-      "p1": 65.91,
-      "x": 8.75,
-      "p2": 1.08,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 103.17,
+      "x": 10.17,
+      "p2": 1.06,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16503520",
@@ -8979,14 +8979,14 @@
       "away": "Luzern",
       "league": "Switzerland - Super League",
       "sport": "football",
-      "elapsed": "45",
+      "elapsed": "38",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/grasshopper-luzern",
-      "p1": 50,
-      "x": 6.3,
-      "p2": 1.09,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 97,
+      "x": 7.7,
+      "p2": 1.05,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16498863",
@@ -8994,14 +8994,14 @@
       "away": "SL Benfica U-19",
       "league": "Portugal - U-19 Championship",
       "sport": "football",
-      "elapsed": "43",
+      "elapsed": "34",
       "score": "3-1",
       "statusCode": 2,
       "link": "/en/events/fc-porto-u-19-sl-benfica-u-19",
-      "p1": 1.02,
-      "x": 18,
-      "p2": 32,
-      "time": "2026-04-25T17:42:49.641Z"
+      "p1": 1.07,
+      "x": 6.8,
+      "p2": 28,
+      "time": "2026-04-25T17:46:10.870Z"
     },
     {
       "eventId": "16436266",
@@ -9009,14 +9009,14 @@
       "away": "Pribram",
       "league": "Czech Republic - 2. Liga",
       "sport": "football",
-      "elapsed": "41",
+      "elapsed": "35",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/fc-taborsko-pribram",
-      "p1": 1.16,
-      "x": 5.65,
-      "p2": 29.75,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 1.13,
+      "x": 7.25,
+      "p2": 45.43,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16502195",
@@ -9031,7 +9031,7 @@
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.646Z"
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16495541",
@@ -9054,14 +9054,14 @@
       "away": "East Riffa",
       "league": "Bahrain - Second Division",
       "sport": "football",
-      "elapsed": "34",
+      "elapsed": "22",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/al-ittifaq-maqaba-east-riffa",
-      "p1": 33.55,
-      "x": 5.36,
-      "p2": 1.17,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 48.63,
+      "x": 6.46,
+      "p2": 1.13,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16502200",
@@ -9069,14 +9069,14 @@
       "away": "ES Fosseenne",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "15",
+      "elapsed": "13",
       "score": "2-3",
       "statusCode": 2,
       "link": "/en/events/as-lyon-duchere-es-fosseenne",
       "p1": 13.1,
       "x": 3.74,
-      "p2": 1.27,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p2": 1.2,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16499651",
@@ -9114,14 +9114,14 @@
       "away": "Standard Liege",
       "league": "Belgium - Pro League",
       "sport": "football",
-      "elapsed": "174",
+      "elapsed": "169",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/krc-genk-standard-liege",
-      "p1": 2.2,
-      "x": 2.17,
-      "p2": 6.5,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 2.35,
+      "x": 2.01,
+      "p2": 6.8,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16279951",
@@ -9129,14 +9129,14 @@
       "away": "Southampton",
       "league": "England - FA Cup",
       "sport": "football",
-      "elapsed": "613",
+      "elapsed": "588",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/man-city-southampton",
-      "p1": 1.72,
-      "x": 2.45,
-      "p2": 13,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 1.75,
+      "x": 2.31,
+      "p2": 15,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16491868",
@@ -9144,14 +9144,14 @@
       "away": "Riihimaen Palloseuran",
       "league": "Finland - Kolmonen",
       "sport": "football",
-      "elapsed": "71",
+      "elapsed": "56",
       "score": "3-1",
       "statusCode": 2,
       "link": "/en/events/helsingin-ponnistus-riihimaen-palloseuran",
       "p1": 1.01,
       "x": 19.63,
       "p2": 82.61,
-      "time": "2026-04-25T17:42:49.646Z"
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16456388",
@@ -9159,14 +9159,14 @@
       "away": "Barcelona (w)",
       "league": "Europe - UEFA Women's Champions League",
       "sport": "football",
-      "elapsed": "232",
-      "score": "0-1",
+      "elapsed": "208",
+      "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/bayern-munchen-w-barcelona-w",
-      "p1": 23,
-      "x": 5.5,
-      "p2": 1.18,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 5.5,
+      "x": 2,
+      "p2": 2.5,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16345008",
@@ -9174,14 +9174,14 @@
       "away": "Lokomotiva Zagreb",
       "league": "Croatia - HNL",
       "sport": "football",
-      "elapsed": "79",
+      "elapsed": "74",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/nk-osijek-lokomotiva-zagreb",
-      "p1": 4,
-      "x": 1.53,
-      "p2": 4.5,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 4.5,
+      "x": 1.44,
+      "p2": 5,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16461806",
@@ -9189,14 +9189,14 @@
       "away": "Machida Zelvia",
       "league": "Asia - AFC Champions League Elite",
       "sport": "football",
-      "elapsed": "245",
+      "elapsed": "233",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/al-ahli-jeddah-machida-zelvia",
-      "p1": 4.6,
-      "x": 1.42,
-      "p2": 6.5,
-      "time": "2026-04-25T17:42:49.646Z"
+      "p1": 6.2,
+      "x": 1.47,
+      "p2": 4.4,
+      "time": "2026-04-25T17:46:10.873Z"
     },
     {
       "eventId": "16503634",
@@ -9339,14 +9339,14 @@
       "away": "Deportivo La Coruna",
       "league": "Spain - Segunda Division",
       "sport": "football",
-      "elapsed": "364",
+      "elapsed": "358",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/burgos-cf-deportivo-la-coruna",
-      "p1": 3.2,
-      "x": 2.1,
-      "p2": 3.6,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 3.25,
+      "x": 2,
+      "p2": 3.75,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16502382",
@@ -9354,14 +9354,14 @@
       "away": "Inter Club de Escaldes",
       "league": "Andorra - Primera Divisio",
       "sport": "football",
-      "elapsed": "156",
+      "elapsed": "152",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/fc-rangers-inter-club-de-escaldes",
-      "p1": 2.97,
-      "x": 3.47,
-      "p2": 2.08,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 2.91,
+      "x": 3.4,
+      "p2": 2.14,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16358018",
@@ -9369,14 +9369,14 @@
       "away": "PSG",
       "league": "France - Ligue 1",
       "sport": "football",
-      "elapsed": "595",
+      "elapsed": "757",
       "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/angers-psg",
-      "p1": 126,
-      "x": 29,
+      "p1": 101,
+      "x": 26,
       "p2": 1.02,
-      "time": "2026-04-25T17:42:49.650Z"
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16473979",
@@ -9384,14 +9384,14 @@
       "away": "CA River Plate (Virtual_10)",
       "league": "E-Football - Virtual eComp. Copa Libertadores (2x4 mins)",
       "sport": "football",
-      "elapsed": "65",
+      "elapsed": "6",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/botafogo-rj-virtual-12-ca-river-plate-virtual-10",
-      "p1": 1.17,
-      "x": 5.1,
-      "p2": 21,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 1.06,
+      "x": 7.5,
+      "p2": 51,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16473921",
@@ -9399,14 +9399,14 @@
       "away": "Chelsea (virtual_3)",
       "league": "E-Football - Virtual eComp. Premier League (2x4 mins)",
       "sport": "football",
-      "elapsed": "55",
+      "elapsed": "3",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/man-utd-virtual-2-chelsea-virtual-3",
-      "p1": 1.1,
-      "x": 8,
-      "p2": 15,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 1.01,
+      "x": 13,
+      "p2": 34,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16345375",
@@ -9414,14 +9414,14 @@
       "away": "Zalaegerszegi TE",
       "league": "Hungary - NB I",
       "sport": "football",
-      "elapsed": "478",
+      "elapsed": "471",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/nyiregyhaza-spartacus-fc-zalaegerszegi-te",
-      "p1": 2.25,
-      "x": 3,
-      "p2": 3.05,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 2.16,
+      "x": 3.05,
+      "p2": 3.15,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16445662",
@@ -9433,10 +9433,10 @@
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/union-touarga-olympique-safi",
-      "p1": 2.88,
-      "x": 2.36,
-      "p2": 3.22,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 2.96,
+      "x": 2.23,
+      "p2": 3.41,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16504198",
@@ -9459,14 +9459,14 @@
       "away": "Atletico San Luis U-19",
       "league": "Mexico - U-19 League",
       "sport": "football",
-      "elapsed": "152",
+      "elapsed": "148",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/fc-juarez-u-19-atletico-san-luis-u-19",
       "p1": 1.6,
       "x": 3.95,
       "p2": 4.44,
-      "time": "2026-04-25T17:42:49.650Z"
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16424648",
@@ -9474,14 +9474,14 @@
       "away": "Bay FC (w)",
       "league": "USA - Women. NWSL",
       "sport": "football",
-      "elapsed": "135",
+      "elapsed": "127",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/gotham-fc-w-bay-fc-w",
       "p1": 1.14,
-      "x": 7.1,
-      "p2": 12,
-      "time": "2026-04-25T17:42:49.650Z"
+      "x": 7,
+      "p2": 13,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16495623",
@@ -9510,8 +9510,8 @@
       "link": "/en/events/cfr-cluj-universitatea-cluj",
       "p1": 2.55,
       "x": 3.13,
-      "p2": 2.54,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p2": 2.55,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16502302",
@@ -9519,14 +9519,14 @@
       "away": "Mighty Blackpool SC",
       "league": "Sierra Leone - Premier League",
       "sport": "football",
-      "elapsed": "70",
+      "elapsed": "69",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/wusum-stars-mighty-blackpool-sc",
       "p1": 1.25,
       "x": 4.73,
-      "p2": 11,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p2": 12,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16445663",
@@ -9534,14 +9534,14 @@
       "away": "Difaa El Jadida",
       "league": "Morocco - Botola",
       "sport": "football",
-      "elapsed": "51",
+      "elapsed": "43",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/codm-meknes-difaa-el-jadida",
-      "p1": 2.87,
-      "x": 2.16,
-      "p2": 3.7,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p1": 2.96,
+      "x": 2.07,
+      "p2": 3.86,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16504090",
@@ -9564,14 +9564,14 @@
       "away": "CD Magallanes",
       "league": "Chile - Primera B",
       "sport": "football",
-      "elapsed": "275",
+      "elapsed": "255",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/union-san-felipe-cd-magallanes",
-      "p1": 10,
+      "p1": 10.5,
       "x": 3.9,
-      "p2": 1.33,
-      "time": "2026-04-25T17:42:49.650Z"
+      "p2": 1.32,
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16495300",
@@ -9579,14 +9579,14 @@
       "away": "Tijuana U-19",
       "league": "Mexico - U-19 League",
       "sport": "football",
-      "elapsed": "152",
+      "elapsed": "150",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/cd-guadalajara-u-19-tijuana-u-19",
-      "p1": 1.93,
-      "x": 3.46,
+      "p1": 1.97,
+      "x": 3.35,
       "p2": 3.36,
-      "time": "2026-04-25T17:42:49.650Z"
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16502305",
@@ -9594,14 +9594,14 @@
       "away": "Abacha City",
       "league": "Sierra Leone - Premier League",
       "sport": "football",
-      "elapsed": "74",
+      "elapsed": "71",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/freetonians-slifa-abacha-city",
       "p1": 1.36,
       "x": 3.98,
       "p2": 8.5,
-      "time": "2026-04-25T17:42:49.650Z"
+      "time": "2026-04-25T17:46:10.879Z"
     },
     {
       "eventId": "16422916",
@@ -9609,14 +9609,14 @@
       "away": "Dungannon Swifts",
       "league": "Northern Ireland - Premiership",
       "sport": "football",
-      "elapsed": "235",
+      "elapsed": "231",
       "score": "5-0",
       "statusCode": 2,
       "link": "/en/events/larne-fc-dungannon-swifts",
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16267436",
@@ -9624,14 +9624,14 @@
       "away": "Girona",
       "league": "Spain - LaLiga",
       "sport": "football",
-      "elapsed": "286",
+      "elapsed": "545",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/valencia-girona",
       "p1": 1.32,
-      "x": 4.3,
+      "x": 4.2,
       "p2": 13,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16267651",
@@ -9639,14 +9639,14 @@
       "away": "TSG Hoffenheim",
       "league": "Germany - Bundesliga",
       "sport": "football",
-      "elapsed": "542",
+      "elapsed": "438",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/hamburg-tsg-hoffenheim",
-      "p1": 11,
-      "x": 5,
-      "p2": 1.28,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 12,
+      "x": 5.1,
+      "p2": 1.27,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16444758",
@@ -9654,14 +9654,14 @@
       "away": "FK Rudar Prijedor",
       "league": "Bosnia and Herzegovina - Premier League",
       "sport": "football",
-      "elapsed": "15",
+      "elapsed": "101",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/radnik-bijeljina-fk-rudar-prijedor",
-      "p1": 1.4,
-      "x": 3.71,
-      "p2": 10.64,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 1.38,
+      "x": 3.75,
+      "p2": 11.42,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16495650",
@@ -9684,14 +9684,14 @@
       "away": "OFI",
       "league": "Greece - Cup",
       "sport": "football",
-      "elapsed": "77",
-      "score": "0-0",
+      "elapsed": "62",
+      "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/paok-ofi",
-      "p1": 1.33,
-      "x": 4,
-      "p2": 8,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 1.06,
+      "x": 8.5,
+      "p2": 19,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16468422",
@@ -9699,14 +9699,14 @@
       "away": "HLM Dakar",
       "league": "Senegal - Ligue 1",
       "sport": "football",
-      "elapsed": "93",
+      "elapsed": "76",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/teungueth-fc-hlm-dakar",
-      "p1": 1.35,
-      "x": 4.43,
-      "p2": 8.94,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 1.31,
+      "x": 4.44,
+      "p2": 9.61,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16489342",
@@ -9714,14 +9714,14 @@
       "away": "Buhimba United Saints FC",
       "league": "Uganda - Premier League",
       "sport": "football",
-      "elapsed": "79",
+      "elapsed": "68",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/sc-villa-buhimba-united-saints-fc",
       "p1": null,
-      "x": 25,
+      "x": 28,
       "p2": 33,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16498864",
@@ -9729,14 +9729,14 @@
       "away": "Vizela U-19",
       "league": "Portugal - U-19 Championship",
       "sport": "football",
-      "elapsed": "69",
+      "elapsed": "66",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/pacos-ferreira-u-19-vizela-u-19",
-      "p1": 1.3,
-      "x": 4.43,
-      "p2": 8.3,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 1.27,
+      "x": 4.68,
+      "p2": 8.9,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16486420",
@@ -9744,14 +9744,14 @@
       "away": "Rufisque Olympique Sport",
       "league": "Senegal - Ligue 1",
       "sport": "football",
-      "elapsed": "99",
+      "elapsed": "81",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/walidaan-dkr-rufisque-olympique-sport",
       "p1": 2.88,
-      "x": 2.3,
-      "p2": 3.24,
-      "time": "2026-04-25T17:42:49.655Z"
+      "x": 2.25,
+      "p2": 3.36,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16500821",
@@ -9766,7 +9766,7 @@
       "p1": 1.25,
       "x": 4.33,
       "p2": 10,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16495480",
@@ -9775,13 +9775,13 @@
       "league": "E-Football - ESportsBattle. Champions League-2 (2x6 mins)",
       "sport": "football",
       "elapsed": "0",
-      "score": "6-3",
+      "score": "6-4",
       "statusCode": 2,
       "link": "/en/events/borussia-dortmund-paka-atletico-madrid-bjela",
       "p1": 1.02,
       "x": 11,
       "p2": 41,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:44:00.532Z"
     },
     {
       "eventId": "16487505",
@@ -9790,13 +9790,13 @@
       "league": "Spain - Tercera Federacion",
       "sport": "football",
       "elapsed": "33",
-      "score": "1-1",
+      "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/real-murcia-ii-santomera-cf",
-      "p1": 1.7,
-      "x": 2.57,
-      "p2": 7.8,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 3.32,
+      "x": 2.93,
+      "p2": 2.15,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16502206",
@@ -9804,14 +9804,14 @@
       "away": "SC Bastia II",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "37",
+      "elapsed": "35",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/cchartres-football-sc-bastia-ii",
-      "p1": 1.66,
-      "x": 3.53,
-      "p2": 5.18,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 1.58,
+      "x": 3.71,
+      "p2": 5.69,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16502304",
@@ -9819,14 +9819,14 @@
       "away": "Kallon FC",
       "league": "Sierra Leone - Premier League",
       "sport": "football",
-      "elapsed": "67",
+      "elapsed": "66",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/bai-bureh-warriors-kallon-fc",
       "p1": 1.26,
       "x": 4.77,
       "p2": 11,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16344733",
@@ -9834,14 +9834,14 @@
       "away": "Falkirk",
       "league": "Scotland - Premiership",
       "sport": "football",
-      "elapsed": "295",
+      "elapsed": "285",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/celtic-falkirk",
       "p1": 1.01,
-      "x": 23,
-      "p2": 81,
-      "time": "2026-04-25T17:42:49.655Z"
+      "x": 26,
+      "p2": 101,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16504128",
@@ -9849,14 +9849,14 @@
       "away": "Atletico De Porcuna CF",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "8",
+      "elapsed": "5",
       "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/el-palo-atletico-de-porcuna-cf",
       "p1": null,
       "x": null,
       "p2": 1.04,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16501599",
@@ -9864,14 +9864,14 @@
       "away": "Alaves U-19",
       "league": "Spain - U-19 Championship",
       "sport": "football",
-      "elapsed": "56",
+      "elapsed": "55",
       "score": "0-3",
       "statusCode": 2,
       "link": "/en/events/billegas-u-19-alaves-u-19",
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.655Z"
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16413599",
@@ -9879,14 +9879,14 @@
       "away": "Maccabi Tel Aviv",
       "league": "Israel - Premier League",
       "sport": "football",
-      "elapsed": "146",
+      "elapsed": "142",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/maccabi-haifa-maccabi-tel-aviv",
-      "p1": 4.9,
-      "x": 4.25,
-      "p2": 1.5,
-      "time": "2026-04-25T17:42:49.655Z"
+      "p1": 5.3,
+      "x": 4.18,
+      "p2": 1.48,
+      "time": "2026-04-25T17:46:10.882Z"
     },
     {
       "eventId": "16504136",
@@ -9909,14 +9909,14 @@
       "away": "Cliftonville",
       "league": "Northern Ireland - Premiership",
       "sport": "football",
-      "elapsed": "262",
+      "elapsed": "235",
       "score": "1-2",
       "statusCode": 2,
       "link": "/en/events/linfield-cliftonville",
-      "p1": 5.4,
+      "p1": 6.2,
       "x": 3.1,
-      "p2": 1.66,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p2": 1.6,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16504180",
@@ -9946,7 +9946,7 @@
       "p1": 1.2,
       "x": 5.5,
       "p2": 17,
-      "time": "2026-04-25T17:42:49.659Z"
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16502318",
@@ -9954,14 +9954,14 @@
       "away": "Ways FC",
       "league": "Mauritania - Division 2",
       "sport": "football",
-      "elapsed": "93",
+      "elapsed": "79",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/dar-el-barka-ways-fc",
       "p1": 1.03,
       "x": 11,
       "p2": 23,
-      "time": "2026-04-25T17:42:49.659Z"
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16487511",
@@ -9988,10 +9988,10 @@
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/antequera-cd-eldense",
-      "p1": 1.47,
-      "x": 3.53,
-      "p2": 6.91,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 1.48,
+      "x": 3.57,
+      "p2": 7.29,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16479830",
@@ -9999,14 +9999,14 @@
       "away": "Widad Temara",
       "league": "Morocco - Botola 2",
       "sport": "football",
-      "elapsed": "88",
+      "elapsed": "65",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/mouloudia-oujda-widad-temara",
-      "p1": 3.03,
-      "x": 2.31,
-      "p2": 3.1,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 3.01,
+      "x": 2.29,
+      "p2": 3.2,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16413588",
@@ -10014,14 +10014,14 @@
       "away": "Maccabi Bnei Reine",
       "league": "Israel - Premier League",
       "sport": "football",
-      "elapsed": "113",
+      "elapsed": "87",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/fc-ashdod-maccabi-bney-reine",
-      "p1": 2.05,
-      "x": 2.58,
-      "p2": 4.4,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 2.16,
+      "x": 2.41,
+      "p2": 4.34,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16479087",
@@ -10030,13 +10030,13 @@
       "league": "Finland - Kakkonen",
       "sport": "football",
       "elapsed": "125",
-      "score": "2-3",
+      "score": "2-4",
       "statusCode": 2,
       "link": "/en/events/fc-vaajakoski-js-hercules",
-      "p1": 6.43,
-      "x": 3.98,
-      "p2": 1.49,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 19.38,
+      "x": 8.15,
+      "p2": 1.11,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16422917",
@@ -10051,7 +10051,7 @@
       "p1": 1.47,
       "x": 4.1,
       "p2": 5.4,
-      "time": "2026-04-25T17:42:49.659Z"
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16504197",
@@ -10074,14 +10074,14 @@
       "away": "Real Titanico",
       "league": "Spain - Tercera Federacion",
       "sport": "football",
-      "elapsed": "8",
+      "elapsed": "6",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/ud-llanera-real-titanico",
       "p1": 1.06,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.659Z"
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16473933",
@@ -10104,14 +10104,14 @@
       "away": "Bnei Sakhnin",
       "league": "Israel - Premier League",
       "sport": "football",
-      "elapsed": "142",
-      "score": "2-0",
+      "elapsed": "0",
+      "score": "3-0",
       "statusCode": 2,
       "link": "/en/events/maccabi-netanya-bnei-sakhnin",
-      "p1": 1.03,
+      "p1": 1.01,
       "x": 11,
-      "p2": 25,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p2": 51,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16504183",
@@ -10134,14 +10134,14 @@
       "away": "Slask Wroclaw",
       "league": "Poland - Liga 1",
       "sport": "football",
-      "elapsed": "488",
+      "elapsed": "481",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/stal-mielec-slask-wroclaw",
-      "p1": 3.25,
-      "x": 3.15,
-      "p2": 2.05,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 3.4,
+      "x": 3.1,
+      "p2": 2.03,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16504148",
@@ -10164,14 +10164,14 @@
       "away": "UD Leiria",
       "league": "Portugal - Segunda Liga",
       "sport": "football",
-      "elapsed": "61",
+      "elapsed": "52",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/felgueiras-1932-ud-leiria",
-      "p1": 4.22,
-      "x": 2.21,
-      "p2": 2.41,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 4.19,
+      "x": 2.17,
+      "p2": 2.44,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16413593",
@@ -10179,14 +10179,14 @@
       "away": "Hapoel Tel Aviv",
       "league": "Israel - Premier League",
       "sport": "football",
-      "elapsed": "122",
+      "elapsed": "91",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/hapoel-petah-tikva-hapoel-tel-aviv",
-      "p1": 6.2,
-      "x": 2.96,
-      "p2": 1.65,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 6.3,
+      "x": 2.89,
+      "p2": 1.67,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16270395",
@@ -10194,14 +10194,14 @@
       "away": "Chrobry Glogow",
       "league": "Poland - Liga 1",
       "sport": "football",
-      "elapsed": "495",
+      "elapsed": "489",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/polonia-warsaw-chrobry-glogow",
-      "p1": 2.01,
-      "x": 3.2,
-      "p2": 3.35,
-      "time": "2026-04-25T17:42:49.659Z"
+      "p1": 2.05,
+      "x": 3.15,
+      "p2": 3.3,
+      "time": "2026-04-25T17:46:10.886Z"
     },
     {
       "eventId": "16473924",
@@ -10229,9 +10229,9 @@
       "statusCode": 2,
       "link": "/en/events/tirana-partizani-tirana",
       "p1": 8,
-      "x": 3.8,
-      "p2": 1.36,
-      "time": "2026-04-25T17:42:49.664Z"
+      "x": 4,
+      "p2": 1.33,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16488168",
@@ -10243,10 +10243,10 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/fc-bidezarra-cd-aoiz",
-      "p1": 2.28,
-      "x": 3.06,
-      "p2": 2.96,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 2.32,
+      "x": 2.93,
+      "p2": 2.97,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16468175",
@@ -10254,14 +10254,14 @@
       "away": "Marines",
       "league": "Rwanda - NFL",
       "sport": "football",
-      "elapsed": "74",
+      "elapsed": "72",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/police-fc-marines-fc-gisenyi",
       "p1": 1.34,
       "x": 4.73,
       "p2": 9.76,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16487524",
@@ -10284,14 +10284,14 @@
       "away": "Atlanta United FC",
       "league": "USA - MLS",
       "sport": "football",
-      "elapsed": "542",
+      "elapsed": "527",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/toronto-fc-atlanta-united-fc",
-      "p1": 2.25,
-      "x": 2.88,
-      "p2": 3.6,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 2.3,
+      "x": 2.75,
+      "p2": 3.75,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16413591",
@@ -10299,14 +10299,14 @@
       "away": "Sampdoria",
       "league": "Italy - Serie B",
       "sport": "football",
-      "elapsed": "630",
+      "elapsed": "596",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/cesena-sampdoria",
       "p1": 2.3,
-      "x": 3.2,
-      "p2": 3.2,
-      "time": "2026-04-25T17:42:49.664Z"
+      "x": 3,
+      "p2": 3.25,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16413566",
@@ -10314,14 +10314,14 @@
       "away": "San Marcos de Arica",
       "league": "Chile - Primera B",
       "sport": "football",
-      "elapsed": "251",
+      "elapsed": "243",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/copiapo-san-marcos-de-arica",
       "p1": 16,
-      "x": 4.7,
+      "x": 4.8,
       "p2": 1.2,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16267835",
@@ -10329,14 +10329,14 @@
       "away": "Antalyaspor",
       "league": "Turkey - Super League",
       "sport": "football",
-      "elapsed": "425",
+      "elapsed": "418",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/goztepe-antalyaspor",
-      "p1": 1.03,
-      "x": 19,
-      "p2": 81,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 1.04,
+      "x": 17,
+      "p2": 67,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16504199",
@@ -10366,7 +10366,7 @@
       "p1": 1.01,
       "x": 13,
       "p2": 34,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:44:00.539Z"
     },
     {
       "eventId": "16502207",
@@ -10374,14 +10374,14 @@
       "away": "Toulouse II",
       "league": "France - National 3",
       "sport": "football",
-      "elapsed": "44",
+      "elapsed": "39",
       "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/genets-anglet-toulouse-ii",
-      "p1": 4.23,
-      "x": 3.26,
-      "p2": 1.86,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 4.6,
+      "x": 3.37,
+      "p2": 1.77,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "15865416",
@@ -10389,14 +10389,14 @@
       "away": "Lugo",
       "league": "Spain - Primera Federacion",
       "sport": "football",
-      "elapsed": "59",
-      "score": "1-0",
+      "elapsed": "51",
+      "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/barakaldo-cf-lugo",
       "p1": 1.17,
       "x": 6.11,
       "p2": 13.19,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16288559",
@@ -10404,14 +10404,14 @@
       "away": "Miedz Legnica",
       "league": "Poland - Liga 1",
       "sport": "football",
-      "elapsed": "489",
+      "elapsed": "482",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/pogon-siedlce-miedz-legnica",
       "p1": 3.15,
-      "x": 3.1,
-      "p2": 2.13,
-      "time": "2026-04-25T17:42:49.664Z"
+      "x": 3.05,
+      "p2": 2.16,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "15865429",
@@ -10423,10 +10423,10 @@
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/ponferradina-tenerife",
-      "p1": 1.39,
-      "x": 3.82,
-      "p2": 7.94,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 1.34,
+      "x": 4.03,
+      "p2": 8.93,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16495298",
@@ -10434,14 +10434,14 @@
       "away": "Mazatlan FC U-19",
       "league": "Mexico - U-19 League",
       "sport": "football",
-      "elapsed": "161",
+      "elapsed": "156",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/tigres-uanl-u-19-mazatlan-fc-u-19",
       "p1": 1.63,
       "x": 3.91,
       "p2": 4.24,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16278071",
@@ -10449,14 +10449,14 @@
       "away": "Moreirense",
       "league": "Portugal - Primeira Liga",
       "sport": "football",
-      "elapsed": "338",
+      "elapsed": "271",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/sl-benfica-moreirense",
-      "p1": 1.06,
-      "x": 10,
-      "p2": 41,
-      "time": "2026-04-25T17:42:49.664Z"
+      "p1": 1.05,
+      "x": 10.5,
+      "p2": 51,
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16267740",
@@ -10464,14 +10464,14 @@
       "away": "Fortuna Sittard",
       "league": "Netherlands - Eredivisie",
       "sport": "football",
-      "elapsed": "215",
+      "elapsed": "214",
       "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/sc-heerenveen-fortuna-sittard",
       "p1": 1.8,
       "x": 3.25,
       "p2": 4.8,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16413598",
@@ -10479,14 +10479,14 @@
       "away": "Beitar Jerusalem",
       "league": "Israel - Premier League",
       "sport": "football",
-      "elapsed": "167",
+      "elapsed": "165",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/hapoel-beer-sheva-beitar-jerusalem",
       "p1": 1.85,
-      "x": 3.48,
+      "x": 3.41,
       "p2": 3.63,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16502437",
@@ -10494,14 +10494,14 @@
       "away": "CE Sineu",
       "league": "Spain - Regional Leagues",
       "sport": "football",
-      "elapsed": "139",
+      "elapsed": "134",
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/recreativo-la-victoria-ce-sineu",
       "p1": 5.4,
-      "x": 3.51,
+      "x": 3.44,
       "p2": 1.58,
-      "time": "2026-04-25T17:42:49.664Z"
+      "time": "2026-04-25T17:46:10.889Z"
     },
     {
       "eventId": "16504200",
@@ -10524,14 +10524,14 @@
       "away": "Newcastle",
       "league": "England - Premier League",
       "sport": "football",
-      "elapsed": "824",
+      "elapsed": "879",
       "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/arsenal-fc-newcastle",
-      "p1": 1.18,
+      "p1": 1.2,
       "x": 5.5,
-      "p2": 21,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p2": 19,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16502203",
@@ -10543,10 +10543,10 @@
       "score": "0-0",
       "statusCode": 2,
       "link": "/en/events/gazelec-ajaccio-balagne",
-      "p1": 2.87,
-      "x": 2.45,
-      "p2": 3.11,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 3.01,
+      "x": 2.34,
+      "p2": 3.1,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16495296",
@@ -10561,7 +10561,7 @@
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504188",
@@ -10569,14 +10569,14 @@
       "away": "Man City (replays)",
       "league": "Replays - VI. England. Premier League",
       "sport": "football",
-      "elapsed": "6",
-      "score": "",
+      "elapsed": "0",
+      "score": "0-3",
       "statusCode": 2,
       "link": "/en/events/liverpool-replays-man-city-replays",
       "p1": 2.5,
       "x": 2.7,
       "p2": 2.86,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:44:10.359Z"
     },
     {
       "eventId": "16504147",
@@ -10584,14 +10584,14 @@
       "away": "Ukraine (V)",
       "league": "eReplays - VI. ePenalties. World Cup",
       "sport": "football",
-      "elapsed": "2",
-      "score": "4-3",
+      "elapsed": "0",
+      "score": "5-3",
       "statusCode": 2,
       "link": "/en/events/argentina-v-ukraine-v",
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:42:59.690Z"
     },
     {
       "eventId": "16504242",
@@ -10599,14 +10599,14 @@
       "away": "Chelsea (V)",
       "league": "Virtual football - VSL. England. Premier League (3,5 mins game)",
       "sport": "football",
-      "elapsed": "21",
+      "elapsed": "0",
       "score": "2-1",
       "statusCode": 2,
       "link": "/en/events/newcastle-v-chelsea-v",
       "p1": 1.15,
       "x": 5,
       "p2": 51,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:43:39.765Z"
     },
     {
       "eventId": "16504244",
@@ -10614,14 +10614,14 @@
       "away": "Coquimbo Unido (V)",
       "league": "Virtual football - VSL. Chile. Primera Division (3,5 mins game)",
       "sport": "football",
-      "elapsed": "23",
-      "score": "1-0",
+      "elapsed": "0",
+      "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/universidad-de-chile-v-coquimbo-unido-v",
       "p1": 1.15,
       "x": 4.75,
       "p2": 51,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:43:39.765Z"
     },
     {
       "eventId": "16504245",
@@ -10629,14 +10629,14 @@
       "away": "Haiti (V)",
       "league": "Virtual football - VSL. World Cup (3,5 mins game)",
       "sport": "football",
-      "elapsed": "14",
-      "score": "3-0",
+      "elapsed": "0",
+      "score": "4-0",
       "statusCode": 2,
       "link": "/en/events/morocco-v-haiti-v",
       "p1": 1.01,
       "x": 26,
       "p2": 151,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:43:39.765Z"
     },
     {
       "eventId": "16504246",
@@ -10644,14 +10644,14 @@
       "away": "Sevilla (V)",
       "league": "Virtual football - VSL. Spain. La Liga (3,5 mins game)",
       "sport": "football",
-      "elapsed": "18",
+      "elapsed": "0",
       "score": "0-2",
       "statusCode": 2,
       "link": "/en/events/athletic-bilbao-v-sevilla-v",
       "p1": 23,
       "x": 4,
       "p2": 1.27,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:43:39.765Z"
     },
     {
       "eventId": "16495679",
@@ -10659,14 +10659,14 @@
       "away": "Besiktas (Linox)",
       "league": "E-Football - ESportsBattle. Turkish Super League (2x4 mins)",
       "sport": "football",
-      "elapsed": "53",
-      "score": "0-2",
+      "elapsed": "7",
+      "score": "1-3",
       "statusCode": 2,
       "link": "/en/events/istanbul-basaksehir-lukapaja-besiktas-linox",
-      "p1": 19,
-      "x": 8.2,
-      "p2": 1.08,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 27,
+      "x": 9.5,
+      "p2": 1.04,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16495653",
@@ -10674,14 +10674,14 @@
       "away": "Trabzonspor (Peconi)",
       "league": "E-Football - ESportsBattle. Turkish Super League (2x4 mins)",
       "sport": "football",
-      "elapsed": "62",
-      "score": "2-1",
+      "elapsed": "13",
+      "score": "3-1",
       "statusCode": 2,
       "link": "/en/events/fenerbahce-chevare-trabzonspor-peconi",
-      "p1": 1.75,
-      "x": 3.9,
-      "p2": 3.7,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 1.05,
+      "x": 9,
+      "p2": 30,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504202",
@@ -10689,14 +10689,14 @@
       "away": "Germany (V)",
       "league": "eReplays - VI. eHighlights. World Cup",
       "sport": "football",
-      "elapsed": "19",
-      "score": "1-0",
+      "elapsed": "0",
+      "score": "3-0",
       "statusCode": 2,
       "link": "/en/events/france-v-germany-v",
-      "p1": 1.4,
-      "x": 4.02,
-      "p2": 6.37,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 1.32,
+      "x": 3.65,
+      "p2": 11.37,
+      "time": "2026-04-25T17:44:20.896Z"
     },
     {
       "eventId": "16499664",
@@ -10704,14 +10704,14 @@
       "away": "RB Salzburg (Totti)",
       "league": "E-Football - ESportsBattle. Europa League (2x4 mins)",
       "sport": "football",
-      "elapsed": "79",
+      "elapsed": "60",
       "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/roma-ganger-29-rb-salzburg-totti",
-      "p1": 1.13,
-      "x": 9,
-      "p2": 9.5,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 1.05,
+      "x": 10.5,
+      "p2": 19,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16499479",
@@ -10719,14 +10719,14 @@
       "away": "Fenerbahce (maggett0)",
       "league": "E-Football - ESportsBattle. Europa League (2x4 mins)",
       "sport": "football",
-      "elapsed": "82",
-      "score": "2-1",
+      "elapsed": "53",
+      "score": "4-4",
       "statusCode": 2,
       "link": "/en/events/fc-porto-hristian05-fenerbahce-maggett0",
-      "p1": 1.44,
-      "x": 6.2,
-      "p2": 4.1,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 2.2,
+      "x": 4,
+      "p2": 2.55,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504186",
@@ -10735,13 +10735,13 @@
       "league": "eReplays - VI. ePenalties. World Cup",
       "sport": "football",
       "elapsed": "26",
-      "score": "",
+      "score": "2-2",
       "statusCode": 2,
       "link": "/en/events/italy-v-spain-v",
       "p1": null,
       "x": null,
       "p2": null,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504213",
@@ -10749,14 +10749,14 @@
       "away": "Aston Villa (replays)",
       "league": "Replays - VI. England. Premier League",
       "sport": "football",
-      "elapsed": "28",
+      "elapsed": "6",
       "score": "",
       "statusCode": 2,
       "link": "/en/events/arsenal-fc-replays-aston-villa-replays",
       "p1": 1.82,
       "x": 10.94,
       "p2": 2.09,
-      "time": "2026-04-25T17:42:49.668Z"
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504247",
@@ -10764,14 +10764,14 @@
       "away": "Spain (V)",
       "league": "eReplays - VI. eHighlights. World Cup",
       "sport": "football",
-      "elapsed": "63",
-      "score": "",
+      "elapsed": "19",
+      "score": "0-1",
       "statusCode": 2,
       "link": "/en/events/netherlands-v-spain-v",
-      "p1": 2.73,
-      "x": 3.65,
-      "p2": 2.09,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 16.14,
+      "x": 7.91,
+      "p2": 1.07,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504275",
@@ -10779,14 +10779,14 @@
       "away": "Betis (V)",
       "league": "Virtual football - VSL. Spain. La Liga (3,5 mins game)",
       "sport": "football",
-      "elapsed": "41",
-      "score": "0-0",
+      "elapsed": "31",
+      "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/celta-v-betis-v",
-      "p1": 2.87,
-      "x": 3.75,
-      "p2": 2.1,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 3.1,
+      "x": 3,
+      "p2": 2.3,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504277",
@@ -10794,14 +10794,14 @@
       "away": "Spain (V)",
       "league": "Virtual football - VSL. World Cup (3,5 mins game)",
       "sport": "football",
-      "elapsed": "35",
-      "score": "0-0",
+      "elapsed": "29",
+      "score": "2-0",
       "statusCode": 2,
       "link": "/en/events/england-v-spain-v",
-      "p1": 2.5,
-      "x": 3.75,
-      "p2": 2.3,
-      "time": "2026-04-25T17:42:49.668Z"
+      "p1": 1.06,
+      "x": 9.5,
+      "p2": 26,
+      "time": "2026-04-25T17:46:10.892Z"
     },
     {
       "eventId": "16504274",
@@ -10809,14 +10809,14 @@
       "away": "Tottenham (V)",
       "league": "Virtual football - VSL. England. Premier League (3,5 mins game)",
       "sport": "football",
-      "elapsed": "39",
-      "score": "0-0",
+      "elapsed": "31",
+      "score": "1-1",
       "statusCode": 2,
       "link": "/en/events/arsenal-fc-v-tottenham-v",
-      "p1": 1.5,
-      "x": 4.35,
-      "p2": 5,
-      "time": "2026-04-25T17:42:49.671Z"
+      "p1": 1.7,
+      "x": 3.25,
+      "p2": 4.75,
+      "time": "2026-04-25T17:46:10.896Z"
     },
     {
       "eventId": "16504276",
@@ -10824,14 +10824,74 @@
       "away": "Universidad de Chile (V)",
       "league": "Virtual football - VSL. Chile. Primera Division (3,5 mins game)",
       "sport": "football",
-      "elapsed": "41",
-      "score": "0-0",
+      "elapsed": "33",
+      "score": "1-0",
       "statusCode": 2,
       "link": "/en/events/csd-colo-colo-v-universidad-de-chile-v",
-      "p1": 2.75,
+      "p1": 1.5,
       "x": 3.75,
-      "p2": 2.2,
-      "time": "2026-04-25T17:42:49.671Z"
+      "p2": 6,
+      "time": "2026-04-25T17:46:10.896Z"
+    },
+    {
+      "eventId": "16495297",
+      "home": "Pachuca U-19",
+      "away": "Pumas UNAM U-19",
+      "league": "Mexico - U-19 League",
+      "sport": "football",
+      "elapsed": "147",
+      "score": "0-0",
+      "statusCode": 2,
+      "link": "/en/events/pachuca-u-19-pumas-unam-u-19",
+      "p1": 1.52,
+      "x": 4.04,
+      "p2": 5.1,
+      "time": "2026-04-25T17:46:10.896Z"
+    },
+    {
+      "eventId": "16504258",
+      "home": "Liverpool (replays)",
+      "away": "Aston Villa (replays)",
+      "league": "Replays - VI. England. Premier League",
+      "sport": "football",
+      "elapsed": "26",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/liverpool-replays-aston-villa-replays",
+      "p1": 1.31,
+      "x": 4.27,
+      "p2": 8.24,
+      "time": "2026-04-25T17:46:10.896Z"
+    },
+    {
+      "eventId": "16504211",
+      "home": "Argentina (V)",
+      "away": "France (V)",
+      "league": "eReplays - VI. ePenalties. World Cup",
+      "sport": "football",
+      "elapsed": "26",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/argentina-v-france-v",
+      "p1": null,
+      "x": null,
+      "p2": null,
+      "time": "2026-04-25T17:46:10.896Z"
+    },
+    {
+      "eventId": "16504260",
+      "home": "Portugal (V)",
+      "away": "Spain (V)",
+      "league": "eReplays - VI. eHighlights. World Cup",
+      "sport": "football",
+      "elapsed": "63",
+      "score": "",
+      "statusCode": 2,
+      "link": "/en/events/portugal-v-spain-v",
+      "p1": 2.98,
+      "x": 3.61,
+      "p2": 1.97,
+      "time": "2026-04-25T17:46:10.896Z"
     }
   ]
 }

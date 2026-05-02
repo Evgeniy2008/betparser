@@ -247,6 +247,13 @@ $search = trim((string)($_GET['q'] ?? ''));
 <script>
 let EVENTS = [];
 let EVENTS_MAP = {};
+// Per-sport sticky snapshot: feed updates briefly return 0 events while the
+// Pinnacle/Parik24 workers cycle, which used to flash "Нет live-матчей" for
+// ~10s. We keep the last non-empty payload per sport and reuse it when a
+// refresh comes back empty, until LAST_GOOD_TTL_MS expires (real "no live
+// matches" state will surface after the TTL).
+const lastGoodEventsBySport = Object.create(null);
+const LAST_GOOD_TTL_MS = 120000;
 let currentSportTab = <?= json_encode($sportTab, JSON_UNESCAPED_UNICODE) ?>;
 const VALID_SPORT_TABS = ['football', 'basketball', 'tennis'];
 const LEAGUE_FILTER_SPORTS = ['football', 'basketball'];
@@ -903,7 +910,20 @@ async function refreshCurrentSportData(showLoader = false){
       throw new Error(data?.error || 'Не удалось получить данные из API');
     }
 
-    EVENTS = Array.isArray(data.events) ? data.events : [];
+    const incomingEvents = Array.isArray(data.events) ? data.events : [];
+    const requestedSport = currentSportTab;
+    const cached = lastGoodEventsBySport[requestedSport];
+    const cacheFresh = cached && (Date.now() - cached.at) < LAST_GOOD_TTL_MS;
+
+    if (incomingEvents.length > 0) {
+      EVENTS = incomingEvents;
+      lastGoodEventsBySport[requestedSport] = {events: incomingEvents, at: Date.now()};
+    } else if (cacheFresh) {
+      // Feed flicker — keep last good snapshot for this sport.
+      EVENTS = cached.events;
+    } else {
+      EVENTS = [];
+    }
     EVENTS_MAP = Object.fromEntries(EVENTS.map((event) => [event.id, event]));
     currentDefaultSecondKey = data?.meta?.defaultSecondKey || PREFERRED_SECOND_KEY;
     currentDefaultSecondTitle = data?.meta?.defaultSecondTitle || currentDefaultSecondTitle;
