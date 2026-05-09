@@ -853,8 +853,42 @@ function normalize_live_match_text(string $text): string
     }
 
     $text = preg_replace('/[^a-z0-9]+/i', ' ', $text);
+
+    // Team-name aliases — expand short forms so feeds that say "PSG" pair with
+    // feeds that say "Paris Saint-Germain". Replacement happens BEFORE
+    // tokenization so the resulting tokens are identical on both sides.
+    // Only unambiguous mappings live here; "Atletico", "Inter", "Real" alone
+    // are intentionally NOT aliased because several different clubs share them.
+    [$aliasPatterns, $aliasReplacements] = live_team_alias_rules();
+    $text = preg_replace($aliasPatterns, $aliasReplacements, $text);
+
     $text = preg_replace('/\s+/', ' ', trim((string)$text));
     return $text;
+}
+
+function live_team_alias_rules(): array
+{
+    static $cached = null;
+    if ($cached !== null) {
+        return $cached;
+    }
+    $map = [
+        '/\bpsg\b/'                          => 'paris saint germain',
+        '/\bparis\s+sg\b/'                   => 'paris saint germain',
+        '/\bparis\s+saint\s*-?\s*germain\b/' => 'paris saint germain',
+        '/\bman\s+city\b/'                   => 'manchester city',
+        '/\bman\s+(?:utd|united|u)\b/'       => 'manchester united',
+        '/\bbvb\b/'                          => 'borussia dortmund',
+        '/\bbayern\s+m(?:unich|unchen)?\b/'  => 'bayern munich',
+        '/\bspurs\b/'                        => 'tottenham hotspur',
+        '/\bwolves\b/'                       => 'wolverhampton wanderers',
+        '/\binternazionale\b/'               => 'inter milan',
+        '/\binter\s+milano\b/'               => 'inter milan',
+        '/\bnyc\s*fc\b/'                     => 'new york city',
+        '/\blafc\b/'                         => 'los angeles fc',
+    ];
+    $cached = [array_keys($map), array_values($map)];
+    return $cached;
 }
 
 function read_api_response_cache(string $sport, int $ttl): ?array
